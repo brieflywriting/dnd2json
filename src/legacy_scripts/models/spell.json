@@ -1,0 +1,33 @@
+{
+    "name": "Fireball",
+    "level": 3,
+    "school": "Evocation",
+    "castingTime": "1 action",
+    "range": "150 feet",
+    "components": {
+        "verbal": true,
+        "somatic": true,
+        "material": true,
+        "materialComponent": "a tiny ball of bat guano and sulfur"
+    },
+    "duration": "Instantaneous",
+    "ritual": false,
+    "concentration": false,
+    "description": "A bright streak flashes from your pointing finger to a point you choose within range and then blossoms with a low roar into an explosion of flame...",
+    "atHigherLevels": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
+    "classes": [
+        "Sorcerer",
+        "Wizard"
+    ],
+    "source": "Player's Handbook",
+    "page": 241,
+    "damage": {
+        "type": "fire",
+        "dice": "8d6"
+    },
+    "savingThrow": "Dexterity",
+    "areaOfEffect": {
+        "type": "sphere",
+        "size": 20
+    }
+}

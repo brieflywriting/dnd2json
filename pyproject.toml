@@ -1,0 +1,51 @@
+# ---------- build system ----------
+# Tells pip how to build/install your package. setuptools is the most familiar choice.
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+# ---------- project metadata ----------
+[project]
+name = "dnd2json"                      # placeholder: rename it (and the src/dnd2json folder to match)
+version = "0.0.1"
+description = "Convert D&D homebrew PDFs into structured JSON via OCR and PDF parsers."
+readme = "README.md"                  # this file must exist, or the install fails: create it or delete this line
+requires-python = ">=3.10,<3.14"      # check which Python versions your Paddle version supports
+# license: decide before release (see the PyMuPDF AGPL note below)
+
+# Always installed:
+dependencies = [
+    "pymupdf",          # PDF text extraction (AGPL-licensed: check before you release)
+    "scikit-learn",     # the categorizer (also brings numpy and joblib)
+    "pandas",           # tables of features and labels
+    "pydantic",         # validation for the parser stage later
+   
+]
+
+[project.optional-dependencies]
+ocr = [
+    "paddleocr",        # heavy; only needed for scanned PDFs
+    "paddlepaddle",     # CPU build; for GPU, follow Paddle's own install instructions
+]
+dev = [
+    "pytest",           # runs the tests
+    "ruff",             # linter and formatter
+]
+
+# Creates a command-line command `dnd2json` that calls main() in src/dnd2json/cli.py
+[project.scripts]
+dnd2json = "dnd2json.cli:main"
+
+# ---------- tool settings ----------
+[tool.setuptools.packages.find]
+where = ["src"]                       # "src layout": the package lives in src/dnd2json/
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]         # errors, unused stuff, import sorting, likely bugs
