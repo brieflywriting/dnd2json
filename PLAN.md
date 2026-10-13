@@ -7,9 +7,9 @@
 Each step is 10–30 min and ends with a check. Tick it, commit, update `NEXT.md`.
 
 ## 0. Setup (once)
-- [ ] 0.1 `git init`, `.gitignore` (`.venv/`, `media/`, `*.egg-info/`, `__pycache__/`), first commit. *Check:* `git status` is clean.
-- [ ] 0.2 Remove `"paddle"` from `pyproject.toml`, `pip install -e ".[dev]"`. *Check:* `pytest` runs (0 tests is fine).
-- [ ] 0.3 Folders: `data/srd/` (move `raw_data/*` here), `data/gold/`, `data/synthetic/`. *Check:* `raw_data/` is gone.
+- [x] 0.1 `git init`, `.gitignore` (`.venv/`, `media/`, `*.egg-info/`, `__pycache__/`), first commit. *Check:* `git status` is clean.
+- [x] 0.2 Remove `"paddle"` from `pyproject.toml`, `pip install -e ".[dev]"`. *Check:* `pytest` runs (0 tests is fine).
+- [x] 0.3 Folders: `data/srd/` (move `raw_data/*` here), `data/gold/`, `data/synthetic/`. *Check:* `raw_data/` is gone.
 
 ## 1. Define the problem
 - [ ] 1.1 `LABELS.md`: each label, one-sentence definition, two real examples. Include `unknown`. *Check:* you can label 10 random blocks without hesitating.

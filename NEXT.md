@@ -1,1 +1,1 @@
-Next I do 0.1: git init + .gitignore + first commit.
+Next I do 1.1.
