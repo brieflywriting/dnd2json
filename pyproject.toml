@@ -10,7 +10,7 @@ name = "dnd2json"                      # placeholder: rename it (and the src/dnd
 version = "0.0.1"
 description = "Convert D&D homebrew PDFs into structured JSON via OCR and PDF parsers."
 readme = "README.md"                  # this file must exist, or the install fails: create it or delete this line
-requires-python = ">=3.10,<3.14"      # check which Python versions your Paddle version supports
+requires-python = ">=3.10,<=3.14"      # check which Python versions your Paddle version supports
 # license: decide before release (see the PyMuPDF AGPL note below)
 
 # Always installed:

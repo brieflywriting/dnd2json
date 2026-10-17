@@ -12,17 +12,17 @@ Each step is 10–30 min and ends with a check. Tick it, commit, update `NEXT.md
 - [x] 0.3 Folders: `data/srd/` (move `raw_data/*` here), `data/gold/`, `data/synthetic/`. *Check:* `raw_data/` is gone.
 
 ## 1. Define the problem
-- [ ] 1.1 `LABELS.md`: each label, one-sentence definition, two real examples. Include `unknown`. *Check:* you can label 10 random blocks without hesitating.
-- [ ] 1.2 Decide feature granularity: one `feature` block (heading + level + body) or separate blocks. Write it in `DECISIONS.md`.
-- [ ] 1.3 Data contract: CSV columns `doc_id, block_idx, text, label, source` (`source` = `srd` or `real`). Write it in `DECISIONS.md`.
-- [ ] 1.4 Set a target number: macro-F1 = ? on real documents.
+- [ x] 1.1 `LABELS.md`: each label, one-sentence definition, two real examples. Include `unknown`. *Check:* you can label 10 random blocks without hesitating.
+- [x] 1.2 Decide feature granularity: one `feature` block (heading + level + body) or separate blocks. Write it in `DECISIONS.md`.
+- [x] 1.3 Data contract: CSV columns `doc_id, block_idx, text, label, source` (`source` = `srd` or `real`). Write it in `DECISIONS.md`.
+- [x] 1.4 Set a target number: macro-F1 = ? on real documents.
 
 ## 2. Data
-- [ ] 2.1 `srd_to_csv.py`: SRD subclasses → `data/synthetic/srd_blocks.csv`. *Check:* 12 docs, Berserker reads in order.
-- [ ] 2.2 Labeling format: copy a real `.md` into `data/gold/`, put a line `@label` above each block (blank line between blocks). *Check:* one file done by hand.
-- [ ] 2.3 `gold_to_csv.py`: parse the `@label` files → `data/gold/gold_blocks.csv`, plus a pytest with a 3-block example. *Check:* test passes.
-- [ ] 2.4 Label 5 real docs from different formats (Devout Inquisitor, Marksman, Sirens, Transmutation, Shadowfell). *Check:* label counts printed; every label has ≥ 3 examples.
-- [ ] 2.5 Label 5 more (aim: ~150 blocks, ≥ 10 per label; hunt for rare ones like `credits`, `table`).
+- [x] 2.1 `srd_to_csv.py`: SRD subclasses → `data/synthetic/srd_blocks.csv`. *Check:* 12 docs, Berserker reads in order.
+- [x] 2.2 Labeling format: copy a real `.md` into `data/gold/`, put a line `@label` above each block (blank line between blocks). *Check:* one file done by hand.
+- [x] 2.3 `gold_to_csv.py`: parse the `@label` files → `data/gold/gold_blocks.csv`, plus a pytest with a 3-block example. *Check:* test passes.
+- [x] 2.4 Label 5 real docs from different formats (Devout Inquisitor, Marksman, Sirens, Transmutation, Shadowfell). *Check:* label counts printed; every label has ≥ 3 examples.
+- [x] 2.5 Label 5 more (aim: ~150 blocks, ≥ 10 per label; hunt for rare ones like `credits`, `table`).
 
 ## 3. Evaluation harness (before any real model)
 - [ ] 3.1 `evaluate.py`: load CSV, `GroupKFold` by `doc_id`, print `classification_report` + confusion matrix + macro-F1.
