@@ -19,8 +19,21 @@ DATA = Path(__file__).resolve().parents[2] / "data" / "gold"
 
 def load_data():
     """Return (real, srd): real blocks are scored on, SRD blocks are extra training data only."""
+
+
+    pathToSRD = Path("./data/srd/5e-SRD-Subclasses.json")
+    pathToOCR1 = Path("./data/srd/5e-SRD-Features.json")
+    pathToOCR2=Path("./data/gold/5e-OCR-CombinedNewClasses.csv")
+
+    OCR_data1=pd.read_csv(pathToOCR1).dropna(subset=["text"])
+    OCR_data2=pd.read_csv(pathToOCR2).dropna(subset=["text"])
+    SRD_data=pd.read_csv(pathToSRD).dropna(subset=["text"])
+
+    
+    return pd.concat(OCR_data1,OCR_data2,SRD_data).reset_index(drop=True)
     # TODO 3.1a
     # Hint: read DATA / "5e-OCR-Combined.csv" and DATA / "5e-SRD-Combined.csv".
+    
     # Hint: .dropna(subset=["text"]) on both (the SRD file has an empty row).
     # Hint: add a "source" column ("real" / "srd"); give SRD a fake doc_id = "srd"
     #       so both tables have the same columns.
@@ -30,6 +43,11 @@ def load_data():
 
 def cross_validate(make_model, real, srd, n_splits=5, seed=42):
     """Return (y_pred, fold_scores): one out-of-fold prediction per real block + macro-F1 per fold."""
+
+    cv=StratifiedGroupKFold(n_splits,shuffle=True,random_state=seed)
+
+    for i in cv.split(real, real["label"], groups=real["doc_id"]):
+        
     # TODO 3.1b
     # Hint: cv = StratifiedGroupKFold(n_splits, shuffle=True, random_state=seed)
     #       -> same seed = same splits for every model = fair comparison.

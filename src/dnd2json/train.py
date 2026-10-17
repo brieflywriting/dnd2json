@@ -1,3 +1,5 @@
+from pathlib import Path
+
 import pandas as pd
 
 from sklearn.model_selection import StratifiedGroupKFold, train_test_split
@@ -7,9 +9,13 @@ import numpy as np
 from sklearn.metrics import f1_score
 from sklearn.pipeline import make_pipeline
 
-SRD_df = pd.read_csv("./data/gold/5e-SRD-Combined.csv",).dropna(subset=["text"])
-OCR_df=pd.read_csv("./data/gold/5e-OCR-Combined.csv").dropna(subset=["text"])
-OCR_df_newclasses=pd.read_csv("./data/gold/5e-OCR-CombinedNewClasses.csv")
+pathToSubclasses = Path("./data/srd/5e-SRD-Subclasses.json")
+pathToFeatures = Path("./data/srd/5e-SRD-Features.json")
+pathToNewFeatures=Path("./data/gold/5e-OCR-CombinedNewClasses.csv")
+
+SRD_df = pd.read_csv(pathToSubclasses).dropna(subset=["text"])
+OCR_df=pd.read_csv(pathToFeatures).dropna(subset=["text"])
+OCR_df_newclasses=pd.read_csv(pathToNewFeatures).dropna(subset=["text"])
 #combined_df = pandas.concat([SRD_df, OCR_df], ignore_index=True)
 
 real_train, real_test = train_test_split(
