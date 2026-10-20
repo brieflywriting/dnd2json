@@ -18,16 +18,16 @@ from dnd2json.models import MODELS
 # Idea: a path that works no matter which folder you run the script (or pytest) from.
 # Hint: "./data" is relative to where you are standing when you run it, not to this file.
 #       Path objects know where the current file lives; walk up from there to the repo root.
-DATA = Path(__file__)
+DATA = Path(__file__).resolve().parents[2]/"data"/"gold"
 
 
 def load_data():
     """Return (real, srd): real blocks are scored on, SRD blocks are extra training data only."""
 
 
-    pathToSRD = DATA.parent/"data"/"gold"/"5e-SRD-Combined.csv"
-    pathToOCR1 = DATA.parent/"data"/"gold"/"5e-OCR-Combined.csv")
-    pathToOCR2=Path("./data/gold/5e-OCR-CombinedNewClasses.csv")
+    pathToSRD = DATA/"5e-SRD-Combined.csv"
+    pathToOCR1 = DATA/"5e-OCR-Combined.csv"
+   # pathToOCR2=Path("./data/gold/5e-OCR-CombinedNewClasses.csv")
 
     OCR_data1=pd.read_csv(pathToOCR1).dropna(subset=["text"])
    # OCR_data2=pd.read_csv(pathToOCR2).dropna(subset=["text"])
@@ -61,28 +61,28 @@ def cross_validate(make_model, real, srd, n_splits=5, seed=42):
     y_true=real["label"].to_numpy()
     fold_scores=[]
     for train_idx, test_idx in cv.split(real, real["label"], groups=real["doc_id"]):
-       model= make_model()
-       train_real=real.iloc[train_idx]
-       test_real=real.iloc[test_idx]
+        model= make_model()
+        train_real=real.iloc[train_idx]
+        test_real=real.iloc[test_idx]
 
-       train_data = pd.concat([train_real, srd], ignore_index=True)
+        train_data = pd.concat([train_real, srd], ignore_index=True)
 
-       X_train=train_data[["text"]]
-       Y_train=train_data["label"]
-       X_test=test_real[["text"]]
+        X_train=train_data[["text"]]
+        Y_train=train_data["label"]
+        X_test=test_real[["text"]]
 
-       model.fit(X_train,Y_train)
-       predictions=np.asarray(model.predict(X_test)).reshape(-1)
+        model.fit(X_train,Y_train)
+        predictions=np.asarray(model.predict(X_test)).reshape(-1)
 
-       if len(predictions)!= len(test_idx):
-            raise ValueError(
+        if len(predictions)!= len(test_idx):
+                raise ValueError(
                 f"Expected {len(test_idx)} predictions, "
                 f"got {len(predictions)}."
             )
-       y_pred[test_idx]=predictions
+        y_pred[test_idx]=predictions
 
 
-       fold_scores.append(f1_score(y_true[test_idx],predictions,average="macro",zero_division=0))
+        fold_scores.append(f1_score(y_true[test_idx],predictions,average="macro",zero_division=0))
     return y_pred, fold_scores
     # TODO 3.1b
     # Idea: simulate "the model meets a document it has never seen", several times, so
@@ -108,6 +108,18 @@ def cross_validate(make_model, real, srd, n_splits=5, seed=42):
 
 def report(name, y_true, y_pred, fold_scores):
     """Print classification_report + confusion matrix + macro-F1. Return macro-F1."""
+    print(f"Name: {name}")
+    print("classification report: ")
+    print(classification_report(y_true, y_pred, zero_division=0))
+    labels=["class_description","feature"]
+    matrix=confusion_matrix(y_true,y_pred,labels=labels)
+    matrix_df=pd.DataFrame(matrix, index=labels, columns=labels)
+    single_f1score=f1_score(y_true,y_pred,average="macro",zero_division=0)
+    folds_mean,folds_spread=np.mean(fold_scores),np.std(fold_scores)
+    print(f"Confusion matrix:\n {matrix_df}")
+
+    print(f"Macro F1:{single_f1score:.3f}, \n F1 score mean:{folds_mean} \n F1 score std: {folds_spread}")
+    return single_f1score
     # TODO 3.1c
     # Idea: one number hides *how* a model is wrong. Show three views:
     #       - per-class precision/recall: which label does it struggle with?
@@ -123,10 +135,33 @@ def report(name, y_true, y_pred, fold_scores):
     #   - Average and standard deviation of the fold scores. If two models are closer than
     #     the spread, treat them as a tie.
     #   - Return the macro-F1 so main() can build its summary.
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
 def main(argv=None):
+    if argv is None:
+        argv = sys.argv[1:]          # words typed after the command; [0] is the script itself
+
+    names = argv or list(MODELS)     # nothing typed -> run every model
+
+    unknown = [name for name in names if name not in MODELS]
+    if unknown:
+        print(f"Unknown model(s): {', '.join(unknown)}")
+        print(f"Choose from: {', '.join(MODELS)}")
+        return
+
+    real, srd = load_data()          # once, so every model sees the same data
+
+    results = {}
+    for name in names:
+        y_pred, fold_scores = cross_validate(MODELS[name], real, srd)
+        results[name] = report(name, real["label"], y_pred, fold_scores)
+        print()
+
+    print("Summary (macro-F1):")
+    for name, score in sorted(results.items(), key=lambda kv: kv[1], reverse=True):
+        print(f"  {name:20s} {score:.3f}")
+
     # TODO 3.1d
     # Idea: one command runs every model through the identical test and ends with a side-by-
     #       side comparison. This is what you'll rerun after every change in step 4.
@@ -136,7 +171,7 @@ def main(argv=None):
     #   - Load the data once, outside the model loop.
     #   - For each model: cross-validate, report, and remember its score.
     #   - Finish with a short table: one line per model, its name and its macro-F1.
-    raise NotImplementedError
+    #raise NotImplementedError
 
 
 if __name__ == "__main__":

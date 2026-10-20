@@ -23,6 +23,6 @@ combined_df.to_csv("./data/gold/5e-SRD-Combined.csv", index=False)
 
 
 #one type of data is class:
-# iter, type, name, summary+description
+# iter, type, doc_id
 #the other is a feature
 #only name and description
