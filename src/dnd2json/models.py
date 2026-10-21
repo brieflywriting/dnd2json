@@ -1,5 +1,7 @@
 """Every model we compare. Each takes a DataFrame with a `text` column and predicts a label."""
 
+import re
+
 import numpy as np
 from sklearn.base import BaseEstimator, ClassifierMixin
 from sklearn.compose import ColumnTransformer
@@ -9,7 +11,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import FunctionTransformer, StandardScaler
 
-from dnd2json.features import DICE_PATTERN, hand_features, has_level
+from dnd2json.features import DICE_PATTERN, SECOND_PERSON, THIRD_PERSON, hand_features, has_level
 
 
 def make_dummy():
@@ -31,65 +33,105 @@ class RulesClassifier(ClassifierMixin, BaseEstimator):
     # well, a learned model has to beat your intuition, not just the dummy. Making it look
     # like a sklearn model (fit + predict) means the harness needs no special case for it.
 
+    # Why inherit from ClassifierMixin and BaseEstimator?
+    #   - BaseEstimator gives get_params()/set_params(). sklearn tools such as clone(),
+    #     GridSearchCV and cross_val_score copy models through those, so any custom model
+    #     you might hand to sklearn should inherit it.
+    #   - ClassifierMixin adds .score() (accuracy) and marks the class as a classifier, so
+    #     tools like StratifiedKFold-based helpers treat it correctly.
+    #   - Order matters: mixins go first, BaseEstimator last. That's sklearn's own rule.
+    #   Normally: use both whenever you write your own model class. Our cross_validate
+    #   doesn't strictly need them, but they cost nothing and keep the door open.
+
     def fit(self, X, y):
-        self.classes_=["self_description", "feature"]
-        # TODO 4.1
-        # Idea: rules learn nothing from data, but the harness calls fit() on every model.
-        # Hints:
-        #   - sklearn classifiers remember which labels exist after fitting. Store that.
-        #   - What does fit() return, so that "model = make_x().fit(...)" works?
-        # Template:
-        #   self.classes_ = <every distinct label in y, sorted>
-        #   return <?>
-        raise NotImplementedError
+        # Rules learn nothing, so fit() only records which labels exist.
+        #
+        # self.classes_: every sklearn classifier sets this during fit(). The trailing
+        #   underscore is sklearn's convention for "learned from data, exists only after
+        #   fit()". sklearn uses it, for example, to check a model is fitted, and
+        #   predict_proba() columns follow its order. np.unique() returns the labels
+        #   sorted, which is what sklearn's own classifiers do.
+        #   Normally: always set it in a custom classifier's fit(), taken from y, never
+        #   hard-coded. A hard-coded list goes stale the moment you add a label (and a
+        #   typo in it, like "self_description", would never be noticed).
+        self.classes_ = np.unique(y)
+
+        # return self: lets you chain `model = make_rules().fit(X, y)`. Every sklearn
+        #   estimator does this, and Pipeline relies on it.
+        #   Normally: always, in every fit() you write.
+        return self
 
     def predict(self, X):
-        # TODO 4.1
-        # Idea: apply the single-block rule to every block in the table.
-        # Hints:
-        #   - X is a table; your rule wants one string at a time.
-        #   - Return the same kind of array other sklearn models return.
-        # Template:
-        #   labels = [<the rule applied to t> for t in <the text column of X>]
-        #   return <labels as a numpy array>
-        # Think: why does looping over X itself (not its column) give the wrong thing?
-        raise NotImplementedError
+        # X is the one-column table cross_validate passes in. X["text"] takes the column
+        #   out; looping over the table itself would loop over its column *names*
+        #   (just "text"), not its rows.
+        #   Normally: select the column by name, so the model also works if the table
+        #   later gets more columns (source, doc_id, ...).
+        #
+        # np.array(...): sklearn models return numpy arrays, and cross_validate and the
+        #   metrics expect that. Returning a plain list would mostly work, but matching
+        #   the convention avoids surprises (e.g. y_pred[mask] needs an array).
+        #
+        # A list comprehension with a Python function is fine here: 134 blocks, simple
+        #   checks. Normally: for large data or numeric work you'd use vectorised
+        #   pandas/numpy operations instead of a per-row Python loop.
+        return np.array([self._rule(text) for text in X["text"]])
 
     @staticmethod
     def _rule(text):
-        # TODO 4.1
-        # Idea: one block of text in, one label out, decided by a few checks in order.
-        #       The order matters: the most reliable check goes first.
-        # Hints:
-        #   - Before writing anything, read ~10 blocks of each label side by side.
-        #   - Who does a feature talk to, and who does a description talk about?
-        #   - What only appears in game mechanics (levels, dice, ...)? features.py helps here.
-        #   - When nothing fires, which label is the safer guess?
-        # Template (three checks, most reliable first):
-        #   1. if <a mechanics signal: level? dice?>:
-        #          return <label>
-        #   2. words  = <lowercase words of text>       (block_features in features.py does this)
-        #      n_you  = <how many words are in SECOND_PERSON>
-        #      n_they = <how many words are in THIRD_PERSON>
-        #      if <your comparison of n_you and n_they>:
-        #          return <label>
-        #   3. return <fallback label>
-        # Think:
-        #   - Step 2: plain "n_they > n_you", or a margin/ratio? Try one, run evaluate,
-        #     look at the confusion matrix, change it ONCE.
-        #   - "You are an Influencer..." is a description in second person. Will any
-        #     simple rule catch it? Should it even try?
-        #   - Swap steps 1 and 2. Does the score change? Why?
-        # You'll need: import re, and SECOND_PERSON / THIRD_PERSON from dnd2json.features.
-        raise NotImplementedError
+        # @staticmethod: the rule doesn't need `self` (it reads no settings and stores
+        #   nothing), so it's a plain function that lives in the class for tidiness.
+        #   Normally: use it for helpers like this. If the rule ever gets a setting
+        #   (e.g. a threshold you want to tune), make it a normal method and store the
+        #   setting in __init__ instead.
+        #
+        # The leading underscore in _rule means "internal, not part of the public API".
+        #   Python doesn't enforce it; it's a note to readers.
+        #
+        # Check order matters: the most reliable check goes first, because the first
+        # check that fires wins and the later ones never see the block.
+
+        # Check 1: game mechanics. A level ("3rd-level") or dice ("2d6") almost never
+        #   appears in a description, so when either is present we can say "feature" with
+        #   very few false alarms. It only fires on about half of the features, which is
+        #   fine: the next checks handle the rest.
+        if has_level(text) or DICE_PATTERN.search(text):
+            return "feature"
+
+        # Check 2: who is the text about? Features talk to the player ("you can..."),
+        #   descriptions talk about the subclass's people ("Bards of this college... they").
+        #   - lower() so "Your" and "your" count the same.
+        #   - Curly apostrophes from OCR are straightened so "you’re" matches "you're".
+        #   - The regex keeps letters and apostrophes, which drops punctuation: "you."
+        #     becomes "you".
+        #   Counting with sum(word in SET ...) works because True counts as 1. Sets make
+        #   each `in` check instant, which is why the word lists are sets, not lists.
+        words = re.findall(r"[a-z']+", text.lower().replace("’", "'"))
+        n_you = sum(word in SECOND_PERSON for word in words)
+        n_they = sum(word in THIRD_PERSON for word in words)
+
+        # Plain comparison, no tuned margin. ">=" or a ratio scored about a point
+        #   higher on the data, but that's inside the fold-to-fold noise, and picking the
+        #   threshold by looking at the score is tuning on the test set. A rules baseline
+        #   is meant to be "simple intuition", so keep it simple.
+        #   Known miss: second-person descriptions ("You are an Influencer...") end up
+        #   with more "you" than "they" and fall through to "feature". No simple rule
+        #   catches those without breaking others; that's a job for a learned model.
+        if n_they > n_you:
+            return "class_description"
+
+        # Check 3: fallback. When nothing fired, guess the more common label (about 70%
+        #   of blocks are features), so an unsure guess is right more often than not.
+        #   Normally: a rules model always needs a default, otherwise some inputs get no
+        #   answer (here, the function would return None).
+        return "feature"
 
 
 def make_rules():
-    # TODO 4.1
-    # Idea: every model is built by a "make_" function, so the harness can ask for a
-    #       fresh one in every fold.
-    # Template:  return <a new instance of the class>
-    raise NotImplementedError
+    # A fresh, unfitted instance every call. cross_validate calls this once per fold so
+    #   no fold reuses a model fitted on another fold's data. For rules nothing is learned,
+    #   but keeping the same "make_" shape means evaluate.py treats every model the same.
+    return RulesClassifier()
 
 
 def _hand():
@@ -184,7 +226,7 @@ def make_words_only():
 # TODO: uncomment each line once its function works, so evaluate.py can run it.
 MODELS = {
      "dummy": make_dummy,
-    # "rules": make_rules,
+    "rules": make_rules,
     # "hand_lr": make_hand_lr,
     # "hand+words": make_hand_words,
     # "hand+words+chars": make_hand_words_chars,
