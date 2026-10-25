@@ -14,128 +14,68 @@ from sklearn.model_selection import StratifiedGroupKFold
 
 from dnd2json.models import MODELS
 
-# TODO 3.1: the folder that holds your CSVs.
-# Idea: a path that works no matter which folder you run the script (or pytest) from.
-# Hint: "./data" is relative to where you are standing when you run it, not to this file.
-#       Path objects know where the current file lives; walk up from there to the repo root.
-DATA = Path(__file__).resolve().parents[2]/"data"/"gold"
+DATA = Path(__file__).resolve().parents[2] / "data" / "gold"
+
+LABELS = ["class_description", "feature"]
+
+# Every model is cross-validated once per seed. One seed's folds can be lucky or unlucky;
+# averaging over several shows whether a gap between two models is real or noise.
+SEEDS = [42, 0, 1, 2, 3]
 
 
 def load_data():
     """Return (real, srd): real blocks are scored on, SRD blocks are extra training data only."""
+    real = pd.read_csv(DATA / "5e-OCR-Combined.csv").dropna(subset=["text"])
+    srd = pd.read_csv(DATA / "5e-SRD-Combined.csv").dropna(subset=["text"])
 
+    # Data contract (1.3): every row knows where it came from.
+    real["source"] = "real"
+    srd["source"] = "srd"
 
-    pathToSRD = DATA/"5e-SRD-Combined.csv"
-    pathToOCR1 = DATA/"5e-OCR-Combined.csv"
-   # pathToOCR2=Path("./data/gold/5e-OCR-CombinedNewClasses.csv")
-
-    OCR_data1=pd.read_csv(pathToOCR1).dropna(subset=["text"])
-   # OCR_data2=pd.read_csv(pathToOCR2).dropna(subset=["text"])
-    SRD_data=pd.read_csv(pathToSRD).dropna(subset=["text"])
-
-   # OCR_maindata=pd.concat([OCR_data1,OCR_data2])
-    
-    return OCR_data1.reset_index(drop=True),SRD_data.reset_index(drop=True)
-    # TODO 3.1a
-    # Idea: real and SRD data play different roles. Real blocks are what you care about, so
-    #       they are the only thing you ever score on. SRD blocks are clean extra examples
-    #       that may only ever help training. Keep them as two separate tables so the
-    #       rest of the code can't mix them up.
-    # Hints:
-    #   - Which files hold your labelled real blocks and your labelled SRD blocks? Look in
-    #     data/gold. Is any file there one you promised not to look at until step 5.3?
-    #   - Some rows have no text. A model can't learn from those, so drop them.
-    #   - Your data contract (1.3) says every row knows where it came from.
-    #   - Later code expects both tables to have the same columns. SRD has no document
-    #     id. What could you put there?
-    #   - The splitter later hands you row positions. After dropping rows, do the
-    #     positions still line up with the index?
-   # raise NotImplementedError
+    return real.reset_index(drop=True), srd.reset_index(drop=True)
 
 
 def cross_validate(make_model, real, srd, n_splits=5, seed=42):
     """Return (y_pred, fold_scores): one out-of-fold prediction per real block + macro-F1 per fold."""
+    cv = StratifiedGroupKFold(n_splits, shuffle=True, random_state=seed)
+    y_pred = np.empty(len(real), dtype=object)
+    y_true = real["label"].to_numpy()
+    fold_scores = []
 
-    cv=StratifiedGroupKFold(n_splits,shuffle=True,random_state=seed)
-    y_pred=np.empty(len(real), dtype=object)
-    y_true=real["label"].to_numpy()
-    fold_scores=[]
     for train_idx, test_idx in cv.split(real, real["label"], groups=real["doc_id"]):
-        model= make_model()
-        train_real=real.iloc[train_idx]
-        test_real=real.iloc[test_idx]
+        model = make_model()
+        train_data = pd.concat([real.iloc[train_idx], srd], ignore_index=True)
+        test_real = real.iloc[test_idx]
 
-        train_data = pd.concat([train_real, srd], ignore_index=True)
+        model.fit(train_data[["text"]], train_data["label"])
+        predictions = np.asarray(model.predict(test_real[["text"]])).reshape(-1)
 
-        X_train=train_data[["text"]]
-        Y_train=train_data["label"]
-        X_test=test_real[["text"]]
+        if len(predictions) != len(test_idx):
+            raise ValueError(f"Expected {len(test_idx)} predictions, got {len(predictions)}.")
+        y_pred[test_idx] = predictions
 
-        model.fit(X_train,Y_train)
-        predictions=np.asarray(model.predict(X_test)).reshape(-1)
+        fold_scores.append(f1_score(y_true[test_idx], predictions, average="macro", zero_division=0))
 
-        if len(predictions)!= len(test_idx):
-                raise ValueError(
-                f"Expected {len(test_idx)} predictions, "
-                f"got {len(predictions)}."
-            )
-        y_pred[test_idx]=predictions
-
-
-        fold_scores.append(f1_score(y_true[test_idx],predictions,average="macro",zero_division=0))
     return y_pred, fold_scores
-    # TODO 3.1b
-    # Idea: simulate "the model meets a document it has never seen", several times, so
-    #       every real block gets tested exactly once. Blocks from one document share an
-    #       author's wording, so a document must never be in train and test at the same time.
-    #       Otherwise the model can recognise the author instead of learning the label.
-    # Hints:
-    #   - The splitter needs three things: the rows, the labels (to keep the class balance
-    #     similar in every fold) and the groups (what must stay together).
-    #   - Every model should get exactly the same folds, or one model could get easier
-    #     folds by luck. What makes a shuffle repeatable?
-    #   - Each split gives you two lists of row positions. Which rows go to training, and
-    #     which source of data is only ever allowed in training?
-    #   - Build a brand-new model in every fold. Why would reusing last fold's model be
-    #     cheating?
-    #   - Decide one input shape for all models (a one-column table, not a bare column of
-    #     strings), because the model in step 4.4 needs to look columns up by name.
-    #   - Make one container the size of `real` before the loop. Each fold fills in only
-    #     its own test positions; after the last fold every position is filled.
-    #   - Also keep a macro-F1 score per fold. You'll want to see how much it jumps around.
-   # raise NotImplementedError
 
 
 def report(name, y_true, y_pred, fold_scores):
     """Print classification_report + confusion matrix + macro-F1. Return macro-F1."""
-    print(f"Name: {name}")
-    print("classification report: ")
+    print(f"=== {name} ===")
     print(classification_report(y_true, y_pred, zero_division=0))
-    labels=["class_description","feature"]
-    matrix=confusion_matrix(y_true,y_pred,labels=labels)
-    matrix_df=pd.DataFrame(matrix, index=labels, columns=labels)
-    single_f1score=f1_score(y_true,y_pred,average="macro",zero_division=0)
-    folds_mean,folds_spread=np.mean(fold_scores),np.std(fold_scores)
-    print(f"Confusion matrix:\n {matrix_df}")
 
-    print(f"Macro F1:{single_f1score:.3f}, \n F1 score mean:{folds_mean} \n F1 score std: {folds_spread}")
-    return single_f1score
-    # TODO 3.1c
-    # Idea: one number hides *how* a model is wrong. Show three views:
-    #       - per-class precision/recall: which label does it struggle with?
-    #       - the confusion matrix: what does it mistake that label for?
-    #       - macro-F1: the single number you compare models by. It weights both classes
-    #         equally, so always guessing the common class scores badly.
-    #       Plus the spread across folds, so you know whether two scores really differ.
-    # Hints:
-    #   - A model that never predicts a class makes precision 0/0. The report function has
-    #     a setting for what to show instead of a warning.
-    #   - A bare confusion matrix is just numbers. Give it the label names on rows and
-    #     columns, and fix the label order so every model's matrix reads the same way.
-    #   - Average and standard deviation of the fold scores. If two models are closer than
-    #     the spread, treat them as a tie.
-    #   - Return the macro-F1 so main() can build its summary.
-    #raise NotImplementedError
+    matrix = confusion_matrix(y_true, y_pred, labels=LABELS)
+    print("Confusion matrix (rows = true, columns = predicted):")
+    print(pd.DataFrame(matrix, index=LABELS, columns=LABELS))
+
+    macro_f1 = f1_score(y_true, y_pred, average="macro", zero_division=0)
+    n_errors = int((np.asarray(y_true) != np.asarray(y_pred)).sum())
+    print(
+        f"Macro-F1 {macro_f1:.3f}   errors {n_errors}/{len(y_true)}   "
+        f"folds {np.mean(fold_scores):.3f} ± {np.std(fold_scores):.3f} "
+        f"({len(fold_scores)} folds over {len(SEEDS)} seeds)"
+    )
+    return macro_f1, n_errors
 
 
 def main(argv=None):
@@ -154,24 +94,22 @@ def main(argv=None):
 
     results = {}
     for name in names:
-        y_pred, fold_scores = cross_validate(MODELS[name], real, srd)
-        results[name] = report(name, real["label"], y_pred, fold_scores)
+        # The detailed report shows the first seed's predictions; the fold spread pools
+        # every seed, so it reflects both fold luck and split luck.
+        all_fold_scores = []
+        for seed in SEEDS:
+            y_pred_seed, fold_scores = cross_validate(MODELS[name], real, srd, seed=seed)
+            all_fold_scores += fold_scores
+            if seed == SEEDS[0]:
+                y_pred = y_pred_seed
+        macro_f1, n_errors = report(name, real["label"], y_pred, all_fold_scores)
+        results[name] = (macro_f1, n_errors, np.mean(all_fold_scores), np.std(all_fold_scores))
         print()
 
-    print("Summary (macro-F1):")
-    for name, score in sorted(results.items(), key=lambda kv: kv[1], reverse=True):
-        print(f"  {name:20s} {score:.3f}")
-
-    # TODO 3.1d
-    # Idea: one command runs every model through the identical test and ends with a side-by-
-    #       side comparison. This is what you'll rerun after every change in step 4.
-    # Hints:
-    #   - Let the command line name which models to run. If it names none, run them all.
-    #     Where does Python keep command-line words?
-    #   - Load the data once, outside the model loop.
-    #   - For each model: cross-validate, report, and remember its score.
-    #   - Finish with a short table: one line per model, its name and its macro-F1.
-    #raise NotImplementedError
+    print(f"Summary ({len(real)} real blocks):")
+    print(f"  {'model':20s} {'macro-F1':>8s} {'errors':>7s} {'folds mean ± std':>18s}")
+    for name, (macro_f1, n_errors, mean, std) in sorted(results.items(), key=lambda kv: kv[1][0], reverse=True):
+        print(f"  {name:20s} {macro_f1:8.3f} {n_errors:7d} {mean:11.3f} ± {std:.3f}")
 
 
 if __name__ == "__main__":

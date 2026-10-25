@@ -1,4 +1,17 @@
-"""Every model we compare. Each takes a DataFrame with a `text` column and predicts a label."""
+"""Every model we compare. Each takes a DataFrame with a `text` column and predicts a label.
+
+The models form a ladder. Each step adds one thing, so evaluate.py can show what that
+one thing is worth:
+
+    dummy             nothing                    -> the floor
+    rules             your intuition, as ifs     -> how far common sense gets
+    hand_lr           hand features, learned     -> are learned weights better than ifs?
+    hand+words        + word TF-IDF              -> does vocabulary add anything?
+    hand+words+chars  + character TF-IDF         -> does robustness to OCR breaks help?
+    words_only        word TF-IDF alone          -> were the hand features worth writing?
+
+All learned models share one classifier (_logreg), so they differ only in their features.
+"""
 
 import re
 
@@ -15,15 +28,18 @@ from dnd2json.features import DICE_PATTERN, SECOND_PERSON, THIRD_PERSON, hand_fe
 
 
 def make_dummy():
-    # TODO 3.2
-    # Idea: the dumbest possible "model": it ignores the text and always says the most
-    #       common label. Its score is the floor. A real model that can't beat it has
-    #       learned nothing.
-    # Hints:
-    #   - scikit-learn ships a classifier made exactly for this; it has a strategy option.
-    #   - Compare its accuracy with its macro-F1. Why are they so different?
+    # The dumbest possible "model": it ignores the text and always says the most common
+    #   label. Its score is the floor; a model that can't beat it has learned nothing.
+    #
+    # Why DummyClassifier: sklearn ships it for exactly this, and it behaves like any
+    #   other model (fit/predict), so the harness needs no special case.
+    # Why "most_frequent": it's the strongest no-information guess for accuracy (70%),
+    #   which makes the point of macro-F1 visible: accuracy 0.70, macro-F1 0.41, because
+    #   the description class gets F1 = 0.
+    #   Other strategies exist ("stratified" guesses at random in the label ratio,
+    #   "uniform" 50/50). Normally: use "most_frequent" as the baseline for
+    #   classification; it's the one people expect to see.
     return DummyClassifier(strategy="most_frequent")
-    #raise NotImplementedError
 
 
 class RulesClassifier(ClassifierMixin, BaseEstimator):
@@ -134,101 +150,188 @@ def make_rules():
     return RulesClassifier()
 
 
+# ---------------------------------------------------------------------------------------
+# Building blocks for the learned models
+# ---------------------------------------------------------------------------------------
+#
+# Every learned model is: ColumnTransformer (turns the table into numbers) -> _logreg().
+#
+# Why ColumnTransformer? It routes columns of a table into transformers and glues their
+#   outputs side by side into one matrix. That's how hand features (11 numbers) and
+#   TF-IDF (thousands of word weights) end up as one input for one classifier. It also
+#   means every model accepts the same input: the one-column table cross_validate passes.
+#   Normally: use it whenever different columns, or different views of one column, need
+#   different preprocessing.
+#
+# The column selector decides the SHAPE each transformer receives:
+#   ["text"] (a list)   -> a one-column DataFrame. hand_features reads X["text"] by name,
+#                          so it needs this.
+#   "text"   (a string) -> a 1-D Series of strings. TfidfVectorizer needs this: given a
+#                          DataFrame, it would iterate over the column NAMES and see one
+#                          "document" called "text", silently learning nothing.
+#   Normally: list for transformers that want a table, string for ones that want a
+#   plain sequence (text vectorizers are the main example).
+#
+# The entries are built by functions, not module-level constants: every model, and every
+#   fold, must get brand-new unfitted transformers. A shared transformer object would
+#   carry its fitted vocabulary/scaling from one fold into the next.
+
+
 def _hand():
-    # TODO 4.3
-    # Idea: turn text into your hand-made numbers, then put all the numbers on a
-    #       comparable scale.
-    # Hints:
-    #   - sklearn has a wrapper that turns a plain function into a pipeline step.
-    #   - Length is in the hundreds, fractions are between 0 and 1. Regularization
-    #     punishes big weights, so unscaled small-range features get unfairly ignored.
-    #     Which preprocessing step fixes that?
-    # Template:
-    #   return make_pipeline(<hand_features wrapped as a step>, <a scaler>)
-    # Think: the scaler learns a mean and spread in fit(). Which rows does it learn them
-    #        from inside cross_validate, and why is that the honest choice?
-    raise NotImplementedError
+    # Hand features as a pipeline step: text table -> 11 numbers -> standardised.
+    #
+    # FunctionTransformer(hand_features): wraps a plain function as a pipeline step, so it
+    #   gets fit/transform like everything else. It has nothing to learn; fit does nothing.
+    #   Normally: use it for stateless preprocessing (feature formulas, log transforms).
+    #   If the step needs to learn something from training data, write a real transformer
+    #   class instead.
+    #
+    # StandardScaler: rescales each feature to mean 0, spread 1. Logistic regression's
+    #   regularisation punishes large weights. n_chars is in the hundreds and needs a
+    #   tiny weight; you_rate is around 0.1 and needs a huge weight to matter, so
+    #   without scaling the penalty unfairly squashes the small-range features.
+    #   Normally: scale numeric features for any linear model, SVM, k-NN or neural net.
+    #   Tree models (random forests, gradient boosting) don't need it.
+    #
+    # Being inside the pipeline matters: the scaler learns its mean and spread in fit(),
+    #   which cross_validate only calls on the training rows. Scaling the whole dataset
+    #   up front would let test rows influence the training: a small but real leak.
+    return make_pipeline(FunctionTransformer(hand_features), StandardScaler())
+
+
+def _words():
+    # Word TF-IDF: each block becomes a weight per word (and word pair).
+    #   TF  = how often the word appears in this block.
+    #   IDF = down-weights words that appear in every block ("the", "a"), so rarer,
+    #         more telling words ("saving", "college") carry more weight.
+    #   Each row is then normalised to length 1, so a long block isn't "louder" than a
+    #   short one.
+    #
+    # sublinear_tf=True: uses 1 + log(count) instead of the raw count. A feature that
+    #   says "spell" eight times isn't eight times more of a feature than one that says
+    #   it once. Normally: a sensible default for documents longer than a sentence.
+    #
+    # ngram_range=(1, 2): single words plus pairs of neighbouring words. Pairs catch
+    #   phrases whose meaning is more than their parts: "saving throw", "bonus action",
+    #   "college of", "you can". Normally: (1, 2) is the usual step up from words only;
+    #   beyond 2 the number of columns explodes and most n-grams appear once.
+    #
+    # min_df=2: drop words/pairs that appear in only one block. With ~200 training
+    #   blocks, a term seen once can't generalise; it can only memorise that one block.
+    #   Normally: raise min_df as data grows, or use it as a fraction (e.g. 0.01).
+    return TfidfVectorizer(sublinear_tf=True, ngram_range=(1, 2), min_df=2)
+
+
+def _chars():
+    # Character TF-IDF: each block becomes weights for short character chunks.
+    #
+    # Why: OCR breaks words ("C\nhaotic", "draws upon.the"). Word TF-IDF sees "haotic" as
+    #   a brand-new word it has never seen. Character chunks like "hao", "aot", "otic"
+    #   still match the unbroken parts, so broken words keep most of their signal.
+    #
+    # analyzer="char_wb": chunks are taken inside word boundaries (each word padded with
+    #   spaces), instead of "char", which also makes chunks spanning two words.
+    #   Cross-word chunks ("u ca" from "you can") are mostly noise and multiply the
+    #   column count. Normally: char_wb for robustness to typos/OCR, char when spacing
+    #   itself is unreliable (e.g. languages without spaces).
+    #
+    # ngram_range=(2, 5): 2-character chunks catch prefixes/suffixes, 5 is about the size
+    #   of a short word or a meaningful stem ("spell", "level"). Beyond 5 the chunks start
+    #   behaving like whole words again and lose the OCR robustness.
+    #
+    # sublinear_tf and min_df: same reasoning as _words().
+    return TfidfVectorizer(analyzer="char_wb", ngram_range=(2, 5), sublinear_tf=True, min_df=2)
 
 
 def _logreg():
-    # TODO 4.3
-    # Idea: one shared classifier definition, so all models differ only in their features.
-    # Hints:
-    #   - You have about 70% of one label and 30% of the other. There's an option that
-    #     makes mistakes on the rare class cost more.
-    #   - Give the optimizer enough iterations to finish.
-    # Template:  return LogisticRegression(<balance option>, <iterations>)
-    raise NotImplementedError
+    # The one classifier every learned model shares, so the models differ only in their
+    #   features and the comparison is fair.
+    #
+    # Why logistic regression:
+    #   - Strong on text: thousands of sparse TF-IDF columns, few rows. That's the
+    #     classic setting where linear models match or beat fancier ones.
+    #   - Readable: each feature gets one weight; positive pushes towards one label,
+    #     negative towards the other. You can print the top words and check they make
+    #     sense (we did this in train.py: "you", "spell" vs "they", "college").
+    #   - Fast, and gives probabilities, which step 6.1 needs for the "unknown" threshold.
+    #   Alternatives: LinearSVC (similar accuracy, no probabilities out of the box), naive
+    #   Bayes (fast, weaker when features are correlated, as ours are), random forests /
+    #   gradient boosting (poor on sparse text, good on the hand features alone).
+    #   Normally: start with logistic regression for text classification and only move
+    #   on if the error analysis shows it can't capture something.
+    #
+    # class_weight="balanced": mistakes on the rare label (class_description, ~30%) cost
+    #   more, in proportion to how rare it is. Without it, the model leans towards always
+    #   saying "feature", which is exactly what macro-F1 punishes. Normally: use it
+    #   whenever classes are imbalanced and you care about the rare one.
+    #
+    # max_iter=1000: the optimiser stops after 100 steps by default and warns that it
+    #   didn't converge. A larger limit lets it finish; it stops early once it has.
+    #
+    # C (regularisation strength) stays at the default 1.0 on purpose. Tuning it is
+    #   legitimate, but only inside the training folds (e.g. LogisticRegressionCV). Picking
+    #   C by looking at evaluate.py's scores would be tuning on the test set.
+    return LogisticRegression(class_weight="balanced", max_iter=1000)
+
+
+def _pipeline(*entries):
+    # Shared shape of every learned model: route the text into the given feature
+    #   blocks, glue them side by side, classify. Writing it once means each make_
+    #   function only lists WHICH features it uses, and the four models can't drift apart
+    #   by accident (e.g. one forgetting class_weight).
+    #
+    # Each entry is (name, transformer, column selector). The names only matter for
+    #   inspecting the fitted model later, e.g. model[0].named_transformers_["words"].
+    return make_pipeline(ColumnTransformer(list(entries)), _logreg())
+
+
+# ---------------------------------------------------------------------------------------
+# The learned models
+# ---------------------------------------------------------------------------------------
 
 
 def make_hand_lr():
-    # TODO 4.3
-    # Idea: the first learned model. It sees only your hand features, so its score tells
-    #       you how much your intuition is worth once a model weighs it properly.
-    # Hints:
-    #   - Use the tool that sends chosen columns of a table into chosen transformers.
-    #     Here: the text column into _hand().
-    #   - Your feature function reads the text column *by name*, so it must receive a
-    #     table, not a bare column. How you name the column decides which one it gets.
-    #   - Chain that with _logreg().
-    # Template:
-    #   features = ColumnTransformer([
-    #       (<a name>, <transformer>, <column selector>),
-    #   ])
-    #   return make_pipeline(features, _logreg())
-    # Think: the selector "text" and the selector ["text"] hand the transformer different
-    #        shapes. Which one does hand_features need, and which one does TF-IDF need?
-    #        (Try both in a shell on a 3-row DataFrame and print what comes out.)
-    raise NotImplementedError
+    # Step 4.3: only your 11 hand features, weighed by a learned model instead of ifs.
+    #   If it beats rules, learned weights use your intuition better than you did by hand.
+    #   If it doesn't, the features themselves are the limit, not how they're combined.
+    return _pipeline(("hand", _hand(), ["text"]))
 
 
 def make_hand_words():
-    # TODO 4.4
-    # Idea: add vocabulary. Words like "saving throw" or "College of" carry meaning your
-    #       hand features can't. Both kinds of features sit side by side in one input.
-    # Hints:
-    #   - Same column-routing tool as before, with a second entry for word TF-IDF.
-    #   - TF-IDF wants a plain list of strings, the opposite of what _hand() wants.
-    #   - Long blocks repeat words a lot. There's an option that dampens raw counts.
-    # Template: same as make_hand_lr, plus one more entry:
-    #       (<name>, TfidfVectorizer(<dampen option>), <selector>)
-    # Think: three of make_hand_lr / make_hand_words / make_hand_words_chars /
-    #        make_words_only now build almost the same thing. Is a small helper worth it?
-    raise NotImplementedError
+    # Step 4.4: hand features + vocabulary. Words like "saving throw" or "College of"
+    #   carry meaning the 11 numbers can't.
+    #   Note the two selectors: ["text"] for hand features (wants a table), "text" for
+    #   TF-IDF (wants plain strings). See the block comment above.
+    return _pipeline(
+        ("hand", _hand(), ["text"]),
+        ("words", _words(), "text"),
+    )
 
 
 def make_hand_words_chars():
-    # TODO 4.4
-    # Idea: OCR breaks words ("C\nhaotic", "you�re"), so whole-word matching misses them.
-    #       Short character chunks still match the unbroken parts.
-    # Hints:
-    #   - A third entry: TF-IDF again, but over characters inside word boundaries,
-    #     chunks of 2 to 5 characters.
-    # Template: make_hand_words + one entry:
-    #       (<name>, TfidfVectorizer(analyzer=<?>, ngram_range=<?>, ...), <selector>)
-    # Think: "char" vs "char_wb": print the chunks each makes from "you're a bard"
-    #        (vectorizer.build_analyzer()("...")). Which one suits broken OCR words?
-    raise NotImplementedError
+    # Step 4.4: + character chunks, for robustness to OCR-broken words.
+    #   If this doesn't beat hand+words, your OCR is clean enough that whole words suffice,
+    #   and the extra columns aren't worth their cost.
+    return _pipeline(
+        ("hand", _hand(), ["text"]),
+        ("words", _words(), "text"),
+        ("chars", _chars(), "text"),
+    )
 
 
 def make_words_only():
-    # TODO 4.4 (extra comparison)
-    # Idea: your train.py model (TF-IDF + logistic regression) without hand features. If
-    #       it scores the same as hand+words, your hand features add nothing.
-    # Hints:
-    #   - It still has to accept the same table input as every other model.
-    # Template: a ColumnTransformer with only the word TF-IDF entry, then _logreg().
-    # Think: when you compare this with hand+words, how big must the gap be (look at the
-    #        fold std) before you believe the hand features help?
-    raise NotImplementedError
+    # Extra comparison: your train.py model, but in the harness. Compare with hand+words:
+    #   if the gap is smaller than the fold std, the hand features add nothing and you
+    #   could drop them (less code to maintain, nothing lost).
+    return _pipeline(("words", _words(), "text"))
 
 
-# TODO: uncomment each line once its function works, so evaluate.py can run it.
+# The names evaluate.py accepts on the command line. Order = order they run in.
 MODELS = {
-     "dummy": make_dummy,
+    "dummy": make_dummy,
     "rules": make_rules,
-    # "hand_lr": make_hand_lr,
-    # "hand+words": make_hand_words,
-    # "hand+words+chars": make_hand_words_chars,
-    # "words_only": make_words_only,
+    "hand_lr": make_hand_lr,
+    "hand+words": make_hand_words,
+    "hand+words+chars": make_hand_words_chars,
+    "words_only": make_words_only,
 }
