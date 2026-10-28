@@ -1,0 +1,48 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Eulogies.pdf,1,0,College of Eulogies,18.2,13.4,156.5,24.0,13.0,,,paragraph_title,0.867,ocr
+Bard - College of Eulogies.pdf,1,1,"Bards are masters of eliciting all types of emotions with their music. They use their magic to make audiences feel a longing for places they have never been and love for people long dead.Those who join the College of Eulogies have a fondness for the more negative emotions; grief, sorrow, and fear. They take their name from the speeches typically delivered in memory of the deceased, for they see themselves as bringers of death.",17.3,32.2,261.6,109.0,10.6,,,text,0.994,ocr
+Bard - College of Eulogies.pdf,1,2,BardiCDirge,17.8,187.2,95.5,196.8,11.5,,,paragraph_title,0.836,ocr
+Bard - College of Eulogies.pdf,1,3,3rd-level College of Eulogies feature,17.8,201.1,163.7,209.8,8.2,,,text,0.996,ocr
+Bard - College of Eulogies.pdf,1,4,"You wield the melancholic magic of negative emotions and can use it to inflict minor curses. When a creature that can hear you within 60 feet, makes an attack roll, ability check,or saving throw, you can use your reaction to expend a use of Bardic Inspiration to impose disadvantage on its roll.",17.3,212.2,250.1,266.9,9.6,,,text,0.985,ocr
+Bard - College of Eulogies.pdf,1,5,Lament for the Dead,17.8,276.5,141.6,285.6,12.0,,,paragraph_title,0.98,ocr
+Bard - College of Eulogies.pdf,1,6,3rd-level College of Eulogies feature,18.2,289.4,163.7,298.1,10.6,,,paragraph_title,0.999,ocr
+Bard - College of Eulogies.pdf,1,7,"You have steeped yourself in strange magic and ancient lore associated with death. Whenever you make an Intelligence check to recall knowledge pertaining to rituals or lore related to death, the undead, or the magic of necromancy, you can add double your proficiency bonus to your roll.",17.3,300.5,260.6,355.2,9.6,,,text,0.993,ocr
+Bard - College of Eulogies.pdf,1,8,"Also, whenever you learn a new Bard spell, you can choose to learn a necromancy spell of your choice from any spell list.",17.3,358.6,260.2,378.7,9.6,,,text,0.992,ocr
+Bard - College of Eulogies.pdf,1,9,THEMATIC SPELLCASTING FOCI,33.1,404.6,186.7,414.7,11.0,,,paragraph_title,0.751,ocr
+Bard - College of Eulogies.pdf,1,10,"Not every Bard is a musician. Some Bards of the Colleges of Drama and Eulogies use skulls as foci,while other Bards may use gaming sets or tools.Talk t  to your DM about using a focus that better fits the concept : of your Bard. As long as you must hold it in hand,there is no mechanical difference.",33.1,419.5,241.0,481.0,11.3,,,text,0.974,ocr
+Bard - College of Eulogies.pdf,1,11,ent policy. Not approved/endorsed by Wizards. Portions of the s of the Coast.Wizards of the Coast LLC.,0.0,526.1,227.5,546.2,9.1,,,text,0.989,ocr
+Bard - College of Eulogies.pdf,1,12,Bard Level College Feature,25.4,114.7,142.6,123.8,11.5,,,figure_title,1.0,ocr
+Bard - College of Eulogies.pdf,1,13,"3rd
+Bardic Dirge, Lament for the Dead
+6th
+Restless Spirit
+14th
+Infectious Despair",18.7,128.2,262.6,177.1,12.2,,,table,0.991,ocr
+Bard - College of Eulogies.pdf,2,14,RESTLESS SPIRIT,46.6,29.8,132.5,39.8,11.5,,,paragraph_title,0.897,ocr
+Bard - College of Eulogies.pdf,2,15,6th-level College of Eulogies feature,46.6,43.2,191.0,52.3,9.6,,,text,0.986,ocr
+Bard - College of Eulogies.pdf,2,16,"You can conjure and bind Restless Spirits that died with unfinished business. At the end of each long rest, you can perform a short ritual that summons such a Spirit. It is friendly to both you and your allies, obeys your",45.6,54.7,274.1,97.4,9.4,,,text,0.986,ocr
+Bard - College of Eulogies.pdf,2,17,"commands, and uses the Restless Spirit stat block, which uses your Spell Save DC, and proficiency bonus (PB).",46.1,99.8,275.0,121.0,9.6,,,text,0.983,ocr
+Bard - College of Eulogies.pdf,2,18,"In combat, the Spirit acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you used your bonus action to command it to take one of the actions in its stat block, or another action. If you are incapacitated, the Restless Spirit can take any action it chooses.",45.6,124.3,278.9,189.1,8.9,,,text,0.985,ocr
+Bard - College of Eulogies.pdf,2,19,"If your Spirit was destroyed within the last hour, you can expend a spell slot of 1st-level or higher. After 1 minute, it returns from beyond the veil with all its hit points restored.",46.1,192.0,278.9,223.7,9.1,,,text,0.989,ocr
+Bard - College of Eulogies.pdf,2,20,Infectious Despair,46.1,233.8,156.5,242.9,10.1,,,paragraph_title,0.917,ocr
+Bard - College of Eulogies.pdf,2,21,1 4th-level College of Eulogies feature,46.6,246.2,196.3,255.4,11.0,,,text,0.995,ocr
+Bard - College of Eulogies.pdf,2,22,"The sadness and despair that you inflict upon your foes cloys to them until it exacts its toll. When you use Bardic Dirge on a creature, and that creature succeeds on its roll despite the disadvantage, it also has disadvantage on its next attack roll,ability check, or saving throw it makes as well.",45.6,257.3,287.5,312.5,10.1,,,text,0.984,ocr
+Bard - College of Eulogies.pdf,2,23,"Regardless of the outcome of the second roll, this feature ends after its next attack roll, ability check, or saving throw.",46.1,315.8,281.3,336.0,9.6,,,text,0.988,ocr
+Bard - College of Eulogies.pdf,2,24,Armor Class 13 + PB (natural armor)Hit Points 5 + five times your Bard level Speed 30 ft.,57.1,395.0,221.8,428.6,13.0,,,text,0.993,ocr
+Bard - College of Eulogies.pdf,2,25,"Damage Resistances necrotic Conditioned Immunities frightened, grappled Senses darkvision 60 ft., passive Perception 12Languages the Spirit understands the languages you speak, but it cannot speak itself",57.1,483.8,253.4,539.0,11.5,,,text,0.99,ocr
+Bard - College of Eulogies.pdf,2,26,Misery's Company The Spirit has advantage on attack rolls against creatures that are frightened of it.,57.1,551.0,274.1,571.7,11.5,,,text,0.987,ocr
+Bard - College of Eulogies.pdf,2,27,Spirit Bond. When the Spirit makes an ability check or saving throw you can use your reaction to expend a use of Bardic Inspiration and add it to its roll.,57.1,578.4,274.6,610.1,10.6,,,text,0.986,ocr
+Bard - College of Eulogies.pdf,2,28,Actions,57.6,615.4,107.0,627.4,16.3,,,paragraph_title,1.0,ocr
+Bard - College of Eulogies.pdf,2,29,"Mournful Wail. One creature of your choice within 3O feet of the Spirit that can hear it must succeed on a Wisdom saving throw or be frightened of it for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on a success.",57.6,632.6,271.7,685.0,11.0,,,text,0.988,ocr
+Bard - College of Eulogies.pdf,2,30,"Spectral Claw. Melee Spell Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 +your Charisma modifier necrotic damage.",57.1,691.7,265.0,723.8,11.0,,,text,0.988,ocr
+Bard - College of Eulogies.pdf,2,31,"RESTLEsS SPIRIT Medium Undead, Unaligned",57.6,355.7,187.7,384.0,16.1,,,figure_title,0.924,ocr
+Bard - College of Eulogies.pdf,2,32,"STR
+DEX
+CON
+INT
+WIS
+CHA
+14(+2)14(+2)15(+2)
+10 (+0)14 (+2) 11 (+0)",58.6,435.8,277.9,472.8,11.3,,,table,0.989,ocr
+Bard - College of Eulogies.pdf,2,33,Q,0.0,736.3,57.1,791.5,55.5,,,footer,0.299,ocr
+Bard - College of Eulogies.pdf,2,34,This is unofficial Fan Content permitted under the Fan Content materials used are property of Wizards o,79.7,766.6,311.5,788.2,8.9,,,footer,0.998,ocr

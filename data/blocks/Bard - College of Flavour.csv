@@ -1,0 +1,31 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Flavour.pdf,1,0,CoLLEGe Of FLaVoUR,182.9,118.1,887.0,167.5,66.7,,,paragraph_title,0.745,ocr
+Bard - College of Flavour.pdf,1,1,"he College of Flavour is home to bards who use the taste to inspire the world. Whether a baker, chef, or saucier, a bard that walks the path of flavour is an expert in meals that have just a dash of magic to them.",173.8,184.8,1134.7,350.9,44.2,,,text,0.99,ocr
+Bard - College of Flavour.pdf,1,2,"Such bards are a great asset to many-a-party, for there are few things more certain than an adventurer's hunger.There are many reasons one may be drawn to adventuring.They may be searching for a secret mythical ingredient,wish to complete a world class recipe book, or to explore the wonders other cultures have to offer.",181.0,357.1,1175.5,599.5,42.2,,,text,0.991,ocr
+Bard - College of Flavour.pdf,1,3,IMPLEMENTS OF THE COOK,183.4,636.5,930.7,682.1,55.2,,,paragraph_title,0.853,ocr
+Bard - College of Flavour.pdf,1,4,"When you select this college at 3rd level, you gain proficiency with Cook's Utensils, if you don't already have it.You may use these utensils to prepare and administer meals, using food to inspire rather than word or song.While holding a set of Cook's Utensils, you gain the following benefits:",181.0,697.4,1192.8,943.7,42.2,,,text,0.98,ocr
+Bard - College of Flavour.pdf,1,5,"You may use the utensils as a bardic spellcasting focus.When you use your Bardic Inspiration feature, you may have your inspiration be in the form as small treats (rather than word or song). A creature needn't hear you to receive a Bardic Inspiration dice this way, but instead must be able to see you.",191.0,959.5,1175.0,1182.7,42.5,,,text,0.993,ocr
+Bard - College of Flavour.pdf,1,6,"You may repurpose the cutlery and tools included in the utensils as weapons. While holding the tools, you may make an attack as if you were wielding a club (metal pot),a dagger (knife), a sickle (fork), or a mace (ladle).",193.0,1187.0,1193.3,1337.8,45.1,,,text,0.99,ocr
+Bard - College of Flavour.pdf,1,7,COVETED RECIPE,183.8,1370.9,663.4,1416.5,55.2,,,paragraph_title,0.878,ocr
+Bard - College of Flavour.pdf,1,8,"Also from 3rd level, after a creature rolls one of your Bardic Inspiration die, they may regain hit points equal to the roll.In addition, at the start of a creature's turn, they may spend your Bardic Inspiration die to reroll any saving throw they failed since the start of their last turn (no action required).",180.5,1431.4,1193.3,1637.3,44.2,,,text,0.988,ocr
+Bard - College of Flavour.pdf,1,9,A creature can benefit from this feature a number of times equal to their proficiency bonus per long rest.,184.8,1643.5,1121.3,1721.8,41.5,,,text,0.993,ocr
+Bard - College of Flavour.pdf,1,10,SIGNATURE DISH,1323.4,120.0,1792.8,166.6,61.0,,,paragraph_title,0.846,ocr
+Bard - College of Flavour.pdf,1,11,"When you gain this feature at 6th level, choose a spell you know of 1st level or higher. Whenever you cast that spell,you may also choose a creature within 30 feet of you to roll a die and regain hit points equal to the total. The die is the same as your Bardic Inspiration die.",1320.5,182.4,2316.5,386.9,42.2,,,text,0.99,ocr
+Bard - College of Flavour.pdf,1,12,"Whenever you gain a level in this class, you may change the spell chosen for this feature.",1321.4,393.1,2306.4,469.4,46.1,,,text,0.997,ocr
+Bard - College of Flavour.pdf,1,13,FINAL SUPPER,1324.3,505.9,1711.2,551.0,57.1,,,paragraph_title,0.998,ocr
+Bard - College of Flavour.pdf,1,14,"Also from 6th level, after a friendly creature you can see within 60 feet of you is reduced to 0 hit points, you may administer an invigorating meal as a reaction. The creature rolls a number of their hit dice equal to or less than their proficiency bonus, and regains hit points equal to the total.",1320.5,568.3,2325.1,774.7,46.1,,,text,0.987,ocr
+Bard - College of Flavour.pdf,1,15,A creature can benefit from this feature no more than once per long rest.,1322.4,779.5,2314.6,858.2,43.2,,,text,0.989,ocr
+Bard - College of Flavour.pdf,1,16,SUGAR AND SPICE,1322.9,891.4,1812.0,937.4,55.2,,,paragraph_title,0.926,ocr
+Bard - College of Flavour.pdf,1,17,"From 14th level, when you cast a spell, you may choose a creature within 10 feet of you to regain hit points equal to the spell's level, and/or a creature within 10 feet of you to take necrotic damage equal to the spell's level.",1321.0,953.3,2295.8,1117.4,46.1,,,text,0.986,ocr
+Bard - College of Flavour.pdf,1,18,FLAVOURER'S STAR,1323.8,1152.5,1837.4,1197.6,55.2,,,paragraph_title,0.997,ocr
+Bard - College of Flavour.pdf,1,19,"Finally at 14th level, you have been awarded with the mark of the Flavourer's Star, a prestigious badge of honour. You learn the heroes' feast spell, if you don't already know it.When you cast the spell, you may choose to make one of the following modifications to it:",1320.0,1213.4,2333.8,1419.4,46.1,,,text,0.988,ocr
+Bard - College of Flavour.pdf,1,20,The spell is cast as a ritual.,1333.9,1433.8,1833.6,1470.2,35.8,,,text,0.989,ocr
+Bard - College of Flavour.pdf,1,21,YRP—Yo consumption time becomes 9 minutes.,1334.9,1471.7,2197.4,1546.1,20.6,,,text,0.574,ocr
+Bard - College of Flavour.pdf,1,22,•The material components are changed to 500 gp worth of any items and ingredients.,1334.4,1549.4,2305.9,1622.4,37.0,,,text,0.769,ocr
+Bard - College of Flavour.pdf,1,23,The advantage given to Wisdom saving throws is changed to advantage on saving throws of another ability of your choice.,1333.9,1624.8,2330.4,1735.7,42.2,,,text,0.988,ocr
+Bard - College of Flavour.pdf,1,24,"Art Credit:
+Dockside Chef | Steven Belledin 
+
+Content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorset 
+
+Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.enture Press | College of Flavour 1.1 | Patreon.com/venturepress V1.1",2.9,1739.5,2546.9,3297.6,36.0,,,image,0.989,ocr

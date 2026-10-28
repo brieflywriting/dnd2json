@@ -1,0 +1,71 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Rogue - Mad Dog.pdf,1,0,Roguish Archetype: Mad Dog,53.8,35.9,266.8,52.2,16,0,0,,,text
+Rogue - Mad Dog.pdf,1,1,"In the depths of the underworld, there are all variety of
+criminal and unsavory elements. But here and there, you
+find one individual so utterly crazed that even the most
+hardened criminal is unnerved by their presence. For their
+brutality, unpredictability, eccentricity, or some combination
+of the three, these mad dogs of the underworld are masters
+of the art of keeping their foes on their toes, and then
+demonstrating that being on their toes doesn’t matter if their
+leg’s been cut open when they weren’t looking, or taken a
+club to the head when they fall to the ground.",53.8,59.1,291.9,167.8,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,2,Dog’s Grace,53.8,174.9,124.9,187.8,13,0,0,,,text
+Rogue - Mad Dog.pdf,1,3,"Beginning at 3rd level when you take this archetype, you
+gain proficiency in improvised weapons, and you may use
+your sneak attack with any simple weapon or improvised
+weapon, even if it’s not a finesse weapon. You may also
+perform your sneak attack when you make an unarmed
+strike, which deals a d4 in damage. You may use Charisma
+for the attack and damage rolls of attacks you make with
+simple weapons, improvised weapons, and unarmed strikes.",53.8,191.9,290.6,278.8,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,4,"In addition, you may use the Dodge action when you use
+your Cunning Action feature. If you do and you’re not
+wearing any armor, its bonus to your defense is +3 instead.",53.8,281.1,285.2,312.5,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,5,Lord of the Night,53.8,318.9,160.4,331.8,13,0,0,,,text
+Rogue - Mad Dog.pdf,1,6,"Your time in the night has given you some form of
+understanding of how a given city’s nightlife works, and how
+best to defend yourself from it. Beginning at level 3, you may
+calculate your AC as 10 + your Charisma modifier while
+you’re unarmored. You also gain proficiency in Intimidation.
+If you already had proficiency in Intimidation, you may gain
+proficiency in Persuasion or Deception instead.",53.8,336.6,291.1,412.3,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,7,"In addition, whenever you use Intimidation to threaten
+someone, if you have previously attacked and damaged them
+or someone else in their sight, you have advantage on the
+roll.",53.8,414.6,292.2,457.3,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,8,Essence of the Mad Dog,318.8,36.1,458.2,49.1,13,0,0,,,text
+Rogue - Mad Dog.pdf,1,9,"Beginning at 9th level, you gain an additional special bonus
+action that you may only use with your Cunning Action and
+only while you’re unarmored. Certain actions you take when
+you use this special bonus action gain additional effects.",318.8,53.9,555.1,95.8,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,10,"Dash. If you end your movement adjacent to an enemy,
+you have advantage on your next attack roll against them in
+the same turn.",318.8,98.0,552.0,129.5,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,11,"Disengage. If an enemy you disengaged from moves into a
+square adjacent to you on its turn, you may use your reaction
+to make an attack against them. On a hit, you may apply your
+sneak attack damage, even if you already used it this turn.",318.8,131.7,557.8,173.8,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,12,"Dodge. If an enemy misses you while you’re benefitting
+from the bonus granted, you gain advantage against that
+enemy on your next turn.",318.8,176.0,544.2,207.5,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,13,"Hide. If you successfully hide from a creature, the next
+time you would deal sneak attack damage to a creature
+you’re hidden from, you may reroll any 1s you roll for
+damage until they’re not a 1.",318.8,209.7,541.8,252.5,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,14,Fear the Mad Dog,318.8,258.9,423.1,271.8,13,0,0,,,text
+Rogue - Mad Dog.pdf,1,15,"At 13th level, whenever you reduce a creature to 0 hit points,
+you may make an Intimidation check against an enemy you
+can see. They must make a Wisdom saving throw against
+your result. On a failure, they become frightened.",318.8,276.6,557.4,318.5,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,16,"In addition, you have advantage against any enemy with
+the frightened condition.",318.8,320.9,546.5,341.0,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,17,Mad Dog’s Execution,318.8,347.4,442.5,360.3,13,0,0,,,text
+Rogue - Mad Dog.pdf,1,18,"At 17th level, you have reached the apex of the night.
+Whenever you roll the maximum result on any of your sneak
+attack dice, you may roll it again and add it to the final result.",318.8,365.1,557.8,396.5,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,19,"In addition, when you damage an enemy granting
+advantage to you, your sneak attack damage dice become
+d8s.",318.8,398.1,543.8,429.5,9,0,0,,,text
+Rogue - Mad Dog.pdf,1,20,5,17.9,767.8,22.6,775.8,8,0,0,,,text
+Rogue - Mad Dog.pdf,1,21,Art by Inquissien,527.2,446.4,589.5,456.9,8,0,0,,,text

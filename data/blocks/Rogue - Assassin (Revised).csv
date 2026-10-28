@@ -1,0 +1,55 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Rogue - Assassin (Revised).pdf,1,0,Rogue Archetype,48.2,103.7,200.6,125.3,20,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,1,Bonus Proficiencies,48.2,132.7,165.1,146.7,13,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,2,"When you choose this archetype at 3rd level, you gain
+proficiency with the disguise kit and the poisoner's kit.",48.2,148.3,262.6,168.5,9,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,3,Invisible Threat,48.2,177.7,143.5,191.7,13,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,4,"Starting at 3rd level, when you hit a creature for the first time
+of a turn, you can add 2d6 to your damage roll if the target
+didn't see you at the start of the turn.",48.2,193.3,289.5,224.8,9,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,5,"In addition, whenever you kill a target or score a critical hit,
+you turn invisible until the end of your next turn or until you
+make an attack or cast a spell.",48.2,235.3,283.3,267.5,9,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,6,Killer's Arsenal,48.2,275.9,143.0,290.0,13,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,7,"Beginning at 9th level, you become a specialist at brewing
+poisons to enhance the deadliness of your assassin's tools.
+On a long rest, you can use any plant or creature blood that
+surrounds you to prepare Deadly Toxins that consumes the
+flesh of your victims and enlarges the wounds you inflict.
+When you do so, you can create a number of doses of Deadly
+Toxins equal to your proficiency bonus, each one being equal
+to 2 ounces (half a vial). The Deadly Toxins never dry, but lose
+their efficiency after 24h. As an action, you can use a dose to
+coat 1 martial weapon, 2 simple weapons, 1 set of caltrops, 1
+hunting trap or 10 pieces of ammunitions. An object coated
+with the Deadly Toxins can also be coated with an other
+poison. When a coated weapon, piece of ammunition, set of
+caltrops, or hunting trap, should inflict damage to a creature,
+it deals 1d10 necrotic damage instead of its usual weapon die
+damage (you then add all the other extra damage that should
+apply on the damage roll, like your dexterity modifier or your
+sneak attack for instance). Moreover, if a creature ingests a
+dose of the Deadly Toxins, it instantly takes necrotic damage
+equal to twice your sneak attack. It is then immune to Deadly
+Toxins for the next 24 hours.",48.2,291.5,291.6,528.5,9,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,8,Impostor,48.2,537.7,100.2,551.7,13,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,9,"Starting at 13th level, you gain the ability to unerringly mimic
+another person's speech, writing, and behavior. You must
+spend at least three hours studying these three components
+of the person's behavior, listening to speech, examining
+handwriting, and observing mannerisms.",48.2,553.3,289.2,608.0,9,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,10,"Your ruse is indiscernible to the casual observer. If a wary
+creature suspects something is amiss, you have advantage on
+any Charisma (Deception) check you make to avoid detection.",48.2,618.5,291.2,650.0,9,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,11,Death Bringer,48.2,659.2,133.1,673.2,13,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,12,"Starting at 17th level, you become a master of instant death.
+Any hit you score against a creature that hasn't taken a turn
+in combat yet is a critical hit.",48.2,674.8,284.8,706.3,9,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,13,Rogue : Assassin (Revised),99.1,28.6,519.0,84.9,54,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,14,Rogue : Assassin (Revised),102.1,28.6,522.0,84.9,54,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,15,Rogue : Assassin (Revised),99.1,31.6,519.0,87.9,54,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,16,"Rogue : Assassin (Revised)
+Rogue : Assassin (Revised)",100.6,30.1,522.0,87.9,54,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,17,51,587.1,764.7,596.4,772.8,8,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,18,This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used,48.8,772.1,548.2,780.4,8,0,0,,,text
+Rogue - Assassin (Revised).pdf,1,19,are property of Wizards of the Coast. ©Wizards of the Coast LLC.,179.1,781.1,417.9,789.4,8,0,0,,,text

@@ -1,0 +1,45 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Wizard - School of Realiturgy.pdf,1,0,Giruza's  SCHOOL OF REALITURGY,81.6,73.4,533.3,154.6,54.7,,,doc_title,0.992,ocr
+Wizard - School of Realiturgy.pdf,1,1,DDI HOMEBREW,28.8,638.9,187.7,658.1,16.3,,,text,0.918,ocr
+Wizard - School of Realiturgy.pdf,1,2,A conjuration and dunamancy based arcane tradition for the world's greatest roleplaying game,137.8,719.5,472.8,754.1,16.6,,,text,0.992,ocr
+Wizard - School of Realiturgy.pdf,2,3,SubCLAsS FEATures,46.6,37.0,275.5,56.2,24.5,,,doc_title,0.694,ocr
+Wizard - School of Realiturgy.pdf,2,4,"izards who are familiar with dunamancy magic know of its power to bend reality,altering time and gravity to their will. But its properties may go further, and arcane practitioners of the conjuration school are some of the ones trying to adapt dunamantic",104.6,74.4,290.9,140.6,10.6,,,text,0.986,ocr
+Wizard - School of Realiturgy.pdf,2,5,"influence to their knowledge. Realiturgy studies the properties of dunamancy and the ability to use them to shape and empower regular conjuration spells: adapt space around matter, travel across the universe in a second, or conjure your own reality from a different timeline.",45.1,143.5,290.9,197.8,9.6,,,text,0.991,ocr
+Wizard - School of Realiturgy.pdf,2,6,Dual StudenT,46.1,211.7,142.1,221.8,13.0,,,paragraph_title,0.789,ocr
+Wizard - School of Realiturgy.pdf,2,7,"Beginning when you select this school at 2nd level, the gold and time you must spend to copy a conjuration or graviturgy spell into your spellbook is halved.",45.1,229.4,290.9,261.1,10.6,,,text,0.981,ocr
+Wizard - School of Realiturgy.pdf,2,8,Twin Portals,45.6,275.0,137.8,285.1,13.0,,,paragraph_title,0.94,ocr
+Wizard - School of Realiturgy.pdf,2,9,"Starting at 2nd level, you start to control space around you.",45.6,293.8,280.8,302.4,11.5,,,text,0.997,ocr
+Wizard - School of Realiturgy.pdf,2,10,"As a bonus action, you can create two portals in two different points within 30 feet of you. These portals must be created within line of sight in an empty space; and they look like 5-feet spheric warps in the air. When you create these portals, you can make them attract or repel creatures within a 5 feet radius of them. Your Twin Portals last until the beginning of your next turn.",45.1,305.3,290.9,382.1,9.6,,,text,0.983,ocr
+Wizard - School of Realiturgy.pdf,2,11,"A Medium or smaller creature that comes in contact with one portal is automatically teleported to an empty space next to the other. If a creature is within the portal attracting or repelling effect range, it must make a Strength saving throw against your spell save DC or be attracted 5 feet towards the portal or repelled 5 feet away from it. A creature can willingly fail this saving throw.",45.1,385.0,290.9,461.8,10.1,,,text,0.988,ocr
+Wizard - School of Realiturgy.pdf,2,12,You can use this feature a number of times equal to your proficiency modifier until you finish a long rest. The portals can teleport Large creatures at 6th level and Huge creatures at 10th level.,45.1,464.6,291.4,506.9,9.8,,,text,0.987,ocr
+Wizard - School of Realiturgy.pdf,2,13,MaLeABLE TIMESPAce,46.1,521.8,183.8,531.8,13.0,,,paragraph_title,0.696,ocr
+Wizard - School of Realiturgy.pdf,2,14,"At 6th level, you begin to understand how to bend time and space affecting creatures in different ways.",45.1,539.5,290.9,560.2,10.8,,,text,0.991,ocr
+Wizard - School of Realiturgy.pdf,2,15,"As an action, you can focus on yourself or a creature within 30 feet of you that you can see, and have it be affected by the same effects of the blink, haste or slow spells for up to 1minute. If the creature isn't willing, it must make a Wisdom saving throw against your spell save DC or be affected.",45.1,563.0,290.9,617.3,11.5,,,text,0.987,ocr
+Wizard - School of Realiturgy.pdf,2,16,"You have to use concentration for this feature, but you can concentrate on a spell at the same time. If you are concentrating on both, you make Constitution saving throws to maintain concentration with disadvantage. If you fail the concentration saving throw, you lose concentration on both effects. You can use this feature once per long rest.",45.1,620.2,290.9,685.9,11.0,,,text,0.985,ocr
+Wizard - School of Realiturgy.pdf,2,17,EXALTED TELEPORTATION,318.2,69.6,475.2,78.7,15.4,,,paragraph_title,0.883,ocr
+Wizard - School of Realiturgy.pdf,2,18,"When you reach 10th level, your focus on conjuration magic combined with the properties of dunamancy allow you to enhance teleportation effects.",316.8,86.9,563.0,118.6,11.0,,,text,0.992,ocr
+Wizard - School of Realiturgy.pdf,2,19,"Whenever you use a spell that would allow you to teleport,such as misty step or dimension door, the range of the spell is doubled. Your Twin Portals feature is also affected by this,increasing its range to 60 feet.",316.8,121.4,562.6,164.2,10.8,,,text,0.988,ocr
+Wizard - School of Realiturgy.pdf,2,20,"Additionally, when you use the teleport spell, your familiarity level increases by 1 in any case when calculating the odds of mishap or success.",316.8,167.0,562.6,198.2,10.6,,,text,0.982,ocr
+Wizard - School of Realiturgy.pdf,2,21,PIERCER OF THE VEIL,318.2,212.6,449.3,222.7,13.9,,,paragraph_title,0.991,ocr
+Wizard - School of Realiturgy.pdf,2,22,13th-Level Optional Feature,318.2,230.4,431.5,239.0,9.6,,,paragraph_title,1.0,ocr
+Wizard - School of Realiturgy.pdf,2,23,"At 13th level, you learn the dream of the blue veil spell You always have it prepared and it doesn't count against the number of spells you can prepare. You don't require material components as long as you know the place you're targeting.",316.8,241.9,562.6,285.6,9.6,,,text,0.992,ocr
+Wizard - School of Realiturgy.pdf,2,24,Alter REaliTy,317.8,299.0,413.3,308.6,13.9,,,paragraph_title,0.68,ocr
+Wizard - School of Realiturgy.pdf,2,25,"Starting at 14th level, you have learnt how to alter reality itself. As an action, you can roll a d20 and add your Intelligence modifier and proficiency bonus to the roll. You can then choose how to affect existence depending on your roll and at the discretion of the DM, similar to Divine Intervention. Check the different effects in the Reality Bending table below.",316.8,317.3,562.1,394.6,10.1,,,text,0.988,ocr
+Wizard - School of Realiturgy.pdf,2,26,ReAlity Bending,318.2,404.2,411.8,413.3,12.5,,,paragraph_title,0.779,ocr
+Wizard - School of Realiturgy.pdf,2,27,Rolled,325.9,417.6,355.2,426.2,11.5,,,paragraph_title,1.0,ocr
+Wizard - School of Realiturgy.pdf,2,28,Total Effect,328.3,426.7,389.3,436.3,12.7,,,text,0.99,ocr
+Wizard - School of Realiturgy.pdf,2,29,1-14You fail to alter reality. You gain a level of exhaustion.,328.8,443.0,532.8,462.2,11.0,,,text,0.993,ocr
+Wizard - School of Realiturgy.pdf,2,30,15-19You can alter minor events of the last minute in a range of 60 feet around you.,325.9,469.4,558.2,489.1,11.0,,,text,0.989,ocr
+Wizard - School of Realiturgy.pdf,2,31,20-24You can alter events of the last hour in a range of a mile around you.,325.9,495.4,553.4,515.0,14.4,,,text,0.978,ocr
+Wizard - School of Realiturgy.pdf,2,32,2 5-29 You can alter major events of the last 24 hours in your same plane of existance.,325.4,521.3,555.8,541.0,12.0,,,text,0.975,ocr
+Wizard - School of Realiturgy.pdf,2,33,30+There are no limitations to your desires.,330.2,547.2,526.1,556.8,12.2,,,text,0.987,ocr
+Wizard - School of Realiturgy.pdf,2,34,"Once you have succesfully altered reality, you cannot do so again for the next 7 days. Depending on the nature of your desires, you may lose memory of the modified time, at the discretion of the DM.",316.3,571.7,562.6,614.4,10.6,,,text,0.987,ocr
+Wizard - School of Realiturgy.pdf,2,35,CREDITS,318.2,631.2,389.8,643.7,18.2,,,paragraph_title,0.916,ocr
+Wizard - School of Realiturgy.pdf,2,36,"Homebrew Content Creator 
+Giruza. Twitter: @G_r_z__Reddit: /u/Giruza 
+Artwork 
+
+Cover: The Destroyer - Book 3 by The duRRRRIAN.
+Cover Design 
+
+Template: /u/TheLurkerOne",316.8,652.8,525.1,718.6,9.8,,,text,0.983,ocr

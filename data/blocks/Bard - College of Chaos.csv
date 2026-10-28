@@ -1,0 +1,138 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Chaos.pdf,1,0,Bard - College of Chaos,48.2,33.4,358.6,63.7,28,0,0,,,text
+Bard - College of Chaos.pdf,1,1,C,48.2,54.1,95.8,153.1,90,0,0,,,text
+Bard - College of Chaos.pdf,1,2,"haotic power churns inside of you. Bards of the
+College of Chaos harness the wild forces of
+chaos and creation, allowing them to perform
+powerful and unpredictable feats.",95.8,69.8,281.6,112.5,9,0,0,,,text
+Bard - College of Chaos.pdf,1,3,"Yours is not a formal bardic college. Bards of
+Chaos are most usually expelled from other
+schools after setting fire to the stage or calling
+down accidental lightning strikes. Your performances are
+wild affairs, and both your music and your magic can shred
+the air with chaotic power.",48.2,115.5,281.5,180.8,9,0,0,,,text
+Bard - College of Chaos.pdf,1,4,"Maybe your abilities originated after been exposed to the
+plane of chaos, or maybe you simply developed a penchant for
+raising hell. Whatever the reason, you can unleash raw,
+destructive power - making you a terrible threat to both
+enemies and allies alike.",48.2,183.8,291.8,237.8,9,0,0,,,text
+Bard - College of Chaos.pdf,1,5,Chaotic Rift,48.2,247.3,135.2,263.5,15,0,0,,,text
+Bard - College of Chaos.pdf,1,6,"At 3rd level, your magic can strike a chord against the
+universe, producing wild effects. Once per turn, the DM can
+have you roll a d20 immediately after you cast a bard spell of
+1st level or higher. If you roll a 1, roll on the Chaotic Rift Table
+to create a instantaneous magical effect. If the effect is a spell
+that would normally require concentration, it doesn't require
+concentration and instead lasts for its full duration.",48.2,267.8,291.8,344.2,9,0,0,,,text
+Bard - College of Chaos.pdf,1,7,"Alternatively, as a bonus action you can expend a use of your
+bardic inspiration to roll on the Chaotic Rift Table.",320.2,69.8,557.9,90.0,9,0,0,,,text
+Bard - College of Chaos.pdf,1,8,Master of Destruction,320.2,99.5,474.2,115.8,15,0,0,,,text
+Bard - College of Chaos.pdf,1,9,"At 6th level, you can channel destructive energy to produce
+ferocious spells at random. As an action, you can choose to
+expend a spell slot between 1st and 5th level. Depending on
+the level of spell slot expended, consult the Destructive Spell
+Table below, and roll a d4. You then cast that spell.",320.2,120.0,558.0,174.0,9,0,0,,,text
+Bard - College of Chaos.pdf,1,10,"When you cast a spell in this way, it takes effect at one spell
+level higher than the spell slot you expended and you do not
+need to provide any material components.",320.2,177.0,562.6,208.5,9,0,0,,,text
+Bard - College of Chaos.pdf,1,11,"You can use this feature a number of times equal to 2 plus
+your proficiency bonus. You regain all expended uses when
+you finish a long rest.",320.2,211.5,557.6,243.0,9,0,0,,,text
+Bard - College of Chaos.pdf,1,12,"Your DM may replace any spell on the Destructive Spell
+Table with another of their choice, provided the substitute
+spell is a damaging spell (preferably an evocation spell) with a
+casting time of one action and a duration of instantaneous.",320.2,246.0,563.6,288.8,9,0,0,,,text
+Bard - College of Chaos.pdf,1,13,Embrace the Chaos,320.2,298.3,449.0,314.5,15,0,0,,,text
+Bard - College of Chaos.pdf,1,14,"From 14th level, you gain the ability to channel the forces of
+chaos towards a desired result. Whenever you roll on the
+Chaotic Rift Table, you can roll the die twice and choose
+which of the two effects to apply.",320.2,318.8,554.9,361.5,9,0,0,,,text
+Bard - College of Chaos.pdf,1,15,Destructive Spell Table,48.0,365.2,187.1,379.2,13,0,0,,,text
+Bard - College of Chaos.pdf,1,16,"d4 1st Level Random Spell
+2nd Level Random Spell
+3rd Level Random Spell 4th Level Random Spell 5th Level Random Spell",49.4,378.9,561.8,390.6,10,1,0,,,text
+Bard - College of Chaos.pdf,1,17,"1
+Burning Hands
+Scorching Ray
+Fireball
+Ice Storm
+Cone of Cold",51.8,395.6,541.9,406.8,10,0,0,,,text
+Bard - College of Chaos.pdf,1,18,"2
+Chaos Bolt
+Shatter
+Lightning Bolt
+Gravity Sinkhole
+Destructive Wave",51.8,412.1,551.4,423.3,10,0,0,,,text
+Bard - College of Chaos.pdf,1,19,"3
+Chromatic Orb
+Melf's Acid Arrow
+Pulse Wave
+Vitriolic Sphere
+Negative Energy Flood",51.8,428.6,561.4,439.8,10,0,0,,,text
+Bard - College of Chaos.pdf,1,20,"4
+Magic Missile
+Snilloc’s Snowball Storm
+Erupting Earth
+Blight
+Flame Strike",51.8,445.1,540.3,456.3,10,0,0,,,text
+Bard - College of Chaos.pdf,1,21,Chaotic Rift Table,48.0,469.4,159.6,483.5,13,0,0,,,text
+Bard - College of Chaos.pdf,1,22,"d20
+Chaotic Rift Effect
+d20
+Chaotic Rift Effect",49.1,483.1,485.4,494.9,10,1,0,,,text
+Bard - College of Chaos.pdf,1,23,"1
+Roll on this table two additional times, and then apply both",54.4,499.8,313.0,521.6,10,0,0,,,text
+Bard - College of Chaos.pdf,1,24,"effects. If you roll a 1 again, ignore that roll. If you roll the",73.2,510.3,309.3,521.6,10,0,0,,,text
+Bard - College of Chaos.pdf,1,25,"same result twice, apply the effect only once.",98.3,520.8,284.2,532.1,10,0,0,,,text
+Bard - College of Chaos.pdf,1,26,"11
+You glow with bright light in a 30-foot radius for the
+next minute. Any creature that ends its turn within 5",319.3,499.8,557.5,521.6,10,0,0,,,text
+Bard - College of Chaos.pdf,1,27,feet of you is blinded until the end of its next turn.,345.3,520.8,553.2,532.1,10,0,0,,,text
+Bard - College of Chaos.pdf,1,28,"2
+You have disadvantage on the next saving throw or attack",54.4,537.3,309.8,553.8,10,0,0,,,text
+Bard - College of Chaos.pdf,1,29,"roll you make within the next minute.
+12
+You jump 20 feet up into the air. You do not provoke",114.2,537.3,559.0,559.1,10,0,0,,,text
+Bard - College of Chaos.pdf,1,30,opportunity attacks and you take no falling damage.,343.1,547.8,555.4,559.1,10,0,0,,,text
+Bard - College of Chaos.pdf,1,31,"3
+You take 2d10 poison damage, and you become poisoned",54.4,564.3,311.6,580.8,10,0,0,,,text
+Bard - College of Chaos.pdf,1,32,"for a duration of 1 minute.
+13
+You teleport up to 60 feet to an unoccupied space of",136.8,564.3,559.4,586.1,10,0,0,,,text
+Bard - College of Chaos.pdf,1,33,your choice that you can see.,389.2,574.8,509.3,586.1,10,0,0,,,text
+Bard - College of Chaos.pdf,1,34,"4
+You become frightened of the nearest creature you can see",54.4,591.3,313.4,607.8,10,0,0,,,text
+Bard - College of Chaos.pdf,1,35,"for a duration of 1 minute.
+14
+You cast Levitate on yourself.",136.8,596.6,509.5,613.1,10,0,0,,,text
+Bard - College of Chaos.pdf,1,36,"5
+You cast Confusion centered on yourself.
+15",54.4,618.3,331.0,629.6,10,0,0,,,text
+Bard - College of Chaos.pdf,1,37,You cast Mirror Image.,402.6,618.3,495.9,629.6,10,0,1,,,text
+Bard - College of Chaos.pdf,1,38,"6
+You cast Fog Cloud centered on yourself.
+16
+You can immediately take an additional Dash or",54.4,634.8,547.1,651.3,10,0,0,,,text
+Bard - College of Chaos.pdf,1,39,Disengage action.,412.5,645.3,486.0,656.6,10,0,0,,,text
+Bard - College of Chaos.pdf,1,40,"7
+Up to three creatures you choose within 30 feet of you",54.4,661.8,305.1,678.3,10,0,0,,,text
+Bard - College of Chaos.pdf,1,41,"take 3d10 lightning damage.
+17 You gain resistance to all damage until the end of your
+next turn.",132.0,661.8,561.3,683.6,10,0,0,,,text
+Bard - College of Chaos.pdf,1,42,"8
+Each creature within 20 feet takes 1d10 necrotic damage.
+You recover hit points equal to the necrotic damage dealt.
+18
+You regain 2d10 hit points.",54.4,688.8,505.9,710.6,10,0,0,,,text
+Bard - College of Chaos.pdf,1,43,"9 You summon a confused and aggressive imp which appears
+in an unoccupied space within 5 feet of you.
+19 Creatures have disadvantage on saving throws against
+the next spell you cast within the next minute.",54.4,715.8,560.0,737.6,10,0,0,,,text
+Bard - College of Chaos.pdf,1,44,"10 All creatures within 10 feet take 1d10 thunder damage and
+are deafened until the end of their next turn.
+20
+You regain up to three expended uses of bardic",51.5,742.8,547.0,764.6,10,0,0,,,text
+Bard - College of Chaos.pdf,1,45,inspiration.,426.3,753.3,472.2,764.6,10,0,0,,,text
+Bard - College of Chaos.pdf,1,46,5,589.4,762.9,594.1,771.0,8,0,0,,,text
+Bard - College of Chaos.pdf,1,47,This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used,48.8,770.2,548.2,778.5,8,0,0,,,text
+Bard - College of Chaos.pdf,1,48,are property of Wizards of the Coast. ©Wizards of the Coast LLC.,179.1,779.2,417.9,787.5,8,0,0,,,text

@@ -1,0 +1,32 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Fine Art.pdf,1,0,"While most Bards s unlock their signature magic with song,some learn to channel magic t through visual mediums. Most often using ink  or paint, these whimsical artists animate wondrous images to both entertain and adventure with. They can channel bardic illusion magic through art and bring the strange and wonderful figments of their imagination to life.",14.4,471.4,257.3,537.6,9.6,,,text,0.995,ocr
+Bard - College of Fine Art.pdf,1,1,CLASSICAL ARTIST,15.4,615.8,111.4,625.4,12.5,,,paragraph_title,0.805,ocr
+Bard - College of Fine Art.pdf,1,2,3rd-level College of Fine Art feature,15.4,629.3,158.4,637.4,10.6,,,text,0.98,ocr
+Bard - College of Fine Art.pdf,1,3,"You have mastered the use of visual art forms for your bardic magic. You gain proficiency with calligrapher's and painter's supplies, and whenever you make an ability check with either tool you can add double your proficiency bonus to your roll.",14.4,639.8,257.8,684.5,9.6,,,text,0.985,ocr
+Bard - College of Fine Art.pdf,1,4,"Moreover, you can use calligrapher's supplies or painter's supplies as a spellcasting focus for any Bard spell you know.",14.9,687.4,256.8,708.0,9.6,,,text,0.984,ocr
+Bard - College of Fine Art.pdf,1,5,"Finally, whenever you learn a Bard spell, you can choose to learn an illusion spell of your choice from any spell list.",14.9,709.9,257.3,730.6,9.8,,,text,0.974,ocr
+Bard - College of Fine Art.pdf,1,6,"COLLEGE 
+
+OF FINE ArT",0.0,0.0,308.6,462.2,13.9,,,image,0.932,ocr
+Bard - College of Fine Art.pdf,1,7,Bard Level College Feature,29.8,542.9,153.6,553.0,11.8,,,figure_title,0.988,ocr
+Bard - College of Fine Art.pdf,1,8,"3rd
+Classical Artist, Living Art
+6th
+Illusory Artwork
+14th
+Bardic Masterpiece",15.8,556.3,260.2,604.8,12.0,,,table,0.983,ocr
+Bard - College of Fine Art.pdf,1,9,ent policy. Not approved/endorsed by Wizards. Portions of the s of the Coast.Wizards of the Coast LLC.,0.0,766.1,224.6,786.7,8.9,,,footer,0.978,ocr
+Bard - College of Fine Art.pdf,2,10,LIVING ART,46.6,30.2,109.9,39.8,10.1,,,paragraph_title,0.912,ocr
+Bard - College of Fine Art.pdf,2,11,3rd-level College of Fine Art feature,46.6,43.7,190.6,52.3,10.6,,,paragraph_title,0.996,ocr
+Bard - College of Fine Art.pdf,2,12,"Your signature bardic magic can bring your artwork to life.You learn the find familiar spell, but it doesn't count against your total number of Spells Known. Though, you can only cast find familiar using calligrapher's supplies or painter's supplies as your spellcasting focus.",45.6,55.2,280.8,109.9,9.6,,,text,0.99,ocr
+Bard - College of Fine Art.pdf,2,13,"When you cast find familiar in this way, your familiar resembles a living two-dimensional piece of artwork. As an action, your familiar can flatten itself against any surface to appear as mundane art or graffiti. If a creature succeeds on an Intelligence (Investigation) check against your Spell Save DC it realizes that the artwork is a living familiar.",46.1,112.8,285.6,178.1,9.6,,,text,0.983,ocr
+Bard - College of Fine Art.pdf,2,14,ILLUSORY ARTWORK,46.6,188.2,151.2,197.3,11.5,,,paragraph_title,0.9,ocr
+Bard - College of Fine Art.pdf,2,15,6th-level College of Fine Art feature,46.6,201.6,190.1,209.3,10.6,,,paragraph_title,0.992,ocr
+Bard - College of Fine Art.pdf,2,16,If you cast an illusion spell and use calligrapher's supplies or painter's supplies as your spellcasting focus you can expend a use of Bardic Inspiration to cast the spell with a spell slot one level lower than you normally would (minimum of 1st-level).,46.1,212.6,290.4,255.4,9.6,,,text,0.989,ocr
+Bard - College of Fine Art.pdf,2,17,BARDIC MASTERPIECE,46.6,265.4,160.3,274.6,10.6,,,paragraph_title,0.993,ocr
+Bard - College of Fine Art.pdf,2,18,1 4th-level College of Fine Art feature,47.0,278.9,194.9,287.0,9.6,,,paragraph_title,0.983,ocr
+Bard - College of Fine Art.pdf,2,19,"As an action you can use calligrapher's or painter's supplies to paint a picture of a beast of CR 4 or lower that you have seen before in an unoccupied space adjacent to you, bringing the artistic depiction on the beast to life for 1 minute.",46.1,289.9,288.5,332.2,9.8,,,text,0.984,ocr
+Bard - College of Fine Art.pdf,2,20,"While it is animated, the artwork beast is completely under your control, is friendly toward you and your allies, and it uses the stat block of the beast you depicted. In combat, the beast shares your initiative, but it can only take the Dodge action unless you use your bonus action to command it to",45.6,335.5,288.5,400.8,9.6,,,text,0.928,ocr
+Bard - College of Fine Art.pdf,2,21,dispelled and melts into a puddle of ink or paint.,46.1,404.6,263.5,424.8,9.6,,,text,0.966,ocr
+Bard - College of Fine Art.pdf,2,22,"Once you use this feature you must finish a long uses of this feature remaining, you can expend a spell slot of 5th-level or higher to use it again.",46.6,428.2,248.6,470.9,9.6,,,text,0.856,ocr
+Bard - College of Fine Art.pdf,2,23,1.sit is 0,245.3,395.0,308.6,508.3,8.6,,,image,0.621,ocr

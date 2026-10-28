@@ -1,0 +1,57 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Rogue - Influencer.pdf,1,0,Rogue: Influencer,48.2,31.3,173.2,47.5,15,0,0,,,text
+Rogue - Influencer.pdf,1,1,"You are an Influencer, a duplicitous manipulator that excels in
+using flattery and natural charisma to sway others to your
+side. When in a spot of trouble, you can rely on the followers
+you’ve garnered to get you out.",48.2,53.8,291.7,96.5,9,0,0,,,text
+Rogue - Influencer.pdf,1,2,Beguiling Personality,48.2,105.7,178.0,119.7,13,0,0,,,text
+Rogue - Influencer.pdf,1,3,3rd-level Influencer feature,48.2,121.2,155.4,130.2,9,0,0,,,text
+Rogue - Influencer.pdf,1,4,"You are able to coax others into doing your bidding. If you
+speak to a humanoid alone for at least 1 minute, at the end of
+the conversation, you can make the target succeed on a
+Wisdom saving throw (DC equal to 8 + your proficiency
+bonus + your Charisma modifier) or be charmed by you for 1
+hour. While charmed in this way, the target idolizes you and
+will attempt to follow your demands as best it can, although it
+will avoid violence unless it was already inclined to fight on
+your behalf. The effect ends early if it takes any damage, if
+you attack it, or if it witnesses you attacking or damaging any
+of its allies.",48.2,141.5,290.7,264.5,9,0,0,,,text
+Rogue - Influencer.pdf,1,5,"If the target succeeds on its saving throw, the target has no
+hint that you tried to charm it.",48.2,267.5,288.7,287.8,9,0,0,,,text
+Rogue - Influencer.pdf,1,6,"You can use this feature a number of times equal your
+Charisma modifier (minimum of once), and you regain all
+expended uses when you finish a long rest.",48.2,290.8,273.9,323.0,9,0,0,,,text
+Rogue - Influencer.pdf,1,7,Backhanded Apology,48.2,331.4,171.4,345.5,13,0,0,,,text
+Rogue - Influencer.pdf,1,8,3rd-level Influencer feature,48.2,347.0,155.4,355.9,9,0,0,,,text
+Rogue - Influencer.pdf,1,9,"Your two-faced nature makes it easy to catch others
+unawares. You have advantage on attack rolls against
+creatures that are charmed.",48.2,367.3,258.0,398.8,9,0,0,,,text
+Rogue - Influencer.pdf,1,10,Popular Following,320.2,30.7,431.7,44.7,13,0,0,,,text
+Rogue - Influencer.pdf,1,11,9th-level Influencer feature,320.2,46.2,426.7,55.2,9,0,0,,,text
+Rogue - Influencer.pdf,1,12,"You dictate the power position of your interactions. You are
+immune to being charmed.",320.2,66.5,552.8,86.8,9,0,0,,,text
+Rogue - Influencer.pdf,1,13,"In addition, when you use your Beguiling Personality
+feature, you can affect a number of humanoids up to your
+Charisma modifier (minimum of one extra humanoid). The
+conversation must only include the targets and yourself, and
+must not be interrupted by anyone outside the conversation.",320.2,89.8,556.9,144.5,9,0,0,,,text
+Rogue - Influencer.pdf,1,14,Scathing Expose,320.2,153.7,415.3,167.7,13,0,0,,,text
+Rogue - Influencer.pdf,1,15,13th-level Influencer feature,320.2,169.2,431.9,178.2,9,0,0,,,text
+Rogue - Influencer.pdf,1,16,"You show no remorse when putting down others. When you
+hit a creature that is charmed, the attack is a critical hit. The
+creature is then no longer charmed.",320.2,189.5,557.6,221.0,9,0,0,,,text
+Rogue - Influencer.pdf,1,17,"You can use this feature a number of times equal to your
+Charisma modifier (minimum of once), and you regain all
+expended uses when you finish a long rest.",320.2,224.0,551.3,255.5,9,0,0,,,text
+Rogue - Influencer.pdf,1,18,Gaslight,320.2,264.7,372.7,278.7,13,0,0,,,text
+Rogue - Influencer.pdf,1,19,17th-level Influencer feature,320.2,280.2,431.9,289.2,9,0,0,,,text
+Rogue - Influencer.pdf,1,20,"When you fail a Charisma (Deception) or Charisma
+(Persuasion) check, you can use your reaction to succeed on
+it instead, even if the statement you present is logically
+impossible. Additionally, magic that would determine if you
+are telling the truth always indicates this statement as
+truthful.",320.2,300.5,558.0,366.5,9,0,0,,,text
+Rogue - Influencer.pdf,1,21,"Once you use this feature, you can't use it again until you
+finish a short or long rest.",320.2,369.5,552.6,389.8,9,0,0,,,text
+Rogue - Influencer.pdf,1,22,13,15.6,764.7,24.9,772.8,8,0,0,,,text

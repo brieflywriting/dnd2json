@@ -1,0 +1,42 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Glory.pdf,1,0,co,48.0,645.6,57.6,652.3,7.2,,,text,0.898,ocr
+Bard - College of Glory.pdf,1,1,us rr,80.2,499.2,121.9,506.9,7.4,,,text,0.919,ocr
+Bard - College of Glory.pdf,1,2,a a,62.4,511.2,78.2,517.9,7.2,,,text,0.977,ocr
+Bard - College of Glory.pdf,1,3,a a,113.8,533.3,129.6,540.5,6.7,,,text,0.93,ocr
+Bard - College of Glory.pdf,1,4,ouc cs,61.4,545.3,103.7,552.5,8.6,,,text,0.947,ocr
+Bard - College of Glory.pdf,1,5,ou c,61.0,703.7,78.2,710.9,6.7,,,text,0.943,ocr
+Bard - College of Glory.pdf,1,6,COLLEGE OF GLORY,318.2,31.7,438.7,43.2,12.7,,,paragraph_title,0.905,ocr
+Bard - College of Glory.pdf,1,7,"are known for telling the tale and ballads that laud the action of others.While most are satisfied by this role,strive to be the hero themselves. Many a brave Bard l the ranks of the College of Glory for this reason.",316.8,50.9,560.2,93.6,8.6,,,text,0.862,ocr
+Bard - College of Glory.pdf,1,8,"Valuing bravery and decisive action above all, Glory Bards personas and hone physical abilities to match.",317.8,97.0,562.1,128.6,9.6,,,text,0.833,ocr
+Bard - College of Glory.pdf,1,9,Heroic StatuRE,323.0,206.9,416.2,216.5,13.0,,,paragraph_title,0.675,ocr
+Bard - College of Glory.pdf,1,10,3rd-level College of Glory feature,329.3,220.3,462.7,229.0,10.6,,,text,0.997,ocr
+Bard - College of Glory.pdf,1,11,You have decided to become the hero that other Bards will sing of. You gain the following benefits so long as you are not wearing armor or wielding a shield:,340.3,231.4,555.8,263.5,10.6,,,text,0.988,ocr
+Bard - College of Glory.pdf,1,12,• Your Armor Class is equal to 10 + your Strength modifier + your Charisma modifier.,351.8,269.8,552.0,289.9,10.6,,,text,0.976,ocr
+Bard - College of Glory.pdf,1,13,Your unarmed strikes deal bludgeoning damage equal to one roll of your Bardic Inspiration die +your Strength modifier on hit.,355.7,292.3,554.9,323.5,11.0,,,text,0.983,ocr
+Bard - College of Glory.pdf,1,14,"• Whenever you make a Strength (Athletics)check or roll damage for an unarmed strike,you can expend a use of Bardic Inspiration and add it to the result of your roll.",366.2,325.9,551.5,370.6,9.6,,,text,0.984,ocr
+Bard - College of Glory.pdf,1,15,GLORIOuS PURPOSE,318.2,379.2,423.4,388.3,12.5,,,paragraph_title,0.816,ocr
+Bard - College of Glory.pdf,1,16,3rd-level College of Glory feature,318.2,392.2,451.7,400.8,12.0,,,text,0.99,ocr
+Bard - College of Glory.pdf,1,17,You have trained to overcome any obstacle that may stand in the path of your legend. You gain proficiency in Athletics and have advantage on saving throws to resist being frightened.,317.8,403.2,556.8,435.4,9.6,,,text,0.984,ocr
+Bard - College of Glory.pdf,1,18,Extra ATtack,318.2,445.0,397.9,454.1,12.5,,,paragraph_title,0.776,ocr
+Bard - College of Glory.pdf,1,19,6th-level College of Glory feature,318.2,458.4,451.2,466.6,10.6,,,text,0.978,ocr
+Bard - College of Glory.pdf,1,20,"You can attack twice, instead of once, when you take the Attack action on your turn. Moreover, you can cast one of your Bard cantrips in place of one of those attacks.",317.3,469.4,544.3,500.6,9.6,,,text,0.995,ocr
+Bard - College of Glory.pdf,1,21,Hero of Legend,317.8,510.2,411.8,519.8,12.5,,,paragraph_title,0.918,ocr
+Bard - College of Glory.pdf,1,22,14th-level College of Glory feature,318.2,524.2,456.5,532.8,11.0,,,text,0.998,ocr
+Bard - College of Glory.pdf,1,23,"You take up the mantle of a legendary hero, transforming to match the legend. You can use a bonus action to transform into your Heroic Form, gaining the following benefits:",317.8,535.2,554.4,566.9,9.1,,,text,0.991,ocr
+Bard - College of Glory.pdf,1,24,• You gain temporary hit points equal to your Bard level.,319.2,575.0,546.7,583.7,9.6,,,text,0.987,ocr
+Bard - College of Glory.pdf,1,25,• You can take the Dash action as a bonus action so long as you end your movement closer to a hostile creature.,319.7,586.6,548.6,606.7,9.6,,,text,0.989,ocr
+Bard - College of Glory.pdf,1,26,"As a reaction when a creature targets you with a melee attack, you can make one attack against that creature.",319.7,610.6,548.6,629.8,8.9,,,text,0.988,ocr
+Bard - College of Glory.pdf,1,27,These benefits last for 1 minute and end early if you fall unconscious or die. Once you use this feature you must finish a short or long rest before you can transform again.,317.3,637.9,562.1,670.1,9.6,,,text,0.997,ocr
+Bard - College of Glory.pdf,1,28,PaRAGoN OF GLoRy,317.8,678.7,426.2,688.3,12.0,,,paragraph_title,0.711,ocr
+Bard - College of Glory.pdf,1,29,14th-level College of Glory feature,318.2,692.2,456.0,700.8,11.0,,,text,0.971,ocr
+Bard - College of Glory.pdf,1,30,"You are immune to the frightened condition, and whenever you make a death saving throw you can expend a use of Bardic Inspiration, roll it, and add the result to your roll.",317.3,703.2,551.0,735.8,9.6,,,text,0.994,ocr
+Bard - College of Glory.pdf,1,31,I I I,0.0,0.0,321.1,376.8,9.6,,,image,0.456,ocr
+Bard - College of Glory.pdf,1,32,Bard Level College Feature,325.9,133.9,444.0,144.0,12.5,,,figure_title,0.996,ocr
+Bard - College of Glory.pdf,1,33,"3rd
+Heroic Stature, Glorious Purpose
+6th
+Extra Attack
+Hero of Legend, Paragon of Glory
+14th",319.7,147.4,563.0,196.8,11.5,,,table,0.997,ocr
+Bard - College of Glory.pdf,1,34,This is unofficial Fan Content permitted under the Fan Content policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast.Wizards of the Coast LLC.,79.7,766.1,528.0,786.7,9.6,,,footer,0.98,ocr
+Bard - College of Glory.pdf,1,35,0,556.3,734.9,611.5,791.5,56.4,,,footer,0.206,ocr

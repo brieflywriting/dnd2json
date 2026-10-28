@@ -1,0 +1,141 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Heroes.pdf,1,0,Bard: College of Heroes,48.2,478.3,214.8,494.5,15,0,0,,,text
+Bard - College of Heroes.pdf,1,1,"Inspiring stories and heroic tales are aplenty, but it is a bard’s
+skill in regaling such fantastical tales that make them truly
+come alive and rouse audiences to action. The bards of the
+College of Heroes go about from tavern to tavern, spreading
+these exhilarating fables to empower and inspire the masses.
+Some even have the privilege of having an audience with a
+royal court to put on such performances, or perhaps help
+weave their own royal tale of heroism.",48.2,500.8,290.1,589.3,9,0,0,,,text
+Bard - College of Heroes.pdf,1,2,"Storytelling isn’t the only skill of the bards of this college.
+So finely attuned they are to the lore and legends of heroes
+past, they can summon their essence to aid them. Creativity
+is best taken from its source, and who better to talk to than
+the actual heroes of old?",48.2,592.3,283.6,647.0,9,0,0,,,text
+Bard - College of Heroes.pdf,1,3,Ancient Hero,320.2,95.9,400.0,110.0,13,0,0,,,text
+Bard - College of Heroes.pdf,1,4,3rd-level College of Heroes feature,320.2,111.5,457.4,120.4,9,0,0,,,text
+Bard - College of Heroes.pdf,1,5,"As a member of this college, you learn to summon the
+essence of a hero to accompany you on your travels.",320.2,131.0,532.6,151.3,9,0,0,,,text
+Bard - College of Heroes.pdf,1,6,"At the end of a long rest, you can summon an ancient hero
+from the distant past. It is friendly to you and your
+companions, and it obeys your commands. See this creature's
+game statistics in the Ancient Hero stat block, which uses
+your proficiency bonus (PB) in several places. When you
+summon your ancient hero, choose the type of spirit you
+summon: Healer, Mage, or Warrior. Your choice of spirit
+determines certain traits in its stat block",320.2,154.3,563.3,242.8,9,0,0,,,text
+Bard - College of Heroes.pdf,1,7,"In combat, the ancient hero shares your initiative count,
+but it takes its turn immediately after yours. It can move and
+use its reaction on its own, but the only action it takes on its
+turn is the Dodge action, unless you take a bonus action on
+your turn to command it to take another action. That action
+can be one in its stat block or some other action. If you are
+incapacitated, the defender can take any action of its choice,
+not just Dodge.",320.2,245.8,557.5,335.0,9,0,0,,,text
+Bard - College of Heroes.pdf,1,8,"When you reach 11th level in this class, the hero’s damage
+and healing dice increases by one. The hero perishes when it
+drops to 0 hit points, when you summon a new ancient hero,
+or when you die. When the hero perishes, its spirit returns to
+the plane where it was brought to rest.",320.2,338.0,561.1,392.8,9,0,0,,,text
+Bard - College of Heroes.pdf,1,9,Ancient Guidance,320.2,401.2,425.4,415.2,13,0,0,,,text
+Bard - College of Heroes.pdf,1,10,6th-level College of Heroes feature,320.2,416.7,456.7,425.7,9,0,0,,,text
+Bard - College of Heroes.pdf,1,11,"Your bond with the ancient hero has enhanced the flavour of
+your stories. Your Bardic Inspiration gains certain benefits
+depending on the hero summoned.",320.2,436.3,557.8,468.5,9,0,0,,,text
+Bard - College of Heroes.pdf,1,12,"Healer. When you give a creature a Bardic Inspiration die,
+it gains temporary hit points equal to the maximum number
+of the die. In addition, when the die is used, the creature
+regains hit points equal to the number rolled.",320.2,471.5,559.3,514.3,9,0,0,,,text
+Bard - College of Heroes.pdf,1,13,"Mage. When a creature rolls a Bardic Inspiration die to
+add to their ability check or saving throw, it can roll twice and
+use the higher number.",320.2,517.3,562.3,549.5,9,0,0,,,text
+Bard - College of Heroes.pdf,1,14,"Warrior. When a creature rolls a Bardic Inspiration die to
+add to their attack roll and hits, it can add the same number
+to its damage roll.",320.2,552.5,557.3,584.0,9,0,0,,,text
+Bard - College of Heroes.pdf,1,15,Heroic Inspiration,320.2,593.2,430.2,607.2,13,0,0,,,text
+Bard - College of Heroes.pdf,1,16,14th-level College of Heroes feature,320.2,608.7,461.9,617.7,9,0,0,,,text
+Bard - College of Heroes.pdf,1,17,"Your performances of inspiration always leave a strong
+impression on your audience. When a creature rolls one of
+your Bardic Inspiration dice to add to its ability check, attack
+roll, or saving throw, it can keep the die. It is expended the
+next time it rolls the die. Once a creature does so, it cannot
+benefit from this feature again until you finish a long rest.",320.2,628.3,559.5,694.3,9,0,0,,,text
+Bard - College of Heroes.pdf,1,18,3,17.9,761.7,22.6,769.8,8,0,0,,,text
+Bard - College of Heroes.pdf,2,19,Summoning A Hero,63.9,45.6,172.9,57.6,12,0,0,,,text
+Bard - College of Heroes.pdf,2,20,"Feel free to discuss with your DM the particulars of
+the ancient hero being summoned to your
+campaign. What heroic deeds did they do in life?
+Which plane were they laid to rest? Did they end
+up among the adored figures in Elysium? Damned
+in the Nine Hells? Or subjected to eternal chaos in
+Limbo?",63.9,62.6,275.0,139.1,10,0,0,,,text
+Bard - College of Heroes.pdf,2,21,"For the hero, it would be centuries since they
+last saw the lands you now walk. They will have
+their own thoughts and feelings regarding being
+brought back, how their home has changed, as well
+as the reason as to why you are adventuring.",63.9,139.1,275.0,193.8,10,0,0,,,text
+Bard - College of Heroes.pdf,2,22,"Keeping an ancient spirit tethered to the Material
+Plane takes a lot of magic. As such, the hero would
+only be able replicate a fascimile of the feats it
+once had in life. Your progression in this subclass
+represents your increased mastery of supplying the
+hero with magical energy so they can better fight.",63.9,193.8,276.1,259.8,10,0,0,,,text
+Bard - College of Heroes.pdf,2,23,4,589.4,761.7,594.1,769.8,8,0,0,,,text
+Bard - College of Heroes.pdf,2,24,Ancient Hero,61.7,318.9,184.5,340.6,20,0,0,,,text
+Bard - College of Heroes.pdf,2,25,Medium Humanoid,61.7,340.1,142.1,351.3,10,0,1,,,text
+Bard - College of Heroes.pdf,2,26,"Armor Class 14 (natural armour) + 2 (Warrior only)
+Hit Points 5 + five times your bard level (the hero has a",61.7,367.1,287.4,388.8,10,0,0,,,text
+Bard - College of Heroes.pdf,2,27,"number of Hit Dice [d8s] equal to your bard level)
+Speed 30ft.",61.7,388.8,276.4,410.6,10,0,0,,,text
+Bard - College of Heroes.pdf,2,28,"STR
+DEX
+CON
+INT
+WIS
+CHA",72.9,430.8,281.7,442.1,10,1,0,,,text
+Bard - College of Heroes.pdf,2,29,15 (+2) 11 (+0) 15 (+2) 13 (+1) 14 (+2) 11 (+0),64.8,448.1,288.1,459.3,10,0,0,,,text
+Bard - College of Heroes.pdf,2,30,"Saving Throws Int +2 plus PB, Wis +2 plus PB
+Skills Athletics +2 plus PB (Warrior only), Arcana +1",61.7,472.8,274.1,494.6,10,0,0,,,text
+Bard - College of Heroes.pdf,2,31,"plus PB (Mage only), History +1 plus PB, Medicine
++2 plus PB (Healer only), Perception +2 plus PB",71.7,494.6,279.2,517.1,10,0,0,,,text
+Bard - College of Heroes.pdf,2,32,"Condition Immunities charmed, exhaustion",61.7,516.3,236.1,527.6,10,1,0,,,text
+Bard - College of Heroes.pdf,2,33,"Senses darkvision 30ft., passive Perception 12 + PB
+Languages speaks and understands the languages you",61.7,527.6,280.8,549.3,10,0,0,,,text
+Bard - College of Heroes.pdf,2,34,speak,71.7,549.3,95.2,560.6,10,0,0,,,text
+Bard - College of Heroes.pdf,2,35,Challenge −   Proficiency Bonus (PB) equals your bonus,61.7,560.4,283.6,571.8,10,1,0,,,text
+Bard - College of Heroes.pdf,2,36,"Ancient Fortitude. If damage reduces the hero to 0 hit
+points, it can make a Constitution saving throw with a
+DC of 10 or 5 + the damage taken (whichever is
+higher), unless the damage is from a critical hit. On a
+success, the hero drops to 1 hit point instead.",61.7,583.8,283.1,638.6,10,0,0,,,text
+Bard - College of Heroes.pdf,2,37,Healing Aura (Healer only). The hero emits a soothing,61.7,646.8,277.4,658.1,10,1,1,,,text
+Bard - College of Heroes.pdf,2,38,"aura. Each creature of its choice within 10 feet of it
+regains an extra 1d4 hit points when it regains hit
+points.",61.7,657.3,273.2,690.3,10,0,0,,,text
+Bard - College of Heroes.pdf,2,39,"Spellcasting (Mage Only). The hero is a spellcaster. Its
+spellcasting ability is your own spellcasting modifier. It
+has the following spells prepared:",320.2,324.3,545.0,357.3,10,0,0,,,text
+Bard - College of Heroes.pdf,2,40,"Cantrips (at will): fire bolt, shocking grasp",320.2,362.6,491.8,373.8,10,0,0,,,text
+Bard - College of Heroes.pdf,2,41,Actions,320.2,378.5,367.7,395.3,15,0,0,,,text
+Bard - College of Heroes.pdf,2,42,Fire Bolt (Mage Only). Ranged Spell Attack: your spell,320.2,399.3,535.3,410.6,10,0,1,,,text
+Bard - College of Heroes.pdf,2,43,"attack modifier to hit, range 120 ft., one target. Hit:
+1d10 fire damage. A flammable object hit by this spell
+ignites if it isn't being worn or carried.",320.2,409.8,544.2,442.8,10,0,0,,,text
+Bard - College of Heroes.pdf,2,44,"Innate Healing (Healer Only, 3/Day). The hero chooses",320.2,451.1,537.8,462.3,10,1,1,,,text
+Bard - College of Heroes.pdf,2,45,"one creature it can see within 30 feet of it to regain
+1d6 + PB hit points. This has no effect on undead or
+constructs.",320.2,461.6,535.9,494.6,10,0,0,,,text
+Bard - College of Heroes.pdf,2,46,Shocking Grasp (Mage Only). Melee Spell Attack: your,320.2,499.8,537.3,511.1,10,1,1,,,text
+Bard - College of Heroes.pdf,2,47,"spell attack modifier to hit (with advantage if the target
+is wearing armour made of metal), range 5 ft., one
+target. Hit: 1d8 lightning damage, and the target can't
+take reactions until the start of its next turn.",320.2,511.1,547.2,555.3,10,0,0,,,text
+Bard - College of Heroes.pdf,2,48,Spirit Sword (Warrior or Healer Only). Melee Weapon,320.2,559.8,531.4,571.1,10,1,1,,,text
+Bard - College of Heroes.pdf,2,49,"Attack: your spell attack modifier to hit, reach 5 ft., one
+target you can see. Hit: 1d8 + PB force damage.",320.2,571.1,547.6,592.8,10,0,0,,,text
+Bard - College of Heroes.pdf,2,50,Reactions,320.2,597.5,381.0,614.3,15,0,0,,,text
+Bard - College of Heroes.pdf,2,51,Protection (Warrior Only). The hero imposes,320.2,618.3,498.8,629.6,10,1,1,,,text
+Bard - College of Heroes.pdf,2,52,"disadvantage on the attack roll of one creature it can
+see that is within 5 feet of it, provided the attack roll is
+against a creature other than itself.",320.2,629.6,545.9,662.6,10,0,0,,,text

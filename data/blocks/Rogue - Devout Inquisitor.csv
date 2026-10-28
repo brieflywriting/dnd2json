@@ -1,0 +1,271 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Rogue - Devout Inquisitor.pdf,1,0,Rogue: Devout Inquisitor,48.2,31.5,222.2,46.5,15,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,1,"Some rogues find meaning in their lives through prayer and
+dedication to a divine ideal. Be it rogues that wish to absolve
+themselves of a shady past, or scoundrels discovering a
+greater cause, such people harness their talents as enforcers
+of various churches, becoming the shadowy hand that erases
+enemies of their faith.",48.2,52.3,288.4,118.3,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,2,"As a Devout Inquisitor rogue, you decide the manner
+through which your faith manifests. Do you preach openly,
+only taking arms in the night to do your deity's work? Or do
+you abstain from public affairs, marking your targets and
+serving a religious organization? Consult the Devout
+Inquisitor Quirks table for a possible impact your faith and
+service has upon your character.",48.2,120.5,281.3,197.8,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,3,Devout Inquisitor Quirks,48.2,206.4,192.2,218.4,12,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,4,d6 Quirk,49.3,219.3,86.0,230.8,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,5,"1 You sleep with your eyes open, and never blink. The
+zealous do not rest.",52.0,235.1,275.3,256.3,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,6,"2 You hail from a long line of church inquisitors, and
+when you chant it is almost as if multiple voices echo
+yours.",52.0,261.3,283.8,293.0,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,7,"3 When you fight, your eyes glow with divine light.",52.0,297.3,263.3,308.8,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,8,"4 If one listens to your prayers long enough, they begin
+to feel someone watching them.",52.0,313.1,282.1,334.3,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,9,"5 Your weapons and/or skin are marked with runes from
+chants dedicated to your deity.",52.0,339.3,286.0,360.5,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,10,"6 People with dark secrets feel uneasy and guilty around
+you.",52.0,365.6,286.2,386.8,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,11,Spellcasting,48.2,399.9,121.4,412.8,13,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,12,"3rd-level Devout Inquisitor feature
+You augment your martial prowess with the ability to cast
+spells.",48.2,414.5,283.6,446.0,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,13,"Cantrips. You learn three cantrips of your choice from the
+cleric spell list. You learn another cleric cantrip of your choice
+at 10th level.",48.2,448.3,291.6,480.5,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,14,"Spell Slots. The Devout Inquisitor Spellcasting table
+shows how many spell slots you have to cast your cleric spells
+of 1st level and higher. To cast one of these spells, you must
+expend a slot of the spell's level or higher. You regain all
+expended spell slots when you finish a long rest.",48.2,482.8,291.5,537.5,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,15,"For example, if you know the 1st-level spell cure wounds
+and have a 1st-level and a 2nd-level spell slot available, you
+can cast cure wounds using either slot.",48.2,539.8,279.6,571.3,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,16,"Spells Known of 1st-Level and Higher. You know three
+1st-level cleric spells of your choice.
+The Spells Known column of the Devout Inquisitor
+Spellcasting table shows when you learn more cleric spells of
+1st level or higher. Each of these must be of a level for which
+you have spell slots. For instance, when you reach 7th level in
+this class, you can learn one new spell of 1st or 2nd level.",48.2,574.3,291.0,651.5,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,17,"Whenever you gain a level in this class, you can replace one
+of the cleric spells you know with another spell of your choice
+from the cleric spell list. The new spell must be of a level for
+which you have spell slots.",48.2,653.8,291.6,697.3,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,18,"Spellcasting Ability. Wisdom is your spellcasting ability
+for your cleric spells. The power of your spells comes from
+your devotion to your deity. You use your Wisdom whenever a
+spell refers to your spellcasting ability. In addition, you use
+your Wisdom modifier when setting the saving throw DC for
+a cleric spell you cast and when making an attack roll with
+one.",320.2,29.8,562.0,107.0,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,19,"Spell save DC = 8 + your proficiency bonus + your
+Wisdom modifier",320.2,109.3,530.2,129.5,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,20,"Spell attack modifier = your proficiency bonus + your
+Wisdom modifier",320.2,132.5,543.8,152.8,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,21,"Spellcasting Focus. You can use a holy symbol as a
+spellcasting focus for your cleric spells.",320.2,155.0,534.8,175.3,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,22,Devout Inquisitor Spellcasting,320.2,183.9,496.8,195.9,12,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,23,Rogue,321.2,196.8,347.6,208.3,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,24,Level,323.7,207.3,345.1,218.8,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,25,Cantrips,350.7,196.8,384.9,208.3,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,26,Known,353.6,207.3,382.0,218.8,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,27,"Spells
+Known",388.9,196.8,417.2,218.8,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,28,"3rd
+3
+2
+—",327.2,223.1,480.7,234.5,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,29,"4th
+3
+4
+3
+—",327.2,238.8,480.7,250.3,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,30,"5th
+3
+4
+3
+—",327.2,254.6,480.7,266.0,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,31,"6th
+3
+4
+3
+—",327.2,270.3,480.7,281.8,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,32,"7th
+3
+5
+4
+2
+—",327.2,286.1,513.0,297.5,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,33,"8th
+3
+6
+4
+2
+—",327.2,301.8,513.0,313.3,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,34,"9th
+3
+6
+4
+2
+—",327.2,317.6,513.0,329.0,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,35,"10th
+4
+7
+4
+3
+—",324.2,333.3,513.0,344.8,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,36,"11th
+4
+8
+4
+3
+—",324.2,349.1,513.0,360.5,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,37,"12th
+4
+8
+4
+3
+—",324.2,364.8,513.0,376.3,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,38,"13th
+4
+9
+4
+3
+2
+—",324.2,380.6,545.2,392.0,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,39,"14th
+4
+10
+4
+3
+2
+—",324.2,396.3,545.2,407.8,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,40,"15th
+4
+10
+4
+3
+2
+—",324.2,412.1,545.2,423.5,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,41,"16th
+4
+11
+4
+3
+—",324.2,427.8,545.2,439.3,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,42,"17th
+4
+11
+4
+3
+—",324.2,443.6,545.2,455.0,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,43,"18th
+4
+11
+4
+3
+—",324.2,459.3,545.2,470.8,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,44,"19th
+4
+12
+4
+3
+1",324.2,475.1,540.0,486.5,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,45,"20th
+4
+13
+4
+3
+1",324.2,490.8,540.0,502.3,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,46,Channel Divinity,320.2,526.6,422.8,539.6,13,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,47,"3rd-level Divine Inquisitor feature
+You gain the ability to channel divine energy directly from
+your deity, using that energy to fuel magical effects. The
+Channel Divinity options provided by this archetype are listed
+below. When you use your Channel Divinity, you choose
+which option to use. You must then finish a short or long rest
+to use your Channel Divinity again.",320.2,540.5,562.8,617.8,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,48,"Hand of Faith. When you make a Dexterity check, you can
+use your Channel Divinity to gain a +10 bonus to the roll. You
+make this choice after you see the roll, but before the GM
+says whether the check succeeds or fails.",320.2,620.8,561.3,663.5,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,49,10,587.1,767.0,596.4,775.1,8,0,0,,,text
+Rogue - Devout Inquisitor.pdf,1,50,"1st
+2nd
+3rd
+4th
+—Spell Slots per Spell Level—",428.2,196.2,554.1,218.0,10,0,0,,,text
+Rogue - Devout Inquisitor.pdf,2,51,"Judge the Wicked. You can use your Channel Divinity to
+deliver righteous judgment. As a bonus action, choose a
+creature you can see within 30 feet of you. The target is
+marked for 1 minute. The mark ends early if the target dies,
+you die, or you are incapacitated. Until the mark ends, you
+can use your Sneak Attack against the target even if you don't
+have advantage on the attack roll, but not if you have
+disadvantage on it. When you deal your Sneak Attack damage
+to the target, the extra damage is radiant.",48.2,29.8,291.8,129.5,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,2,52,Inquisition,48.2,141.1,114.7,154.1,13,0,0,,,text
+Rogue - Devout Inquisitor.pdf,2,53,"9th-level Devout Inquisitor feature
+You can start a sanctified inquisition against a creature. As
+a bonus action, choose a creature you can see within 30 feet
+of you. You create a supernatural connection between you
+and the target that lasts for 1 hour, until the target drops to 0
+hit points, until you create a supernatural connection again
+with this feature, or until you dismiss the connection (no
+action required) . For the duration, you gain the following
+benefits:",48.2,155.0,287.9,255.5,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,2,54,"You know the target's exact location while it is within 1
+mile of you, gaining advantage on all Wisdom (Perception)
+and Wisdom (Survival) checks made to locate the target.
+In addition, you have advantage on all Wisdom (Insight)
+checks that you make to discern if the target is lying or
+withholding the truth while you can hear it, if you
+understand the language it is speaking.
+If the target is hidden through magical effects, such as the
+nondetection spell or an item that protects it from being
+targeted by divination magic or perceived through magical
+scrying sensors, you ignore these effects when trying to
+locate the target by any means.
+If you are hidden from the target and hit it with a spell
+attack, you can add your Sneak Attack damage to one of
+the attack's damage rolls, expending your use of Sneak
+Attack for that turn. You can't use this feature if you have
+disadvantage on the spell attack roll. When you use your
+Sneak Attack this way, the extra damage is radiant.",60.8,264.5,291.2,464.8,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,2,55,Relentless Judgment,320.2,28.6,440.4,41.6,13,0,0,,,text
+Rogue - Devout Inquisitor.pdf,2,56,"13th-level Devout Inquisitor feature
+You will deliver judgment until only the pious are left
+standing. Any attack you make against the target of your
+Judge the Wicked is a critical hit on a roll of 19 or 20 on the
+d20.",320.2,42.5,555.1,97.3,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,2,57,"In addition, when the target of your Judge the Wicked
+feature dies, you can place the mark to a different creature
+you can see within 30 feet of you, provided you aren't
+incapacitated.",320.2,99.5,550.9,143.0,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,2,58,Grand Inquisitor,320.2,153.9,421.4,166.8,13,0,0,,,text
+Rogue - Devout Inquisitor.pdf,2,59,"17th-level Devout Inquisitor feature
+Your dedication to uprooting the enemies of your religion,
+as well as your connection with the divine has enhanced the
+way you perceive the world around you. You gain the
+following benefits:",320.2,167.8,556.5,222.5,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,2,60,"You always know when you hear a lie and you have
+advantage on ability checks that you make to see through
+illusions.
+You learn the scrying spell if you don't know it already, and
+can cast it without expending a spell slot. You must then
+finish a long rest before doing so again. If you target a
+creature with scrying, while seeing the target through the
+spell's scrying sensor, you can establish a supernatural
+connection with it through your Inquisitor's Sense feature,
+regardless of the distance between your physical body and
+the target.
+As an action on your turn while a creature that has a
+supernatural connection with you through your Inquisition
+feature is within 1 mile of you, you can see through its
+eyes and hear what it hears until the start of your next
+turn, gaining the benefits of any special senses that it has.
+During this time, you are deaf and blind with regard to
+your own senses.",332.7,232.3,563.8,431.8,9,0,0,,,text
+Rogue - Devout Inquisitor.pdf,2,61,11,15.6,767.0,24.9,775.1,8,0,0,,,text

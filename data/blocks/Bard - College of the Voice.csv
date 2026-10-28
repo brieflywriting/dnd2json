@@ -1,0 +1,40 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of the Voice.pdf,1,0,COLLEGE OF THE VOICE,46.1,230.9,190.6,242.4,12.0,,,paragraph_title,0.956,ocr
+Bard - College of the Voice.pdf,1,1,"Bards of the College of the Voice ridicule paltry singers and tellers sof tawdry tales. To them, their voice is their instrument, and the ancient words they speak their performance. Bards of this college are regarded with reverence, for those with the power to join it speak their will into reality. The hills shake with their bellowed incantations,which warp the world to suit their whims. When these bards speak, even the mightiest creatures fall before their words.",45.1,248.6,286.1,334.1,9.6,,,text,0.992,ocr
+Bard - College of the Voice.pdf,1,2,SHOUTS,45.6,343.2,88.8,352.8,13.0,,,paragraph_title,0.945,ocr
+Bard - College of the Voice.pdf,1,3,"When you join the College of the Voice at 3rd level, the power of your voice adds new spells to your arsenal and alters your existing ones. The spells on the shouts table are added to the bard spell list for you.",45.1,357.1,289.4,399.4,9.6,,,text,0.982,ocr
+Bard - College of the Voice.pdf,1,4,"When you attempt to cast a spell on the shouts table, you can expend a Bardic Inspiration die instead of a spell slot.Roll the die. If the result is equal to or exceeds the level of the spell, you cast it as a shout. Otherwise, the spell fails.",45.6,402.2,289.9,443.5,9.6,,,text,0.985,ocr
+Bard - College of the Voice.pdf,1,5,"When cast in this way, a shout does not require material or somatic components, and has a verbal component added if it does not already have one. Because your voice booms like thunder when casting a shout, all creatures within 300 feet hear the echoes of the incantation used to cast the spell.",45.1,447.4,288.5,499.2,9.6,,,text,0.985,ocr
+Bard - College of the Voice.pdf,1,6,SHoutS Table,45.6,510.7,121.0,520.3,12.5,,,paragraph_title,0.788,ocr
+Bard - College of the Voice.pdf,1,7,"Spells marked with a * on the table are already on the bard spell list. If a spell can be found in Xanathar's Guide to Everything, it is marked with XGE.",45.1,524.6,280.3,555.4,9.6,,,text,0.978,ocr
+Bard - College of the Voice.pdf,1,8,TONGUE OF THE ANCIENTS,317.3,248.2,459.8,257.8,10.6,,,paragraph_title,0.942,ocr
+Bard - College of the Voice.pdf,1,9,"Starting at 3rd level, the words of an ancient language give your magic form. You learn one of the following languages of your choice: Abyssal, Celestial, Draconic, Deep Speech,Giant, Infernal, Modron, Primordial, Slaad, Sphinx, Sylvan, or Yeti. When you use a shout, you speak the verbal component in this language. You also know the comprehend languages spell, and can cast it at will, without expending a spell slot or material components.",316.3,261.6,561.6,348.0,10.6,,,text,0.992,ocr
+Bard - College of the Voice.pdf,1,10,Thundering Yell,317.3,357.1,420.0,366.2,11.0,,,paragraph_title,0.843,ocr
+Bard - College of the Voice.pdf,1,11,"Starting at 6th level you can project your voice as a weapon.You can use an action and expend a spell slot of 1st level or higher and force each creature in a 30-foot cone to make a Constitution saving throw against your bard spell save DC. A creature takes 2d8 damage on a failed save, or half as much damage on a successful one.",316.8,370.6,559.2,434.4,10.6,,,text,0.983,ocr
+Bard - College of the Voice.pdf,1,12,"On a failed save, the target is pushed a number of feet away from you equal to your Charisma modifier multiplied by 5 (a minimum of 5 feet), and is knocked prone.",316.8,437.3,562.6,468.0,11.5,,,text,0.988,ocr
+Bard - College of the Voice.pdf,1,13,The thunder damage increases by 1d8 for each slot level above 1st.,317.3,470.9,552.0,490.6,11.0,,,text,0.993,ocr
+Bard - College of the Voice.pdf,1,14,Legend Rend,317.8,500.2,394.6,509.3,11.5,,,paragraph_title,0.817,ocr
+Bard - College of the Voice.pdf,1,15,"Starting at 14th level, you learn words of power that force the mightiest creatures to comprehend their own mortality. You can use an action to scream those words to one creature within 120 feet of you. If the target can hear you, it must must make a Wisdom saving throw against your bard spell save DC. On a failed save, the target temporarily loses any resistances to damage and immunities to conditions that it has, and has disadvantage on all saving throws. This effect ends after 1 minute. The affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature cannot use a Legendary Resistance, if it has one, to succeed on saving throws against this feature.",316.8,513.6,562.6,654.2,10.6,,,text,0.99,ocr
+Bard - College of the Voice.pdf,1,16,"You can use this feature once, and regain all expended uses after you finish a long rest.",317.3,657.6,563.0,676.8,9.8,,,text,0.976,ocr
+Bard - College of the Voice.pdf,1,17,"Spells
+Bard Level
+1st
+animal friendship, faerie fire*
+dragon's breath,XGE earthbindXGE
+3rd
+call lightning, fear*
+5th
+7th
+dominate beast, stoneskin
+9th
+dominate person, hold monster*
+harm, soul cageXGE
+11th
+draconic transformation,FTD etherealness*
+13th
+15th
+dominate monster*, control weather
+17th
+meteor swarm, time stop",47.0,564.0,291.4,722.4,14.4,,,table,0.99,ocr
+Bard - College of the Voice.pdf,1,18,PART II | SUBCLASSES,469.0,752.6,551.0,759.8,8.2,,,footer,0.978,ocr
+Bard - College of the Voice.pdf,1,19,21,586.1,763.7,594.2,770.4,9.6,,,number,1.0,ocr

@@ -23,9 +23,11 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+# PaddlePaddle has no wheels for Python 3.14: install these into a separate Python 3.12
+# env (.venv-ocr), see README "OCR setup".
 ocr = [
-    "paddleocr",        # heavy; only needed for scanned PDFs
-    "paddlepaddle",     # CPU build; for GPU, follow Paddle's own install instructions
+    "paddleocr[doc-parser]>=3.3",  # PP-StructureV3 needs the doc-parser extra
+    "paddlepaddle",                # CPU build! For NVIDIA GPUs install paddlepaddle-gpu (README)
 ]
 dev = [
     "pytest",           # runs the tests

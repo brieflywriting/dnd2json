@@ -1,0 +1,82 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Wizard - Theurgy.pdf,1,0,Wizard: Theurgy,48.2,31.5,160.3,46.5,15,0,0,,,text
+Wizard - Theurgy.pdf,1,1,"Many gods claim arcane magic as their domain, due to its
+nature. Magic is a living, breathing being, as much a part of
+the world as any other primordial force. Just as there are
+deities of the hunt, the sun and war, the arcane is a domain
+under the jurisdiction of many divine patrons.",48.2,52.3,280.7,107.0,9,0,0,,,text
+Wizard - Theurgy.pdf,1,2,"Many such divine beings grant their blessings to clerics of
+their faith, but often also bid their followers to study wizardry
+and arcane spellcraft. Such a dedicated user of magic might
+find themselves following the arcane tradition of Theurgy.",48.2,109.3,289.8,152.0,9,0,0,,,text
+Wizard - Theurgy.pdf,1,3,Arcane Domain,48.2,163.6,137.2,176.6,13,0,0,,,text
+Wizard - Theurgy.pdf,1,4,"2nd-level Theurgy feature
+When you choose this tradition, choose a domain from
+your chosen deity's list of eligible domains. Your studies on
+elements of divine magic grant you access to certain benefits
+depending on your chosen domain, as described in your class
+features.",48.2,177.5,290.3,243.5,9,0,0,,,text
+Wizard - Theurgy.pdf,1,5,"In addition, you learn to speak, read, and write Celestial,
+you gain proficiency with the Religion skill and you can use a
+holy symbol as a spellcasting focus for your wizard spells.",48.2,245.8,287.9,278.0,9,0,0,,,text
+Wizard - Theurgy.pdf,1,6,Theurgy Savant,48.2,288.9,139.2,301.8,13,0,0,,,text
+Wizard - Theurgy.pdf,1,7,"2nd-level Theurgy feature
+Whenever you gain a wizard level, you can replace one of
+the wizard spells you add to your spellbook with a cleric
+domain spell from your chosen domain. The spell must be of
+a level for which you have spell slots.",48.2,302.8,287.2,357.5,9,0,0,,,text
+Wizard - Theurgy.pdf,1,8,"If you add all of your domain spells to your spellbook, you
+can subsequently add any spell from the cleric spell list to
+your spellbook instead. The spell must still be of a level for
+which you have spell slots.",48.2,359.8,283.4,403.3,9,0,0,,,text
+Wizard - Theurgy.pdf,1,9,"Any cleric spell you gain from this feature is considered a
+wizard spell for you, but other wizards can’t copy cleric spells
+from your spellbook into their own spellbooks unless they
+have also chosen this tradition. Furthermore, due to the
+dichotomy between the nature of arcane and divine magic,
+you can't choose cleric spells you gain from this feature with
+your Spell Mastery and Signature Spell features, which you
+gain when you reach higher levels in this class.",48.2,405.5,289.3,494.0,9,0,0,,,text
+Wizard - Theurgy.pdf,1,10,Domain Surge,48.2,505.6,129.3,518.6,13,0,0,,,text
+Wizard - Theurgy.pdf,1,11,"6th-level Theurgy feature
+Your understanding over the principles governing your
+chosen domain has granted you a pool of excess magic. You
+have a pool of domain surges that you use to empower your
+domain spells. The number of domain surges in the pool
+equals 1 + your Intelligence modifier (minimum of 1) .",48.2,519.5,283.5,585.5,9,0,0,,,text
+Wizard - Theurgy.pdf,1,12,"When you cast a cleric domain spell from your chosen
+domain by expending a spell slot, you can expend any
+number of domain surges from the pool to increase the
+spell's level by an amount equal to the domain surges you
+expended, without expending a higher level spell slot. You can
+increase a spell's level this way up to the highest level for
+which you have spell slots, but no higher than 5th level.",48.2,587.8,291.1,665.0,9,0,0,,,text
+Wizard - Theurgy.pdf,1,13,"Your pool regains all expended domain surges when you
+finish a long rest. As a bonus action, you can expend a spell
+slot to regain a number of expended domain surges equal to
+the slot's level.",48.2,667.3,285.0,710.8,9,0,0,,,text
+Wizard - Theurgy.pdf,1,14,Consecrated Arcana,320.2,426.1,439.6,439.1,13,0,0,,,text
+Wizard - Theurgy.pdf,1,15,"10th-level Theurgy feature
+Your magic is weaved by both arcane and divine energy.
+You gain the following benefits",320.2,440.0,547.9,471.5,9,0,0,,,text
+Wizard - Theurgy.pdf,1,16,"Whenever you cast a wizard spell that deals acid, cold, fire,
+lightning, poison or thunder damage, you can change the
+type of damage it deals to radiant. If you do, you can add
+your Intelligence modifier to one damage roll of the spell.
+Whenever you cast a wizard spell of 1st level or higher
+that restores hit points to a creature, the creature regains
+additional hit points equal to your Intelligence modifier (a
+minimum of 1 additional hit point) .",332.7,481.3,563.2,569.0,9,0,0,,,text
+Wizard - Theurgy.pdf,1,17,Exalted Arcanist,320.2,576.9,420.0,589.8,13,0,0,,,text
+Wizard - Theurgy.pdf,1,18,"14th-level Theurgy feature
+You can harness divine magic to perform miraculous feats
+of spellcraft. As an action, you can expend one or more
+domain surges from your pool and name a cleric spell of your
+choice that is of a level equal to the number of domain surges
+you expended and has a casting time of 1 action . You don't
+need to meet any requirements of the spell, including any
+costly components: the spell simply takes effect as part of this
+action.",320.2,591.5,563.3,691.3,9,0,0,,,text
+Wizard - Theurgy.pdf,1,19,"Once you use this feature, you can't use it again until you
+finish a long rest.",320.2,694.3,552.6,714.5,9,0,0,,,text
+Wizard - Theurgy.pdf,1,20,12,587.1,767.0,596.4,775.1,8,0,0,,,text

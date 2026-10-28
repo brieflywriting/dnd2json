@@ -1,0 +1,58 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Puppetry.pdf,1,0,Bard: College of Puppetry,46.6,27.4,237.1,47.5,23.0,,,paragraph_title,0.993,ocr
+Bard - College of Puppetry.pdf,1,1,"Bards of the College of Puppetry are master manipulators,individuals who revel in the subtlety of their art. While other bards might enjoy the applause of their audiences or the respect of their peers, these puppeteers enjoy being the guiding hand, the shadow behind the curtain.",45.6,50.4,289.0,104.2,11.0,,,text,0.99,ocr
+Bard - College of Puppetry.pdf,1,2,"Bards of this college gather like others, but typically only to hold grand competitions or induct new members into their illustrious numbers. Each bard will play a performance,hoping to establish themselves as a master puppeteer. Joint performances are not unheard of, but they are rare, a result of their solitary mindsets.",45.6,106.6,288.5,170.4,11.0,,,text,0.991,ocr
+Bard - College of Puppetry.pdf,1,3,"Their goals are varied, but they often involve pushing and pulling the right people into the right places at the right times. Carefully orchestrated, their masterpiece is perfect only when no one is even aware of its existence. Whether the result be the upheaval of an age or a simple heist, the delight is in the craft itself.",45.1,172.8,288.0,237.6,10.1,,,text,0.987,ocr
+Bard - College of Puppetry.pdf,1,4,College of Puppetry Spells 3rd-level College of Puppetry feature,46.1,244.8,224.2,274.1,16.8,,,paragraph_title,0.988,ocr
+Bard - College of Puppetry.pdf,1,5,"You learn additional spells when you reach certain levels in this class, as shown on the College of Puppetry Spells table.Each of these spells counts as a bard spell for you, but doesn't count against the number of bard spells you know.",45.6,278.9,288.0,322.1,10.8,,,text,0.985,ocr
+Bard - College of Puppetry.pdf,1,6,Puppetry,46.1,432.5,111.8,448.3,21.1,,,paragraph_title,1.0,ocr
+Bard - College of Puppetry.pdf,1,7,3rd-level College of Puppetry feature,46.6,450.2,197.8,460.3,12.5,,,paragraph_title,0.998,ocr
+Bard - College of Puppetry.pdf,1,8,"Your skill with puppetry transcends the physical. You can add your proficiency bonus to ability checks you make that involve puppets, and you learn the stroke of lunacyOEs cantrip. If you already know it, you instead learn one bard cantrip of your choice.",45.1,465.6,283.2,518.4,10.6,,,text,0.982,ocr
+Bard - College of Puppetry.pdf,1,9,the die in this way.,44.2,520.8,275.0,674.4,9.6,,,text,0.971,ocr
+Bard - College of Puppetry.pdf,1,10,Manipulate,318.2,29.3,399.4,45.6,18.2,,,paragraph_title,1.0,ocr
+Bard - College of Puppetry.pdf,1,11,6th-level College of Puppetry feature,318.7,48.0,469.9,58.1,11.5,,,paragraph_title,0.989,ocr
+Bard - College of Puppetry.pdf,1,12,"When a creature fails its saving throw against one of your bard spells or features, you learn its surface thoughts as if by the detect thoughts spell until the end of your next turn.Additionally, as an action, choose a creature you can see within 30 feet of you. The creature must succeed on a Wisdom saving throw against your spell save DC or be convinced one of the following is true (your choice each time you use this feature):",316.8,63.8,555.4,149.8,10.6,,,text,0.992,ocr
+Bard - College of Puppetry.pdf,1,13,"Someone just called out to it, using its name if it has one. You choose the general intent of the message,and the sound originates from a location of your choice within 30 feet of the creature, even behind an object or structure.",318.7,159.4,553.0,217.0,11.0,,,text,0.984,ocr
+Bard - College of Puppetry.pdf,1,14,"Something just touched it. You choose the sensation,although it must be harmless.",319.7,219.4,553.4,240.5,11.0,,,text,0.988,ocr
+Bard - College of Puppetry.pdf,1,15,"Something just moved. The visual phenomenon is too fast to make out detail, and it must fit within a 5 foot cube. It appears at a location of your choice that you can see within 30 feet of the creature, or the closest location to it that the creature can see.",319.2,243.4,556.8,299.5,9.6,,,text,0.988,ocr
+Bard - College of Puppetry.pdf,1,16,A creature that succeeds on its saving throw against this feature is immune to its effects for 24 hours. A creature that fails its saving throw against this feature has disadvantage on subsequent saving throws it makes against it for the next minute.,317.3,309.6,561.6,362.9,11.0,,,text,0.99,ocr
+Bard - College of Puppetry.pdf,1,17,Pull The Strings,318.2,370.6,428.2,387.8,21.6,,,paragraph_title,1.0,ocr
+Bard - College of Puppetry.pdf,1,18,14th-level College of Puppetry feature,318.7,389.8,472.8,399.4,12.0,,,paragraph_title,0.989,ocr
+Bard - College of Puppetry.pdf,1,19,"When you use your Bardic Inspiration feature, you can puppeteer a creature to your or its benefit. Either the target of your Bardic Inspiration or a creature you can see under the effects of one of your spells immediately uses its reaction to move up to its speed and make a single weapon attack or cast a cantrip. You choose the target of the attack or cantrip, although you can't force a creature to harm itself.An unwilling creature can make a Wisdom saving throw against your spell save DC to avoid this effect, and the creature doesn't move into obviously dangerous ground,such as a fire or a pit.",317.3,404.6,560.2,524.6,11.0,,,text,0.984,ocr
+Bard - College of Puppetry.pdf,1,20,College of Puppetry Spells,46.1,331.2,212.6,342.2,13.0,,,figure_title,0.955,ocr
+Bard - College of Puppetry.pdf,1,21,"Spells
+Bard Level
+3rd
+spring°ES, suggestion
+dancing marionOES
+5th
+7th
+compulsion
+9th
+dominate person",46.6,345.6,290.4,421.0,13.9,,,table,0.99,ocr
+Bard - College of Puppetry.pdf,1,22,"30 feet of you that 
+
+nst one of your 
+
+Bardic Inspira
+t lasts until 
+
+or until the 
+
+rom you.
+
+o yours 
+
+eature 
+
+you can 
+
+ration 
+
+a 
+
+use 
+
+oll 
+
+A COLLEGE OF PUPPETRY BARD PULLS A MINOTAUR'S STRINGS.32",199.7,523.7,611.5,792.0,9.6,,,image,0.957,ocr

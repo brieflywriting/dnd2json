@@ -1,0 +1,60 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Wizard - School of Hex Magic.pdf,1,0,Wizard: SChool Of HeX Magic,45.6,29.8,244.8,41.3,12.0,,,paragraph_title,0.781,ocr
+Wizard - School of Hex Magic.pdf,1,1,"From witches to hexmages, the school of hex magic has gained an unsavoury reputation among both scholarly and regular folk alike. It is regarded as a cruel and twisting style of the arcane, manipulating the very fabric of magic to inflict debilitating conditions and restrictions on others. However,those who have taken the time to research this field have realised that the school of hex magic is more than just maledictions, as it reaches into every school of magic through rituals and other incantations.",45.1,49.9,290.4,152.2,9.1,,,text,0.988,ocr
+Wizard - School of Hex Magic.pdf,1,2,"The reputation of the school of hex magic isn't unwarranted as most of their practitioners are among the evil folk in the world, particularly hags and hexbloods. Some ostracised scholars have taken to researching the school,hoping that by understanding and documenting it they can restore their place in one of the arcane institutions.",45.1,156.5,290.9,222.7,9.6,,,text,0.989,ocr
+Wizard - School of Hex Magic.pdf,1,3,RITuAl InITiATE,45.6,342.2,135.4,351.4,10.1,,,paragraph_title,0.768,ocr
+Wizard - School of Hex Magic.pdf,1,4,"Beginning when you select this school at 2nd level, the gold and time you must spend to copy a spell with the ritual tag into your spellbook is halved.",45.6,355.2,281.3,387.4,9.6,,,text,0.994,ocr
+Wizard - School of Hex Magic.pdf,1,5,CRUEL MALEDICTION,46.1,398.9,159.4,408.5,10.1,,,paragraph_title,0.981,ocr
+Wizard - School of Hex Magic.pdf,1,6,"Also at 2nd level, you learn a special curse known as a feet. The target must succeed a Charisma saving throw roll or a saving throw before the curse ends, the creature roll or saving throw.",45.1,412.3,290.4,515.0,10.3,,,text,0.979,ocr
+Wizard - School of Hex Magic.pdf,1,7,"can only curse one creature at a time in this way, and a creature can only be affected by one malediction at a time.",45.6,517.4,288.0,573.6,10.3,,,text,0.971,ocr
+Wizard - School of Hex Magic.pdf,1,8,level or higher spell slot to use it again.,45.6,577.4,286.1,609.6,9.6,,,text,0.918,ocr
+Wizard - School of Hex Magic.pdf,1,9,APPrenTiCe Of The Dark Arts,45.6,621.6,211.7,630.7,9.6,,,paragraph_title,0.763,ocr
+Wizard - School of Hex Magic.pdf,1,10,"When you reach 6th level, you have gained an increased understanding of your curses, allowing you to manipulate them with ease. You add the bestow curse and remove curse spells to your spellbook if they are not there already. These spells are always prepared for you,and they don't count against the number of spells you can have prepared.",45.1,634.1,277.4,713.8,9.1,,,text,0.987,ocr
+Wizard - School of Hex Magic.pdf,1,11,"Furthermore, you can spend 1 minute touching a creature or an object and learn whether the target is under the effects of bestow curse or similar magic.",45.1,717.1,279.4,749.8,8.9,,,text,0.99,ocr
+Wizard - School of Hex Magic.pdf,1,12,Complete Guide to Sanctum - u/FrostBladestorm,57.6,751.2,254.9,760.3,10.6,,,text,0.986,ocr
+Wizard - School of Hex Magic.pdf,1,13,RITual RITes,317.8,31.2,391.2,40.8,11.0,,,paragraph_title,0.76,ocr
+Wizard - School of Hex Magic.pdf,1,14,"Starting at 1Oth level, you have learned to twist your rituals through various dark magic rites. When you are ritual casting a spell, you can choose to use one of these rites to enhance the casting of that spell. You can only use one rite on a spell when you ritual cast it.",316.8,44.6,562.1,100.8,10.1,,,text,0.984,ocr
+Wizard - School of Hex Magic.pdf,1,15,"Rite of Acceleration. The ritual casting of the spell takes 1minute longer to cast than normal, instead of 10 minutes.",317.3,103.7,561.6,124.8,10.6,,,text,0.995,ocr
+Wizard - School of Hex Magic.pdf,1,16,"Rite of Endurance. If the spell has a duration of 1 minute or longer, you can double its duration, to a maximum duration of 24 hours.",316.8,128.2,557.8,159.8,10.1,,,text,0.992,ocr
+Wizard - School of Hex Magic.pdf,1,17,"Rite of Extension. If the spell has a range of 5 feet or greater, you can double the range of the spell",317.3,164.2,541.4,184.3,9.4,,,text,0.977,ocr
+Wizard - School of Hex Magic.pdf,1,18,Rite of Substitution. You ignore material components for the spell's casting.,317.3,188.2,558.2,208.3,10.8,,,text,0.976,ocr
+Wizard - School of Hex Magic.pdf,1,19,"Once you use a rite, you can't ritual cast a spell using that rite again until you finish a short or long rest.",317.3,212.2,554.4,232.3,10.3,,,text,0.99,ocr
+Wizard - School of Hex Magic.pdf,1,20,MASTER OF CURSES,317.3,243.8,420.0,253.4,10.1,,,paragraph_title,0.795,ocr
+Wizard - School of Hex Magic.pdf,1,21,"Finally, at 14th level, you have perfected your understanding of curses. If you fail a saving throw against a spell or magical effect initiated by a target cursed by your Cruel Malediction,you can use your reaction to roll a d4. On a 3 or higher, you succeed your saving throw, regardless of its roll.",316.8,257.3,559.2,313.4,10.6,,,text,0.988,ocr
+Wizard - School of Hex Magic.pdf,1,22,"Also, a creature under the effects of your Cruel Malediction rolls a d6, instead of a d4, when taking a penalty to an attack roll or saving throw.",316.8,316.3,562.1,348.5,11.0,,,text,0.972,ocr
+Wizard - School of Hex Magic.pdf,1,23,Version 1.0,317.8,359.5,366.7,367.7,13.0,,,paragraph_title,0.999,ocr
+Wizard - School of Hex Magic.pdf,1,24,Got any ideas or feedback? Message me here,317.8,380.2,496.8,388.8,9.6,,,text,0.974,ocr
+Wizard - School of Hex Magic.pdf,1,25,Rre Aun,15.4,671.0,25.0,731.5,61.0,,,aside_text,0.272,ocr
+Wizard - School of Hex Magic.pdf,1,26,School of HeX Magic Features,46.1,233.8,217.9,243.8,11.0,,,figure_title,0.812,ocr
+Wizard - School of Hex Magic.pdf,1,27,"Feature
+Wizard Level
+2nd
+Ritual Initiate, Cruel Malediction
+6th
+Apprentice of the Dark Arts
+10th
+Ritual Rites
+14th
+Master of Curses",49.0,246.7,289.0,327.4,13.0,,,table,0.984,ocr
+Wizard - School of Hex Magic.pdf,1,28,"nus 
+
+60
+
+u.
+
+ck 
+
+ack 
+
+nd 
+
+the 
+
+ou 
+
+ou 
+
+.",276.5,408.5,612.0,791.5,10.1,,,image,0.94,ocr
+Wizard - School of Hex Magic.pdf,2,29,WWW.GMBINDER.COM,107.5,80.2,230.4,92.6,11.0,,,text,1.0,ocr
+Wizard - School of Hex Magic.pdf,2,30,ThiS document Was Lovingly CreAted USING GM BINDER.,376.3,22.6,583.2,46.6,12.5,,,text,0.879,ocr
+Wizard - School of Hex Magic.pdf,2,31,"If you would like to support the GM Binder developers,consider joining our Patreon community",370.6,69.6,588.0,92.6,10.6,,,text,0.983,ocr

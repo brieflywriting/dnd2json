@@ -1,0 +1,61 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Wizard - School of Mythos.pdf,1,0,Giruza's  SCHOOL OF MYTHOS,122.9,69.6,492.0,156.0,38.9,,,doc_title,0.998,ocr
+Wizard - School of Mythos.pdf,1,1,DD HOMEBREW,28.8,638.9,188.2,658.1,16.3,,,text,0.999,ocr
+Wizard - School of Mythos.pdf,1,2,An eldritch horror based arcane tradition for the world's greatest roleplaying game,176.6,721.0,434.4,752.6,15.1,,,text,0.988,ocr
+Wizard - School of Mythos.pdf,2,3,SubcLAss FEATures,46.6,37.4,270.2,56.2,23.0,,,paragraph_title,0.691,ocr
+Wizard - School of Mythos.pdf,2,4,"lerics and paladins have blind faith in their gods.Warlocks and sorcerers gain their abilities because greater wills decide so. You don't have the time or patience to rely on others. As a School of Mythos wizard, you know there is a bigger and older power that you can reach and are willing to pay the price of studying and mastering it.",91.2,73.9,290.9,152.6,10.6,,,text,0.989,ocr
+Wizard - School of Mythos.pdf,2,5,Occult Research,46.1,165.6,163.2,176.2,13.9,,,paragraph_title,0.951,ocr
+Wizard - School of Mythos.pdf,2,6,"When you select this school at 2nd level, you gain proficiency in History, Arcana or Religion.",45.6,183.8,290.9,204.5,10.6,,,text,0.998,ocr
+Wizard - School of Mythos.pdf,2,7,"Before copying a spell into your spellbook, you can make a DC 15 Arcana check. If you succeed, the time you need to copy the spell is halved. If you succeed by 5 or more, the gold it costs is also halved.",45.1,206.9,290.9,249.1,12.2,,,text,0.983,ocr
+Wizard - School of Mythos.pdf,2,8,Aberrant Scholar,46.1,264.5,169.4,274.1,13.9,,,paragraph_title,0.898,ocr
+Wizard - School of Mythos.pdf,2,9,"Your training allows you to easily find what is hidden to others. Also at 2nd level, you gain advantage on ability checks to find or reveal information about occult lore, magic items or rituals, and symbology.",45.1,281.8,290.9,325.0,10.3,,,text,0.986,ocr
+Wizard - School of Mythos.pdf,2,10,"Additionally, you start to manifest some of your connection with these aberrant powers. After taking damage from any source, you can use your reaction to cast the eldritch blast cantrip, dealing cold, psychic or necrotic damage at your choice instead of force damage. You can do so a number of times equal to your proficiency bonus before you finish a long rest.",44.6,327.8,290.9,404.6,10.6,,,text,0.986,ocr
+Wizard - School of Mythos.pdf,2,11,Tome of Secrets,45.6,419.5,156.5,429.1,12.5,,,paragraph_title,0.86,ocr
+Wizard - School of Mythos.pdf,2,12,"Beginning at 6th level, most of your deepest knowledge is kept within your spellbook, which has become a Tome of Secrets. You learn two ritual spells from any spell list, and while holding your Tome of Secrets:",45.1,437.3,291.4,480.5,10.6,,,text,0.986,ocr
+Wizard - School of Mythos.pdf,2,13,"• Ritual casting time is halved, and when you ritually cast a ritual spell you gain temporary hit points equal to your Wizard level. You must finish a long rest before you can gain temporary hit points in this way again.",49.9,490.1,290.9,533.8,10.6,,,text,0.992,ocr
+Wizard - School of Mythos.pdf,2,14,"• You can use your own blood and energy to cast spells instead of material components. For every 50g of material components you replace, you take 1d8 necrotic damage that can't be reduced in any way. This damage can trigger Aberrant Scholar.",50.4,542.9,290.9,596.6,9.6,,,text,0.988,ocr
+Wizard - School of Mythos.pdf,2,15,"You gain expertise in History, Arcana or Religion.",50.4,606.7,253.9,616.3,9.6,,,text,0.988,ocr
+Wizard - School of Mythos.pdf,2,16,• You can add your Intelligence modifier to Wisdom saving throws.,50.4,625.4,290.9,645.1,10.8,,,text,0.989,ocr
+Wizard - School of Mythos.pdf,2,17,"If you lose your Tome of Secrets, you can create a new one by performing a ritual over a new spellbook during an hour.You then gain a level of exhaustion.",45.6,662.9,290.9,694.6,9.6,,,text,0.99,ocr
+Wizard - School of Mythos.pdf,2,18,Eldritch Visions,318.2,68.6,432.5,79.2,13.0,,,paragraph_title,0.959,ocr
+Wizard - School of Mythos.pdf,2,19,"Also at 6ht level, the dark energies you study begin to undermine your sanity. You roll saving throws against being frightened with disadvantage, and if you fail, instead of becoming frightened, you roll a d8 in the Eldritch Visions table and resolve the effect. This die becomes a d10 at 10th level and a d12 at 14th level.",316.3,86.9,563.0,152.6,11.0,,,text,0.985,ocr
+Wizard - School of Mythos.pdf,2,20,"Additionally, every time after you cast a spell of 3rd level or higher and fail, you must make a Wisdom saving throw with disadvantage against your spell save DC. If you fail, you roll in the Eldritch Visions table and resolve the effect. Successfully casting a spell of 3rd level or higher in a dire situation or any other ""relevant achievement"" you make may give you disadvantage on your next roll in the Eldritch Visions table, at the discretion of the DM.",316.3,155.0,563.0,243.8,9.8,,,text,0.986,ocr
+Wizard - School of Mythos.pdf,2,21,ARcane Sin,317.8,258.2,392.6,267.8,14.4,,,paragraph_title,0.823,ocr
+Wizard - School of Mythos.pdf,2,22,"At 10th level, you begin to understand how to exploit the strength of the old magic you study. You can use your Arcane Recovery feature twice between long rests without the usual level limitation for the spells you can recover. You also gain a +1 bonus to your spell attack rolls and spell save DC.",316.8,276.0,562.6,330.7,9.6,,,text,0.989,ocr
+Wizard - School of Mythos.pdf,2,23,ReVeLATIoNS fROm BeYoNd,317.8,345.1,491.5,354.7,13.0,,,paragraph_title,0.714,ocr
+Wizard - School of Mythos.pdf,2,24,"At 14th level, the aberrant horrors you have faced have also gifted you with tremendous potential. You learn two spells from any spell list. When you succeed on a saving throw against being frightened or a Wisdom saving throw after failing a spell, you instead become enlightened until the end of your next turn. While enlightened:",316.8,362.9,562.6,428.6,9.6,,,text,0.985,ocr
+Wizard - School of Mythos.pdf,2,25,•The bonus you gain to spell attack rolls and spell save DC becomes +2.,322.1,438.2,562.6,458.4,10.8,,,text,0.989,ocr
+Wizard - School of Mythos.pdf,2,26,"•You gain advantage on Dexterity, Intelligence, Wisdom and Charisma saving throws.",322.1,468.5,562.1,488.6,10.8,,,text,0.989,ocr
+Wizard - School of Mythos.pdf,2,27,• You take half damage when replacing spell material components with your life energy.,322.6,498.7,562.6,518.9,10.6,,,text,0.981,ocr
+Wizard - School of Mythos.pdf,2,28,"• You can use your bonus action to cast the eldritch blast cantrip dealing cold, psychic or necrotic damage instead of force damage.",322.6,528.5,563.0,559.7,11.0,,,text,0.981,ocr
+Wizard - School of Mythos.pdf,2,29,• You are immune to the frightened condition and don't have to make Wisdom saving throws when failing a spell.,322.6,569.8,562.6,589.9,10.8,,,text,0.98,ocr
+Wizard - School of Mythos.pdf,2,30,"While you aren't enlightened, you can choose to make a Wisdom saving throw after casting a spell of 3rd level or higher as if you had failed, even if you did not. If you do so,you do not have disadvantage on this saving throw. If you success, you become enlightened, and if you fail, you roll on the Eldritch Visions table as normal.",316.3,606.7,563.0,672.5,9.6,,,text,0.989,ocr
+Wizard - School of Mythos.pdf,3,31,Eldritch Visions Table,46.6,27.8,174.7,37.9,12.0,,,paragraph_title,0.942,ocr
+Wizard - School of Mythos.pdf,3,32,Roll Effect,47.0,45.1,94.6,54.7,12.0,,,paragraph_title,0.995,ocr
+Wizard - School of Mythos.pdf,3,33,1-2 No effect.,48.5,61.4,110.4,71.0,13.0,,,paragraph_title,0.997,ocr
+Wizard - School of Mythos.pdf,3,34,3You are unable to cast any spell other than cantrips until the end of your next turn.,52.3,77.3,408.0,87.8,10.6,,,text,0.992,ocr
+Wizard - School of Mythos.pdf,3,35,"4You become frightened of the closest enemy to you for one minute. At the end of each of your turns, you can make a Wisdom saving throw against your spell savé DC to end this effect. If there is no enemy within sight, you become frightened of the closest creature.",52.3,93.6,551.5,123.8,12.0,,,text,0.987,ocr
+Wizard - School of Mythos.pdf,3,36,"5 You use all of your movement to move towards the closest enemy and are charmed by them until the end of your next turn. If there is no enemy within sight, you become charmed of the closest creature.",52.3,129.6,556.3,149.3,12.7,,,text,0.969,ocr
+Wizard - School of Mythos.pdf,3,37,6 You fall prone and your speed becomes O for one minute or until a creature uses an action to get you up.,52.3,155.5,500.6,166.1,14.9,,,text,0.979,ocr
+Wizard - School of Mythos.pdf,3,38,"7 You use your next available action to cast the shocking grasp spell on the closest creature to you, moving towards them if necessary.",52.3,171.8,560.6,192.0,14.2,,,text,0.988,ocr
+Wizard - School of Mythos.pdf,3,39,"8 You are incapacitated for one minute. At the end of each of your turns, you can make an Intelligence saving throw against your spell save DC to end this effect.",51.8,197.3,535.7,217.9,13.0,,,text,0.988,ocr
+Wizard - School of Mythos.pdf,3,40,"9 You can choose to receive 8d6 psychic damage or become stunned for one minute. At the end of each of your turns,you can make a Constitution saving throw against your spell save DC to end this effect.",51.4,223.7,550.6,243.8,14.4,,,text,0.983,ocr
+Wizard - School of Mythos.pdf,3,41,10 You can choose to receive 8d6 psychic damage or roll in the Short Term Madness table and gain the corresponding effect.,49.9,249.6,546.2,269.3,13.4,,,text,0.998,ocr
+Wizard - School of Mythos.pdf,3,42,"11 You can choose to receive 1Od6 psychic damage and become paralyzed until the end of your next turn, or roll in the Long Term Madness table and gain the corresponding effect.",50.4,275.5,547.2,296.2,13.0,,,text,0.979,ocr
+Wizard - School of Mythos.pdf,3,43,12 Roll in the Indefinite Madness table and gain the corresponding effect.,49.9,301.4,359.5,312.5,15.4,,,text,0.977,ocr
+Wizard - School of Mythos.pdf,3,44,CREDITS,47.0,613.0,116.6,626.9,16.8,,,paragraph_title,0.842,ocr
+Wizard - School of Mythos.pdf,3,45,"Homebrew Content Creator 
+Giruza 
+
+Twitter: @Giruza_
+
+Reddit: /u/Giruza_
+
+Artwork 
+
+Cover: Necromancer by Shredder Dima 
+Third page: Hermaeus Mora by David Whitman 
+Cover Design 
+
+Template: /u/TheLurkerOne",45.6,634.6,236.2,735.8,10.6,,,text,0.983,ocr
+Wizard - School of Mythos.pdf,3,46,GO,256.3,329.8,611.0,792.0,80.2,,,image,0.408,ocr

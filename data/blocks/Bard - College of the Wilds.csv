@@ -1,0 +1,46 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of the Wilds.pdf,1,0,COLLEGE OF THE WILDS,35.5,32.6,178.1,43.7,13.0,,,paragraph_title,0.884,ocr
+Bard - College of the Wilds.pdf,1,1,"Some Bards are so inspired by the majesty of nature they can draw musical magic from nature itself. Often more at home in nature than on the stage, Bards who join the College of the Wilds feel a special kinship with wild plants and animals of all kinds. They can use their enchanting music to soothe even the most savage beasts, turning them from enemy to ally.",34.1,51.4,279.4,117.1,9.6,,,text,0.99,ocr
+Bard - College of the Wilds.pdf,1,2,FRiEND OF NaTURE,34.6,195.8,137.8,205.4,11.5,,,paragraph_title,0.751,ocr
+Bard - College of the Wilds.pdf,1,3,3rd-level College of the Wilds feature,35.0,209.3,184.3,217.9,9.6,,,paragraph_title,0.995,ocr
+Bard - College of the Wilds.pdf,1,4,You have gained the skills to charm and subdue wild plants and animals of all kinds. You gain proficiency in both Animal Handling and Performance and whenever you would make a Wisdom (Animal Handling) check you can choose to make a Charisma (Animal Handling) check instead,34.1,220.8,274.6,274.6,9.6,,,text,0.993,ocr
+Bard - College of the Wilds.pdf,1,5,"Also, whenever you cast an enchantment spell from the Bard spell list that can target a humanoid, you can choose to target beasts and plants with that spell as well.",34.6,277.9,274.1,310.1,8.2,,,text,0.985,ocr
+Bard - College of the Wilds.pdf,1,6,Bard Level College Feature,42.2,123.4,158.4,133.0,11.5,,,figure_title,1.0,ocr
+Bard - College of the Wilds.pdf,1,7,"3rd
+Friend of Nature, Primal Inspiration
+6th
+Wild Companion
+14th
+Soothe the Savage Beast",36.0,136.3,279.4,185.3,13.0,,,table,0.993,ocr
+Bard - College of the Wilds.pdf,1,8,Content policy. Not approved/endorsed by Wizards. Portions of the izards of the Coast.Wizards of the Coast LLC.,0.0,341.8,244.3,361.9,9.1,,,footnote,0.987,ocr
+Bard - College of the Wilds.pdf,2,9,PrIMal Inspiration,46.1,30.2,156.5,39.8,12.0,,,paragraph_title,0.794,ocr
+Bard - College of the Wilds.pdf,2,10,3rd-level College of the Wilds feature,46.1,43.2,195.4,51.8,9.6,,,paragraph_title,0.988,ocr
+Bard - College of the Wilds.pdf,2,11,"Your bardic magic can bestow primal on others. As a bonus action, you can expend a use of Bardic Inspiration and grant one of the effects below to one creature of your choice within 60 feet that can hear you. The abilities last for 1 hour, but they end early if the creature uses a bonus action to end it,if you grant it another ability, or it is incapacitated:",45.1,54.7,287.5,121.0,10.1,,,text,0.985,ocr
+Bard - College of the Wilds.pdf,2,12,FLighT of THe SQuiRREL,45.6,130.1,174.2,139.7,12.5,,,paragraph_title,0.746,ocr
+Bard - College of the Wilds.pdf,2,13,"The creature sprouts lightweight flaps or fins. When it falls,it subtracts 60 feet from its fall when calculating fall damage,and it can move horizontally 2 feet for every 1 foot it falls.",45.1,143.5,288.5,175.2,11.5,,,text,0.989,ocr
+Bard - College of the Wilds.pdf,2,14,Grip Of the Monkey,45.6,184.8,158.4,193.9,10.1,,,paragraph_title,0.844,ocr
+Bard - College of the Wilds.pdf,2,15,The creature gains the ability to grip almost any surface. It gains a 30-foot climbing speed and it has advantage on any Strength (Athletics) checks it makes to grapple creatures.,45.6,198.7,279.8,230.4,9.6,,,text,0.99,ocr
+Bard - College of the Wilds.pdf,2,16,ReSILienCe OF The FOrEsT,46.1,239.5,183.4,248.6,11.0,,,paragraph_title,0.68,ocr
+Bard - College of the Wilds.pdf,2,17,The creature's skin becomes rough and bark-like. It gains the benefits of the barkskin spell for the duration.,45.6,253.4,288.0,273.6,8.6,,,text,0.995,ocr
+Bard - College of the Wilds.pdf,2,18,SPeed of the Deer,46.1,284.2,146.9,293.8,11.5,,,paragraph_title,0.887,ocr
+Bard - College of the Wilds.pdf,2,19,The creature's legs grow limber and its pace quickens. Its movement speed increases by 15 feet.,45.6,297.6,274.6,317.8,10.1,,,text,0.988,ocr
+Bard - College of the Wilds.pdf,2,20,1 4th-level College of the Wilds feature,325.4,306.7,479.0,315.4,10.6,,,text,0.988,ocr
+Bard - College of the Wilds.pdf,2,21,WILD COMPANION,316.8,29.8,416.6,39.8,12.5,,,paragraph_title,0.962,ocr
+Bard - College of the Wilds.pdf,2,22,6th-level College of the Wilds feature,317.8,43.2,466.6,51.8,9.6,,,paragraph_title,0.992,ocr
+Bard - College of the Wilds.pdf,2,23,"At the end of a long rest, you can call a creature of the wild to your side. One beast or plant of your choice native to the area appears. It is friendly to you and obeys you completely In combat, it shares your turn in initiative order. It can move and use its reaction on its own, but it can only take the dodge action unless you use your bonus action to command it to take an action from its stat block or another action.",316.8,54.2,560.2,132.0,9.6,,,text,0.983,ocr
+Bard - College of the Wilds.pdf,2,24,"Your Bard level determines the maximum CR of the beast or plant you can summon, as shown in the table below:",317.3,134.9,556.8,155.0,9.4,,,text,0.985,ocr
+Bard - College of the Wilds.pdf,2,25,"If your companion has died within the past hour, you can touch it and expend a spell slot of 1st-level or higher and it returns to life with all of its hit points restored. You can only control one Companion at a time with this feature. Calling a second Companion causes the first to flee into the wild.",316.8,229.4,556.3,283.2,9.6,,,text,0.987,ocr
+Bard - College of the Wilds.pdf,2,26,SOOTHE THE SAVAGE BEAST,320.6,293.3,467.5,302.9,11.0,,,paragraph_title,0.902,ocr
+Bard - College of the Wilds.pdf,2,27,"Your mastery of music allows you to soothe any creature,SWiftness of the Dolphin no matter how savage it is. You can target aberrations,The creature grows webbing between its dragons, giants, monstrosities with enchantment spells digits. It gains a 30-foot swimming speed that normally can only target humanoids.and it can hold its breath for 1 hour.You also learn dominate beast, but it doesn't count against your total number of Spells Known.",0.0,322.1,611.0,791.0,9.6,,,image,0.967,ocr
+Bard - College of the Wilds.pdf,2,28,"Max. CR
+Example Companions
+Bard Level
+6th
+Brown Bear, Vine Blight
+1
+14th
+2
+Awakened Tree, Giant Elk
+17th
+Elephant, Giant Scorpion
+4",319.2,159.8,562.6,223.2,12.2,,,table,0.996,ocr

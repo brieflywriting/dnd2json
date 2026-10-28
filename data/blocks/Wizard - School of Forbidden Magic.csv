@@ -1,0 +1,145 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Wizard - School of Forbidden Magic.pdf,1,0,Wizard - School of Forbidden Magic,48.2,33.4,507.4,63.7,28,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,1,D,48.2,54.1,100.1,153.1,90,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,2,"eep within hidden dungeons, wizards of the
+School of Forbidden Magic push the boundary
+of magic into unknown eldritch depths.",100.1,69.8,283.2,101.2,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,3,"Traditional wizarding schools may shun their
+practices, yet wizards of Forbidden Magic delve
+deep into the dark arts. Yours is the magic of
+heresy; you can sacrifice your own flesh and
+blood to fuel your spells, and desecrate the souls of the
+deceased to harvest their magic.",48.2,104.3,287.3,169.5,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,4,"Wizards of this school are branded as cultists or apostates.
+The powers that you learn come with a steep price, but with
+them you become capable of both great and terrible feats.",48.2,172.5,289.3,204.0,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,5,Hidden Spellbook,48.2,213.5,169.1,229.8,15,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,6,"Wizards of this school dabble in dangerous and illegal
+magicks, and hence learn how to conceal their spells in
+obscure ways. Beginning when you select this school at 2nd
+level, you can choose any of the following options for your
+spellbook:",48.2,234.0,284.1,288.0,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,7,"You can tattoo your spells onto your skin rather than
+storing them in a spellbook, allowing you to smuggle
+magic into secret places. Over the course of a long rest,
+you can tattoo a spell onto your body, expending the same
+amount of gold and time as it would cost to copy the spell
+into your spellbook normally. Spells that are tattooed onto
+you cannot be removed from your list of prepared wizard
+spells, and you can cast them without using a spellcasting
+focus or material component (provided the material
+components have no associated cost). 
+The maximum number of number of spells you can tattoo
+onto yourself with is equal to your proficiency bonus. If
+you tattoo the same spell again after removing it, you must
+pay the same gold and time cost again. Removing a
+tattooed spell is a painful process that takes the same
+amount of time it took to add the spell, and you start the
+following day with a reduction of hit points equal to 1d8
+multiplied by the level of the spell removed.",60.8,298.5,291.0,498.8,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,8,"You can make the spells stored in your spellbook illegible.
+When copying a spell into your spellbook, you can choose
+to write the spells in a unique cipher, such that no other
+wizard but you can copy spells from you or decipher what
+spells have you learned.",332.7,69.8,560.1,123.7,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,9,"You can magically change the form of your spellbook into
+another object. Over the course of a long rest, you can
+reshape your spellbook to make it appear as any mundane
+item with a value of less than 20 gp. For example, a wizard
+might transform their spellbook into a cloak or a dagger. A
+successful Intelligence (Arcana) check against your spell
+save DC is required to determine that the object you
+create is actually a spellbook. 
+Alternatively, if you know the Find Familiar spell, then over
+the course of a long rest you can transform your spellbook
+into your familiar. Mechanically your spellbook functions
+the same way, regardless of what form it is in.",332.7,133.5,563.8,266.2,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,10,Sacrificial Magic,320.2,276.5,437.9,292.8,15,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,11,"At 2nd level, you gain the ability to sacrifice your own life
+force to fuel your magic. You can choose to cast a spell
+without expending a spell slot, at the cost of wounding
+yourself. Both your current hit points and your hit point
+maximum are reduced by an amount equal to 1d8 multiplied
+by the spell's level. This hit point reduction cannot be
+prevented or avoided by any means, and lasts until the end of
+your next long rest.",320.2,297.0,559.9,384.8,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,12,"If this hit point reduction reduces you to 0 hit points, then
+the spell is performed successfully but you immediately fall
+unconscious and fail a single death saving throw. If your hit
+point maximum is reduced to 0, you instantly die.",320.2,387.8,556.1,430.5,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,13,"The maximum level of spell you can cast with this feature
+is equal to one third of your wizard level, rounded up. You can
+use this feature a number of times equal to 2 plus your
+proficiency bonus. You regain all expended uses when you
+finish a long rest.",320.2,433.5,562.2,487.5,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,14,12,15.6,762.9,24.9,771.0,8,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,15,This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used,63.8,770.2,563.2,778.5,8,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,1,16,are property of Wizards of the Coast. ©Wizards of the Coast LLC.,194.1,779.2,432.9,787.5,8,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,17,Practice of the Dark Arts,48.2,30.5,222.2,46.8,15,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,18,"At 6th level, your study of the forbidden arts leads you to a
+heretical technique, one that enables you to perform magic
+that would normally be beyond your means. When you spend
+ten minutes concentrating (as if performing a ritual) over the
+corpse of a dead creature that was capable of spellcasting,
+then you can extract part of its body (such as some of its hair,
+flesh or an organ) to create a unique Totem of the Dark Arts.
+With this Totem of the Dark Arts in hand, you can then cast
+one of the spells that the creature knew in life.",48.2,51.0,288.8,150.0,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,19,"The spell extracted must be of a level that you would
+otherwise be capable of casting, but it may belong to any
+class's spell list. Regardless of what the spell's original
+spellcasting ability was, you use Intelligence as your
+spellcasting ability. If you are aware of a specific spell that the
+creature could cast, then you can choose to extract that spell.
+Otherwise, the DM grants you any spell of their choice from
+the creature’s spell list. This spell is then added to your list of
+prepared spells, and you can cast it once without expending a
+spell slot. You may also cast the spell multiple times
+expending spell slots of an appropriate level.",48.2,153.0,290.4,274.5,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,20,"Extracting a Totem of the Dark Arts from a creature also
+prevents that creature from being resurrected for so long as
+the Totem of the Dark Arts is in your possession.",48.2,277.5,283.8,309.0,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,21,"A Totem of the Dark Arts will wither away and disappears
+after 1d4 days, or may destroy it earlier. You may only
+possess a single Totem of the Dark Arts at any one time, and
+you can only ever extract one Totem of the Dark Arts from a
+single corpse. Once you create a Totem of the Dark Arts with
+this feature, you can't do so again until you finish a long rest.",48.2,312.0,287.7,377.2,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,22,Twisted Spellcasting,48.2,386.8,189.3,403.0,15,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,23,"At 10th level, your research allows you to use the power of
+blood to substitute for components in your spellcasting.
+When you use your Sacrificial Magic feature, you can
+choose one of the following options:",48.2,407.3,277.0,450.0,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,24,"You cast the spell such that any required material
+components remain unconsumed in the casting.",60.8,460.5,255.0,480.8,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,25,"You cast the spell without providing either verbal or
+somatic components.",60.8,490.5,263.8,510.8,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,26,"When you remove a component of a spell in this way, then
+the hit point reduction inflicted by Sacrificial Magic
+increases to an amount equal to 1d12 multiplied by the
+spell's level.",48.2,521.3,285.4,564.0,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,27,Heretical Mastery,320.2,30.5,445.1,46.8,15,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,28,"At 14th level, you perfect the technique of harvesting magic
+from others. You gain the following benefits:",320.2,51.0,552.8,71.2,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,29,"You can use your Practice of the Dark Arts feature twice,
+and you regain all expended uses when you finish a long
+rest.",332.7,81.0,562.9,112.5,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,30,"You may possess up to two Totems of the Dark Arts at one
+time.",332.7,123.0,561.5,143.2,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,31,"You can now extract Totems of the Dark Arts from living
+creatures, as well as from deceased ones. A living creature
+must be either willing or restrained for the duration while
+you perform the ritual upon them. When a creature has a
+Totem of the Dark Arts extracted from them, the chosen
+spell is removed from their spell list for so long as you
+possess the Totem. You may extract multiple Totems of
+Dark Arts from the same creature so long as they are
+alive. 
+However - unlike for Totems of the Dark Arts extracted
+from the dead - a Totem of the Dark Arts that was
+extracted from a living creature cannot be cast once
+without expending a spell slot. You must expend a spell
+slot of an appropriate level to cast the spell.",332.7,153.0,563.3,308.2,9,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,32,13,587.1,762.9,596.4,771.0,8,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,33,This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used,48.8,770.2,548.2,778.5,8,0,0,,,text
+Wizard - School of Forbidden Magic.pdf,2,34,are property of Wizards of the Coast. ©Wizards of the Coast LLC.,179.1,779.2,417.9,787.5,8,0,0,,,text

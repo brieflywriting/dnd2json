@@ -1,6 +1,7 @@
 
 media/
 .venv/
+.venv-ocr/
 src/dnd2json.egg-info/
 __pycache__/
 .pytest_cache/

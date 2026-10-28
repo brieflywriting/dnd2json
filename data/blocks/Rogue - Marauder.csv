@@ -1,0 +1,54 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Rogue - Marauder.pdf,1,0,Rogue: Marauder,48.2,31.3,165.5,47.5,15,0,0,,,text
+Rogue - Marauder.pdf,1,1,"The Marauder is a brutish rogue that looks out only for itself.
+Such a rogue will not hesitate use innocents as collateral to
+protect themselves if need be. For this rogue, concepts such
+as pride, honour, and fairness mean nothing in the heat of
+combat. The only thing that does matter is who is left alive at
+the end of it all.",48.2,53.8,288.5,119.8,9,0,0,,,text
+Rogue - Marauder.pdf,1,2,Heavy Training,48.2,128.2,139.3,142.2,13,0,0,,,text
+Rogue - Marauder.pdf,1,3,3rd-level Marauder feature,48.2,143.7,153.8,152.7,9,0,0,,,text
+Rogue - Marauder.pdf,1,4,"You gain proficiency in medium armour and two martial
+melee weapons of your choice. You can use the chosen
+weapons to deal Sneak Attack damage, even if they lack the
+finesse property, as long as you meet the other requirements
+for the Sneak Attack.",48.2,164.0,286.6,218.8,9,0,0,,,text
+Rogue - Marauder.pdf,1,5,Dirty Fighting,48.2,227.9,134.9,242.0,13,0,0,,,text
+Rogue - Marauder.pdf,1,6,3rd-level Marauder feature,48.2,243.5,153.8,252.4,9,0,0,,,text
+Rogue - Marauder.pdf,1,7,"You’re not above using crude tactics to gain the upper hand.
+You can attempt to grapple a target as a bonus action.",48.2,263.0,282.0,284.0,9,0,0,,,text
+Rogue - Marauder.pdf,1,8,"You also gain an additional way to use your Sneak Attack;
+you don’t need advantage on your attack roll to use Sneak
+Attack against a creature if you are grappling it, and you don’t
+have disadvantage on the attack roll. All the other rules for
+Sneak Attack still apply to you.",48.2,287.0,289.7,341.8,9,0,0,,,text
+Rogue - Marauder.pdf,1,9,Butchering Blow,48.2,350.2,148.8,364.2,13,0,0,,,text
+Rogue - Marauder.pdf,1,10,3rd-level Marauder feature,48.2,365.7,153.8,374.7,9,0,0,,,text
+Rogue - Marauder.pdf,1,11,"When you reveal yourself to your quarry, you make sure to
+land a killing blow. When you roll for Sneak Attack damage,
+you can choose to reroll a number of Sneak Attack dice equal
+to your Strength modifier (minimum of one die), and you
+must use the new rolls.",48.2,386.0,290.2,440.8,9,0,0,,,text
+Rogue - Marauder.pdf,1,12,Sneaky Savage,320.2,30.7,403.8,44.7,13,0,0,,,text
+Rogue - Marauder.pdf,1,13,9th-level Marauder feature,320.2,46.2,425.2,55.2,9,0,0,,,text
+Rogue - Marauder.pdf,1,14,"You move silently even when wearing bulkier equipment. If
+an armour you’re wearing normally imposes disadvantage on
+Dexterity (Stealth) checks, it no longer does for you.",320.2,66.5,560.7,98.0,9,0,0,,,text
+Rogue - Marauder.pdf,1,15,"Additionally, if you are hidden from a creature and attempt
+to grapple it, you can do so with advantage.",320.2,101.0,559.6,122.0,9,0,0,,,text
+Rogue - Marauder.pdf,1,16,Body Shield,320.2,130.4,390.1,144.5,13,0,0,,,text
+Rogue - Marauder.pdf,1,17,13th-level Marauder feature,320.2,146.0,430.4,154.9,9,0,0,,,text
+Rogue - Marauder.pdf,1,18,"You don’t hesitate to put others in the line of fire to survive.
+When an attacker you can see hits you with an attack while
+you’re grappling a creature, you can use your reaction to take
+half the damage from the attack and make the grappled
+creature take the other half.",320.2,166.3,560.3,221.0,9,0,0,,,text
+Rogue - Marauder.pdf,1,19,Deadly Grip,320.2,230.2,390.1,244.2,13,0,0,,,text
+Rogue - Marauder.pdf,1,20,17th-level Marauder feature,320.2,245.7,430.4,254.7,9,0,0,,,text
+Rogue - Marauder.pdf,1,21,"Once someone is in your grasp, they only leave it when
+they’re dead. When you hit a creature you’re grappling, you
+can make that attack a critical hit. You must finish a long rest
+before you can attack in this way again.",320.2,265.3,560.7,308.8,9,0,0,,,text
+Rogue - Marauder.pdf,1,22,"Additionally, your attack rolls against a grappled creature
+can’t be affected by disadvantage.",320.2,311.8,554.3,332.0,9,0,0,,,text
+Rogue - Marauder.pdf,1,23,14,579.6,753.5,588.9,761.6,8,0,0,,,text

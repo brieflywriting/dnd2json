@@ -1,0 +1,53 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Wizard - Cavalary.pdf,1,0,WIZARD,44.2,425.8,134.4,445.4,25.9,,,paragraph_title,0.996,ocr
+Wizard - Cavalary.pdf,1,1,"Another odd inclusion, even the scholarly wizard has a place in this document. With no changes necessary for its martial subclasses—the Bladesinger Arcane Tradition received an update in an official release—WCX instead adds one new tradition devoted to survival and mobility, so wizards can better support and reinforce their slower-moving allies.",45.1,459.4,285.1,523.2,9.6,,,text,0.985,ocr
+Wizard - Cavalary.pdf,1,2,UPDATED CLASS FEATURES,45.6,535.2,258.7,549.1,16.8,,,paragraph_title,0.91,ocr
+Wizard - Cavalary.pdf,1,3,The following entries detail changes and enhancements to various wizard features.,45.6,556.3,278.4,576.0,10.6,,,text,0.998,ocr
+Wizard - Cavalary.pdf,1,4,NEw PRoficieNcies,46.1,586.1,153.6,595.2,12.5,,,paragraph_title,0.72,ocr
+Wizard - Cavalary.pdf,1,5,You gain the additional proficiencies listed below.Tools. Calligrapher's Supplies.,46.1,599.5,241.4,619.2,10.6,,,text,0.995,ocr
+Wizard - Cavalary.pdf,1,6,ARCANE E TRADITIONS,45.6,632.2,214.1,646.1,16.3,,,paragraph_title,0.962,ocr
+Wizard - Cavalary.pdf,1,7,"At 2nd level, a wizard gains the Arcane Tradition feature,which offers you the choice of a subclass. The following additional option is available to you when making that choice:Cavalry.",45.1,653.3,290.9,695.0,9.6,,,text,0.986,ocr
+Wizard - Cavalary.pdf,1,8,"Magic can slaughter dozens and turn the tide of battle in an instant, and wizards' value and frailty make them prime targets. Students of the Cavalry tradition use equestrian skills and practical knowledge to survive the chaos of combat.",316.8,361.4,562.6,403.7,9.6,,,text,0.987,ocr
+Wizard - Cavalary.pdf,1,9,"The combination of ranged magic and incredible mobility keeps these practioners out of harms' way, because when a single spell can end a battle, ensuring your mages can survive and position themselves where they're needes is invaluable.Such positioning is where Cavalry wizards excel.",317.3,406.1,562.6,458.9,9.6,,,text,0.992,ocr
+Wizard - Cavalary.pdf,1,10,MOUNTED MAGE,317.8,468.0,407.5,477.6,11.5,,,paragraph_title,0.969,ocr
+Wizard - Cavalary.pdf,1,11,"When you select this school at 2nd level, you learn a ritual that summons a magical consciousness bound to you, which takes the form of a noble steed of your choice when summoned. This ritual takes 1 hour and expends a spell slot of 1st level or higher. The mount assumes the shape of any beast of CR 1/2 or lower without a flying speed, of a size that can serve as a mount for you.",316.8,481.4,558.7,556.3,9.6,,,text,0.99,ocr
+Wizard - Cavalary.pdf,1,12,"Your mount vanishes if killed or if you summon another mount. You summon your mount with full hit points, but it only regains features that are restored after a short or long rest when you complete the appropriate rest. It obeys your verbal commands and can only take the Dash, Disengage,and Dodge actions, whether you're mounted or not.",316.8,559.7,552.0,623.0,10.1,,,text,0.989,ocr
+Wizard - Cavalary.pdf,1,13,You also gain proficiency in Animal Handling.,326.9,626.4,508.3,635.0,9.6,,,text,0.983,ocr
+Wizard - Cavalary.pdf,1,14,"As you gain levels in this class, your mount can take on more powerful forms. You can summon any beast without a flying speed of appropriate size to act as a mount of the same Challenge Rating as the creatures listed in the table below.You can also summon the specific examples listed in the table, even though most are not beasts. After reaching 8th level in this class, the restriction on flying mounts is removed.",316.8,637.9,561.6,712.3,9.6,,,text,0.982,ocr
+Wizard - Cavalary.pdf,1,15,CAVALRY,0.0,0.0,611.5,358.1,14.9,,,image,0.985,ocr
+Wizard - Cavalary.pdf,1,16,PART II | SUBCLASSES,58.6,752.6,140.2,760.3,8.2,,,footer,0.958,ocr
+Wizard - Cavalary.pdf,1,17,58,14.9,763.7,24.0,770.4,10.1,,,number,1.0,ocr
+Wizard - Cavalary.pdf,2,18,"If you summon a mount with a CR lower than the level of the spell slot used, it gains two additional hit dice for every spell slot above the level required to summon it.",45.1,500.6,282.7,531.4,10.6,,,text,0.982,ocr
+Wizard - Cavalary.pdf,2,19,VeTERAN's TRICKs,45.6,541.0,145.0,550.6,12.5,,,paragraph_title,0.761,ocr
+Wizard - Cavalary.pdf,2,20,"Starting at 6th level, your experience with battlefield survival at any cost grants you an improvisational trick based on a school you favor. When you finish a long rest, you can replace the trick you know with a different one, changing your tactics to suit your situation.",45.6,554.9,289.0,607.2,9.6,,,text,0.99,ocr
+Wizard - Cavalary.pdf,2,21,"Abjuration—Improvised Ward When you cast a spell of 1st level or higher, your AC and the AC of your mount increase by 1 until the start of your next turn.",46.1,610.6,282.2,640.8,9.6,,,text,0.989,ocr
+Wizard - Cavalary.pdf,2,22,"Conjuration—Back in the Saddle. You can use a bonus action to dismiss your mount to a pocket dimension where it awaits your summons. You can use another bonus action to conjure it at any point within 30 feet of you, including directly beneath you (which allows you to instantly mount it, without expending movement).",45.1,644.2,289.0,708.0,10.1,,,text,0.99,ocr
+Wizard - Cavalary.pdf,2,23,"Divination—Incoming!When you cast a spell of 1st level or higher, you and your mount have advantage on the next Dexterity saving throw you make before your next turn starts.",317.3,365.3,561.1,396.0,10.6,,,text,0.986,ocr
+Wizard - Cavalary.pdf,2,24,Enchantment—Shock Tactics. One creature you damage with a spell of 1st level or higher has disadvantage on the first attack it makes against you or you mount before the end of your next turn.,316.8,398.9,563.0,440.6,9.8,,,text,0.989,ocr
+Wizard - Cavalary.pdf,2,25,"Evocation-Elemental Endurance. You and your mount gain resistance to the damage type dealt by one of your wizard cantrips of your choice, so long as the type is not bludgeoning, piercing, or slashing.",316.8,443.5,554.4,485.3,10.3,,,text,0.991,ocr
+Wizard - Cavalary.pdf,2,26,"Illusion—Ride in the Night. Hushing magic quiets your footsteps. You and your mount move silently, gaining advantage on Dexterity (Stealth) checks.",317.3,488.6,552.0,518.9,11.0,,,text,0.993,ocr
+Wizard - Cavalary.pdf,2,27,"Necromancy—Tireless Rider. You and your mount draw on the endurance of undeath. Neither of you need to eat,drink, breathe, or sleep. When you take a long rest, you spend four hours in an inactive, motionless state. You appear inert,but remain conscious, and can see and hear normally.",316.8,521.3,563.0,574.1,10.6,,,text,0.987,ocr
+Wizard - Cavalary.pdf,2,28,"Transmutation—Chemical Boost. Your speed, and the speed of your mount, increases by 10 feet.",317.3,577.4,546.2,596.6,9.8,,,text,0.979,ocr
+Wizard - Cavalary.pdf,2,29,REARING HOOVES,317.8,606.7,413.3,615.4,11.0,,,paragraph_title,0.983,ocr
+Wizard - Cavalary.pdf,2,30,"Beginning at 10th level, you can use your bonus action to allow your mount to take an action, ignoring the limits normally imposed on a controlled mount. You take the rest of your turn as normal. If your mount has Legendary Actions, it still cannot use them.",316.3,620.2,561.6,672.5,9.6,,,text,0.989,ocr
+Wizard - Cavalary.pdf,2,31,BONDED SOULS,317.3,683.0,400.3,692.2,12.5,,,paragraph_title,0.966,ocr
+Wizard - Cavalary.pdf,2,32,"Starting at 14th level, whenever you cast a spell that targets yourself, the spell targets the mount as well. When you target your mount with a spell, the spell also targets you.",316.3,696.0,559.7,726.7,9.6,,,text,0.991,ocr
+Wizard - Cavalary.pdf,2,33,"Wizard Level
+Mounts
+4th
+dire wolf, giant spider
+WCX
+6th
+giant boar, warhorse
+8th
+pegasus, griffon
+9th
+nightmare, owlbear
+12th
+akhlutwcx, chuul
+15th
+shambling mound, unicorn
+18th
+mammoth, wyvern",47.0,364.3,291.8,490.1,13.9,,,table,0.996,ocr
+Wizard - Cavalary.pdf,2,34,PART II | SUBCLASSES,469.0,752.6,551.0,760.3,8.2,,,footer,0.985,ocr
+Wizard - Cavalary.pdf,2,35,59,586.6,763.7,595.2,770.4,10.1,,,number,1.0,ocr

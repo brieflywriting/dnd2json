@@ -1,0 +1,96 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Wizard - Universalist.pdf,1,0,Wizard: Universalist,320.2,28.3,506.3,48.2,20,0,0,,,text
+Wizard - Universalist.pdf,1,1,"Out of all wizards, those most studious and dedicated to
+understanding the Art are called universalists. The path many
+accomplished archmages chose to walk even as young
+practitioners, universalists have no care for perfection of a
+single school of magic or casting style, since they believe in
+the one True Magic. In pursuing it, they attain incredible
+mastery of the arcane, being able to reshape magic in ways
+even their colleagues find extraordinary.",320.2,53.0,563.8,140.8,9,0,0,,,text
+Wizard - Universalist.pdf,1,2,"To be a universalist, however, is not only about producing
+grandiose displays of magical crafting. Universalists, in their
+core, understand the Weave, the mana, and some say are
+those closest to peering through the veil of magic itself. While
+all wizards seek revelations hidden behind the arcane
+mystery, universalists see magic as the means of perfecting
+themselves and the world around them.",320.2,143.0,563.1,219.5,9,0,0,,,text
+Wizard - Universalist.pdf,1,3,Arcana Savant,320.2,230.4,403.6,243.3,13,0,0,,,text
+Wizard - Universalist.pdf,1,4,2nd-level Universalist feature,320.2,244.3,435.5,253.3,9,0,0,,,text
+Wizard - Universalist.pdf,1,5,"Enamored by the beauty of knowledge, you have delved
+further into the intricate secrets of magic. You gain
+proficiency in the Arcana skill. If you are already proficient in
+the Arcana skill, you double your proficiency bonus for any
+ability check that uses that skill.",320.2,261.5,559.7,315.5,9,0,0,,,text
+Wizard - Universalist.pdf,1,6,"In addition, the time you must spend to copy any wizard
+spell into your spellbook is halved.",320.2,317.8,549.2,338.0,9,0,0,,,text
+Wizard - Universalist.pdf,1,7,8,17.9,767.7,22.6,775.8,8,0,0,,,text
+Wizard - Universalist.pdf,1,8,MASTERS OF ARCANA,60.0,754.2,139.7,761.4,7,0,0,,,text
+Wizard - Universalist.pdf,2,9,Advanced Learning,48.2,30.9,159.5,43.8,13,0,0,,,text
+Wizard - Universalist.pdf,2,10,2nd-level Universalist feature,48.2,44.8,163.5,53.8,9,0,0,,,text
+Wizard - Universalist.pdf,2,11,"Your advanced pace of learning brings forward knowledge
+untouched by other practitioners of the art. When you gain
+this feature, choose one spell from any class. A spell you
+choose must be of a level you can cast, as shown in the
+Wizard Table.",48.2,62.0,279.2,116.0,9,0,0,,,text
+Wizard - Universalist.pdf,2,12,"You add the chosen spell to your spellbook, and it counts as
+a wizard spell for you.",48.2,118.3,291.1,138.5,9,0,0,,,text
+Wizard - Universalist.pdf,2,13,"You add one additional spell from any class to your
+spellbook at 3rd, 5th, 7th, 9th, 11th, 13th and 17th level.",48.2,140.8,268.6,161.0,9,0,0,,,text
+Wizard - Universalist.pdf,2,14,Modify Magic,48.2,171.9,128.3,184.8,13,0,0,,,text
+Wizard - Universalist.pdf,2,15,6th-level Universalist feature,48.2,185.8,161.4,194.8,9,0,0,,,text
+Wizard - Universalist.pdf,2,16,"Your extensive study over the arcane arts allows you to
+modify spells. When you add or copy a wizard spell in your
+spellbook, you can choose to modify the spell's formula that
+you write in your spellbook in the following ways:",48.2,202.3,283.0,245.0,9,0,0,,,text
+Wizard - Universalist.pdf,2,17,"Alter Energy. If the original spell deals acid, cold, fire,
+lightning or thunder damage, you can replace damage
+type with one other type from that list. If the original spell
+deals multiple damage type from that list, the new damage
+type replaces all types from the original spell.
+Alter Manifestation. If the original spell requires saving
+throws, you can change the saving throws from one ability
+score to another of your choice.",60.8,254.8,291.3,341.0,9,0,0,,,text
+Wizard - Universalist.pdf,2,18,"A spell modified by this feature counts as a different spell
+from the original and therefore counts against the number of
+wizard spells you can prepare. For example, a 1st-level
+wizard universalist that has a scroll containing the 1-st level
+spell burning hands and wishes to copy the spell to their
+spellbook can choose to modify the copied spell to deal cold
+instead of fire damage. If the wizard later decides to also copy
+the original burning hands spell to their spellbook, they can
+choose to prepare burning hands, the modified spell, or both
+when preparing their wizard spells.",48.2,350.8,291.8,461.0,9,0,0,,,text
+Wizard - Universalist.pdf,2,19,Rapid Preparation,48.2,471.9,152.8,484.8,13,0,0,,,text
+Wizard - Universalist.pdf,2,20,10-th level Universalist feature,48.2,485.8,168.8,494.8,9,0,0,,,text
+Wizard - Universalist.pdf,2,21,"Your studies have taught you the importance of preparation.
+As a bonus action, you can replace one spell you have
+prepared with another spell from your spellbook.",48.2,502.3,284.1,533.8,9,0,0,,,text
+Wizard - Universalist.pdf,2,22,"You can use this feature a number of times equal to your
+Intelligence modifier (a minimum of once) . You regain all
+expended uses of this feature when you finish a long rest.",48.2,536.0,279.3,567.5,9,0,0,,,text
+Wizard - Universalist.pdf,2,23,High Arcanum,48.2,578.4,132.1,591.3,13,0,0,,,text
+Wizard - Universalist.pdf,2,24,14th-level Universalist feature,48.2,592.3,166.6,601.3,9,0,0,,,text
+Wizard - Universalist.pdf,2,25,"Unearthing the deepest parts of the wizard's craft, you gain
+access to High Arcana. When you finish a long rest, you can
+choose to gain one of the following benefits:",48.2,609.5,283.8,641.0,9,0,0,,,text
+Wizard - Universalist.pdf,2,26,"Arcane Fire. When you deal damage to a creature with a
+spell, you can expend a spell slot to deal extra force
+damage to that creature. The extra damage is equal to
+2d10 for a 1st-level spell slot, plus 1d10 for each spell
+level higher than 1st.
+Arcane Reach. When you cast a spell that has a range of
+5 feet or greater, you can expend a spell slot to increase
+the range of the spell by 60 feet per level of the spell slot.",60.8,650.0,286.7,736.3,9,0,0,,,text
+Wizard - Universalist.pdf,2,27,"Archmage's Sight. You have truesight out to a range of
+120 feet.
+Sage's Knowledge. If your total for an Intelligence check
+is less than your Intelligence score, you can use that score
+in place of the total.
+Spell Power. The spell save DC for your wizard spells
+increases by 1.",332.7,29.8,561.7,103.3,9,0,0,,,text
+Wizard - Universalist.pdf,2,28,"The chosen benefit lasts until you finish a long rest. You
+expend a 5-th level or higher spell slot to change the chosen
+benefit to another one.",320.2,112.3,555.2,143.8,9,0,0,,,text
+Wizard - Universalist.pdf,2,29,9,589.4,767.7,594.1,775.8,8,0,0,,,text
+Wizard - Universalist.pdf,2,30,MASTERS OF ARCANA,472.3,754.2,552.0,761.4,7,0,0,,,text

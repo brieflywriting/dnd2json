@@ -1,0 +1,35 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Rogue - Chameleon.pdf,1,0,CHAMELEON,46.6,85.4,123.8,95.5,13.4,,,paragraph_title,1.0,ocr
+Rogue - Chameleon.pdf,1,1,"Most rogues can hide, but few hide in plain sight. From mere disguises to physical changes in color, Chameleons master covert skills both mundane and magical to immerse themselves into any situation and strike at a moment's notice.",45.6,102.7,289.0,144.5,8.6,,,text,0.98,ocr
+Rogue - Chameleon.pdf,1,2,SOCIAL CHAMELEON,45.6,154.1,154.6,163.2,12.0,,,paragraph_title,0.928,ocr
+Rogue - Chameleon.pdf,1,3,"When you choose this archetype at 3rd level, you gain proficiency in Disguise Kits and the Deception skill If you are already proficient in Deception, you gain proficiency in another skill of your choice.",45.6,168.0,289.9,209.3,9.6,,,text,0.989,ocr
+Rogue - Chameleon.pdf,1,4,"Your proficiency bonus is doubled for any ability check you make that uses Deception. You receive this benefit regardless of the skill proficiency you gain from this feature. If another feature, such as Expertise, already doubles your proficiency bonus for Deception checks, another skill of your choice that you are proficient in gains this benefit.",45.6,212.2,289.4,276.0,10.6,,,text,0.988,ocr
+Rogue - Chameleon.pdf,1,5,COLOR CHANGE,46.1,286.1,133.0,295.2,12.0,,,paragraph_title,0.981,ocr
+Rogue - Chameleon.pdf,1,6,"Most rogues operate in cramped conditions far away from pursuers, but you can hide in the open. At 3rd level, you can take the Hide action even if another creature can see you by changing the color of yourself and everything you are wearing or carrying to match a Large or larger object within 5 feet. To maintain the color change, you must concentrate as though you were concentrating on a spell.",45.6,299.0,290.4,373.9,10.6,,,text,0.986,ocr
+Rogue - Chameleon.pdf,1,7,"When your color is changed, you are invisible until you move more than 5 feet in any direction, attack, or take any kind of action besides the Hide action on your turn.",45.6,376.8,277.4,407.5,10.1,,,text,0.989,ocr
+Rogue - Chameleon.pdf,1,8,"Starting at 13th level, you can move up to half your speed on your turn without revealing yourself.",46.1,410.4,282.2,430.6,9.8,,,text,0.991,ocr
+Rogue - Chameleon.pdf,1,9,PINPOINT EYES,46.1,439.7,126.7,448.8,11.5,,,paragraph_title,0.935,ocr
+Rogue - Chameleon.pdf,1,10,"At 9th level, your eyes mimic the abilities of your reptilian namesake. You gain the following benefits:",45.6,453.6,273.1,472.8,10.1,,,text,0.997,ocr
+Rogue - Chameleon.pdf,1,11,"You gain darkvision to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.",47.0,483.8,276.5,504.5,10.3,,,text,0.987,ocr
+Rogue - Chameleon.pdf,1,12,Lightly-obscured areas don't impose disadvantage on your Perception checks that rely on sight.,47.5,507.4,289.4,526.6,10.6,,,text,0.984,ocr
+Rogue - Chameleon.pdf,1,13,You can Search with the bonus action granted by your Cunning Action.,47.5,529.9,275.0,549.1,10.3,,,text,0.988,ocr
+Rogue - Chameleon.pdf,1,14,You have advantage on saving throws against blindness.,47.5,552.5,280.3,561.6,11.0,,,text,0.981,ocr
+Rogue - Chameleon.pdf,1,15,"At 1 7th level, your advanced eyesight also pierces magical illusions, granting you truesight with a range of 30 feet.",45.6,570.2,284.6,590.4,10.3,,,text,0.989,ocr
+Rogue - Chameleon.pdf,1,16,NUMBInG LASH,46.1,599.5,130.1,608.6,12.5,,,paragraph_title,0.701,ocr
+Rogue - Chameleon.pdf,1,17,"Starting at 13th level, your body produces a potent poison that you channel through your weapons. When you damage a creature with your Sneak Attack, you can force it to make a Constitution saving throw (DC 8 + your proficiency bonus +your Constitution modifier). If it fails, the creature is poisoned for 1 minute. While poisoned in this way, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the poisoned condition on a success. You can use this feature a number of times equal to your Constitution modifier (a minimum of once) and regain all expended uses when you finish a long rest.",45.1,613.4,289.4,732.5,9.6,,,text,0.989,ocr
+Rogue - Chameleon.pdf,1,18,WALKING CHROMATOPHORE,317.3,29.3,466.6,38.9,12.0,,,paragraph_title,0.983,ocr
+Rogue - Chameleon.pdf,1,19,"Beginning at 17th level, you can change your body's colors in real time. You can cast greater invisibility on yourself without using a spell slot. You can do so a number of times equal to your Constitution modifier (minimum of once), and you regain all expended uses when you finish a long rest.Constitution is your spellcasting ability for this spell",317.3,43.7,559.7,107.5,9.4,,,text,0.989,ocr
+Rogue - Chameleon.pdf,1,20,a a,460.8,224.6,477.1,231.4,8.6,,,text,0.885,ocr
+Rogue - Chameleon.pdf,1,21,co,393.1,257.8,402.2,264.0,8.2,,,text,0.991,ocr
+Rogue - Chameleon.pdf,1,22,nn u om,450.2,246.2,471.4,264.5,7.4,,,text,0.997,ocr
+Rogue - Chameleon.pdf,1,23,ss W,415.7,288.5,436.8,306.7,6.5,,,text,0.604,ocr
+Rogue - Chameleon.pdf,1,24,n r,409.9,331.2,425.3,337.9,7.2,,,text,0.851,ocr
+Rogue - Chameleon.pdf,1,25,W,336.5,365.3,344.2,372.5,5.8,,,text,0.944,ocr
+Rogue - Chameleon.pdf,1,26,co n n s o,318.7,393.6,378.2,401.3,7.9,,,text,0.891,ocr
+Rogue - Chameleon.pdf,1,27,m,408.0,500.6,416.2,507.4,5.8,,,text,1.0,ocr
+Rogue - Chameleon.pdf,1,28,o us,385.0,535.2,405.1,541.9,6.7,,,text,0.992,ocr
+Rogue - Chameleon.pdf,1,29,m,367.7,607.2,376.3,613.9,6.2,,,text,1.0,ocr
+Rogue - Chameleon.pdf,1,30,a a m,378.7,649.9,402.2,668.6,6.2,,,text,0.999,ocr
+Rogue - Chameleon.pdf,1,31,a a,345.6,673.9,361.9,680.6,7.2,,,text,0.998,ocr
+Rogue - Chameleon.pdf,1,32,PART II | SUBCLASSES,58.6,752.6,140.6,760.3,8.2,,,footer,0.964,ocr
+Rogue - Chameleon.pdf,1,33,52,14.9,763.7,24.0,770.4,9.6,,,number,1.0,ocr

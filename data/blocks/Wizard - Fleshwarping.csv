@@ -1,0 +1,787 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Wizard - Fleshwarping.pdf,1,0,Arcane Tradition: Fleshwarping,34.0,277.9,152.3,288.5,11,0,0,,,text
+Wizard - Fleshwarping.pdf,1,1,"Fleshwarping is the magical art of altering flesh and
+bone. Despite its rather unsavory reputation,
+fleshwarping has been practiced by a small number of
+wizards who seek to unlock the secrets of flesh.",34.0,290.7,191.7,321.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,2,"In Yvarra, fleshwarping first came about during the
+Second Arcane Renaissance. Followers of fleshwarping
+believe that flesh is the fifth element, consisting of
+blood for vitality, bones for purpose, breath for spirit,
+and meat for strength.",34.0,321.4,197.4,359.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,3,"These wizards are called fleshwarpers. They study
+anatomy and wield spells that alter flesh. Many engage
+in extreme body modification and medical practices.",34.0,359.0,196.7,382.3,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,4,Fleshwarping Features,34.0,388.0,102.8,396.4,8,0,0,,,text
+Wizard - Fleshwarping.pdf,1,5,"Wizard Level
+Feature",39.9,397.9,106.2,405.0,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,6,"2nd
+Fleshwarping Savant, Ironhide",53.4,407.9,173.1,415.0,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,7,"6th
+Mend Flesh",54.0,418.0,117.8,425.1,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,8,"10th
+Malleable Skin",52.7,428.0,126.4,435.1,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,9,"14th
+The Way of All Flesh",52.9,438.1,144.4,445.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,10,Fleshwarping Savant,34.0,454.3,102.8,463.5,9,0,0,,,text
+Wizard - Fleshwarping.pdf,1,11,"Beginning when you select this tradition at 2nd level,
+the gold and time you must spend to copy a spell with
+the fleshwarping spell tag into your spellbook is halved.",34.0,462.7,196.4,486.0,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,12,Ironhide,34.0,491.9,62.6,501.0,9,0,0,,,text
+Wizard - Fleshwarping.pdf,1,13,"Starting at 2nd level, your flesh is protected with
+fleshwarping magic. While you are wearing no armor
+and not wielding a shield, your AC equals 10 + your
+Constitution modifier + your Intelligence modifier.",34.0,500.2,189.8,530.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,14,"All art created by me, u/Yorviing",34.0,537.4,138.9,545.8,8,0,0,,,text
+Wizard - Fleshwarping.pdf,1,15,"Additionally, when you cast a spell of 1st level or
+higher with the fleshwarping tag, you gain a bonus to
+any Constitution saving throw you make to maintain
+your concentration on the spell, provided you are not
+wearing any armor or wielding a shield. The bonus
+equals your Intelligence modifier (minimum of +1).",219.9,279.1,375.4,324.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,16,Mend Flesh,219.9,331.1,259.2,340.2,9,0,0,,,text
+Wizard - Fleshwarping.pdf,1,17,"At 6th level, you gain the ability to mend your own
+flesh. As an action, you can regain hit points equal to
+three times your wizard level.",219.9,339.4,376.1,362.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,18,"You must finish a long rest before you can use this
+feature again.",219.9,362.2,375.1,378.0,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,19,Malleable Skin,219.9,384.0,269.8,393.1,9,0,0,,,text
+Wizard - Fleshwarping.pdf,1,20,"By 10th level, you can alter your physical form to avoid
+harm. When you are hit with an attack roll while you are
+concentrating on a spell with the fleshwarping tag, you
+can use your reaction to roll a d6. On a 5 or higher, the
+attack instead misses you, regardless of its roll.",219.9,392.3,385.5,430.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,21,The Way of All Flesh,219.9,436.9,285.3,446.0,9,0,0,,,text
+Wizard - Fleshwarping.pdf,1,22,"By 14th level, you have perfected your own flesh. You
+are immune to any spell or effect that would alter your
+form or magically age you against your will.",219.9,445.2,379.3,468.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,23,"Additionally, you regain 1 hit point at the start of each
+of your turns (10 hit points each minute) if you have no
+more than half of your hit points left. You don't gain
+this benefit if you have 0 hit points. Also, any of your
+severed body members (fingers, legs, tails, and so on),
+if any, are restored after 2 minutes. If you have the
+severed part and hold it to the stump, you
+instantaneously cause the limb to knit to the stump.",219.9,468.0,385.3,528.3,6,0,0,,,text
+Wizard - Fleshwarping.pdf,1,24,This is unofficial Fan Content permitted under the Open Gaming License. It is not approved/endorsed by Wizards of the Coast. Portions of the material used may be property of Wizards of the Coast. Copyright Wizards of the Coast LLC.,1.5,57.5,7.3,542.4,4,0,0,,,text
+Wizard - Fleshwarping.pdf,1,25,1,404.0,574.9,407.1,582.6,5,0,0,,,text
+Wizard - Fleshwarping.pdf,2,26,Fleshwarping Spell Tag List,34.0,22.9,137.3,33.5,11,0,0,,,text
+Wizard - Fleshwarping.pdf,2,27,"The following spells are considered to have the
+fleshwarping spell tag, and are listed in alphabetical
+order. New spells from this book are indicated by a *.",33.5,35.8,190.2,59.1,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,28,Cantrips,34.0,64.8,59.1,73.2,8,0,0,,,text
+Wizard - Fleshwarping.pdf,2,29,"alter aspect*
+armament of flesh*
+arm burst*
+skinburner*
+tendrils of flesh*",42.0,73.9,99.1,112.0,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,30,1st Level,34.0,118.2,59.8,126.7,8,0,0,,,text
+Wizard - Fleshwarping.pdf,2,31,"arms of stitching*
+coat of eyes*
+detect flesh*
+false life
+graft*",42.0,127.3,94.7,165.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,32,2nd Level,34.0,171.6,62.7,180.1,8,0,0,,,text
+Wizard - Fleshwarping.pdf,2,33,"alter self
+amending flesh*
+enlarge/reduce
+Gyrok's butchering*
+rend flesh*",42.0,180.7,101.2,218.8,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,34,3rd Level,34.0,224.5,60.8,233.0,8,0,0,,,text
+Wizard - Fleshwarping.pdf,2,35,"animate dead
+haste
+mask of false flesh* (ritual)
+osseous armor*
+tongues
+water breathing",42.0,234.1,124.3,279.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,36,4th Level,34.0,285.4,61.4,293.8,8,0,0,,,text
+Wizard - Fleshwarping.pdf,2,37,"Farrion's vile grove*
+polymorph
+stoneskin
+Svargon's grotesque transformation*
+Ysaria's horrid hand*",42.0,294.5,150.9,332.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,38,5th Level,34.0,338.8,60.7,347.3,8,0,0,,,text
+Wizard - Fleshwarping.pdf,2,39,"feast on self*
+servant of flesh*
+wings of flesh*",42.0,347.9,91.8,371.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,40,6th Level,34.0,376.9,61.2,385.3,8,0,0,,,text
+Wizard - Fleshwarping.pdf,2,41,"Daigon's second mouth*
+eyebite
+flesh to stone
+hidden flesh*
+wall of flesh*",42.0,386.5,112.7,424.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,42,7th Level,34.0,430.3,60.9,438.8,8,0,0,,,text
+Wizard - Fleshwarping.pdf,2,43,"diamondskin*
+simulacrum",42.0,439.4,82.5,455.3,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,44,8th Level,34.0,461.5,61.1,470.0,8,0,0,,,text
+Wizard - Fleshwarping.pdf,2,45,"ascended anatomy*
+clone",42.0,470.6,99.9,486.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,46,9th Level,34.0,492.2,61.2,500.7,8,0,0,,,text
+Wizard - Fleshwarping.pdf,2,47,"harvest the gardens of flesh*
+shapechange
+true polymorph",42.0,501.8,128.0,525.1,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,48,Alter Aspect,219.9,22.7,260.3,31.9,9,0,0,,,text
+Wizard - Fleshwarping.pdf,2,49,transmutation cantrip (fleshwarping),219.4,31.0,331.6,39.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,50,"Casting Time: 1 action
+  Range: Self
+  Components: V, S, M (a chameleon scale)
+  Duration: Until dispelled
+  Class: Sorcerer, Wizard",219.9,41.6,349.3,79.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,51,"This simple spell is incredibly popular among hags and
+witches, as well as wizards who study the ancient and
+twisted art of fleshwarping. You change a part of your
+physical appearance. You can alter your appearance in
+one of the following ways:",219.9,82.3,381.0,120.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,52,"You change the color and length of your hair.
+You change the color of your eyes.
+You adjust your height to be up to 3 inches shorter or
+taller.
+You change the shape of your eyebrows, the length
+of your nose, the size of your ears, or the length of
+your teeth.
+You increase the length of your limbs to be up to 3
+inches longer or shorter.
+You change the shape of your mouth and lips.",228.4,124.7,383.7,199.8,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,53,"If you cast this spell multiple times, you can have up
+to three of its effects active at a time, and you can
+dismiss any effect as an action.",219.9,203.5,378.8,226.8,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,54,Amending Flesh,219.9,233.2,273.4,242.4,9,0,0,,,text
+Wizard - Fleshwarping.pdf,2,55,2nd-level necromancy (fleshwarping),219.4,241.6,333.2,250.0,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,56,"Casting Time: 1 action
+  Range: Touch
+  Components: V, S, M (a needle)
+  Duration: Concentration, up to 1 minute
+  Class: Cleric, Warlock, Wizard",219.9,252.1,340.3,290.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,57,"You imbue the needle to stitch and repair freshly made
+wounds on the body of a creature you touch. For the
+duration of the spell, each time the target takes damage,
+roll 2d4 and reduce the damage it takes by the result.",219.9,292.3,384.6,323.0,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,58,"When the spell ends, a creature who was under this
+spell's effects can choose whether or not the scars left
+by the stitching fade away or remain as if freshly
+healed yet still noticeable.",219.9,323.0,379.0,353.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,59,Armament of Flesh,219.9,359.7,282.4,368.8,9,0,0,,,text
+Wizard - Fleshwarping.pdf,2,60,transmutation cantrip (fleshwarping),219.4,368.0,331.6,376.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,61,"Casting Time: 1 action
+  Range: Self (5-feet)
+  Components: V, S
+  Duration: Instantaneous
+  Class: Sorcerer, Wizard",219.9,378.6,295.2,416.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,62,"Uttering the phrase ""úr líkama mínum vopn skal
+komahe"", the flesh on your hand and forearm twists into
+the shape of a grotesque weapon composed of flesh as
+you strike at a creature within range. The weapon
+assumes the shape and form of a melee weapon of your
+choice. As part of the action used to cast this spell, you
+must make an unarmed strike attack against one
+creature within the spell's range, otherwise the spell
+fails. On a hit, the target suffers 1d8 bludgeoning,
+piercing, or slashing damage (your choice).",219.4,419.3,385.5,494.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,63,"The spell's damage increases by one die when you
+reach 5th level (2d8), 11th level (3d8), and 17th level
+(4d8).",219.9,493.9,377.3,517.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,2,64,This is unofficial Fan Content permitted under the Open Gaming License. It is not approved/endorsed by Wizards of the Coast. Portions of the material used may be property of Wizards of the Coast. Copyright Wizards of the Coast LLC.,1.5,57.5,7.3,542.4,4,0,0,,,text
+Wizard - Fleshwarping.pdf,2,65,2,12.8,574.9,15.8,582.6,5,0,0,,,text
+Wizard - Fleshwarping.pdf,3,66,Arm Burst,34.0,22.7,68.0,31.9,9,0,0,,,text
+Wizard - Fleshwarping.pdf,3,67,transmutation cantrip (fleshwarping),33.5,31.0,145.7,39.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,68,"Casting Time: 1 action
+  Range: 10 feet
+  Components: V, S, M (a spider corpse)
+  Duration: Instantaneous
+  Class: Sorcerer, Warlock, Wizard",34.0,41.6,154.8,79.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,69,"You cause fully grown fleshy arms to temporarily
+emerge from your outstretched arm that lash out toward
+a creature you can see within range. Make a melee spell
+attack against the target. You have advantage on the
+attack roll if the target is not wearing armor. On a hit,
+the target takes 1d6 bludgeoning damage, and is pushed
+back 5 feet.",34.0,82.3,198.9,135.3,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,70,"The spell's damage increases by 1d6 when you reach
+5th level (2d6), 11th level (3d6), and 17th level (4d6).",34.0,134.7,195.2,150.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,71,Arms of Stitching,34.0,157.1,90.9,166.2,9,0,0,,,text
+Wizard - Fleshwarping.pdf,3,72,1st-level transmutation (fleshwarping),33.5,165.4,150.5,173.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,73,"Casting Time: 1 action
+  Range: Touch
+  Components: V, S, M (a needle and thread)
+  Duration: Concentration, up to 1 minute
+  Class: Warlock, Wizard",34.0,175.4,168.4,213.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,74,"You cause the arms of a creature you touch to
+temporarily and harmlessly sever from its body,
+connecting to its torso via long threads and stitching.
+For the duration of the spell, the target's reach
+increases by 5 feet, and the target can roll a d8 in place
+of the normal damage of its unarmed strike.",34.0,216.2,196.5,261.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,75,Ascended Anatomy,34.0,268.1,97.6,277.3,9,0,0,,,text
+Wizard - Fleshwarping.pdf,3,76,8th-level transmutation (fleshwarping),33.5,276.5,151.2,284.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,77,"Casting Time: 1 action
+  Range: Self
+  Components: V
+  Duration: 1 hour
+  Class: Sorcerer, Wizard",34.0,286.5,107.7,324.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,78,"Until the spell ends, when you make a Constitution
+saving throw, you can replace the number you roll with a
+15. Additionally, you are immune to the effects of
+exhaustion.",34.0,327.2,199.7,357.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,79,Coat of Eyes,34.0,364.4,73.5,373.6,9,0,0,,,text
+Wizard - Fleshwarping.pdf,3,80,1st-level transmutation (fleshwarping),33.5,372.7,150.5,381.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,81,"Casting Time: 1 action
+  Range: Self
+  Components: V, S
+  Duration: 1 hour
+  Class: Sorcerer, Warlock, Wizard",34.0,382.8,136.2,420.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,82,"You transform your flesh to grow multiple eyes across
+your body. The eyes can take on an appearance of your
+choice, such as appearing similar to your own, appearing
+like an animal's eyes, or appear milky white and alien.
+For the duration of the spell, you see in all directions,
+and you have advantage on Wisdom (Perception)
+checks that rely on sight. You also have advantage on
+saving throws against being blinded.",34.0,423.5,199.5,483.8,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,83,Daigon's Second Mouth,219.9,22.7,298.1,31.9,9,0,0,,,text
+Wizard - Fleshwarping.pdf,3,84,6th-level transmutation (fleshwarping),219.4,31.0,337.1,39.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,85,"Casting Time: 10 minutes
+  Range: Self
+  Components: V, S, M (an opal worth 3000 gp, a bowl",219.9,41.6,379.1,64.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,86,"of burning incense, three drops of blood, and the
+tongue, jawbone and teeth of a humanoid or beast,
+which are consumed)
+  Duration: Instantaneous
+  Class: Wizard",219.9,63.8,373.2,101.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,87,"This horrifying spell was created by the ancient Witch
+Queen Daigon. By way of this ritual, you permanently
+transform a part of your body, such as the palm of your
+hand, your stomach, or neck, to grow a fully functioning
+mouth. This mouth has teeth, lips, and a long tongue.
+This mouth also possesses its own distinct voice and
+personality, and when you speak you can choose to
+speak through this mouth or cause both you and this
+mouth's voice to speak simultaneously. The mouth can
+speak every language that you know.",219.9,104.6,383.6,179.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,88,"You can consume food and drink via this mouth, and
+though the mouth does not require air you can choose to
+breathe out of the mouth (no action required).",219.9,179.1,383.5,202.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,89,"While you possess this mouth on your body, you have
+advantage on Charisma (Intimidation) checks, provided
+a creature can see this mouth.",219.9,201.9,384.4,225.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,90,"You can also use the mouth to make one bite attack
+against a Small or smaller target that you are grappling.
+If you are under the Enlarge effect of an enlarge/reduce
+spell, you can instead use this bite against a Medium or
+smaller target. If the attack hits, the target takes 2d6
+piercing damage and the target is also swallowed into an
+extra-dimensional space, and the grapple ends. While
+swallowed, the target is blinded and restrained, it has
+total cover against attacks and other effects outside of
+you, and it takes 4d6 acid damage at the start of each of
+your turns. You can have only one creature swallowed
+at a time.",219.9,225.2,387.3,315.1,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,91,"A creature inside the mouth can't leave it by
+nonmagical means. If the creature tries to use
+teleportation or interplanar travel to leave the mouth, it
+must first make a Charisma saving throw. On a success,
+the creature can use that magic to exit the mouth. On a
+failure, the creature can't exit the mouth and wastes the
+use of the spell or effect.",219.9,314.6,384.5,367.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,92,"If a swallowed creature dies, its body and all
+nonmagical objects it is wearing and carrying instantly
+dissolve. Any remaining objects are immediately
+regurgitated from the mouth into a space within 5 feet of
+you. The creature's voice is also absorbed by the mouth,
+and when the mouth speaks, you can choose for the
+mouth to speak in the voice or utter the sounds of any
+creature that died while swallowed by it.",219.9,366.9,385.8,427.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,93,"You can only possess one of these mouths at a time.
+When you cast this spell while you already possess a
+mouth created by this spell, the current mouth closes
+and a new one appears on a part of your body of your
+choice.",219.9,426.7,379.6,464.8,6,0,0,,,text
+Wizard - Fleshwarping.pdf,3,94,This is unofficial Fan Content permitted under the Open Gaming License. It is not approved/endorsed by Wizards of the Coast. Portions of the material used may be property of Wizards of the Coast. Copyright Wizards of the Coast LLC.,1.5,57.5,7.3,542.4,4,0,0,,,text
+Wizard - Fleshwarping.pdf,3,95,3,404.0,574.9,407.1,582.6,5,0,0,,,text
+Wizard - Fleshwarping.pdf,4,96,Detect Flesh,34.0,22.7,74.0,31.9,9,0,0,,,text
+Wizard - Fleshwarping.pdf,4,97,1st-level divination (fleshwarping),33.5,31.0,138.8,39.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,98,"Casting Time: 1 action
+  Range: Self
+  Components: V, S
+  Duration: Concentration, up to 10 minutes
+  Class: Wizard",34.0,41.6,160.9,79.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,99,"For the duration, you know if there is any creature with
+flesh within 30 feet of you, as well as where the creature
+is located. Similarly, you know if a creature you detect is
+undead or not. Constructs, incorporeal undead, and
+creatures that lack flesh and bones are immune to this
+spell.",34.0,82.3,199.4,127.8,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,100,"The spell can penetrate most barriers, but it is blocked
+by 1 foot of stone, 1 inch of common metal, a thin sheet
+of lead, or 3 feet of wood or dirt.",34.0,127.3,199.6,150.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,101,Diamondskin,34.0,157.1,77.7,166.2,9,0,0,,,text
+Wizard - Fleshwarping.pdf,4,102,7th-level abjuration (fleshwarping),33.5,165.4,139.2,173.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,103,"Casting Time: 1 action
+  Range: 30 feet
+  Components: V, S, M (diamond dust worth 500 gp,",34.0,175.4,187.3,198.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,104,"which the spell consumes)
+  Duration: Concentration, up to 1 hour
+  Class: Druid, Sorcerer, Wizard",34.0,197.6,147.3,220.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,105,"This spell turns the flesh of a willing creature you touch
+as hard as diamond. Until the spell ends, the target has
+immunity to nonmagical bludgeoning, piercing, and
+slashing damage and has resistance to magical
+bludgeoning, piercing, and slashing damage.",34.0,223.6,196.8,261.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,106,Farrion's Vile Grove,34.0,268.1,97.4,277.3,9,0,0,,,text
+Wizard - Fleshwarping.pdf,4,107,4th-level conjuration (fleshwarping),33.5,276.5,142.6,284.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,108,"Casting Time: 1 action
+  Range: 150 feet
+  Components: V, S, M (a bloodstained rib bone, a",34.0,286.5,182.0,309.8,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,109,"tooth, and a dried finger and tongue)
+  Duration: Concentration, up to 10 minutes
+  Class: Wizard",34.0,308.7,160.9,332.0,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,110,"This spell was created by the wizard Farrion. Long
+arms, mounds of flesh with mouths of sharpened teeth,
+and tendrils of moving flesh emerge from the ground in
+a 30-foot radius centered on a point within range. The
+area becomes difficult terrain for the duration. When a
+creature moves into or within the area, it takes 4d4
+piercing damage for every 5 feet it travels.",34.0,334.7,196.6,387.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,111,"For the duration of the spell, the mouths speak in a
+language of your choice or emit laughter, screams, or
+whispers.",34.0,387.0,189.6,410.3,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,112,"A creature in the area when you cast the spell must
+succeed on a Strength saving throw or be restrained by
+the arms, hands, mouths, and tendrils until the spell
+ends. A creature restrained by these limbs of flesh can
+use its action to make a Strength check against your
+spell save DC. On a success, it frees itself.",34.0,410.3,196.0,455.8,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,113,"If a creature with flesh dies from damage dealt by this
+spell, that creature’s body is absorbed and added into
+the grove.",34.0,455.3,198.5,478.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,114,"When the spell ends, the conjured flesh dries out and
+shrivels in size before fading away into nothing but dust
+and shriveled ashes.",34.0,478.0,199.0,501.3,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,115,"If you cast Farrion's vile grove every day for 30 days
+in the same location, the spell lasts until it is dispelled,
+and the material components are consumed on the last
+casting.",34.0,500.7,196.8,531.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,116,Feast on Self,219.9,22.7,262.0,31.9,9,0,0,,,text
+Wizard - Fleshwarping.pdf,4,117,5th-level transmutation (fleshwarping),219.4,31.0,337.1,39.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,118,"Casting Time: 1 action
+  Range: 60 feet
+  Components: V, S, M (a tooth or a claw)
+  Duration: Concentration, up to 1 minute
+  Class: Warlock, Wizard",219.9,41.6,344.3,79.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,119,"You cause the flesh of a creature that you can see
+within range to contort into violent shapes. The target
+must make a Constitution saving throw. On a successful
+save, the target takes 3d8 slashing damage as parts of
+its flesh is torn apart, and the spell ends. On a failed
+save, the target takes 3d8 piercing damage and 3d8
+slashing damage as the target's flesh contorts and
+stretches, growing mouths filled with rows of sharp
+teeth and hands with vicious claws that shift to tear into
+the flesh of the target. Until the spell ends, you can use
+your action on each of your turns to automatically deal
+3d8 piercing damage and 3d8 slashing damage to the
+target. The spell ends if you use your action to do
+anything else.",219.9,82.3,383.9,187.1,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,120,"At the end of each of its turns, the target repeats the
+saving throw. It takes 3d8 piercing damage and 3d8
+slashing damage on a failed save, and the spell ends on
+a successful one.",219.9,186.5,382.1,217.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,121,"At Higher Levels: When you cast this spell using a
+spell slot of 6th level or higher, the damage of each
+damage type increases by 1d8 for each slot level above
+5th.",219.9,216.7,381.2,247.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,122,Graft,219.9,253.9,236.2,263.0,9,0,0,,,text
+Wizard - Fleshwarping.pdf,4,123,1st-level transmutation (fleshwarping),219.4,262.2,336.4,270.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,124,"Casting Time: 1 action
+  Range: Touch
+  Components: V, S, M (a scalpel or small knife)
+  Duration: Instantaneous
+  Class: Cleric, Wizard",219.9,272.8,363.5,310.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,125,"You carve a piece of flesh off from a willing creature
+you touch and magically transfer it onto the body of
+another willing creature. Constructs, incorporeal
+undead, and creatures that lack flesh and bones are
+immune to this spell. The first target's current hit points
+are reduced by 2d6, and the second target regains hit
+points equal to the reduction.",219.9,313.0,384.9,365.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,126,"At Higher Levels: When you cast this spell using a
+spell slot of 2nd level or higher, the damage increases
+by 1d6 for each slot level above 1st.",219.9,365.9,378.8,389.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,127,Gyrok's Butchering,219.9,395.1,281.6,404.2,9,0,0,,,text
+Wizard - Fleshwarping.pdf,4,128,2nd-level conjuration (fleshwarping),219.4,403.4,329.9,411.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,129,"Casting Time: 1 action
+  Range: 60 feet
+  Components: V, S, M (a butcher's knife or a meat",219.9,414.0,371.5,437.3,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,130,"cleaver)
+  Duration: Instantaneous
+  Class: Wizard",219.9,436.2,295.2,459.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,131,"You temporarily conjure forth butcher knives or meat
+cleavers to butcher flesh. Make a ranged spell attack
+against a creature you can see within range. On a hit,
+the target takes 4d12 slashing damage. The conjured
+knives or cleavers then vanish.",219.9,462.1,377.0,500.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,132,"At Higher Levels: When you cast this spell using a
+spell slot of 3rd level or higher, the damage increases by
+1d12 for each slot level above 2nd.",219.9,499.7,384.9,523.0,6,0,0,,,text
+Wizard - Fleshwarping.pdf,4,133,This is unofficial Fan Content permitted under the Open Gaming License. It is not approved/endorsed by Wizards of the Coast. Portions of the material used may be property of Wizards of the Coast. Copyright Wizards of the Coast LLC.,1.5,57.5,7.3,542.4,4,0,0,,,text
+Wizard - Fleshwarping.pdf,4,134,4,12.7,574.9,15.8,582.6,5,0,0,,,text
+Wizard - Fleshwarping.pdf,5,135,Harvest the Gardens of Flesh,34.0,22.7,126.8,31.9,9,0,0,,,text
+Wizard - Fleshwarping.pdf,5,136,9th-level transmutation (fleshwarping),33.5,31.0,151.2,39.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,137,"Casting Time: 1 action
+  Range: 90 feet
+  Components: V, S
+  Duration: Instantaneous
+  Class: Warlock, Wizard",34.0,41.6,109.3,79.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,138,"You utter a foul incantation that causes the flesh,
+muscle, and bones of up to ten creatures of your choice
+that you can see within range to be ripped asunder.
+Constructs, incorporeal undead, and creatures that lack
+flesh and bones are immune to this spell.",34.0,82.3,195.5,120.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,139,"Each target must make a Constitution saving throw.
+On a failed save, a target takes 14d6 necrotic damage
+and is knocked prone as its body is suddenly and
+violently twisted and contorted into unnatural shapes.
+On a successful save, a target takes half as much
+damage and isn't knocked prone. If a target is killed by
+this damage, its body is twisted into shredded pieces
+and you regain hit points equal to the damage it took.",34.0,119.9,195.3,180.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,140,"A target that has been knocked prone can can make a
+Constitution saving throw at the end of each of its turns.
+On a successful save, the target is no longer knocked
+prone and its body twists back into its normal shape.",34.0,179.7,199.9,210.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,141,Hidden Flesh,34.0,216.8,77.0,226.0,9,0,0,,,text
+Wizard - Fleshwarping.pdf,5,142,6th-level necromancy (fleshwarping),33.5,225.2,146.0,233.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,143,"Casting Time: 10 minutes
+  Range: Self
+  Components: V, S, M (a ruby worth at least 1,000 gp,",34.0,235.7,195.4,259.0,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,144,"a vessel worth at least 1,500 gp that has a sealable lid
+and is large enough to hold a Medium creature, such
+as a huge urn, coffin, or glass container filled with salt
+water and at least 1 cubic inch of flesh from a
+humanoid, which the spell consumes)
+  Duration: Until dispelled
+  Class: Wizard",34.0,258.0,199.1,310.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,145,"Uttering the phrase ""húð innan húðar"", you perform a
+forbidden ritual wherein you transform the piece of
+humanoid flesh into a fully mature physical body
+resembling the race of the humanoid whose flesh you
+are using. The new body grows from the piece of flesh,
+producing bones, limbs, fur, scales, and organs
+appropriate to the race it is growing into. This spell does
+not create clothing, armor, weapons, and other
+belongings on the body.",34.0,313.0,199.1,380.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,146,"When the copy is fully developed and grown, it then
+devours your current self whole. Your current body falls
+into a catatonic state as it enters an extradimensional
+space within the new body you created from the spell's
+flesh material component. While your body inhabits the
+new body, you are aware of your surroundings as if you
+were in the new body's space. You can perform all of
+the actions and movement as normal in your new body
+as if it were your own body, and you use the racial
+features of the race whose body you are assuming. Your
+new body possesses the same amount of hit points as
+your own body.",34.0,380.7,199.1,470.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,147,"If the new body is reduced to 0 hit points or the spell
+ends, you immediately assume control of your original
+body and begin to tear and crawl itself out of what
+remains of the new body, emerging in an adjacent
+unoccupied space. You emerge from the new body's
+remnants with your full hit points.",34.0,470.1,193.8,515.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,148,Mask of False Flesh,219.9,22.7,285.1,31.9,9,0,0,,,text
+Wizard - Fleshwarping.pdf,5,149,3rd-level transmutation (fleshwarping) (ritual),219.4,31.0,360.8,39.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,150,"Casting Time: 1 action
+  Range: 10 feet
+  Components: V, S, M (the flesh of another creature, a",219.9,41.6,384.2,64.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,151,"knife or dagger worth 25 gp, and burning incense)
+  Duration: 24 hours
+  Class: Warlock, Wizard",219.9,63.8,373.8,87.1,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,152,"You touch the flesh of creature or a corpse that still
+possesses flesh or rotted flesh, tearing a piece off and
+holding it above the burning incense. You make yourself
+- though not including your clothing, armor, weapons,
+and other belongings on your person - perfectly
+resemble the creature or corpse the flesh was taken
+from until the spell ends or until you use your action to
+dismiss it. If the flesh was taken from a corpse, you
+instead perfectly resemble the visage and appearance
+that the corpse possessed on its final day of living. This
+spell does not change your body type, so you must take
+flesh from a creature or corpse that has the same basic
+arrangement of limbs and size as you.",219.9,89.7,385.6,187.1,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,153,"The changes wrought by this spell hold up to physical
+inspection and auditory inspection - for example,
+anyone who touches you would feel your head and hair,
+and anyone who hears your voice hears the voice of the
+creature whose flesh you took or the voice the corpse
+possessed on its final day of living. Additionally, for the
+duration of the spell, you have advantage on checks
+made to pass yourself off as the creature or corpse.",219.9,186.5,384.3,246.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,154,"To discern that you are not who you are passing
+yourself off as, a creature can use its action to inspect
+your appearance and must succeed on an Intelligence
+(Investigation) check against your spell save DC.",219.9,246.3,378.5,277.0,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,155,Osseous Armor,219.9,283.5,270.0,292.6,9,0,0,,,text
+Wizard - Fleshwarping.pdf,5,156,3rd-level transmutation (fleshwarping),219.4,291.8,337.2,300.3,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,157,"Casting Time: 1 bonus action
+  Range: Touch
+  Components: V, S, M (a small skull)
+  Duration: Concentration, up to 1 minute
+  Class: Sorcerer, Wizard",219.9,302.4,340.3,340.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,158,"Through the cracking of bones and the tearing of flesh,
+you force parts of the skeleton of a willing creature you
+touch to grow out of its skin and form into protective
+armor across its body. For example, its ribs and
+sternum might grow out of its torso to form a
+breastplate, bony spikes might protrude from its arms,
+back, and hands, and its skull might grow out to
+surround its head like a helmet. The transformation
+lasts until the spell ends. For the duration of the spell,
+the target gains the following benefits:",219.9,342.6,382.1,417.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,159,"The target gain a +2 bonus to its AC.
+The target gains 10 temporary hit points.
+The target's protruding bones become natural
+weapons, which it can use to make unarmed strikes.
+If it hits with them, it deals piercing damage equal to
+3d6 + your Strength modifier, instead of the
+bludgeoning damage normal for an unarmed strike.
+When a creature within 5 feet of you hits you with a
+melee attack, the attacker takes 1d6 piercing
+damage.",228.4,422.5,382.0,497.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,160,"When the spell ends, the external bones harmlessly
+recede back into the body.",219.9,501.3,378.7,517.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,5,161,This is unofficial Fan Content permitted under the Open Gaming License. It is not approved/endorsed by Wizards of the Coast. Portions of the material used may be property of Wizards of the Coast. Copyright Wizards of the Coast LLC.,1.5,57.5,7.3,542.4,4,0,0,,,text
+Wizard - Fleshwarping.pdf,5,162,5,404.0,574.9,407.1,582.6,5,0,0,,,text
+Wizard - Fleshwarping.pdf,6,163,Rend Flesh,34.0,22.7,70.7,31.9,9,0,0,,,text
+Wizard - Fleshwarping.pdf,6,164,2nd-level necromancy (fleshwarping),33.5,31.0,147.3,39.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,165,"Casting Time: 1 action
+  Range: 30 feet
+  Components: V, S
+  Duration: Instantaneous
+  Class: Warlock, Wizard",34.0,41.6,109.3,79.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,166,"You attempt to distort and tear into the flesh of a
+creature of your choice within range. The target must
+make a Constitution saving throw. On a failed save, the
+creature’s flesh and body begin to distort and violently
+twist as the creature takes 4d6 necrotic damage, or half
+as much on a successful save. A creature who fails it
+saving throw also takes a -2 penalty to its AC until the
+start of your next turn.",34.0,82.3,197.2,142.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,167,"At Higher Levels: When you cast this spell using a
+spell slot of 3rd level or higher, the damage increases by
+1d6 for each slot level above 2nd.",34.0,142.1,199.0,165.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,168,Servant of Flesh,34.0,171.9,87.0,181.0,9,0,0,,,text
+Wizard - Fleshwarping.pdf,6,169,5th-level transmutation (fleshwarping),33.5,180.2,151.2,188.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,170,"Casting Time: 1 action
+  Range: 30 feet
+  Components: V, S, M (a needle and thread, a scalpel,",34.0,190.2,195.7,213.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,171,"1 cubic inch of flesh from a humanoid, which the spell
+consumes)
+  Duration: Until dispelled
+  Class: Wizard",34.0,212.5,196.3,243.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,172,"This spell creates an Small fleshy and functioning body
+that appears as a twisted version of the humanoid
+whose flesh was used to cast this spell, the flesh
+growing to form this body. This small creature is
+considered a humanoid, and it performs simple tasks at
+your command until this spell ends or you dismiss the
+creature, at which point it crumples into a lump of
+rotting flesh. The servant grows from the flesh into in
+an unoccupied space on the ground within range. It has
+AC 13, 10 hit points, each of its ability scores is 8, and it
+can't attack. It can speak Common and one language of
+your choice that you know, though its speech choppy
+and simple. If it drops to 0 hit points, the spell ends and
+the creature's body and flesh begins to rot. The servant
+obeys the commands of you and the humanoid whose
+flesh it grew from.",34.0,245.8,198.9,365.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,173,"Once on each of your turns as a bonus action, you can
+mentally command the servant to move up to 30 feet
+and interact with an object. The servant can perform
+simple tasks that a humanoid servant could do, such as
+fetching things, cleaning, mending, folding clothes,
+lighting fires, serving food, and pouring wine. Once you
+give the command, the servant performs the task to the
+best of its ability until it completes the task, then waits
+for your next command.",34.0,364.8,198.4,432.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,174,"At Higher Levels: When you cast this spell using a
+spell slot of 6th level or higher, you create one additional
+fleshy servant for each slot level above 5th. Each of the
+servants must come from a different 1 cubic inch of
+flesh from a humanoid.",34.0,432.5,199.7,470.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,175,Skinburner,219.9,22.7,257.1,31.9,9,0,0,,,text
+Wizard - Fleshwarping.pdf,6,176,transmutation cantrip (fleshwarping),219.4,31.0,331.6,39.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,177,"Casting Time: 1 action
+  Range: 60 feet
+  Components: V, S, M (a poison ivy leaf)
+  Duration: Instantaneous
+  Class: Sorcerer, Warlock, Wizard",219.9,41.6,344.9,79.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,178,"You cause the flesh of a creature of your choice that you
+can see within range to burn and flare with red-hot
+welts. The target must make a Constitution saving
+throw. On a failed save, the target takes 1d8 fire
+damage. If the target is not wearing any armor, it
+instead takes 1d12 fire damage.",219.9,82.3,385.2,127.8,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,179,"The spell's damage increases by one die when you
+reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12),
+and 17th level (4d8 or 4d12).",219.9,127.3,380.8,150.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,180,Svargon's Grotesque Transformation,219.9,157.1,339.1,166.2,9,0,0,,,text
+Wizard - Fleshwarping.pdf,6,181,4th-level transmutation (fleshwarping),219.4,165.4,337.1,173.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,182,"Casting Time: 1 action
+  Range: 60 feet
+  Components: V, S, M (a petrified eye)
+  Duration: Concentration, up to 1 minute
+  Class: Wizard",219.9,175.4,340.3,213.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,183,"This spell was a signature creation of the ancient wizard
+Svargon Kull. You attempt to alter the physical form of
+a creature you can see within range, transforming them
+into a manifestation of twisted flesh and bone.
+Constructs, incorporeal undead, and creatures that lack
+flesh and bones are immune to this spell. The target
+must make a Constitution saving throw. On a failed
+save, the target becomes transformed into a fleshy
+abomination and its speed is halved for the duration. At
+the end of each of the target's turns before the spell
+ends, the target must succeed on a Constitution saving
+throw or take 4d10 necrotic damage as the twisting of its
+form continues to cause it severe pain. On a successful
+save, the spell ends.",219.9,216.2,385.6,320.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,184,"At Higher Levels: When you cast this spell using a
+spell slot of 5th level or higher, the damage increases by
+1d10 for each slot level above 4th",219.9,320.4,384.8,343.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,185,Tendrils of Flesh,219.9,350.1,273.7,359.3,9,0,0,,,text
+Wizard - Fleshwarping.pdf,6,186,transmutation cantrip (fleshwarping),219.4,358.5,331.6,366.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,187,"Casting Time: 1 action
+  Range: 30 feet
+  Components: V, S, M (a piece of raw meat)
+  Duration: Instantaneous
+  Class: Sorcerer, Wizard",219.9,369.0,353.6,407.1,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,188,"Wriggling tendrils of sinew and skin tear from your
+body and launch forward at a creature you can see
+within range. The creature must succeed on a Strength
+saving throw or take 1d6 bludgeoning damage and be
+knocked prone. until the beginning of its next turn.",219.9,409.2,380.7,447.3,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,189,"The spell's damage increases by 1d6 when you reach
+5th level (2d6), 11th level (3d6), and 17th level (4d6).",219.9,447.3,381.1,463.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,6,190,This is unofficial Fan Content permitted under the Open Gaming License. It is not approved/endorsed by Wizards of the Coast. Portions of the material used may be property of Wizards of the Coast. Copyright Wizards of the Coast LLC.,1.5,57.5,7.3,542.4,4,0,0,,,text
+Wizard - Fleshwarping.pdf,6,191,6,12.7,574.9,15.8,582.6,5,0,0,,,text
+Wizard - Fleshwarping.pdf,7,192,Wall of Flesh,34.0,22.7,75.4,31.9,9,0,0,,,text
+Wizard - Fleshwarping.pdf,7,193,6th-level necromancy (fleshwarping),33.5,31.0,146.0,39.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,194,"Casting Time: 1 action
+  Range: 120 feet
+  Components: V, S, M (a voodoo doll or a poppet)
+  Duration: Concentration, up to 1 minute
+  Class: Warlock, Wizard",34.0,41.6,183.0,79.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,195,"A nonmagical wall of flesh, faces, and limbs conjures
+into existence at a point you choose within range. The
+wall is 6 inches thick and is composed of ten 10-foot-by-
+10-foot sections of flesh and meat. Each section must be
+contiguous with at least one other panel, stitched
+together. Alternatively, you can create 10-foot-by-20-
+foot sections that are only 3 inches thick.",34.0,82.3,199.4,135.3,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,196,"If the wall cuts through a creature's space when it
+appears, the creature is pushed to one side of the wall
+(your choice). The inner part of the wall is smoothed
+skin, while the outer part of the wall consists of moving
+arms, legs, and faces embedded into the wall, each of
+which lets out painful moans and cries of anguish. If a
+creature would be surrounded on all sides by the wall (or
+the wall and another solid surface), that creature can
+make a Dexterity saving throw. On a success, it can use
+its reaction to move up to its speed so that it is no longer
+enclosed by the wall.",34.0,134.7,199.7,217.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,197,"The wall can have any shape you desire, though it
+can't occupy the same space as a creature or object. The
+wall doesn't need to be vertical or resting on any firm
+foundation. It must, however, merge with and be solidly
+supported by existing ground. Thus you can use this
+spell to bridge a chasm or create a ramp.",34.0,216.7,198.7,262.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,198,"If you create a span greater than 20 feet in length,
+you must halve the size of each section to create
+supports. You can crudely shape the wall to create
+ramparts, battlements, and so on.",34.0,262.2,188.5,292.9,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,199,"The wall is an object made of flesh that can be
+damaged and thus breached. Each section has AC 14
+and 40 hit points per inch of thickness. Reducing a
+panel to 0 hit points destroys it and might cause
+connected panels to tear from each other at the GM's
+discretion.",34.0,292.3,190.6,337.8,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,200,"Whenever a creature begins its turn or moves within
+10 feet of the outer part of the wall, that creature must
+make a Strength saving throw. On a failed save, arms
+moving on the side of the wall grab the creature, and the
+creature is restrained. A creature can use its action to
+repeat the saving throw, breaking free and ending the
+effect on a success.",34.0,337.3,199.5,390.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,201,"While a creature is restrained, you can use your
+bonus action to cause the hands or faces in the wall to
+hit or bite into the creature, dealing 6d8 bludgeoning or
+piercing damage, respectively. You may also have both
+the arms and teeth attack the creature while restrained,
+dealing 3d8 bludgeoning and 3d8 piercing damage.",34.0,389.7,197.2,435.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,202,"If a creature with flesh dies from an attack by the
+wall, that creature’s body is absorbed and added into the
+wall.",34.0,435.2,198.1,458.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,203,"If you maintain your concentration on this spell for its
+whole duration, the wall becomes permanent and can't
+be dispelled. Otherwise, the wall disappears when the
+spell ends.",34.0,457.9,198.8,488.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,204,Wings of Flesh,219.9,22.7,267.0,31.9,9,0,0,,,text
+Wizard - Fleshwarping.pdf,7,205,5th-level transmutation (fleshwarping),219.4,31.0,337.1,39.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,206,"Casting Time: 1 action
+  Range: Self
+  Components: V, S, M (the plucked wing of a bird)
+  Duration: Concentration, up to 1 hour
+  Class: Sorcerer, Wizard",219.9,41.6,371.7,79.7,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,207,"This spell causes you to sprout forth two pairs of fleshy
+wings from your back for the duration of the spell. You
+gain a flying speed equal to twice your walking speed.",219.9,82.3,382.4,105.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,208,"If you cast this spell while wearing armor, the spell
+automatically fails unless the armor is made to
+accommodate the two pairs of wings, and clothing not
+made to accommodate your wings might be destroyed
+when you cast this spell.",219.9,105.1,376.5,143.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,209,"As a bonus action, you can have the lower wings
+transform into long skewers of sharpened bone, or
+return back to its normal form. While you have these
+skewers, you can use your action to make two melee
+spell attacks with them at a target within 15 feet of you.
+On a hit, the target takes 5d8 piercing damage.",219.9,142.6,383.3,188.1,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,210,"Alternatively, you can use your action to fire the
+skewers at a target within 60 feet of you. Make a
+ranged spell attack. On a hit, the target takes 5d8
+piercing damage. Regardless of whether you hit or miss,
+a new set of skewers regrow.",219.9,188.1,384.8,226.2,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,211,Ysaria's Horrid Hand,219.9,232.2,286.7,241.3,9,0,0,,,text
+Wizard - Fleshwarping.pdf,7,212,4th-level necromancy (fleshwarping),219.4,240.5,331.9,249.0,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,213,"Casting Time: 1 action
+  Range: Self
+  Components: V, S, M (a butcher knife or meat",219.9,251.1,361.6,274.4,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,214,"cleaver)
+  Duration: Concentration, up to 1 minute
+  Class: Warlock, Wizard",219.9,273.3,340.3,296.6,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,215,"This spell was originally created by Ysaria, the last
+Witch Queen. Wielding the material component in one
+hand while uttering the phrase ""Úr holdi mínu hönd mín
+skal lifa"", you take 2d6 slashing damage as you sever
+your other hand as it falls onto the ground before you.
+You immediately regrow a perfect replica of your hand
+from the stump, leaving a magical scar at your wrist.",219.4,299.2,384.6,352.1,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,216,"The hand then crawls around before you and grows
+into a Medium sized hand, a large mouth with sharp
+teeth and long tongue appearing in its palm. It has AC
+16, 50 hit points, a climb speed of 40 feet, and a speed
+of 40 feet. It has immunity to the charmed, exhaustion,
+frightened, paralyzed, petrified, and poisoned
+conditions, and is immune to any spell or effect that
+would alter its form. This severed hand acts on your
+initiative and has its own action and movement. If the
+hand drops to 0 hit points or the spell ends, the hand
+suddenly wilts and fades into dust.",219.9,351.6,381.3,434.1,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,217,"The hand can attempt to bite a creature as an action
+on its turn. It makes a melee spell attack against the
+creature, adding your spellcasting ability modifier to the
+attack roll. On a hit, a target takes 5d6 piercing damage
+and is restrained by the hand's mouth and long tongue.
+While it has a creature restrained, the hand cannot
+attack but it can still move using the fingers of the hand.",219.9,433.6,385.4,486.5,6,0,0,,,text
+Wizard - Fleshwarping.pdf,7,218,This is unofficial Fan Content permitted under the Open Gaming License. It is not approved/endorsed by Wizards of the Coast. Portions of the material used may be property of Wizards of the Coast. Copyright Wizards of the Coast LLC.,1.5,57.5,7.3,542.4,4,0,0,,,text

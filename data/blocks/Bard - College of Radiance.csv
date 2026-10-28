@@ -1,0 +1,38 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Radiance.pdf,1,0,"zealot, and the impassioned preacher spreading the tenants of their faith across the land with word and song.",45.1,50.9,291.4,104.6,9.6,,,text,0.971,ocr
+Bard - College of Radiance.pdf,1,1,"Bards of the College of Radiance are devout preachers of the divine, and all their performances sing the praise of their will of their god and inspire devotion in their followers.",45.6,108.0,286.1,150.2,9.6,,,text,0.822,ocr
+Bard - College of Radiance.pdf,1,2,Divine Revelation,46.1,229.4,155.0,239.0,12.5,,,paragraph_title,0.909,ocr
+Bard - College of Radiance.pdf,1,3,3rd-level College of Radiance feature,46.6,242.9,194.9,251.5,9.6,,,text,0.998,ocr
+Bard - College of Radiance.pdf,1,4,"Your deity has blessed you with a measure of their divine power in return for your service. Choose a Divine Domain from those available to the Cleric that best fits the deity you serve. Whenever you learn a new Bard spell, you can choose from the Bard spell list, the Cleric spell list, or your list of Domain Spells, and the spell becomes a Bard spell for you.You must obey all other rules from learning a new spell.",45.6,253.9,283.7,331.7,10.6,,,text,0.984,ocr
+Bard - College of Radiance.pdf,1,5,"You also gain proficiency in Religion, and you add double your proficiency bonus to Intelligence (Religion) checks.",45.6,334.6,280.8,354.7,9.6,,,text,0.996,ocr
+Bard - College of Radiance.pdf,1,6,WordS OF HEALING,45.1,364.3,152.2,373.9,11.5,,,paragraph_title,0.719,ocr
+Bard - College of Radiance.pdf,1,7,3rd-level College of Radiance feature,46.6,378.2,194.9,386.4,9.6,,,text,0.996,ocr
+Bard - College of Radiance.pdf,1,8,"The god you serve empowers your healing magic. When you cast a Bard spell of 1st-level or higher that restores hit points to a creature, the target regains additional hit points equal to your Charisma modifier (minimum of 1).",45.6,389.3,269.3,432.0,10.1,,,text,0.983,ocr
+Bard - College of Radiance.pdf,1,9,HEAVENLY CHORUS,46.1,441.6,150.7,451.2,11.0,,,paragraph_title,0.992,ocr
+Bard - College of Radiance.pdf,1,10,6th-level College of Radiance feature,46.1,455.5,194.4,463.7,9.6,,,text,0.978,ocr
+Bard - College of Radiance.pdf,1,11,"Your faith empowers your bardic song. When you use Countercharm, you can expend a use of Bardic Inspiration to empower it with one of the following celestial effects:",45.6,466.6,278.4,497.8,9.6,,,text,0.991,ocr
+Bard - College of Radiance.pdf,1,12,GUIDANCE,45.6,507.8,101.3,517.0,13.4,,,paragraph_title,0.957,ocr
+Bard - College of Radiance.pdf,1,13,"Creatures of your choice within range add your Charisma modifier (minimum of +1) to the first ability check, attack roll,or saving throw they make before the start of your next turn.",45.6,521.3,289.4,552.5,9.6,,,text,0.993,ocr
+Bard - College of Radiance.pdf,1,14,JUDGMENT,46.1,563.0,102.2,572.6,12.0,,,paragraph_title,0.996,ocr
+Bard - College of Radiance.pdf,1,15,"One creature of your choice within range that can hear you must succeed on a Wisdom saving throw or be frightened of you until the start of your next turn. Once a creature succeeds on this saving throw, or the effect ends for it, that creature is immune to this effect for the next 24 hours.",45.6,576.0,291.4,629.8,10.1,,,text,0.979,ocr
+Bard - College of Radiance.pdf,1,16,PROTECTION,46.6,640.3,110.4,649.0,12.0,,,paragraph_title,0.896,ocr
+Bard - College of Radiance.pdf,1,17,"For the duration, creatures of your choice within range are resistant to necrotic and radiant damage, and their maximum hit points cannot be reduced.",45.6,653.3,289.9,684.0,10.1,,,text,0.996,ocr
+Bard - College of Radiance.pdf,1,18,RESTORATION,46.6,695.0,116.2,703.7,12.0,,,paragraph_title,0.894,ocr
+Bard - College of Radiance.pdf,1,19,One creature of your choice within range that can hear you gains temporary hit points equal to your Bardic Inspiration.,45.6,708.0,281.8,728.6,10.1,,,text,0.989,ocr
+Bard - College of Radiance.pdf,1,20,BeatifiCVIsion,317.8,496.3,408.0,506.4,12.5,,,paragraph_title,0.68,ocr
+Bard - College of Radiance.pdf,1,21,"Somebo Otieoet You can allow the power of your deity t to shine forth from you.When you cast a Bard spell that forces at least one creature to make a saving throw, you can expend  Bardic Inspiration to impose disadvantage on one creature's saving throw for each Bardic Inspiration you expend as part of this spell",316.8,517.4,561.1,575.5,9.8,,,text,0.868,ocr
+Bard - College of Radiance.pdf,1,22,wn,410.9,651.8,423.4,658.6,5.3,,,text,0.999,ocr
+Bard - College of Radiance.pdf,1,23,6th Stirring Performance 14th Hedonistic Trance,333.1,697.9,452.6,724.3,11.0,,,text,0.989,ocr
+Bard - College of Radiance.pdf,1,24,COLLEGE OF RADIANCE,46.6,32.2,186.7,42.7,13.0,,,header,0.938,ocr
+Bard - College of Radiance.pdf,1,25,et ce 1r .,283.7,0.0,612.0,494.4,9.6,,,image,0.674,ocr
+Bard - College of Radiance.pdf,1,26,14th-level College of Radiance feature,318.2,509.8,471.4,518.9,8.7,,,vision_footnote,0.646,ocr
+Bard - College of Radiance.pdf,1,27,Bard Level College Feature,52.8,156.5,168.5,166.6,12.5,,,figure_title,0.989,ocr
+Bard - College of Radiance.pdf,1,28,"3rd
+Divine Revelation, Words of Healing
+6th
+Heavenly Chorus
+14th
+Beatific Vision",47.5,170.4,290.9,218.9,11.3,,,table,0.996,ocr
+Bard - College of Radiance.pdf,1,29,Q,0.0,736.3,57.1,791.5,55.4,,,footer,0.345,ocr
+Bard - College of Radiance.pdf,1,30,This is unofficial Fan Content permitted under the Fan Content policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast.Wizards of the Coast LLC.,78.2,766.6,527.5,786.7,10.1,,,footer,0.978,ocr
+Bard - College of Radiance.pdf,1,31,0,556.3,734.9,611.5,791.5,56.9,,,footer,0.179,ocr

@@ -1,0 +1,73 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Chaos_2.pdf,1,0,COLLEGE OF CHAOS,15.4,4.8,136.3,15.4,13.0,,,paragraph_title,0.956,ocr
+Bard - College of Chaos_2.pdf,1,1,"While most Bards use their skill with words to entertain and support, some choose to spread confusion, misinformation,and distrust.Though they reject the idea of formal leaders,some discordant Bards join the College of Chaos, a loose association of misanthropes that study discordant magics.",14.4,24.0,254.4,77.8,8.6,,,text,0.991,ocr
+Bard - College of Chaos_2.pdf,1,2,ent policy. Not approved/endorsed by Wizards. Portions of the  of the Coast.Wizards of the Coast LLC.,0.0,180.0,224.6,200.2,8.2,,,text,0.981,ocr
+Bard - College of Chaos_2.pdf,1,3,Bard Level College Feature,19.7,84.0,133.9,94.1,11.3,,,figure_title,0.979,ocr
+Bard - College of Chaos_2.pdf,1,4,"3rd
+Bewildering Whisper, Sower of Discord
+6th
+Pandemonium
+14th
+Reign of Chaos",16.3,97.4,259.7,145.9,10.3,,,table,0.999,ocr
+Bard - College of Chaos_2.pdf,2,5,BEWILDERING WHISPER,46.6,30.2,169.0,39.8,11.0,,,paragraph_title,0.888,ocr
+Bard - College of Chaos_2.pdf,2,6,3rd-level College of Chaos feature,46.6,43.7,182.9,51.8,10.6,,,paragraph_title,0.987,ocr
+Bard - College of Chaos_2.pdf,2,7,"You use your magic to sow chaos in the midst of battle. When a creature within 60 feet that can hear you makes an attack roll, you can use your reaction to expend a Bardic Inspiration die and force it to make a Wisdom saving throw. On a failed save, the creature must use the same attack against another creature of your choice within the range of its attack.",45.6,54.2,289.0,121.0,10.3,,,text,0.987,ocr
+Bard - College of Chaos_2.pdf,2,8,Sower Of Discord,45.6,130.1,149.3,139.7,10.1,,,paragraph_title,0.804,ocr
+Bard - College of Chaos_2.pdf,2,9,3rd-level College of Chaos feature,46.6,143.0,182.9,151.7,10.6,,,text,0.993,ocr
+Bard - College of Chaos_2.pdf,2,10,"You gain the skills to sow strife amongst your foes. You gain proficiency with disguise kits, forgery kits, and theives' tools.",45.6,154.6,284.6,175.7,10.1,,,text,0.977,ocr
+Bard - College of Chaos_2.pdf,2,11,PANDEMONIUM,46.1,185.3,128.2,193.9,11.5,,,paragraph_title,0.999,ocr
+Bard - College of Chaos_2.pdf,2,12,6th-level College of Chaos feature,46.1,197.8,181.9,206.4,9.6,,,paragraph_title,0.997,ocr
+Bard - College of Chaos_2.pdf,2,13,"You infuse your bardic songs with chaotic magic. When you use Countercharm, you can force a creature within range of the effect to make a Wisdom saving throw. On a failed save,roll a d8 and the creature suffers the corresponding effect from the table below until the end of your Countercharm.",45.6,208.8,282.7,263.5,9.6,,,text,0.988,ocr
+Bard - College of Chaos_2.pdf,2,14,A creature suffering from this effect can make a Wisdom is immune to this feature for the next 24 hours.,45.6,505.9,289.0,548.6,9.6,,,text,0.991,ocr
+Bard - College of Chaos_2.pdf,2,15,REIGN OF CHAOS,46.1,558.2,138.2,567.4,11.5,,,paragraph_title,0.882,ocr
+Bard - College of Chaos_2.pdf,2,16,1 4th-level College of Chaos feature,46.6,571.7,187.2,579.8,10.6,,,paragraph_title,0.99,ocr
+Bard - College of Chaos_2.pdf,2,17,"You have mastered the chaotic magic that is the source of your power. You learn confusion, but it doesn't count against your total number of Spells Known. If you already know this spell you instead learn another enchantment spell of your choice from the Bard spell list.",45.1,583.2,285.1,637.0,9.6,,,text,0.925,ocr
+Bard - College of Chaos_2.pdf,2,18,"As a bonus action, you can expend a use of your Bardic Inspiration to cast confusion with the following changes:",45.6,640.8,274.1,660.5,10.1,,,text,0.992,ocr
+Bard - College of Chaos_2.pdf,2,19,You can only target one creature.,47.0,669.1,190.1,677.8,9.6,,,text,0.995,ocr
+Bard - College of Chaos_2.pdf,2,20,"• It does not require your concentration, but you can't have more than one instance of the spell active.",47.5,680.6,266.9,700.3,9.8,,,text,0.982,ocr
+Bard - College of Chaos_2.pdf,2,21,When a creature makes a saving throw to resist the effects of this spell you can expend a use of your Bardic Inspiration to impose disadvantage on its saving throw.,47.5,703.2,278.9,734.9,9.6,,,text,0.99,ocr
+Bard - College of Chaos_2.pdf,2,22,"m rm r 
+
+W 
+
+W 
+n 
+
+us s 
+
+ct 
+
+it 
+
+t 
+
+S",282.7,233.3,612.0,760.3,7.4,,,image,0.931,ocr
+Bard - College of Chaos_2.pdf,2,23,"Effect
+d8
+It retreats into its mind and is Paralyzed.
+1
+The effect ends early if it takes damage.
+It is Incapacitated and convinced that its
+2
+allies are secretly plotting against it.
+It is Frightened of the closest creature
+3
+and uses its turn to flee from it.
+It cannot speak or cast spells and it feels if
+4
+it opens its mouth its voice will escape.
+It experiences vivid hallucinations and
+5
+has disadvantage on all attack rolls.
+It is highly suggestible and will do anything
+6
+it is told to do that isn't self-destructive.
+It experiences insatiable hunger and uses
+7
+its action to eat anything it can.
+It uses its turn to repeat its previous
+8
+turn or action to the best of its ability.",47.5,267.8,290.9,495.8,11.0,,,table,0.989,ocr
+Bard - College of Chaos_2.pdf,2,24,Q,0.0,736.3,57.1,791.5,55.4,,,footer,0.344,ocr
+Bard - College of Chaos_2.pdf,2,25,This is unofficial Fan Content permitted under the Fan Content policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast.Wizards of the Coast LLC.,78.7,766.6,527.5,787.2,9.6,,,footer,0.978,ocr
+Bard - College of Chaos_2.pdf,2,26,I,580.8,741.1,595.2,789.1,48.5,,,number,0.228,ocr

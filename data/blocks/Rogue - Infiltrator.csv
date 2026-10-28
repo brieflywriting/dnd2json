@@ -1,0 +1,36 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Rogue - Infiltrator.pdf,1,0,BACKSTABBER,60.0,207.4,137.3,219.4,11.5,,,paragraph_title,0.984,ocr
+Rogue - Infiltrator.pdf,1,1,"At 17th level, it is impossible to tell through magical means whether you are lying, and checks made to discern the truth of your statements are made with disadvantage. Magic cannot compel you to tell the truth, and your mind cannot be read through any means.",61.4,221.3,303.4,273.6,9.6,,,text,0.992,ocr
+Rogue - Infiltrator.pdf,1,2,"In addition, the first time you damage a creature that regards you with affection or considers you an ally, you have advantage on the t ck and forgo damage dice. Instead, you deal the aximum possible amount of damage.",62.9,277.0,302.4,318.7,10.6,,,text,0.988,ocr
+Rogue - Infiltrator.pdf,1,3,"When you land a critical hit with your Coup de Gr ce feature, the target must make a Constitution saving throw",62.9,321.1,294.2,341.3,9.6,,,text,0.988,ocr
+Rogue - Infiltrator.pdf,1,4,"o c (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, your attack deals doubled damage.",45.6,343.7,308.2,363.4,10.8,,,text,0.98,ocr
+Rogue - Infiltrator.pdf,1,5,weeco cnr,62.4,366.7,121.4,373.4,7.7,,,text,0.962,ocr
+Rogue - Infiltrator.pdf,1,6,m m r,46.6,389.3,88.3,396.0,6.2,,,text,0.902,ocr
+Rogue - Infiltrator.pdf,1,7,rn,86.9,423.8,96.5,430.1,7.2,,,text,1.0,ocr
+Rogue - Infiltrator.pdf,1,8,ou c,65.3,531.4,82.1,538.1,6.7,,,text,0.97,ocr
+Rogue - Infiltrator.pdf,1,9,succ ss ou c us,47.5,702.7,126.7,709.9,6.7,,,text,0.957,ocr
+Rogue - Infiltrator.pdf,1,10,INFILTRATOR,317.8,119.0,397.0,128.6,12.5,,,paragraph_title,0.98,ocr
+Rogue - Infiltrator.pdf,1,11,"Professional killers and talented socialites, Infiltrators combine a keen eye and quick tongue with mastery of the blade. Glamorous assassins who blend in a variety of societies and situations, their skills are just as sharp and deadly as their knives.",317.3,135.8,545.3,188.6,9.6,,,text,0.991,ocr
+Rogue - Infiltrator.pdf,1,12,CouP de GrÁce,317.8,197.8,404.2,207.4,11.0,,,paragraph_title,0.719,ocr
+Rogue - Infiltrator.pdf,1,13,"When you choose this archetype at 3rd level, you have advantage on initiative rolls, and on attack rolls against creatures that have not yet acted in combat. Any attack you land against a creature that is stunned, surprised, or has not yet taken a turn in combat is an automatic critical hit.",316.8,211.7,555.8,264.5,10.6,,,text,0.988,ocr
+Rogue - Infiltrator.pdf,1,14,TOOLS OF THE TRADE,317.3,274.1,433.0,283.2,10.1,,,paragraph_title,0.882,ocr
+Rogue - Infiltrator.pdf,1,15,"Also at 3rd level, you have assembled invaluable skills for any assassination. You gain two of the following benefits.",316.8,287.0,560.2,307.7,10.1,,,text,0.985,ocr
+Rogue - Infiltrator.pdf,1,16,proficiency in Disguise Kits,319.2,317.8,442.1,326.4,10.1,,,text,0.99,ocr
+Rogue - Infiltrator.pdf,1,17,proficiency in Poisoner's Kits,319.7,329.8,448.8,337.9,10.6,,,text,0.995,ocr
+Rogue - Infiltrator.pdf,1,18,proficiency in Forgery Kits,319.2,341.3,438.7,350.4,10.1,,,text,0.996,ocr
+Rogue - Infiltrator.pdf,1,19,proficiency in one gaming set of your choice,319.2,352.8,505.4,361.0,9.6,,,text,0.975,ocr
+Rogue - Infiltrator.pdf,1,20,Two languages of your choice,319.7,363.8,448.8,372.5,9.1,,,text,0.994,ocr
+Rogue - Infiltrator.pdf,1,21,"If you take proficiency in a kit, you can use it, its components, or its products using your Cunning Action.",317.8,382.1,539.5,401.3,8.9,,,text,0.991,ocr
+Rogue - Infiltrator.pdf,1,22,ANALYZE TARGET,317.8,410.9,411.4,420.0,12.5,,,paragraph_title,0.846,ocr
+Rogue - Infiltrator.pdf,1,23,"Starting at 9th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal,superior, or inferior in regard to two of the following characteristics of your choice:",317.3,424.3,558.2,487.7,9.6,,,text,0.988,ocr
+Rogue - Infiltrator.pdf,1,24,"Intelligence, Wisdom, or Charisma",319.2,498.7,469.9,507.4,9.6,,,text,0.997,ocr
+Rogue - Infiltrator.pdf,1,25,Class levels (if any),319.7,511.2,408.0,519.4,12.0,,,text,0.999,ocr
+Rogue - Infiltrator.pdf,1,26,Hit Points,319.7,522.2,373.9,530.4,11.0,,,text,0.982,ocr
+Rogue - Infiltrator.pdf,1,27,Proficiency Bonus,319.7,533.3,405.6,541.4,9.6,,,text,1.0,ocr
+Rogue - Infiltrator.pdf,1,28,"At the DM's discretion, you might also realize you know a piece of the creature's history or one of its personality traits.",317.8,551.0,555.8,571.7,9.6,,,text,0.985,ocr
+Rogue - Infiltrator.pdf,1,29,HUMAN SHIELD,317.8,580.3,401.8,589.9,10.1,,,paragraph_title,0.947,ocr
+Rogue - Infiltrator.pdf,1,30,"At 13th level, you can dodge blows to inflict devastating collateral damage when you are caught mid-assassination.When you use your Uncanny Dodge when another creature is within 5 feet of you, you can cause the attack to hit that creature instead. So long as the creature is also within reach or range of the attack, it becomes the target instead of you,and you take no damage from the attack.",317.3,593.8,561.6,669.1,9.6,,,text,0.99,ocr
+Rogue - Infiltrator.pdf,1,31,"The attacker uses the same attack roll against the new creature, potentially causing the attack to miss if the new target's AC is higher than yours.",317.8,672.5,544.8,702.7,10.1,,,text,0.981,ocr
+Rogue - Infiltrator.pdf,1,32,n m,47.5,466.1,65.8,472.8,7.2,,,aside_text,0.955,ocr
+Rogue - Infiltrator.pdf,1,33,PART II | SUBCLASSES,59.5,752.6,141.1,760.3,8.2,,,footer,0.965,ocr
+Rogue - Infiltrator.pdf,1,34,52,15.4,763.7,24.5,770.4,9.6,,,number,1.0,ocr

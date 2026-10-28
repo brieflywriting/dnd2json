@@ -1,0 +1,79 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Wizard - Spycraft.pdf,1,0,Wizard:Spycraft,45.6,27.4,176.2,47.0,21.4,,,paragraph_title,0.998,ocr
+Wizard - Spycraft.pdf,1,1,"Wizards of this tradition focus on magic that allows them to achieve e very specific goals; primarily reconnaissance, theft,and sabotage.. They use powerful illusions to hide their machinations, as well as Divination magic that lets them gather information unseen and unheard. They make excellent spymasters, working either for themselves or as court wizards for a higher authority that needs their services.Some wizards even use their talents against others of their kind, weaving webs of intrigue that afford them opportunities to steal others' arcane discoveries.",44.6,50.4,289.9,159.4,11.5,,,text,0.988,ocr
+Wizard - Spycraft.pdf,1,2,Spycraft Savant,46.1,166.6,155.5,183.4,23.0,,,paragraph_title,0.994,ocr
+Wizard - Spycraft.pdf,1,3,2nd-level Spycraft feature,46.6,186.2,153.6,195.8,11.5,,,paragraph_title,0.984,ocr
+Wizard - Spycraft.pdf,1,4,The time and gold you must spend to copy a spell with the spycraft tag into your spellbook is halved.,45.1,201.1,282.7,222.2,13.2,,,text,0.986,ocr
+Wizard - Spycraft.pdf,1,5,Arcane e Espionage,46.1,230.4,165.6,247.7,19.9,,,paragraph_title,0.996,ocr
+Wizard - Spycraft.pdf,1,6,2nd-level Spycraft feature,47.0,248.6,153.6,258.2,11.0,,,text,0.995,ocr
+Wizard - Spycraft.pdf,1,7,Your magic improves your subtlety. You gain proficiency in the Deception and Stealth skills.,45.6,263.5,282.2,284.2,11.8,,,text,0.983,ocr
+Wizard - Spycraft.pdf,1,8,"Additionally, you can weave defenses and further subtlety into your deception. While you are invisible, your true form is concealed by Ilusion or Transmutation magic, or you are concentrating on a spell with the spycraft spell tag, your proficiency bonus is doubled for any ability check you make that uses Deception or Stealth, and you gain a bonus to your AC equal to your Intelligence modifier (minimum of +1).",44.6,287.0,291.8,362.4,11.0,,,text,0.984,ocr
+Wizard - Spycraft.pdf,1,9,Identity Swap,46.6,370.1,142.1,387.4,22.1,,,paragraph_title,0.999,ocr
+Wizard - Spycraft.pdf,1,10,6th-level Spycraft feature,46.6,389.3,150.7,398.4,11.5,,,paragraph_title,1.0,ocr
+Wizard - Spycraft.pdf,1,11,"You add the characterizeES spell to your spellbook if it is not there already, it counts as a wizard spell for you, and it gains the spycraft tag. You can cast characterizeEs without expending a spell slot. When you do so, you can target only yourself and another willing creature. While you and the target are affected by this casting of characterizeEs, the disguise does not appear magical to divination spells.",45.1,403.2,288.0,480.0,11.0,,,text,0.987,ocr
+Wizard - Spycraft.pdf,1,12,"Once you cast characterizeoes in this way, you can't do so again until you finish a short or long rest, though you can still cast it normally using an available spell slot.",45.6,481.9,285.6,513.6,11.0,,,text,0.98,ocr
+Wizard - Spycraft.pdf,1,13,Cross-Examination,46.1,521.8,179.0,535.7,16.3,,,paragraph_title,0.997,ocr
+Wizard - Spycraft.pdf,1,14,10th-level Spycraft feature,46.6,540.5,154.1,550.1,10.1,,,paragraph_title,1.0,ocr
+Wizard - Spycraft.pdf,1,15,"Your spells loosen the tongues of your enemies. When you cast a wizard spell of 1st-level or higher that requires a saving throw, choose one of the creatures that failed its save; it can't speak a deliberate lie for the spell's duration and knows this fact. If the spell has the spycraft tag, it is instead unaware of its compelled truth.",45.1,555.4,283.7,619.7,11.3,,,text,0.983,ocr
+Wizard - Spycraft.pdf,1,16,"Additionally, you always know when you are targeted by or are being perceived by a Divination spell. When a creature casts a Divination spell that would perceive, reveal,or otherwise affect you, you can use your reaction to perceive the creature for the duration of the spell, as if by the scrying spell or see invisibility spell; doing so does not blind or deafen you to your own senses. If you succeed on the saving throw against the spell, you can also provide the creature false information about what it would perceive as part of the same reaction, which it believes.",44.6,621.6,289.0,730.1,11.0,,,text,0.983,ocr
+Wizard - Spycraft.pdf,1,17,Silent Casting,318.7,26.4,414.7,44.2,23.0,,,paragraph_title,0.992,ocr
+Wizard - Spycraft.pdf,1,18,14th-level Spycraft feature,318.7,45.1,426.2,55.2,11.5,,,paragraph_title,0.999,ocr
+Wizard - Spycraft.pdf,1,19,"You can cast spells without drawing attention to yourself.When you cast a spell with the spycraft tag, you can cast it without verbal or somatic components.",317.3,60.5,554.9,92.6,11.0,,,text,0.982,ocr
+Wizard - Spycraft.pdf,1,20,Spycraft Spells,318.2,98.4,432.0,119.0,25.0,,,paragraph_title,0.997,ocr
+Wizard - Spycraft.pdf,1,21,The following spells gain the spycraft tag.,318.7,121.0,488.2,131.5,13.0,,,text,0.979,ocr
+Wizard - Spycraft.pdf,1,22,CANTRIPS,318.7,148.3,374.4,159.4,12.0,,,paragraph_title,0.713,ocr
+Wizard - Spycraft.pdf,1,23,"assessoes haptic feedbackoes keepsakeoes mage hand magic parchmentoes message 
+transfer loreoes",318.7,162.2,401.3,238.6,13.9,,,text,0.995,ocr
+Wizard - Spycraft.pdf,1,24,1ST,319.2,250.1,337.4,259.7,9.5,,,paragraph_title,1.0,ocr
+Wizard - Spycraft.pdf,1,25,"—
+
+alarm 
+
+charm person 
+comprehend languages 
+detect magic 
+disguise self 
+eludeoes 
+
+fog cloud 
+
+illusory script 
+sleep 
+
+surveillanceoes",318.7,258.2,417.1,371.0,12.5,,,text,0.947,ocr
+Wizard - Spycraft.pdf,1,26,2Nd,318.7,381.1,343.7,391.7,14.4,,,paragraph_title,0.698,ocr
+Wizard - Spycraft.pdf,1,27,"alter self 
+arcane lock arcanist's magic aura broadcast thoughtsoes detect thoughts invisibility 
+knock 
+locate object Orana's hidden earoes suggestion",318.7,396.5,409.9,505.0,11.5,,,text,0.993,ocr
+Wizard - Spycraft.pdf,1,28,"3RD 
+balderdashoes clairvoyance fabricate doubtoes nondetection sending 
+tongues",318.7,517.0,394.6,594.7,13.0,,,text,0.993,ocr
+Wizard - Spycraft.pdf,1,29,4TH,445.4,148.8,470.4,159.8,14.4,,,paragraph_title,0.789,ocr
+Wizard - Spycraft.pdf,1,30,arcane eye confusion dimension door greater invisibility locate creature secret chest,445.4,164.2,520.3,227.5,10.1,,,text,0.998,ocr
+Wizard - Spycraft.pdf,1,31,5TH,445.4,238.6,469.0,249.6,14.4,,,paragraph_title,0.991,ocr
+Wizard - Spycraft.pdf,1,32,"dominate person legend lore mislead 
+modify memory passwall scrying 
+seeming telepathic bond",445.4,253.4,516.0,338.9,11.5,,,text,0.99,ocr
+Wizard - Spycraft.pdf,1,33,6TH,445.4,348.0,469.9,360.0,16.3,,,paragraph_title,0.701,ocr
+Wizard - Spycraft.pdf,1,34,"contingency 
+mass suggestion 
+programmed illusion 
+smotheroes 
+true seeing 
+ultimatumoes",445.4,364.3,531.8,427.7,13.0,,,text,0.992,ocr
+Wizard - Spycraft.pdf,1,35,"JTH 
+
+etherealness 
+greater telepathic bondoes 
+project image 
+sequester",445.0,439.7,553.4,495.4,12.5,,,text,0.987,ocr
+Wizard - Spycraft.pdf,1,36,8TH clone feeblemind mind blank,445.4,504.5,494.9,551.0,10.6,,,text,0.962,ocr
+Wizard - Spycraft.pdf,1,37,"9TH 
+
+imprisonment 
+foresight 
+
+mass modify memorypes 
+shapechange",445.0,562.1,545.3,619.7,12.5,,,text,0.984,ocr
+Wizard - Spycraft.pdf,1,38,49,29.3,753.1,46.1,765.6,15.4,,,number,0.922,ocr

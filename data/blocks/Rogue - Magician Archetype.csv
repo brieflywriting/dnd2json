@@ -1,0 +1,61 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Rogue - Magician Archetype.pdf,1,0,Homebrew by Wyll Hood,42.5,818.3,158.3,835.0,12,0,1,,,text
+Rogue - Magician Archetype.pdf,1,1,ROGUE,28.3,23.6,98.8,51.5,20,0,0,,,text
+Rogue - Magician Archetype.pdf,1,2,Magician Archetype,28.3,55.6,213.0,83.5,20,1,0,,,text
+Rogue - Magician Archetype.pdf,1,3,"These non-magical tricksters delight in bamboozling
+their dim-witted opponents and pride themselves on
+how many times an actual spellcaster has tried and
+failed to counterspell them.",28.3,87.3,285.0,144.4,13,0,1,,,text
+Rogue - Magician Archetype.pdf,1,4,Bonus Proficiencies,28.3,151.5,172.4,173.7,16,1,0,,,text
+Rogue - Magician Archetype.pdf,1,5,"When you choose this archetype at 3rd level,
+you gain proficiencywith playing cards and
+either Sleight of Hand or Performance. Your
+proficiency bonus is doubled for any ability
+check you make that uses these proficiencies",28.3,179.3,279.4,249.4,13,0,0,,,text
+Rogue - Magician Archetype.pdf,1,6,Dazzle,28.3,256.5,77.8,278.7,16,1,0,,,text
+Rogue - Magician Archetype.pdf,1,7,"Starting at 3rd level, you may use your
+Cunning Action to attempt to Dazzle creatures
+with a trick.
+Choose up to 2 creatures lower on the
+initiative order than you, that are within 25ft
+and can see you.
+They must make Wisdom Saves against your
+Dazzle DC (8+Dexterity modifier+proficiency
+bonus) or become incapacitated until the end
+of their next turn. You can Dazzle twice per
+combat, the second time creatures make the
+save with advantage.",28.3,284.3,290.8,445.4,13,0,0,,,text
+Rogue - Magician Archetype.pdf,1,8,"Creatures with True Sight have disadvantage
+on the save the first time you attempt to
+Dazzle them as their precautions against
+magical illusions backfire when faced with this
+non-magical trick.",28.3,452.3,292.6,522.4,13,0,0,,,text
+Rogue - Magician Archetype.pdf,1,9,Abra,28.3,529.5,64.6,551.7,16,1,0,,,text
+Rogue - Magician Archetype.pdf,1,10,"Starting at 9th level, you can make your foes
+believe you can disappear behind a puff of
+smoke(or dragon fire).
+When you use your Evasion feature you can
+immediately move up to half of your
+movement speed and attempt to Hide.",28.3,557.3,276.8,640.4,13,0,0,,,text
+Rogue - Magician Archetype.pdf,1,11,Kadabra,304.4,24.6,367.0,46.9,16,1,0,,,text
+Rogue - Magician Archetype.pdf,1,12,"At 13th level, when you use Sneak Attack on a
+surprised victim, a creature of your choice
+within 30ft that can see you must make a
+Intelligence Save against your Dazzle DC or be
+stunned until the end of their next turn.
+If that creature is also surprised it has
+disadvantage on the save.",304.4,52.4,566.2,148.6,13,0,0,,,text
+Rogue - Magician Archetype.pdf,1,13,Alakazam,304.4,155.6,378.6,177.9,16,1,0,,,text
+Rogue - Magician Archetype.pdf,1,14,"Starting at 17th level, you can use your action
+to put on a show.
+Any creatures of your choice within 30ft of
+you, that can see you, must make a
+Intelligence Save Vs your Dazzle DC or be
+surprised until the end of their next turn.
+Creatures can be affected by surprise this way
+no matter what round it is.",304.4,183.4,561.5,292.6,13,0,0,,,text
+Rogue - Magician Archetype.pdf,1,15,"Surprised creatures can’t move or take actions
+and can’t take a Reaction until their turn ends.
+You can do this once between long rests.",304.4,299.4,565.0,343.6,13,0,0,,,text
+Rogue - Magician Archetype.pdf,1,16,"Art by Aitor Sebastián
+https://www.artstation.com/inkeyjay",52.0,771.0,193.8,796.9,10,0,1,,,text

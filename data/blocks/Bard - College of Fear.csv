@@ -1,0 +1,172 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Fear.pdf,1,0,College of Fear,48.2,478.3,156.1,494.5,15,0,0,,,text
+Bard - College of Fear.pdf,1,1,"Members of the College of Fear learn all the secrets of the
+True Fear, and know how to frighten others by telling horror
+stories or exploiting their worst phobias. It is said that gazing
+directly at the eyes of one of them is enough to cause you
+nightmares for the rest of your life...",48.2,500.8,289.6,555.5,9,0,0,,,text
+Bard - College of Fear.pdf,1,2,Horror Stories,48.2,563.9,137.8,578.0,13,0,0,,,text
+Bard - College of Fear.pdf,1,3,"Starting at 3rd level, when a creature benefits from your song
+of rest, you can choose to tell it an horror story. When you do
+so, if the creature can hear and understand you, it becomes
+paranoid for the next hour. While paranoid, it adds half your
+charisma modifier (rounded up) to its passive perception and
+to its initiative rolls. A creature immuned to being frighten
+can't benefit from this feature.",48.2,579.5,290.1,657.5,9,0,0,,,text
+Bard - College of Fear.pdf,1,4,Inspire Fear,48.2,665.9,117.0,680.0,13,0,0,,,text
+Bard - College of Fear.pdf,1,5,"Beginning at 3rd level, you can expend one of your inspiration
+dice as a bonus action to inspire fear to a creature within 30
+feet that can see or hear you. When you do so, the target
+must succeed a wisdom saving throw against your spell save
+DC or be frighten by you until the start of your next round.",48.2,681.5,291.3,736.3,9,0,0,,,text
+Bard - College of Fear.pdf,1,6,Awaken Phobia,320.2,515.9,407.9,530.0,13,0,0,,,text
+Bard - College of Fear.pdf,1,7,"Starting at 6th level, when you use your Inspire Fear feature
+on a creature, you can also choose to awake an unbearable
+phobia in its heart (creatures immuned to being frighten
+aren't affected). When you do so, roll on the Phobia Table to
+know what phobia is awaken for that target. The phobia lasts
+for 1 hour, and a creature can only be affected by one phobia
+at a time. If you awake a second phobia on a creature, the
+phobia stays the same but its duration is refreshed.",320.2,531.5,560.8,620.0,9,0,0,,,text
+Bard - College of Fear.pdf,1,8,"Until the end of its phobia, when the targeted creature is
+within 15 feet of a source of its phobia (for instance if the
+creature has a phobia for creepy crawlers and is within 15
+feet of a snake or within 15 feet of an illusion of a snake), it is
+frighten by it until it is no longer within 15 feet of it.",320.2,630.5,561.2,685.3,9,0,0,,,text
+Bard - College of Fear.pdf,1,9,"The targeted creature also gets an additional negative effect
+depending on its phobia (see the Phobia Table below).",320.2,695.0,556.1,716.0,9,0,0,,,text
+Bard - College of Fear.pdf,1,10,Bard : College of Fear,127.2,28.6,491.0,84.9,54,0,0,,,text
+Bard - College of Fear.pdf,1,11,Bard : College of Fear,130.2,28.6,494.0,84.9,54,0,0,,,text
+Bard - College of Fear.pdf,1,12,Bard : College of Fear,127.2,31.6,491.0,87.9,54,0,0,,,text
+Bard - College of Fear.pdf,1,13,"Bard : College of Fear
+Bard : College of Fear",128.7,30.1,494.0,87.9,54,0,0,,,text
+Bard - College of Fear.pdf,1,14,25,587.1,764.7,596.4,772.8,8,0,0,,,text
+Bard - College of Fear.pdf,1,15,This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used,48.8,772.1,548.2,780.4,8,0,0,,,text
+Bard - College of Fear.pdf,1,16,are property of Wizards of the Coast. ©Wizards of the Coast LLC.,179.1,781.1,417.9,789.4,8,0,0,,,text
+Bard - College of Fear.pdf,2,17,Phobia Table,48.2,51.6,119.2,63.9,12,0,0,,,text
+Bard - College of Fear.pdf,2,18,d8 Phobia,49.2,85.8,96.0,97.1,10,1,0,,,text
+Bard - College of Fear.pdf,2,19,"Sources of
+the phobia
+Additional Effect",109.7,74.6,261.4,97.1,10,1,0,,,text
+Bard - College of Fear.pdf,2,20,1,51.8,141.3,57.7,152.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,21,"Creepy
+Crawlers",64.9,136.1,98.7,157.8,10,1,0,,,text
+Bard - College of Fear.pdf,2,22,"insects,
+rodents and",107.4,130.1,156.5,152.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,23,snakes,118.1,152.6,145.8,163.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,24,"Once per round, when the
+target takes damage from an
+insect, a rodent, a snake or by",165.7,103.1,287.9,136.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,25,"the Infestation, or Insect
+Plague spells, it takes an extra
+psychic damage equal to your",165.3,136.1,288.3,169.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,26,bardic inspiration die + your,168.9,169.1,284.8,180.3,10,0,0,,,text
+Bard - College of Fear.pdf,2,27,charisma modifier.,188.4,179.6,265.2,190.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,28,2 Darkness,51.8,241.1,100.1,252.3,10,1,0,,,text
+Bard - College of Fear.pdf,2,29,"areas of
+darkness
+larger than a",106.6,224.6,157.3,257.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,30,5-foot cube,107.4,257.6,156.4,268.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,31,"Once per round, when the
+target takes damage from a
+creature that is in darkness or
+in dim light, or by the Arms of",164.7,196.8,288.9,241.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,32,"Hadar, Evard Black Tentacles,
+or Dark Star spells, it takes an
+extra psychic damage equal to",164.4,241.1,289.3,274.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,33,your bardic inspiration die +,168.9,274.1,284.8,285.3,10,0,0,,,text
+Bard - College of Fear.pdf,2,34,your charisma modifier.,178.1,284.6,275.5,295.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,35,3,51.8,323.6,57.7,334.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,36,"Great
+Heights",66.1,318.3,97.6,340.1,10,1,0,,,text
+Bard - College of Fear.pdf,2,37,"spaces at
+least 10 feet",105.9,301.8,157.9,323.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,38,"lower than
+the current",109.0,323.6,154.8,346.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,39,position,114.9,345.3,149.0,356.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,40,"Once per turn, when the target",162.9,301.8,290.7,313.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,41,"takes fall damage, it takes an
+extra psychic damage equal to",164.4,312.3,289.3,334.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,42,your bardic inspiration die +,168.9,334.8,284.8,346.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,43,your charisma modifier.,178.1,345.3,275.5,356.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,44,4,51.8,395.6,57.7,406.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,45,Death,69.8,395.6,93.8,406.8,10,1,0,,,text
+Bard - College of Fear.pdf,2,46,undeads,114.6,395.6,149.2,406.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,47,"Once per round, when the
+target takes damage from an
+undead creature or by the Chill",163.3,362.6,290.3,395.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,48,"Touch spell, it takes an extra
+psychic damage equal to your",165.5,395.6,288.1,418.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,49,bardic inspiration die + your,168.9,417.3,284.8,428.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,50,charisma modifier.,188.4,428.6,265.2,439.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,51,"5 Confined
+Spaces",51.8,467.6,99.9,490.1,10,1,0,,,text
+Bard - College of Fear.pdf,2,52,"corners and
+spaces of 10",105.3,451.1,158.6,473.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,53,feet or less,109.1,472.8,154.7,484.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,54,between 2,110.0,484.1,153.8,495.3,10,0,0,,,text
+Bard - College of Fear.pdf,2,55,walls,121.8,495.3,142.0,506.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,56,"Once per round, when the",172.5,445.8,281.1,457.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,57,"target takes damage, if its
+speed is 0, it takes an extra
+psychic damage equal to your",165.5,456.3,288.1,490.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,58,bardic inspiration die + your,168.9,489.3,284.8,500.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,59,charisma modifier.,188.4,500.6,265.2,511.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,60,6 Needles,51.8,544.8,98.1,556.1,10,1,0,,,text
+Bard - College of Fear.pdf,2,61,"everything
+that can deal",105.6,528.3,158.2,550.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,62,piercing,115.1,550.8,148.7,562.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,63,damage,115.8,561.3,148.1,572.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,64,"Once per round, when the
+target takes piercing damage,",166.2,517.8,287.4,539.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,65,"it takes an extra psychic
+damage equal to your bardic
+inspiration die + your charisma",163.1,539.6,290.5,572.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,66,modifier.,208.2,572.6,245.4,583.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,67,7 Thunder,51.8,616.8,98.4,628.1,10,1,0,,,text
+Bard - College of Fear.pdf,2,68,"everything
+that can deal",105.6,600.3,158.2,622.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,69,"thunder
+damage",115.7,622.8,148.2,644.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,70,"Once per round, when the
+target takes thunder damage,",166.8,589.8,286.9,611.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,71,"it takes an extra psychic
+damage equal to your bardic
+inspiration die + your charisma",163.1,611.6,290.5,644.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,72,modifier.,208.2,644.6,245.4,655.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,73,8,51.8,688.8,57.7,700.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,74,Fire,74.4,688.8,89.2,700.1,10,1,0,,,text
+Bard - College of Fear.pdf,2,75,"everything
+that can deal",105.6,678.3,158.2,700.1,10,0,0,,,text
+Bard - College of Fear.pdf,2,76,fire damage,107.7,700.1,156.2,711.3,10,0,0,,,text
+Bard - College of Fear.pdf,2,77,"Once per round, when the
+target takes fire damage, it
+takes an extra psychic damage",164.2,661.8,289.5,694.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,78,"equal to your bardic
+inspiration die + your charisma",163.1,694.1,290.5,716.6,10,0,0,,,text
+Bard - College of Fear.pdf,2,79,modifier.,208.2,716.6,245.4,727.8,10,0,0,,,text
+Bard - College of Fear.pdf,2,80,Terror,320.2,43.4,361.4,57.5,13,0,0,,,text
+Bard - College of Fear.pdf,2,81,"Starting at 14th level, you awake a phobia in every creature
+you frighten (not only with your Inspire Fear feature, but also
+with any other spell or feature). When you awake a phobia for
+more than one creature at a time (with a spell that target
+multiple creatures for instance), you only roll once on the
+phobias table, and each creature affected gets the same
+phobia.",320.2,59.0,562.6,136.3,9,0,0,,,text
+Bard - College of Fear.pdf,2,82,"Moreover, when a creature that you can see within 30 feet of
+you becomes frighten, you can call to their inner instinct, as
+you know how to control how any creature will react when
+facing its worst fears. When you do so, choose one of the
+following effects (no action required) :",320.2,146.8,558.3,201.5,9,0,0,,,text
+Bard - College of Fear.pdf,2,83,"Flight : The frightened creature must use its movement to
+move as far as possible from the source of its fear during
+its next turn, by the safest available route.",332.7,211.3,563.1,243.5,9,0,0,,,text
+Bard - College of Fear.pdf,2,84,"Freeze : The frightened creature's movement speed
+become 0 until the end of its next turn.",332.7,253.3,537.4,274.3,9,0,0,,,text
+Bard - College of Fear.pdf,2,85,"Fight : the frightened creature must make a weapon or a
+spell attack against the source of its fear during its next
+turn if possible, or use the dodge action if the source of its
+fear isn't a creature or if it is out of its reach.",332.7,284.0,561.0,327.5,9,0,0,,,text
+Bard - College of Fear.pdf,2,86,26,15.6,764.7,24.9,772.8,8,0,0,,,text
+Bard - College of Fear.pdf,2,87,This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used,63.8,772.1,563.2,780.4,8,0,0,,,text
+Bard - College of Fear.pdf,2,88,are property of Wizards of the Coast. ©Wizards of the Coast LLC.,194.1,781.1,432.9,789.4,8,0,0,,,text

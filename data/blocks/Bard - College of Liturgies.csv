@@ -1,0 +1,166 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Liturgies.pdf,1,0,Bard: College of Liturgies,48.2,414.8,229.3,429.8,15,0,0,,,text
+Bard - College of Liturgies.pdf,1,1,"Bards of the College of Liturgies, also known as Cantors,
+embrace religion and piety. They devote themselves to the
+teachings of a higher power and often become pilgrims, using
+their magical voices to spread the dogma of their faith in
+hopes of changing the world for the best. Their psalms are
+empowered by divine magic, harmonious to the ears of the
+devout and excruciating to those of little faith and vile hearts.",48.2,435.5,291.2,512.8,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,2,Blessed Cantor,48.2,523.6,138.1,536.6,13,0,0,,,text
+Bard - College of Liturgies.pdf,1,3,"3rd-level College of Liturgies feature
+You learn the thaumaturgy cantrip, which doesn’t count
+against the number of bard cantrips you know.",48.2,538.3,275.3,569.8,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,4,"In addition, you learn to speak, read and write Celestial,
+and you gain proficiency with the Religion skill.",48.2,572.0,276.7,593.0,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,5,Domain Herald,48.2,603.9,137.7,616.8,13,0,0,,,text
+Bard - College of Liturgies.pdf,1,6,"3rd-level College of Liturgies feature
+When you choose this college, choose a domain from your
+chosen deity's list of eligible domains. Whenever you learn a
+bard spell, you can choose the spell from the cleric domain
+spells of your chosen domain or the bard spell list. Cleric
+domain spells you learn with this feature must be of a level
+for which you have spell slots and are considered bard spells
+for you.",48.2,617.8,287.2,707.0,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,7,"In addition, you can use a holy symbol as a spellcasting
+focus for your bard spells.",48.2,709.3,274.4,729.5,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,8,Divine Psalms,320.2,28.6,399.9,41.6,13,0,0,,,text
+Bard - College of Liturgies.pdf,1,9,"3rd-level College of Liturgies feature
+You 've been taught esoteric psalms that invoke powerful
+divine magic. These psalms are extremely intricate, and you
+must memorize them to be able to chant them. You prepare
+the list of memorized psalms that are available for you to
+chant, choosing from the ""Psalms"" list detailed below. When
+you do so, choose a number of psalms equal to your
+proficiency bonus to memorize.",320.2,42.5,558.4,131.8,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,10,"If a psalm has prerequisites, you must meet them to
+memorize it. You can memorize the psalm at the same time
+that you meet its prerequisites. A level prerequisite refers to
+your level in this class. You can change your list of
+memorized psalms when you finish a long rest.",320.2,134.0,556.0,188.8,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,11,"As an action, you can expend one use of your Bardic
+Inspiration to chant a psalm that you 've memorized and
+choose one creature you can see within 30 feet of you to be
+the target of the psalm’s effect. If a psalm requires a saving
+throw, the DC equals your bard spell save DC.",320.2,191.0,553.2,245.8,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,12,"When you use your action on your turn to chant a psalm,
+you can also manifest one of the magical effects described in
+the thaumaturgy cantrip as part of that action. If you do, the
+effect lasts until the end of your turn.",320.2,248.0,559.4,290.8,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,13,Pious Preacher,320.2,302.4,407.7,315.3,13,0,0,,,text
+Bard - College of Liturgies.pdf,1,14,"6th-level College of Liturgies feature
+You can impart lessons of faith in others. You can conduct
+an hour-long liturgy of preaching (which can be done during a
+short or long rest) . You can conduct the ritual with a number
+of willing creatures other than yourself up to your proficiency
+bonus . At the end of the liturgy, each participating creature
+memorizes one psalm of your choice from the psalms you've
+memorized.",320.2,316.3,563.5,404.8,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,15,"As an action, a creature that participated in the liturgy can
+chant the psalm it memorized and choose one creature it can
+see within 30 feet of it, to be the target of the psalm's effects.
+The psalm then takes effect as if you had chanted it, using
+your Bardic Inspiration die, Charisma modifier, bard level,
+and bard saving throw DC for its effects, but without
+expending uses of your Bardic Inspiration.",320.2,407.8,561.7,485.0,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,16,"Once you perform the liturgy, you can’t do so again until
+you start a long rest. A creature that chants a psalm with this
+feature can't do so again until you perform the liturgy again.",320.2,487.3,560.0,518.8,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,17,Exalted Cantor,320.2,530.4,412.7,543.3,13,0,0,,,text
+Bard - College of Liturgies.pdf,1,18,"14th-level College of Liturgies feature
+Whenever you use your action to chant a psalm, you can
+chant two psalms as part of that action instead, provided that
+they are different psalms. You must still expend uses of your
+Bardic Inspiration as normal to chant each psalm, and you
+can't target the same creature with both psalms.",320.2,544.3,560.0,610.3,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,19,Psalms,320.2,621.1,358.7,634.1,13,0,0,,,text
+Bard - College of Liturgies.pdf,1,20,The psalms are presented in alphabetical order,320.2,635.0,507.3,644.0,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,21,"Psalm of Ardor. The target gains temporary hit points
+equal to one roll of your Bardic Inspiration die + your bard
+level. While it has these temporary hit points, the target's
+walking speed increases by 10 feet and whenever the target
+rolls Initiative, it can roll a die of the same type as your
+Bardic Inspiration die and add it to the total for that initiative
+roll.",320.2,647.0,560.3,724.3,9,0,0,,,text
+Bard - College of Liturgies.pdf,1,22,2,589.4,767.0,594.1,775.1,8,0,0,,,text
+Bard - College of Liturgies.pdf,2,23,"Psalm of Exorcism. If the target is a celestial, an
+elemental, a fey, a fiend, or an undead, it must succeed on a
+Charisma saving throw or be banished in a harmless
+demiplane until the start of its next turn, at which point it
+reappears where it was or in the closest unoccupied space. If
+the target is charmed, frightened or possessed by such a
+creature, it can immediately make a saving throw against the
+relevant effect, rolling a die of the same type as your Bardic
+Inspiration die and adding it to the saving throw.",48.2,29.8,288.8,129.5,9,0,0,,,text
+Bard - College of Liturgies.pdf,2,24,"Psalm of Fervor. The target can immediately use its
+reaction to move up to its speed without provoking
+opportunity attacks and make a melee weapon attack against
+a creature it can reach. On a hit, the attack deals extra
+thunder damage equal to one roll of your Bardic Inspiration
+die + your Charisma modifier.",48.2,132.5,288.8,198.5,9,0,0,,,text
+Bard - College of Liturgies.pdf,2,25,"Psalm of Judgment (Prerequisite: 5th level). The target
+must succeed on a Constitution saving throw or take radiant
+damage equal to two rolls of your Bardic Inspiration die and
+be blinded until the end of its next turn.",48.2,200.8,286.3,243.5,9,0,0,,,text
+Bard - College of Liturgies.pdf,2,26,"Psalm of Lament (Prerequisite: 5th level) . The target
+must make a Wisdom saving throw. On a failed save, the
+target takes psychic damage equal to two rolls of your Bardic
+Inspiration die and must immediately use its reaction, if
+available, to drop prone. A creature that succeeds on its
+saving throw takes half as much damage and doesn’t have to
+drop prone.",48.2,246.5,288.4,323.8,9,0,0,,,text
+Bard - College of Liturgies.pdf,2,27,"Psalm of Penance (Prerequisite: 15th level) . The target
+must make a Wisdom saving throw. On a failed save, it takes
+psychic damage equal to three rolls of your Bardic
+Inspiration die and is stunned until the end of its next turn. A
+creature that succeeds on its saving throw takes half as much
+damage and isn't stunned.",48.2,326.0,290.6,392.0,9,0,0,,,text
+Bard - College of Liturgies.pdf,2,28,"Psalm of Protection. The target gains temporary hit
+points equal to one roll of your Bardic Inspiration die + your
+bard level. While it has these temporary hit points, whenever
+the target takes damage, it can use its reaction to roll a die of
+the same type as your Bardic Inspiration die and reduce the
+damage taken by an amount equal to the number rolled.",48.2,394.3,288.2,460.3,9,0,0,,,text
+Bard - College of Liturgies.pdf,2,29,"Psalm of Power. The next time the target hits a creature
+with a weapon attack before the start of your next turn, the
+attack deals extra thunder damage equal to one roll of your
+Bardic Inspiration die + your Charisma modifier, and the
+target must succeed on a Strength saving throw or be
+knocked prone if it is Large or smaller.",320.2,29.8,554.4,95.8,9,0,0,,,text
+Bard - College of Liturgies.pdf,2,30,"Psalm of Spirituality (Prerequisite: 10th level) . If the
+target is affected by an effect that would allow it to make a
+saving throw at the end of each of its turns to end it, it can
+immediately make the saving throw when targeted with this
+psalm instead, rolling a die of the same type as your Bardic
+Inspiration die and adding it to the saving throw. If the target
+succeeds on this saving throw, it regains hit points equal to
+one roll of your Bardic Inspiration die + your Charisma
+modifier.",320.2,98.0,559.2,198.5,9,0,0,,,text
+Bard - College of Liturgies.pdf,2,31,"Psalm of Radiance. Bright light bursts in a 20-foot cube
+around the target. Each creature hostile to the target within
+the area of bright light must make a Dexterity saving throw.
+On a failed save, a creature takes radiant damage equal to
+one roll of your Bardic Inspiration die, and can't benefit from
+being invisible until the end of its next turn. A creature that
+succeeds on its saving throw takes half as much damage and
+can benefit from being invisible.",320.2,200.8,559.7,289.3,9,0,0,,,text
+Bard - College of Liturgies.pdf,2,32,"Psalm of Restoration (Prerequisite: 15th level) . The
+target regains hit points equal to two rolls of your Bardic
+Inspiration die + your Charisma modifier and you end one
+condition from the following list affecting the target: blinded,
+deafened, paralyzed, petrified, or poisoned.",320.2,291.5,558.3,346.3,9,0,0,,,text
+Bard - College of Liturgies.pdf,2,33,"Psalm of Revelations (Prerequisite: 10th level) . Each
+creature of the target’s choice it can see within 30 feet of it
+must make a Wisdom saving throw. On a failed save, a
+creature takes psychic damage equal to three rolls of your
+Bardic Inspiration die and must immediately use its reaction,
+if available, to move as far as its speed allows it away from
+the target. The creature doesn’t move into obviously
+dangerous ground, such as a fire or a pit. A creature that
+succeeds on its saving throw takes half as much damage and
+doesn’t have to move away.",320.2,348.5,561.6,460.3,9,0,0,,,text
+Bard - College of Liturgies.pdf,2,34,"Psalm of Reverence. The target must succeed on a
+Wisdom saving throw or take psychic damage equal to two
+rolls of your Bardic Inspiration die, and the target is charmed
+by you until the end of its next turn.",320.2,463.3,561.8,506.0,9,0,0,,,text
+Bard - College of Liturgies.pdf,2,35,3,17.9,767.0,22.6,775.1,8,0,0,,,text

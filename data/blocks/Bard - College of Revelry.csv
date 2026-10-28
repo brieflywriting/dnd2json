@@ -1,0 +1,30 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Revelry.pdf,1,0,COLLEGE OF REVELRY,21.1,19.2,152.2,30.2,13.9,,,paragraph_title,0.987,ocr
+Bard - College of Revelry.pdf,1,1,"Bards that join the College of Revelry somehow seem to be the center of attention wherever they go. They enjoy the afterparty more e than their performance, and they never turn down an invitation to a good time. From formal banquets to harvest celebrations of small towns, Revelry Bards live for the party.",19.7,38.4,263.5,92.6,10.1,,,text,0.987,ocr
+Bard - College of Revelry.pdf,1,2,Bard Level College Feature,22.6,98.9,133.9,108.5,13.0,,,paragraph_title,0.996,ocr
+Bard - College of Revelry.pdf,1,3,"3rd Charming Presence, Depraved Enchantments",37.0,114.7,255.8,125.3,12.5,,,text,0.988,ocr
+Bard - College of Revelry.pdf,1,4,6th Stirring Performance,37.0,131.5,156.0,141.1,12.2,,,text,1.0,ocr
+Bard - College of Revelry.pdf,1,5,14th Hedonistic Trance,34.6,148.3,145.4,157.4,11.3,,,text,0.995,ocr
+Bard - College of Revelry.pdf,1,6,tent policy. Not approved/endorsed by Wizards. Portions of the ds of the Coast.Wizards of the Coast LLC.,0.0,199.7,229.9,219.8,9.8,,,text,0.986,ocr
+Bard - College of Revelry.pdf,2,7,CHARMING PRESENCE,46.6,458.9,161.3,469.0,12.0,,,paragraph_title,0.786,ocr
+Bard - College of Revelry.pdf,2,8,3rd-level College of Revelry feature,47.0,472.3,187.2,481.4,10.1,,,text,0.995,ocr
+Bard - College of Revelry.pdf,2,9,"Your natural charm makes others uniquely comfortable around you. You gain proficiency in Persuasion. If you are already proficient in Persuasion you instead gain proficiency in either Deception, Performance, or Sleight of Hand.",46.1,483.8,287.0,526.6,10.3,,,text,0.991,ocr
+Bard - College of Revelry.pdf,2,10,"If you are currently carousing with a creature, you have advantage on any Deception, Performance, Persuasion, or Sleight of Hand checks you make directed at that creature.",46.1,529.9,281.8,561.1,9.6,,,text,0.996,ocr
+Bard - College of Revelry.pdf,2,11,"For the purposes of this feature, carousing could be any of the following activities: drinking, dancing, feasting, partying,gambling, or any other activity that lowers inhibitions.",45.6,564.0,287.0,596.6,9.6,,,text,0.997,ocr
+Bard - College of Revelry.pdf,2,12,Revelry Bards & Carousing,61.9,622.1,213.6,632.6,12.0,,,paragraph_title,0.772,ocr
+Bard - College of Revelry.pdf,2,13,"While most Bards will probably thrive in the social pillar of the game, Bards of the College of Revelry will excel. Many of their features rely on interacting with NPC characters in carousing environments.",61.4,637.0,274.6,677.8,11.0,,,text,0.968,ocr
+Bard - College of Revelry.pdf,2,14,"If your Revelry Bard is interested in carousing,you can use the 'Carousing Table on page 128 of the Dungeon Master's Guide. Revelry Bards can roll twice on this table and choose which result to use.",61.4,679.7,275.0,719.5,10.3,,,text,0.997,ocr
+Bard - College of Revelry.pdf,2,15,DePrAVed EnchanTMentS,351.8,30.7,494.9,40.3,10.9,,,paragraph_title,0.859,ocr
+Bard - College of Revelry.pdf,2,16,Yo an,330.2,54.2,560.6,110.4,9.6,,,text,0.893,ocr
+Bard - College of Revelry.pdf,2,17,STIrring PerForMance,339.4,118.6,469.0,128.6,10.5,,,paragraph_title,0.856,ocr
+Bard - College of Revelry.pdf,2,18,Your presence during rests enlivens your allies and assuages their worries. Any creature that benefits from your Song of Rest feature regains additional hit points equal to your Charisma modifier (minimum of 1 hit point).,322.6,143.5,562.1,187.2,9.6,,,text,0.983,ocr
+Bard - College of Revelry.pdf,2,19,"Moreover, any creature that benefits from your Song of Rest feature also has advantage on the first ability check,attack roll, or saving throw it makes after it completes a short rest with you.",324.0,190.1,560.6,232.3,9.6,,,text,0.99,ocr
+Bard - College of Revelry.pdf,2,20,HedonistiC Trance,382.1,241.9,494.4,252.5,12.0,,,paragraph_title,0.736,ocr
+Bard - College of Revelry.pdf,2,21,1 4th-level College of Revelry feature,384.0,255.8,529.0,264.5,11.0,,,paragraph_title,0.961,ocr
+Bard - College of Revelry.pdf,2,22,"Your bardic songs send creatures into a state of ecstasy.As an action, you can expend a use of Bardic Inspiration to force a creature that can hear you within 30 feet to make a Wisdom saving throw. On a failed save, it is stunned for 1 minute. If the creature takes damage,it can immediately repeat the saving throw, ending the effect on a success. If the creature succeeds on its saving throw, or the effect ends for it, it is immune to this feature for the next 24 hours.",327.8,267.4,563.0,365.8,9.6,,,text,0.965,ocr
+Bard - College of Revelry.pdf,2,23,"While stunned, the creature is in state of pure ecstasy of your choosing. It could be a drunken stupor, a fit of uncontrollable laughter, sensual hallucinations, or overwhelming pleasure.",365.3,369.1,561.1,412.8,10.6,,,text,0.982,ocr
+Bard - College of Revelry.pdf,2,24,"When you use this feature, you can expend an additional use of your Bardic Inspiration to impose disadvantage on its initial saving throw.",374.9,415.7,562.6,447.4,9.1,,,text,0.991,ocr
+Bard - College of Revelry.pdf,2,25,Your the I an er compo impose,0.0,0.0,358.1,454.1,9.6,,,image,0.944,ocr
+Bard - College of Revelry.pdf,2,26,3rd-level College of Revelry feature,342.7,43.7,484.3,52.3,9.2,,,vision_footnote,0.955,ocr
+Bard - College of Revelry.pdf,2,27,6th-level College of Revelry feature,338.4,132.0,478.6,140.6,9.7,,,vision_footnote,0.97,ocr
+Bard - College of Revelry.pdf,2,28,This is unofficial Fan Content permitted under the Fan Content policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast.Wizards of the Coast LLC.,78.7,766.6,528.0,787.2,9.6,,,footer,0.978,ocr

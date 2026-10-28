@@ -1,0 +1,37 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Drama.pdf,1,0,COLLEGE Of DRaMA,20.6,4.3,143.5,15.4,13.0,,,paragraph_title,0.723,ocr
+Bard - College of Drama.pdf,1,1,"Long have the performing arts been a favorite pastime for people of all walks of life. Performers and thespians use the stage to tell stories that while fictional, can reveal great truths about life, death, and the struggles in between. The Muse, the ancient spirit of inspiration, moves the hearts of these actors,both great and small, to give their all in every performance.",19.7,23.5,264.5,89.8,11.0,,,text,0.986,ocr
+Bard - College of Drama.pdf,1,2,CHANNEL THE MUSE,20.6,168.5,130.1,178.1,11.5,,,paragraph_title,0.995,ocr
+Bard - College of Drama.pdf,1,3,3rd-level College of Drama feature,21.1,181.9,159.8,190.1,10.1,,,paragraph_title,0.988,ocr
+Bard - College of Drama.pdf,1,4,"You have learned to channel songs of The Muse to magically manifest two masks. One, a laughing Mask of Comedy, the other, a weeping Mask of Tragedy. At the end of a long rest,you choose which Mask manifests, which lasts until the end of your next long rest, and grants you the abilities below:",20.2,193.0,259.7,247.2,10.1,,,text,0.993,ocr
+Bard - College of Drama.pdf,1,5,MASK OF COMEDY,20.6,256.8,113.8,265.9,10.1,,,paragraph_title,0.963,ocr
+Bard - College of Drama.pdf,1,6,"You use your talent for the dramatic to inspire your allies in combat. When a friendly creature that can see or hear you within 30 feet fails an ability check or saving throw, or misses with an attack roll, you can use your reaction to expend a use of Bardic Inspiration, roll it, and the result to the creature's roll, possibly turning its failure into a success.",19.7,270.2,264.0,336.5,9.6,,,text,0.982,ocr
+Bard - College of Drama.pdf,1,7,MASK OF TRAGEDy,20.6,345.6,115.7,354.7,10.1,,,paragraph_title,0.88,ocr
+Bard - College of Drama.pdf,1,8,"Your flair for tragedy allows you to inflict sorrow upon your foes. When a hostile creature that can see or hear you within 30 feet succeeds on an ability check or saving throw, or hits with an attack roll, you can use your reaction to expend a use of Bardic Inspiration, roll it, and subtract the result from its roll, possibly turning its success into a failure.",20.2,359.0,262.1,425.3,10.1,,,text,0.99,ocr
+Bard - College of Drama.pdf,1,9,Bard Level College Feature,27.8,96.0,144.0,105.6,13.4,,,figure_title,0.955,ocr
+Bard - College of Drama.pdf,1,10,"3rd
+Channel the Muse, Thespian's Craft
+Soliloquy
+6th
+14th
+Final Curtain",21.6,108.5,265.4,157.4,11.8,,,table,0.998,ocr
+Bard - College of Drama.pdf,1,11,tent policy. Not approved/endorsed by Wizards. Portions of the ds of the Coast.Wizards of the Coast LLC.,0.0,455.0,229.4,475.2,9.1,,,footnote,0.989,ocr
+Bard - College of Drama.pdf,2,12,THESPIAN's CRAFT,46.1,252.5,145.9,262.6,12.5,,,paragraph_title,0.751,ocr
+Bard - College of Drama.pdf,2,13,3rd-level College of Drama feature,46.6,265.9,184.8,275.0,10.6,,,paragraph_title,0.987,ocr
+Bard - College of Drama.pdf,2,14,"The Muse has granted the skills of a master stage performer.You gain proficiency in Performance and with disguise kits,and whenever you make an ability check with either of these proficiencies you can treat a d20 roll of 7 or lower as an 8.",45.6,277.4,286.6,320.6,9.6,,,text,0.991,ocr
+Bard - College of Drama.pdf,2,15,SOLILOQUY,46.1,330.7,108.5,340.3,14.4,,,paragraph_title,0.996,ocr
+Bard - College of Drama.pdf,2,16,6th-level College of Drama feature,46.1,343.7,184.3,351.8,9.6,,,text,0.987,ocr
+Bard - College of Drama.pdf,2,17,Your bardic magic and song is infused with the performative power of The Muse. When you use Countercharm it gains the effects below based on the Mask you are currently wearing:,45.6,354.2,290.9,386.4,9.6,,,text,0.991,ocr
+Bard - College of Drama.pdf,2,18,MASK OF COMEDY,46.6,396.5,139.2,405.6,12.5,,,paragraph_title,0.777,ocr
+Bard - College of Drama.pdf,2,19,The sound of your music inspires great deeds. Creatures of your choice that can hear you within range of Countercharm gain temporary hit points equal to your Charisma modifier (minimum of 1) at the start of each of their turns.,45.6,409.4,285.6,452.2,9.8,,,text,0.985,ocr
+Bard - College of Drama.pdf,2,20,MASK OF TRAGEDY,46.6,462.2,141.1,471.8,10.1,,,paragraph_title,0.99,ocr
+Bard - College of Drama.pdf,2,21,Your bardic magic and song undermine the resolve of your enemies. Creatures of your choice that can hear you within range of Countercharm have disadvantage on saving throws to resist any spell that includes a verbal component.,46.1,475.7,284.6,518.4,9.6,,,text,0.989,ocr
+Bard - College of Drama.pdf,2,22,FINAL CURTAIN,46.6,527.0,129.6,536.2,12.5,,,paragraph_title,0.971,ocr
+Bard - College of Drama.pdf,2,23,1 4th-level College of Drama feature,46.6,540.0,189.6,548.6,10.6,,,text,0.994,ocr
+Bard - College of Drama.pdf,2,24,"The Muse grants you the ability to enthrall Death itself, if only for a short while. Your Masks grant the benefits below:",46.1,551.0,281.8,571.7,9.6,,,text,0.987,ocr
+Bard - College of Drama.pdf,2,25,MASK OF COMEDY,46.6,581.8,139.2,590.9,10.1,,,paragraph_title,0.91,ocr
+Bard - College of Drama.pdf,2,26,"You can bring allies back from the brink of death. When a creature you can see within 30 feet makes a death saving throw, you can use your reaction to expend a use of Bardic Inspiration and make a Charisma (Performance) check. The creature can choose to use the result of your check in place of making a normal death saving throw roll.",45.6,594.7,285.6,660.5,9.6,,,text,0.986,ocr
+Bard - College of Drama.pdf,2,27,MASK OF TRAGEDY,46.6,670.1,141.1,679.7,10.1,,,paragraph_title,0.917,ocr
+Bard - College of Drama.pdf,2,28,"You can bargain with death itself for more time. When you are reduced to 0 hit points but not killed outright, you can expend a use of Bardic Inspiration die to immediately make a Charisma (Performance) check. If the result of your check is a 20 or greater, you fall to 1 hit point instead of 0.",46.1,683.0,284.2,737.3,9.6,,,text,0.988,ocr
+Bard - College of Drama.pdf,2,29,This is unofficial Fan Content permitted under the Fan Conten,80.2,767.0,308.6,774.7,10.6,,,footer,0.984,ocr
+Bard - College of Drama.pdf,2,30,materials used are property of Wizards,162.7,778.6,308.6,786.7,9.6,,,footer,0.995,ocr

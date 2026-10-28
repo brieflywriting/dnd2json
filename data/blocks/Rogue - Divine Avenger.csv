@@ -1,0 +1,182 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Rogue - Divine Avenger.pdf,1,0,Rogue Archetype,48.2,426.2,200.6,447.8,20,0,0,,,text
+Rogue - Divine Avenger.pdf,1,1,Divine Avenger,48.2,451.3,151.6,467.5,15,0,0,,,text
+Rogue - Divine Avenger.pdf,1,2,"Divine Avengers are agents sent by the gods to track and
+eliminate the unholy. Some of those rogues are virtuous,
+worshiping good gods and bringing their righteous justice to
+the world, but some others are darker and follow the twisted
+whispers of evil gods, executing their targets in their name.",48.2,473.8,285.9,528.5,9,0,0,,,text
+Rogue - Divine Avenger.pdf,1,3,Vow of Enmity,48.2,537.7,132.7,551.7,13,0,0,,,text
+Rogue - Divine Avenger.pdf,1,4,"Starting at 3rd level, you can profess a Vow of Enmity as a
+bonus action. When you do so, choose a target within 60 feet
+of you. Until you die or until the target of your vow dies, you
+can use your sneak attack feature against it even when you
+don't fulfill the prerequisite for it (you can sneak attack even if
+non of your allies is adjacent to it, and even if you don't have
+advantage on your attack). You are still limited to one sneak
+attack per turn. Moreover, when you attack the target of your
+vow of enmity with a weapon, that weapon gains the finesse
+property for this attack.",48.2,553.3,291.3,665.0,9,0,0,,,text
+Rogue - Divine Avenger.pdf,1,5,"In addition, when the target of your Vow of Enmity can see
+you and doesn't move directly toward you, it must spend 2
+feet of movement for every 1 foot it moves.",48.2,674.8,279.3,707.0,9,0,0,,,text
+Rogue - Divine Avenger.pdf,1,6,"When you profess a Vow of Enmity, you can't do it again until
+your target is dead or until you finish a short or a long rest.",48.2,717.5,288.3,737.8,9,0,0,,,text
+Rogue - Divine Avenger.pdf,1,7,Spellcasting,320.2,470.9,393.7,485.0,13,0,0,,,text
+Rogue - Divine Avenger.pdf,1,8,"When you reach 3rd level, you augment your martial prowess
+with the ability to cast spells.",320.2,486.5,561.2,506.8,9,0,0,,,text
+Rogue - Divine Avenger.pdf,1,9,Cantrips. You learn the Light and Thaumaturgy Cantrips.,320.2,517.3,552.5,526.5,9,0,0,,,text
+Rogue - Divine Avenger.pdf,1,10,"Spell Slots. The Divine Avenger Spellcasting table shows
+how many spell slots you have to cast your spells of 1st level
+and higher. To cast one of these spells, you must expend a
+slot of the spell's level or higher. You regain all expended spell
+slots when you finish a long rest.",320.2,536.0,563.0,590.8,9,0,0,,,text
+Rogue - Divine Avenger.pdf,1,11,"For example, if you know the 1st-level spell Thunderous
+Smite and have a 1st-level and a 2nd-level spell slot available,
+you can cast Thunderous Smite using either slot.",320.2,601.3,562.2,633.0,9,0,0,,,text
+Rogue - Divine Avenger.pdf,1,12,"Spells Known of 1st Level and Higher. You know three 1st-
+level paladin spells of your choice.",320.2,643.3,561.7,663.5,9,0,0,,,text
+Rogue - Divine Avenger.pdf,1,13,"The Spells Known column of the Divine Avenger Spellcasting
+table shows when you learn more paladin spells of 1st level
+or higher. Each of these spells must be of a level for which
+you have spell slots. For instance, when you reach 7th level in
+this class, you can learn one new spell of 1st or 2nd level.",320.2,674.0,563.5,728.8,9,0,0,,,text
+Rogue - Divine Avenger.pdf,1,14,Rogue : Divine Avenger,124.0,28.6,493.9,84.9,54,0,0,,,text
+Rogue - Divine Avenger.pdf,1,15,Rogue : Divine Avenger,127.0,28.6,496.9,84.9,54,0,0,,,text
+Rogue - Divine Avenger.pdf,1,16,Rogue : Divine Avenger,124.0,31.6,493.9,87.9,54,0,0,,,text
+Rogue - Divine Avenger.pdf,1,17,"Rogue : Divine Avenger
+Rogue : Divine Avenger",125.5,30.1,496.9,87.9,54,0,0,,,text
+Rogue - Divine Avenger.pdf,1,18,49,587.1,764.7,596.4,772.8,8,0,0,,,text
+Rogue - Divine Avenger.pdf,1,19,This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used,48.8,772.1,548.2,780.4,8,0,0,,,text
+Rogue - Divine Avenger.pdf,1,20,are property of Wizards of the Coast. ©Wizards of the Coast LLC.,179.1,781.1,417.9,789.4,8,0,0,,,text
+Rogue - Divine Avenger.pdf,2,21,"Whenever you gain a level in this class, you can replace one
+of the paladin spells you know with another spell of your
+choice from the paladin spell list. The new spell must be of a
+level for which you have spell slots.",48.2,29.8,286.6,72.5,9,0,0,,,text
+Rogue - Divine Avenger.pdf,2,22,"Spellcasting Ability. Wisdom is your spellcasting ability for
+your paladin spells and for the Light and Thaumaturgy
+cantrips. You use your Wisdom whenever a spell refers to
+your spellcasting ability. In addition, you use your Wisdom
+modifier when setting the saving throw DC for a paladin spell
+you cast and when making an attack roll with one.",48.2,83.0,290.5,149.0,9,0,0,,,text
+Rogue - Divine Avenger.pdf,2,23,Spell Save DC = 8 + your proficiency bonus +,77.4,164.8,262.6,175.7,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,24,your Wisdom modifier,124.6,179.8,215.4,190.7,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,25,Spell attack modifier = your proficiency bonus +,70.5,202.3,269.5,213.2,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,26,your Wisdom modifier,124.6,217.3,215.4,228.2,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,27,Hound of the Gods,48.2,237.7,160.8,251.7,13,0,0,,,text
+Rogue - Divine Avenger.pdf,2,28,"Beginning at 9th level, you gain proficiency in the Religion
+and Investigation skills. If you already have one of them, you
+gain proficiency in an other skill from the rogue list instead.
+Your proficiency bonus is doubled for any Religion or
+Investigation skill check you make.",48.2,253.3,285.0,308.0,9,0,0,,,text
+Rogue - Divine Avenger.pdf,2,29,Cunning Smite,48.2,317.2,133.9,331.2,13,0,0,,,text
+Rogue - Divine Avenger.pdf,2,30,"Starting at 13th level, when you use your sneak attack on a
+creature, it rolls saving throws against your paladin spells
+with disadvantage until the end of the turn.",48.2,332.8,279.6,364.3,9,0,0,,,text
+Rogue - Divine Avenger.pdf,2,31,Life Steal,48.2,373.4,105.8,387.5,13,0,0,,,text
+Rogue - Divine Avenger.pdf,2,32,"Starting at 17th level, when the target of your Oath of Enmity
+dies, you regain Hit Points equal to your rogue level and your
+Hit Points Maximum increases by that same amount for the
+next hour.",48.2,389.0,288.8,432.5,9,0,0,,,text
+Rogue - Divine Avenger.pdf,2,33,"You can use this feature only if the target of your vow of
+enmity is CR 3 or higher.",48.2,442.3,266.4,463.3,9,0,0,,,text
+Rogue - Divine Avenger.pdf,2,34,Divine Avenger Spellcasting,320.2,44.1,479.1,56.4,12,0,0,,,text
+Rogue - Divine Avenger.pdf,2,35,Spell Slots per Spell Level,457.6,63.3,562.8,74.6,10,1,0,,,text
+Rogue - Divine Avenger.pdf,2,36,"Level
+Spells Known
+1st
+2nd
+3rd
+4th",328.8,79.8,557.4,91.1,10,1,0,,,text
+Rogue - Divine Avenger.pdf,2,37,"3rd
+3
+2
+—",332.3,96.8,499.2,108.3,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,38,"4th
+4
+3
+—",332.3,114.1,499.2,125.6,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,39,"5th
+4
+3
+—",332.3,130.6,499.2,142.1,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,40,"6th
+4
+3
+—",332.3,147.8,499.2,159.3,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,41,"7th
+5
+4
+2
+—",332.3,165.1,527.9,176.6,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,42,"8th
+6
+4
+2
+—",332.3,181.6,527.9,193.1,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,43,"9th
+6
+4
+2
+—",332.3,198.8,527.9,210.3,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,44,"10th
+7
+4
+3
+—",329.4,216.1,527.9,227.6,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,45,"11th
+8
+4
+3
+—",329.4,232.6,527.9,244.1,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,46,"12th
+8
+4
+3
+—",329.4,249.8,527.9,261.3,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,47,"13th
+9
+4
+3
+2
+—",329.4,267.1,555.2,278.6,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,48,"14th
+10
+4
+3
+2
+—",329.4,283.6,555.2,295.1,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,49,"15th
+10
+4
+3
+2
+—",329.4,300.8,555.2,312.3,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,50,"16th
+11
+4
+3
+—",329.4,318.1,555.2,329.6,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,51,"17th
+11
+4
+3
+—",329.4,334.6,555.2,346.1,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,52,"18th
+11
+4
+3
+—",329.4,351.8,555.2,363.3,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,53,"19th
+12
+4
+3
+1",329.4,369.3,553.1,380.6,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,54,"20th
+13
+4
+3
+1",329.4,385.8,553.1,397.1,10,0,0,,,text
+Rogue - Divine Avenger.pdf,2,55,50,15.6,764.7,24.9,772.8,8,0,0,,,text
+Rogue - Divine Avenger.pdf,2,56,This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used,63.8,772.1,563.2,780.4,8,0,0,,,text
+Rogue - Divine Avenger.pdf,2,57,are property of Wizards of the Coast. ©Wizards of the Coast LLC.,194.1,781.1,432.9,789.4,8,0,0,,,text

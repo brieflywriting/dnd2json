@@ -1,0 +1,43 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Bard - College of Fools.pdf,1,0,LIvING ART,47.5,30.7,109.0,39.8,12.5,,,text,0.831,ocr
+Bard - College of Fools.pdf,1,1,cs,46.6,90.7,61.9,98.4,7.2,,,text,0.77,ocr
+Bard - College of Fools.pdf,1,2,cs,97.9,114.7,112.8,121.4,7.2,,,text,0.556,ocr
+Bard - College of Fools.pdf,1,3,ee,50.4,125.8,65.3,132.5,6.7,,,text,1.0,ocr
+Bard - College of Fools.pdf,1,4,a a,66.2,147.8,82.6,155.0,7.2,,,text,0.996,ocr
+Bard - College of Fools.pdf,1,5,ILLuSORY ARTWORK,47.5,187.7,150.7,197.8,11.0,,,text,0.753,ocr
+Bard - College of Fools.pdf,1,6,us,47.5,236.2,57.6,243.8,8.2,,,text,1.0,ocr
+Bard - College of Fools.pdf,1,7,ocs,150.2,236.2,171.8,243.8,7.2,,,text,0.72,ocr
+Bard - College of Fools.pdf,1,8,BARDIC MASTERPIECE,47.5,265.0,159.8,275.0,12.0,,,text,0.867,ocr
+Bard - College of Fools.pdf,1,9,ee,51.4,313.9,61.4,320.6,7.7,,,text,1.0,ocr
+Bard - College of Fools.pdf,1,10,us s,47.0,359.0,66.2,366.7,10.1,,,text,0.875,ocr
+Bard - College of Fools.pdf,1,11,COLLEGE OF FOOLS,318.2,31.7,436.3,43.2,14.4,,,paragraph_title,0.977,ocr
+Bard - College of Fools.pdf,1,12,"Bards who join the College of Fools use crude stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from tavern crowds to royal courts. Where other Bards seek out forgotten lore or tales of bravery, Fools tell embarrassing and hilarious stories of all kinds. Fools undermine the plans of the powerful, and their acrobatic ability to tumble, dodge,leap, and climb makes them slippery opponents in battle.",317.3,50.9,560.6,127.7,10.6,,,text,0.992,ocr
+Bard - College of Fools.pdf,1,13,SATIRICAL THEATRICS,317.8,205.9,434.4,216.5,12.0,,,paragraph_title,0.838,ocr
+Bard - College of Fools.pdf,1,14,3rd-level College of Fools feature,318.7,219.8,451.2,228.5,10.6,,,text,0.999,ocr
+Bard - College of Fools.pdf,1,15,"You gain the skills to pass as a bumbling nincompoop. You gain proficiency in Acrobatics and Sleight of Hand, and when you make an ability check with either of these skills, you can treat a d20 roll of 7 or lower as an 8.",317.3,230.4,560.2,274.6,10.1,,,text,0.987,ocr
+Bard - College of Fools.pdf,1,16,TUMBLING FOOL,318.2,283.7,408.0,293.8,10.1,,,paragraph_title,0.998,ocr
+Bard - College of Fools.pdf,1,17,3rd-level College of Fools feature,318.7,297.1,451.2,305.8,9.6,,,text,0.986,ocr
+Bard - College of Fools.pdf,1,18,"Your training allows you to move about in strange and bizarrely entertaining ways. You can take the Dash action as a bonus action. When you take the Dash action, you gain the following benefits, which last until the end of your turn:",317.8,307.7,563.5,352.3,9.6,,,text,0.992,ocr
+Bard - College of Fools.pdf,1,19,Opportunity attacks against you have disadvantage.• You gain a climbing speed equal to your walking speed.• You can reduce any falling damage you take by an amount equal to your Bard level + your Ch auianar a difian,319.2,359.0,560.6,409.4,9.4,,,text,0.928,ocr
+Bard - College of Fools.pdf,1,20,Bard Level College Feature,326.9,133.4,444.5,143.5,12.5,,,figure_title,0.977,ocr
+Bard - College of Fools.pdf,1,21,"3rd
+Satirical Theatrics, Tumbling Fool
+6th
+Sharp Tongue, Sharper Wit
+14th
+Fool's Luck",319.2,146.4,563.5,196.3,11.5,,,table,0.996,ocr
+Bard - College of Fools.pdf,1,22,W,0.0,396.0,611.0,790.6,8.2,,,image,0.903,ocr
+Bard - College of Fools.pdf,2,23,SHARPTONGUE,46.1,18.2,129.1,28.3,12.5,,,paragraph_title,0.997,ocr
+Bard - College of Fools.pdf,2,24,6th-level College of Fools feature,46.6,32.2,178.6,40.8,10.1,,,paragraph_title,0.975,ocr
+Bard - College of Fools.pdf,2,25,"You learn vicious mockery, but it doesn't count against your total number of Cantrips Known, and when you use vicious mockery you add your Charisma modifier to the damage roll.",45.6,43.7,286.6,74.9,10.1,,,text,0.985,ocr
+Bard - College of Fools.pdf,2,26,If you already know vicious mockery you learn another cantrip of your choice from the Bard spell list.,46.1,78.2,273.1,97.9,8.4,,,text,0.993,ocr
+Bard - College of Fools.pdf,2,27,SHARPER WIT,46.1,107.5,118.1,117.1,10.1,,,paragraph_title,0.977,ocr
+Bard - College of Fools.pdf,2,28,6th-level College of Fools feature,46.6,121.4,178.6,129.6,10.1,,,paragraph_title,0.988,ocr
+Bard - College of Fools.pdf,2,29,"When a creature that you can see targets you with an attack,you can use your reaction to cast vicious mockery targeting the attacker. If it fails its saving throw, it must choose another target within range of its attack. If there are no other targets in range then its attack misses.",45.6,133.0,289.0,186.2,8.6,,,text,0.992,ocr
+Bard - College of Fools.pdf,2,30,"You can cast vicious mockery as a reaction a number of times equal to your Charisma modifier (minimum of once),and you regain all expended uses when you finish a long rest.",46.1,190.1,289.0,221.3,8.6,,,text,0.982,ocr
+Bard - College of Fools.pdf,2,31,FooL's LucK,46.1,230.4,117.6,240.5,10.6,,,paragraph_title,0.901,ocr
+Bard - College of Fools.pdf,2,32,1 4th-level College of Fools feature,47.0,244.3,184.3,252.5,8.2,,,paragraph_title,0.974,ocr
+Bard - College of Fools.pdf,2,33,"You combine bardic magic with foolish antics to manipulate luck. When you make an ability check, attack roll, or saving throw with advantage, you can choose to automatically fail in comical fashion and gain one point of Fool's Luck",45.6,255.8,288.0,298.1,10.6,,,text,0.994,ocr
+Bard - College of Fools.pdf,2,34,"When a creature within 30 feet that can see or hear you,makes an attack roll, ability check, or saving throw, you can use your reaction to expend a point of Fool's Luck to impose advantage or disadvantage (your choice) on its roll.",46.1,301.9,285.1,345.1,10.1,,,text,0.991,ocr
+Bard - College of Fools.pdf,2,35,You can have a total number of points of Fool's Luck equal to your Charisma modifier (minimum of 1). Unused Fool's Luck fades at the end of your next long rest.,46.6,348.0,286.1,379.7,10.1,,,text,0.984,ocr
+Bard - College of Fools.pdf,2,36,This is unofficial Fan Content permitted under the Fan Content materials used are property of Wizards of,80.2,412.3,313.9,433.0,9.4,,,footer,0.99,ocr
