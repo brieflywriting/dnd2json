@@ -1,0 +1,36 @@
+{
+  "source_file": "Wizard - School of Mimic Magic.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "School of Mimic Magic",
+      "class": "Wizard",
+      "description": "Few monsters are as emblematic to dungeon delving as the mimic. As fluid shapeshifters, capable of replicating any object or fixture,these curious spredators have made themselves a bane to adventurers everywhere. Innumerable histories trace the origin of this age-old monstrosity to a lesser-known wizard, mad tyrant, or sorcerer-king, who constructed the creature from vile magics long ago.\n\nSuch tales have led many spellcasters throughout the realms to cultivate a morbid fascination for mimics and their ecology, attempting to emulate the original witchcraft through mad experimentation with shapechanging beings.\n\nAfter fully delving into occult magic, wizards of this deranged tradition have developed rituals to transform their own spellbooks into unprecedented hybrids, which are able to feed off the surrounding mana. The holder of such a macabre creation means to harness the power of mimics in its purest form, by tuning the species' anatomy to suit their own crazy blend of sorcery.",
+      "features": [
+        {
+          "name": "Monster Tongue",
+          "level": 2,
+          "description": "When you adopt this tradition at 2nd level, you gain proficiency in the Animal Handling skill; and you learn to speak, read, and write either Abyssal or Undercommon."
+        },
+        {
+          "name": "Mimic Grimoire",
+          "level": 2,
+          "description": "Starting at 2nd level, you learn a corrupted ritual that summons and infuses abyssal living matter into your spellbook, transforming it into a Mimic Grimoire.\n\nYou perform the ritual over the course of 1 hour, which can be done during a short rest. Your spellbook must be within your reach throughout the ritual, and once completed, it cannot be changed back to its original state.\n\nThe grimoire is a tiny monstrosity, with an AC of 12 and a number of hit points equal to five times your wizard level.\n\nIt has immunity to acid and poison damage, but is vulnerable to fire damage. It counts as a carried object when held by you. If it is forced to make an ability check or saving throw, treat all its ability scores as 6 (-2).\n\nThe grimoire can use its body as a conduit for magic,enabling you to use it as an arcane focus for your wizard spells. Whenever you cast a cantrip through your grimoire, it briefly stores some of that energy within itself, allowing you to cast the same cantrip as a bonus action until the end of your next turn. This can be done a number of times per short or long rest equal to half your Intelligence modifier (rounded up), and the damage dice of a cantrip cast in this way become one size smaller. Because of this unique anatomy, however,the grimoire needs to consume magic in order to survive;primarily feeding on its holder's mana. It needs to be fed with one spell slot per day, otherwise it will enter a starved state.\n\nWhen starved, the grimoire will drain your life force instead of your mana, dealing 2d8 necrotic damage for each of the days it has gone without being satiated at the end of a long rest. Once it is fed with one or more spell slots of a combined level equal to that same number of days, it then returns to its normal state.\n\nThe grimoire dies if it is reduced to O hit points. While it is dead, you lose your ability to change prepared spells or learn any new ones. You can perform a ritual to revive it over the course of 8 hours, which can be done during a long rest.\n\nAt 6th level, you're able to use your grimoire's hunger to your advantage,having feed on your target's essence in order to replenish your own.\n\nWhenever you hit a creature with a spell attack, you can steal from it one spell slot of the same level as the spell you cast, or a lower one if the creature doesn't have slots of that level If the targeted creature cannot cast spells or doesn't have any spell slots left, you instead steal 1d6 hit points per level of the spell you cast.\n\nYou may use this feature a number of times equal to your Intelligence modifier, and regain any expended uses when you finish a long rest."
+        },
+        {
+          "name": "Spell Mimicry",
+          "level": 10,
+          "description": "At 10th level, whenever a creature within 20 feet of you casts a spell of a level for which you have spell slots, you can use your reaction to have your mimic grimoire absorb that spell's essence, temporarily adding it to your list of prepared spells.\n\nIt remains on the list for up to 4 hours, and you can only cast it through your grimoire. You may only have one absorbed spell at a time.\n\nAdditionally, while it remains in the grimoire, you can choose to permanently exchange one of your spells known for the absorbed spell. If you do, the replaced spell is removed from your list of spells known. This can be done only once per long rest."
+        },
+        {
+          "name": "Two Mouths Are Better Than One",
+          "level": 14,
+          "description": "At 14th level, you wholly ingratiate yourself into your mimic magic,surpassing the e limits of a wizard's mind through it. You learn a ritual to summon a second mimic grimoire,performing it over the course of 8 hours, which can be done during a long rest. Once the ritual is completed, you gain the following benefits:\n\nYour mimic grimoires gain a flying speed of 15 feet (hover), and they now float around your hands when held by you. Additionally, they have hearing and darkvision out to a range of 30 feet, understand Abyssal and Undercommon, and can communicate telepathically with you as long as you are within 100 feet of them. They always obey your commands, even on a starved state.\n\nWhile holding both grimoires, when using Mana Devouring, you always steal a spell slot of the highest level that your target possesses, and your life force draining increases to 1d8 hit points per level of the spell you cast. Stolen spell slots with a higher level than your highest spell known fade after 1 hour.\n\nWhile holding both grimoires, you can absorb spells of any level with Spell Mimicry. Additionally, if you have the required slots for it, you can now permanently add the absorbed spell to your second grimoire's list of spells known. This can be done only once per long rest.\n\nCREDIT Artwork: First page - background: YiLong Liu; character: Katya Zhiganova. Second page - background: Kim Sokol; character: Eugene Kibkalo, AppleSin. Watercolor: u/flamableconcrete; ©Leikir Studio, Cyanide Design: u/CamunonZ"
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

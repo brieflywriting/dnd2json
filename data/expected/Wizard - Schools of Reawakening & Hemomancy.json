@@ -1,0 +1,69 @@
+{
+  "source_file": "Wizard - Schools of Reawakening & Hemomancy.pdf",
+  "subclasses": [
+    {
+      "name": "School of Reawakening",
+      "class": "Wizard",
+      "description_starts_with": "As a member of the school of reawakening",
+      "features": [
+        {
+          "name": "Dual Savant",
+          "level": 2,
+          "description_starts_with": "Beginning when you select this school at 2nd level, the time"
+        },
+        {
+          "name": "Reawaken Soul",
+          "level": 2,
+          "description_starts_with": "At 2nd level, you gain the ability to store"
+        },
+        {
+          "name": "Volatile Soul",
+          "level": 6,
+          "description_starts_with": "Beginning at 6th level, the creatures you create"
+        },
+        {
+          "name": "Consume",
+          "level": 10,
+          "description_starts_with": "Starting at 10th level, you can consume the soul"
+        },
+        {
+          "name": "Lasting Creation",
+          "level": 14,
+          "description_starts_with": "Starting at 14th level, the creature created"
+        }
+      ]
+    },
+    {
+      "name": "School of Hemomancy",
+      "class": "Wizard",
+      "description_starts_with": "The School of Hemomancy studies the ancient",
+      "features": [
+        {
+          "name": "Hemomancy Savant",
+          "level": 2,
+          "description_starts_with": "Beginning when you select this school at 2nd level, the gold"
+        },
+        {
+          "name": "Arcane Endurance",
+          "level": 2,
+          "description_starts_with": "At 2nd level, your hit point maximum increases"
+        },
+        {
+          "name": "Deepen Wound",
+          "level": 6,
+          "description_starts_with": "Starting at 6th level, when you damage a creature"
+        },
+        {
+          "name": "Improved Endurance",
+          "level": 10,
+          "description_starts_with": "At 10th level, your ability to cast Hemomancy"
+        },
+        {
+          "name": "Dance with Death",
+          "level": 14,
+          "description_starts_with": "At 14th level, your body learns to repair"
+        }
+      ]
+    }
+  ]
+}

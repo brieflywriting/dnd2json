@@ -1,0 +1,45 @@
+{
+  "source_file": "Bard - College of Chaos_2.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Chaos",
+      "class": "Bard",
+      "description": "While most Bards use their skill with words to entertain and support, some choose to spread confusion, misinformation,and distrust. Though they reject the idea of formal leaders,some discordant Bards join the College of Chaos, a loose association of misanthropes that study discordant magics.",
+      "features": [
+        {
+          "name": "Bewildering Whisper",
+          "level": 3,
+          "description": "You use your magic to sow chaos in the midst of battle. When a creature within 60 feet that can hear you makes an attack roll, you can use your reaction to expend a Bardic Inspiration die and force it to make a Wisdom saving throw. On a failed save, the creature must use the same attack against another creature of your choice within the range of its attack."
+        },
+        {
+          "name": "Sower Of Discord",
+          "level": 3,
+          "description": "You gain the skills to sow strife amongst your foes. You gain proficiency with disguise kits, forgery kits, and theives' tools."
+        },
+        {
+          "name": "Pandemonium",
+          "level": 6,
+          "description": "You infuse your bardic songs with chaotic magic. When you use Countercharm, you can force a creature within range of the effect to make a Wisdom saving throw. On a failed save,roll a d8 and the creature suffers the corresponding effect from the table below until the end of your Countercharm.\n\nA creature suffering from this effect can make a Wisdom is immune to this feature for the next 24 hours."
+        },
+        {
+          "name": "Reign of Chaos",
+          "level": 14,
+          "description": "You have mastered the chaotic magic that is the source of your power. You learn confusion, but it doesn't count against your total number of Spells Known. If you already know this spell you instead learn another enchantment spell of your choice from the Bard spell list.\n\nAs a bonus action, you can expend a use of your Bardic Inspiration to cast confusion with the following changes:\n\nYou can only target one creature.\n\n• It does not require your concentration, but you can't have more than one instance of the spell active.\n\nWhen a creature makes a saving throw to resist the effects of this spell you can expend a use of your Bardic Inspiration to impose disadvantage on its saving throw."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "Bard Level College Feature\n\n3rd Bewildering Whisper, Sower of Discord 6th Pandemonium 14th Reign of Chaos"
+        },
+        {
+          "title": null,
+          "text": "Effect d8 It retreats into its mind and is Paralyzed. 1 The effect ends early if it takes damage. It is Incapacitated and convinced that its 2 allies are secretly plotting against it. It is Frightened of the closest creature 3 and uses its turn to flee from it. It cannot speak or cast spells and it feels if 4 it opens its mouth its voice will escape. It experiences vivid hallucinations and 5 has disadvantage on all attack rolls. It is highly suggestible and will do anything 6 it is told to do that isn't self-destructive. It experiences insatiable hunger and uses 7 its action to eat anything it can. It uses its turn to repeat its previous 8 turn or action to the best of its ability."
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

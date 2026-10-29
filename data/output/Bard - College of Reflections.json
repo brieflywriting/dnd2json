@@ -1,0 +1,36 @@
+{
+  "source_file": "Bard - College of Reflections.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "College of Reflections",
+      "class": "Bard",
+      "description": "Bards of the College of Reflections consider themselves as the centrepiece for all their tales and performances. They will accept nothing less than a reputation akin to godhood where people will revere them wherever they go. Bards of other colleges consider this college to be filled with narcissistic and vain people, though they still can’t deny the level of showmanship and competency they have when it comes to entertaining others.",
+      "features": [
+        {
+          "name": "Star Attraction",
+          "level": 3,
+          "description": "You are exceedingly good at making other people pay attention to you. When you cast a spell that requires at least one target to make a saving throw to avoid being charmed by you, you can expend one use of your Bardic Inspiration and have the targets of the spell roll with disadvantage. You can also use this feature on spells which state a creature is unaffected by the spell's effects because it is immune to being charmed (such as the suggestion spell)."
+        },
+        {
+          "name": "Vain Disposition",
+          "level": 3,
+          "description": "You are always conscious of your appearance and won’t let others stage you up. You learn the enthrall spell, which doesn’t count against the number of bard spells you know. You can cast this spell without expending a spell slot a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+        },
+        {
+          "name": "Entitled Performance",
+          "level": 6,
+          "description": "You performances are always acknowledged and rewarded. When you make an ability check, attack roll, or saving throw and the roll succeeds, you can use your reaction to expend one use of your Bardic Inspiration to gain one of the following benefits based on the roll.\n\nAbility Check. When you succeed on the ability check, you\n\ncan choose to use the new total for one ability check you make before the end of your next long rest. Attack Roll. When you succeed on the attack roll, you can roll\n\na Bardic Inspiration die and deal bonus damage equal to twice the number rolled. Saving Throw. When you succeed on the saving throw, you\n\ncan give yourself advantage on the next saving throw you make."
+        },
+        {
+          "name": "Self Inspiration",
+          "level": 14,
+          "description": "You make sure to always boast your own abilities. Whenever you fail an ability check, attack roll, or saving throw, you can use your reaction to expend one use of your Bardic Inspiration and roll a Bardic Inspiration die, adding the number to the roll and potentially turning it into a success. When you use your Bardic Inspiration in this way, you regain that use of Bardic Inspiration when you finish a long rest."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

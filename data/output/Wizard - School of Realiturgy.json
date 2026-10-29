@@ -1,0 +1,51 @@
+{
+  "source_file": "Wizard - School of Realiturgy.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "School of Realiturgy",
+      "class": "Wizard",
+      "description": "A conjuration and dunamancy based arcane tradition for the world's greatest roleplaying game\n\nizards who are familiar with dunamancy magic know of its power to bend reality,altering time and gravity to their will. But its properties may go further, and arcane practitioners of the conjuration school are some of the ones trying to adapt dunamantic\n\ninfluence to their knowledge. Realiturgy studies the properties of dunamancy and the ability to use them to shape and empower regular conjuration spells: adapt space around matter, travel across the universe in a second, or conjure your own reality from a different timeline.",
+      "features": [
+        {
+          "name": "Dual Student",
+          "level": 2,
+          "description": "Beginning when you select this school at 2nd level, the gold and time you must spend to copy a conjuration or graviturgy spell into your spellbook is halved."
+        },
+        {
+          "name": "Twin Portals",
+          "level": 2,
+          "description": "Starting at 2nd level, you start to control space around you.\n\nAs a bonus action, you can create two portals in two different points within 30 feet of you. These portals must be created within line of sight in an empty space; and they look like 5-feet spheric warps in the air. When you create these portals, you can make them attract or repel creatures within a 5 feet radius of them. Your Twin Portals last until the beginning of your next turn.\n\nA Medium or smaller creature that comes in contact with one portal is automatically teleported to an empty space next to the other. If a creature is within the portal attracting or repelling effect range, it must make a Strength saving throw against your spell save DC or be attracted 5 feet towards the portal or repelled 5 feet away from it. A creature can willingly fail this saving throw.\n\nYou can use this feature a number of times equal to your proficiency modifier until you finish a long rest. The portals can teleport Large creatures at 6th level and Huge creatures at 10th level."
+        },
+        {
+          "name": "Maleable Timespace",
+          "level": 6,
+          "description": "At 6th level, you begin to understand how to bend time and space affecting creatures in different ways.\n\nAs an action, you can focus on yourself or a creature within 30 feet of you that you can see, and have it be affected by the same effects of the blink, haste or slow spells for up to 1minute. If the creature isn't willing, it must make a Wisdom saving throw against your spell save DC or be affected.\n\nYou have to use concentration for this feature, but you can concentrate on a spell at the same time. If you are concentrating on both, you make Constitution saving throws to maintain concentration with disadvantage. If you fail the concentration saving throw, you lose concentration on both effects. You can use this feature once per long rest."
+        },
+        {
+          "name": "Exalted Teleportation",
+          "level": 10,
+          "description": "When you reach 10th level, your focus on conjuration magic combined with the properties of dunamancy allow you to enhance teleportation effects.\n\nWhenever you use a spell that would allow you to teleport,such as misty step or dimension door, the range of the spell is doubled. Your Twin Portals feature is also affected by this,increasing its range to 60 feet.\n\nAdditionally, when you use the teleport spell, your familiarity level increases by 1 in any case when calculating the odds of mishap or success."
+        },
+        {
+          "name": "Piercer of the Veil",
+          "level": 13,
+          "description": "At 13th level, you learn the dream of the blue veil spell You always have it prepared and it doesn't count against the number of spells you can prepare. You don't require material components as long as you know the place you're targeting."
+        },
+        {
+          "name": "Alter Reality",
+          "level": 14,
+          "description": "Starting at 14th level, you have learnt how to alter reality itself. As an action, you can roll a d20 and add your Intelligence modifier and proficiency bonus to the roll. You can then choose how to affect existence depending on your roll and at the discretion of the DM, similar to Divine Intervention. Check the different effects in the Reality Bending table below."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": "Rolled",
+          "text": "Total Effect\n\n1-14You fail to alter reality. You gain a level of exhaustion.\n\n15-19You can alter minor events of the last minute in a range of 60 feet around you.\n\n20-24You can alter events of the last hour in a range of a mile around you.\n\n2 5-29 You can alter major events of the last 24 hours in your same plane of existance.\n\n30+There are no limitations to your desires.\n\nOnce you have succesfully altered reality, you cannot do so again for the next 7 days. Depending on the nature of your desires, you may lose memory of the modified time, at the discretion of the DM."
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

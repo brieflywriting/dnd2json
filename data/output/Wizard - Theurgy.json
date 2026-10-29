@@ -1,0 +1,41 @@
+{
+  "source_file": "Wizard - Theurgy.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Theurgy",
+      "class": "Wizard",
+      "description": "Many gods claim arcane magic as their domain, due to its nature. Magic is a living, breathing being, as much a part of the world as any other primordial force. Just as there are deities of the hunt, the sun and war, the arcane is a domain under the jurisdiction of many divine patrons.\n\nMany such divine beings grant their blessings to clerics of their faith, but often also bid their followers to study wizardry and arcane spellcraft. Such a dedicated user of magic might find themselves following the arcane tradition of Theurgy.",
+      "features": [
+        {
+          "name": "Arcane Domain",
+          "level": 2,
+          "description": "When you choose this tradition, choose a domain from your chosen deity's list of eligible domains. Your studies on elements of divine magic grant you access to certain benefits depending on your chosen domain, as described in your class features.\n\nIn addition, you learn to speak, read, and write Celestial, you gain proficiency with the Religion skill and you can use a holy symbol as a spellcasting focus for your wizard spells."
+        },
+        {
+          "name": "Theurgy Savant",
+          "level": 2,
+          "description": "Whenever you gain a wizard level, you can replace one of the wizard spells you add to your spellbook with a cleric domain spell from your chosen domain. The spell must be of a level for which you have spell slots.\n\nIf you add all of your domain spells to your spellbook, you can subsequently add any spell from the cleric spell list to your spellbook instead. The spell must still be of a level for which you have spell slots.\n\nAny cleric spell you gain from this feature is considered a wizard spell for you, but other wizards can’t copy cleric spells from your spellbook into their own spellbooks unless they have also chosen this tradition. Furthermore, due to the dichotomy between the nature of arcane and divine magic, you can't choose cleric spells you gain from this feature with your Spell Mastery and Signature Spell features, which you gain when you reach higher levels in this class."
+        },
+        {
+          "name": "Domain Surge",
+          "level": 6,
+          "description": "Your understanding over the principles governing your chosen domain has granted you a pool of excess magic. You have a pool of domain surges that you use to empower your domain spells. The number of domain surges in the pool equals 1 + your Intelligence modifier (minimum of 1) .\n\nWhen you cast a cleric domain spell from your chosen domain by expending a spell slot, you can expend any number of domain surges from the pool to increase the spell's level by an amount equal to the domain surges you expended, without expending a higher level spell slot. You can increase a spell's level this way up to the highest level for which you have spell slots, but no higher than 5th level.\n\nYour pool regains all expended domain surges when you finish a long rest. As a bonus action, you can expend a spell slot to regain a number of expended domain surges equal to the slot's level."
+        },
+        {
+          "name": "Consecrated Arcana",
+          "level": 10,
+          "description": "Your magic is weaved by both arcane and divine energy. You gain the following benefits\n\nWhenever you cast a wizard spell that deals acid, cold, fire, lightning, poison or thunder damage, you can change the type of damage it deals to radiant. If you do, you can add your Intelligence modifier to one damage roll of the spell. Whenever you cast a wizard spell of 1st level or higher that restores hit points to a creature, the creature regains additional hit points equal to your Intelligence modifier (a minimum of 1 additional hit point) ."
+        },
+        {
+          "name": "Exalted Arcanist",
+          "level": 14,
+          "description": "You can harness divine magic to perform miraculous feats of spellcraft. As an action, you can expend one or more domain surges from your pool and name a cleric spell of your choice that is of a level equal to the number of domain surges you expended and has a casting time of 1 action . You don't need to meet any requirements of the spell, including any costly components: the spell simply takes effect as part of this action.\n\nOnce you use this feature, you can't use it again until you finish a long rest."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

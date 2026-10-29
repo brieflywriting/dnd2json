@@ -1,0 +1,32 @@
+{
+  "source_file": "Bard - College of Drama.pdf",
+  "subclasses": [
+    {
+      "name": "College of Drama",
+      "class": "Bard",
+      "description_starts_with": "Long have the performing arts been",
+      "features": [
+        {
+          "name": "Channel the Muse",
+          "level": 3,
+          "description_starts_with": "You have learned to channel songs of The Muse"
+        },
+        {
+          "name": "Thespian's Craft",
+          "level": 3,
+          "description_starts_with": "The Muse has granted the skills"
+        },
+        {
+          "name": "Soliloquy",
+          "level": 6,
+          "description_starts_with": "Your bardic magic and song is infused"
+        },
+        {
+          "name": "Final Curtain",
+          "level": 14,
+          "description_starts_with": "The Muse grants you the ability to enthrall"
+        }
+      ]
+    }
+  ]
+}

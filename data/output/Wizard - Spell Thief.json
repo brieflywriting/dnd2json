@@ -1,0 +1,41 @@
+{
+  "source_file": "Wizard - Spell Thief.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Spell Thief",
+      "class": "Wizard",
+      "description": "These wizards specialise in manipulating and pilfering the magics of other spellcasters, stealing their power and making it their own.",
+      "features": [
+        {
+          "name": "Arcane Vault",
+          "level": 2,
+          "description": "Starting at 2nd level when you choose this school, you gain an Arcane Vault, a tiny object which you can use as an arcane focus.\n\nYou can use this Vault to dispel and seal spells. As an action touch a creature, object, or magical effect caused by a spell and make an Intelligence check, DC 10 + the spell's level. On a successful check, the spell ends on the target and is sealed in your Vault.\n\nYou have disadvantage on the check if the spell is to high a level for you to cast.\n\nThe Vault can seal one spell at a time and can be emptied with your Stolen Power feature or during a short rest where you can turn the power into a temporary hit die that disappears if not used by the end of the short rest."
+        },
+        {
+          "name": "Stolen Power",
+          "level": 2,
+          "description": "At 2nd level, you may use a spell slot of the same level or higher than the spell sealed in the Vault to cast it even if it is not a wizard spell."
+        },
+        {
+          "name": "Arcana Laundering",
+          "level": 6,
+          "description": "Beginning at 6th level, your Vault may now hold 2 spells. If the Vault holds two spells you may use an action to Launder them, turning them back into raw magic which restores a spell slot of one type lower than the lowest level spell sealed in the Vault, minimum 1st level.\n\nYou can use this feature a number of times equal to 1 + your Intelligence modifier. When you finish a long rest, you regain all expended uses."
+        },
+        {
+          "name": "Loot Magic",
+          "level": 10,
+          "description": "Starting at 10th level, you can cast Counter Spell or Dispel Magic at third level without using a spell slot once between long rests . If you successfully counter or dispel a spell with this effect then it’s sealed in the Vault if it has room for it."
+        },
+        {
+          "name": "Arcana Abduction",
+          "level": 14,
+          "description": "At 14th level, when a creature casts a spell within 60ft of you, you may use your reaction to immediately make a contested Arcana check with the spellcaster. If you win you absorb the spell into your Vault (even if it’s full) and then immediately spit it back out treating it as if you cast it yourself. This feature burns a spell slot of 3rd level or higher. Each time you use this feature after the first it requires a higher level spell slot, resetting when you finish a long rest."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

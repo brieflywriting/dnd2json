@@ -1,0 +1,46 @@
+{
+  "source_file": "Wizard - School of Demonology.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "School of Demonology",
+      "class": "Wizard",
+      "description": "There are few schools as risky or as dangerous as that of demonology. To study demons, devils and their ilk in an attempt to learn their secrets and obtain their service is to play with wildfire. Yet, the rewards can be great.",
+      "features": [
+        {
+          "name": "Impish Companion",
+          "level": 2,
+          "description": "When you select this school at 2nd level, you learn to speak,read and write abyssal and infernal. You also add the Find Familiar spell to your spellbook if it is not there already. The spell doesn't count against your number of spells known. When you cast this spell, you can choose one of the normal forms for your familiar or you may choose an Imp as your familiar instead. Your familiar is always a fiend, regardless of the form you choose."
+        },
+        {
+          "name": "Pentagram Magic",
+          "level": 2,
+          "description": "Additionally at 2nd level, you can create a magical pentagram to protect you or your allies from harm or to imprison your foes. As a bonus action, you may create a magical pentagram around a creature you can see within 60 feet of you. When you do, choose one of the following options:\n\nWarding pentagram. The creature gains temporary hitpoints equal to your Intelligence modifier, it also adds 1+ half your proficiency bonus (rounded down) to its AC and has advantage on Wisdom saving throws as long as it remains within the pentagram.\n\nImprisoning pentagram. The creature makes a Charisma saving throw against your spell DC, if it fails its speed becomes 0, it can't benefit from any bonus to its speed, and it cannot make opportunity attacks as long as it is contained within the pentagram. The creature can repeat the saving throw at the end of each of its turns. When the creature succeeds, the pentagram disappears. If the creature is a fiend, it has disadvantage on the first saving throw it makes.\n\nYour pentagram lasts for 1 minute and occupies the space occupied by the chosen creature, but does not move with it. A pentagram disappears early if the creature within it leaves its space or if you use this feature again to create another one.\n\nOnce you've used this feature a number of times equal to your proficiency bonus, you may not do so again until you finish a long rest."
+        },
+        {
+          "name": "Dark Summoner",
+          "level": 6,
+          "description": "At 6th level, you learn how to better control the demons and devils you summon. Whenever you would make a deception,insight, intimidation or persuasion check against a fiend, you may add your Intelligence modifier to the roll.\n\nAdditionally, whenever you summon a fiend using a Conjuration spell you learn its true name, if it has one, and the fiend gains the following characteristics:\n\n• It gains temporary hitpoints equal to your Wizard level.\n• It adds 1d4 to ability checks it makes that aren't contested by you and attack rolls it makes when the target isn't you.\n\n• It may not target creatures within your warding pentagram nor enter their space, and it automatically fails all saving throws it makes against your imprisoning pentagram."
+        },
+        {
+          "name": "Greater Pentagram",
+          "level": 10,
+          "description": "At 10th level, your pentagrams are stronger. When you use your pentagram feature to create a pentagram while another is still active, the first one doesn't disappear. If you then use this feature to create a third one, the one you created first disappears.\n\nAdditionally, whenever you create a warding pentagram,the creature has advantage on all Dexterity and Constitution saving throws it makes as long as it remains within the pentagram. Whenever you create an imprisoning pentagram,the creature is restrained, and cannot teleport, move or be moved by other means as long as it is contained within the pentagram."
+        },
+        {
+          "name": "Demonic Mastery",
+          "level": 14,
+          "description": "Starting at 14th level, you can use your demonic knowledge to bring fiends under your control, even if you didn't summon them. As an action, you can choose one fiend that you can see within 60 feet of you that can hear you. You learn that creature's true name, and use it to try and control it. The creature must make a Charisma saving throw against your wizard spell save DC. If it succeeds, you can't use this feature on it again. If it fails, it becomes friendly to you and obeys your commands until you use this feature again.\n\nPowerful fiends are harder to control in this way. If the target has a CR rating of 3 or higher, it has advantage on the saving throw. If it fails the saving throw and has a CR of 5 or higher, it can repeat the saving throw at the end of every hour until it succeeds and breaks free. Fiends with a CR of 15 or higher are immune to this feature.\n\nTHIS DOCuMeNT WAS LOVingly CReATED USINGGM BINDER."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "Awaken the Blood Avatar by Kekai Kotaki"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

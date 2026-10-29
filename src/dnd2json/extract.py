@@ -178,7 +178,7 @@ def text_blocks(doc, doc_id: str) -> list[dict]:
 
 def _bbox_pt(boxes, scale: float = 1.0) -> dict:
     """Union of (x0, y0, x1, y1) boxes, scaled to PDF points and rounded."""
-    x0s, y0s, x1s, y1s = zip(*boxes)
+    x0s, y0s, x1s, y1s = zip(*boxes, strict=True)
     return dict(
         x0=round(min(x0s) * scale, COORD_DECIMALS),
         y0=round(min(y0s) * scale, COORD_DECIMALS),
@@ -279,8 +279,10 @@ def page_rows(data: dict, doc_id: str, page_no: int) -> list[dict]:
     ocr = data.get("overall_ocr_res", {})
     lines = [
         (list(map(float, box)), text, float(score))
+        # strict=False: Paddle returns equal-length lists, but a short one shouldn't crash.
         for box, text, score in zip(
-            ocr.get("rec_boxes", []), ocr.get("rec_texts", []), ocr.get("rec_scores", []))
+            ocr.get("rec_boxes", []), ocr.get("rec_texts", []), ocr.get("rec_scores", []),
+            strict=False)
     ]
 
     # Reading order first; blocks outside the reading flow (headers, page numbers) have
@@ -368,6 +370,8 @@ def write_outputs(rows: list[dict], out_csv: Path, out_meta: Path, stamp: dict) 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--in", dest="in_dir", default="media/eng/pdf")
+    ap.add_argument("--pdf", action="append", default=[],
+                    help="process only this PDF (repeatable); overrides --in")
     ap.add_argument("--out", dest="out_dir", default="data/blocks")
     ap.add_argument("--device", choices=["auto", "gpu", "cpu"], default="auto")
     ap.add_argument("--only", choices=["text", "ocr"],
@@ -379,7 +383,8 @@ def main(argv=None) -> int:
     device = None  # resolved on first OCR document, so text-only runs never import Paddle
     done, skipped, failed = 0, 0, []
 
-    for pdf in sorted(Path(args.in_dir).glob("*.pdf")):
+    pdfs = [Path(p) for p in args.pdf] or sorted(Path(args.in_dir).glob("*.pdf"))
+    for pdf in pdfs:
         out_csv = out_dir / f"{pdf.stem}.csv"
         out_meta = out_dir / f"{pdf.stem}.meta.json"
         try:

@@ -1,0 +1,36 @@
+{
+  "source_file": "Wizard - Universalist.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Universalist",
+      "class": "Wizard",
+      "description": "Out of all wizards, those most studious and dedicated to understanding the Art are called universalists. The path many accomplished archmages chose to walk even as young practitioners, universalists have no care for perfection of a single school of magic or casting style, since they believe in the one True Magic. In pursuing it, they attain incredible mastery of the arcane, being able to reshape magic in ways even their colleagues find extraordinary.\n\nTo be a universalist, however, is not only about producing grandiose displays of magical crafting. Universalists, in their core, understand the Weave, the mana, and some say are those closest to peering through the veil of magic itself. While all wizards seek revelations hidden behind the arcane mystery, universalists see magic as the means of perfecting themselves and the world around them.",
+      "features": [
+        {
+          "name": "Arcana Savant",
+          "level": 2,
+          "description": "Enamored by the beauty of knowledge, you have delved further into the intricate secrets of magic. You gain proficiency in the Arcana skill. If you are already proficient in the Arcana skill, you double your proficiency bonus for any ability check that uses that skill.\n\nIn addition, the time you must spend to copy any wizard spell into your spellbook is halved."
+        },
+        {
+          "name": "Advanced Learning",
+          "level": 2,
+          "description": "Your advanced pace of learning brings forward knowledge untouched by other practitioners of the art. When you gain this feature, choose one spell from any class. A spell you choose must be of a level you can cast, as shown in the Wizard Table.\n\nYou add the chosen spell to your spellbook, and it counts as a wizard spell for you.\n\nYou add one additional spell from any class to your spellbook at 3rd, 5th, 7th, 9th, 11th, 13th and 17th level."
+        },
+        {
+          "name": "Modify Magic",
+          "level": 6,
+          "description": "Your extensive study over the arcane arts allows you to modify spells. When you add or copy a wizard spell in your spellbook, you can choose to modify the spell's formula that you write in your spellbook in the following ways:\n\nAlter Energy. If the original spell deals acid, cold, fire, lightning or thunder damage, you can replace damage type with one other type from that list. If the original spell deals multiple damage type from that list, the new damage type replaces all types from the original spell. Alter Manifestation. If the original spell requires saving throws, you can change the saving throws from one ability score to another of your choice.\n\nA spell modified by this feature counts as a different spell from the original and therefore counts against the number of wizard spells you can prepare. For example, a 1st-level wizard universalist that has a scroll containing the 1-st level spell burning hands and wishes to copy the spell to their spellbook can choose to modify the copied spell to deal cold instead of fire damage. If the wizard later decides to also copy the original burning hands spell to their spellbook, they can choose to prepare burning hands, the modified spell, or both when preparing their wizard spells.\n\nRapid Preparation. 10-th level Universalist feature\n\nYour studies have taught you the importance of preparation. As a bonus action, you can replace one spell you have prepared with another spell from your spellbook.\n\nYou can use this feature a number of times equal to your Intelligence modifier (a minimum of once) . You regain all expended uses of this feature when you finish a long rest."
+        },
+        {
+          "name": "High Arcanum",
+          "level": 14,
+          "description": "Unearthing the deepest parts of the wizard's craft, you gain access to High Arcana. When you finish a long rest, you can choose to gain one of the following benefits:\n\nArcane Fire. When you deal damage to a creature with a spell, you can expend a spell slot to deal extra force damage to that creature. The extra damage is equal to 2d10 for a 1st-level spell slot, plus 1d10 for each spell level higher than 1st. Arcane Reach. When you cast a spell that has a range of 5 feet or greater, you can expend a spell slot to increase the range of the spell by 60 feet per level of the spell slot.\n\nArchmage's Sight. You have truesight out to a range of 120 feet. Sage's Knowledge. If your total for an Intelligence check is less than your Intelligence score, you can use that score in place of the total. Spell Power. The spell save DC for your wizard spells increases by 1.\n\nThe chosen benefit lasts until you finish a long rest. You expend a 5-th level or higher spell slot to change the chosen benefit to another one."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

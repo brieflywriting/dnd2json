@@ -1,0 +1,51 @@
+{
+  "source_file": "Bard - College of Eulogies.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Eulogies",
+      "class": "Bard",
+      "description": "Bards are masters of eliciting all types of emotions with their music. They use their magic to make audiences feel a longing for places they have never been and love for people long dead. Those who join the College of Eulogies have a fondness for the more negative emotions; grief, sorrow, and fear. They take their name from the speeches typically delivered in memory of the deceased, for they see themselves as bringers of death.",
+      "features": [
+        {
+          "name": "Bardicdirge",
+          "level": 3,
+          "description": "You wield the melancholic magic of negative emotions and can use it to inflict minor curses. When a creature that can hear you within 60 feet, makes an attack roll, ability check,or saving throw, you can use your reaction to expend a use of Bardic Inspiration to impose disadvantage on its roll."
+        },
+        {
+          "name": "Lament for the Dead",
+          "level": 3,
+          "description": "You have steeped yourself in strange magic and ancient lore associated with death. Whenever you make an Intelligence check to recall knowledge pertaining to rituals or lore related to death, the undead, or the magic of necromancy, you can add double your proficiency bonus to your roll.\n\nAlso, whenever you learn a new Bard spell, you can choose to learn a necromancy spell of your choice from any spell list."
+        },
+        {
+          "name": "Restless Spirit",
+          "level": 6,
+          "description": "You can conjure and bind Restless Spirits that died with unfinished business. At the end of each long rest, you can perform a short ritual that summons such a Spirit. It is friendly to both you and your allies, obeys your\n\ncommands, and uses the Restless Spirit stat block, which uses your Spell Save DC, and proficiency bonus (PB).\n\nIn combat, the Spirit acts during your turn. It can move and use its reaction on its own, but the only action it takes is the Dodge action, unless you used your bonus action to command it to take one of the actions in its stat block, or another action. If you are incapacitated, the Restless Spirit can take any action it chooses.\n\nIf your Spirit was destroyed within the last hour, you can expend a spell slot of 1st-level or higher. After 1 minute, it returns from beyond the veil with all its hit points restored."
+        },
+        {
+          "name": "Infectious Despair",
+          "level": 14,
+          "description": "The sadness and despair that you inflict upon your foes cloys to them until it exacts its toll. When you use Bardic Dirge on a creature, and that creature succeeds on its roll despite the disadvantage, it also has disadvantage on its next attack roll,ability check, or saving throw it makes as well.\n\nRegardless of the outcome of the second roll, this feature ends after its next attack roll, ability check, or saving throw.\n\nArmor Class 13 + PB (natural armor)Hit Points 5 + five times your Bard level Speed 30 ft.\n\nDamage Resistances necrotic Conditioned Immunities frightened, grappled Senses darkvision 60 ft., passive Perception 12Languages the Spirit understands the languages you speak, but it cannot speak itself\n\nMisery's Company The Spirit has advantage on attack rolls against creatures that are frightened of it.\n\nSpirit Bond. When the Spirit makes an ability check or saving throw you can use your reaction to expend a use of Bardic Inspiration and add it to its roll.\n\nActions. Mournful Wail. One creature of your choice within 3O feet of the Spirit that can hear it must succeed on a Wisdom saving throw or be frightened of it for 1 minute. It can repeat the saving throw at the end of each of its turns, ending the effect on a success.\n\nSpectral Claw. Melee Spell Attack: your spell attack modifier to hit, reach 5 ft., one target. Hit: 1d8 +your Charisma modifier necrotic damage."
+        }
+      ],
+      "extra_sections": [
+        {
+          "name": "Thematic Spellcasting Foci",
+          "kind": "lore",
+          "text": "Not every Bard is a musician. Some Bards of the Colleges of Drama and Eulogies use skulls as foci,while other Bards may use gaming sets or tools. Talk t to your DM about using a focus that better fits the concept : of your Bard. As long as you must hold it in hand,there is no mechanical difference."
+        }
+      ],
+      "tables": [
+        {
+          "title": null,
+          "text": "Bard Level College Feature\n\n3rd Bardic Dirge, Lament for the Dead 6th Restless Spirit 14th Infectious Despair"
+        },
+        {
+          "title": null,
+          "text": "RESTLEsS SPIRIT Medium Undead, Unaligned\n\nSTR DEX CON INT WIS CHA 14(+2)14(+2)15(+2) 10 (+0)14 (+2) 11 (+0)"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

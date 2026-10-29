@@ -1,0 +1,47 @@
+{
+  "source_file": "Wizard - Chocolatier.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Chocolatier",
+      "class": "Wizard",
+      "description": "The Chocolatier is a whimsical wizard that masters different schools of magic all for the sake of creating delicious chocolate. The Chocolatier possesses different magic items that allow them to mass produce chocolate.",
+      "features": [
+        {
+          "name": "Cooking Prodigy",
+          "level": 2,
+          "description": "You are an academic in both the ways of magic and making chocolate. You gain proficiency in cook’s utensils, and your proficiency bonus is doubled for any checks made using this item."
+        },
+        {
+          "name": "Cocoa Homunculus",
+          "level": 2,
+          "description": "Your affinity with chocolate allows you to make a homunculus to help you make more chocolate. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Cocoa Homunculus stat block, which uses your proficiency bonus (PB) in several places.\n\nYou determine the homunculus’ appearance, though it is made entirely out of chocolate. Some chocolatiers prefer to have the servant adopt a creature-like appearance, while others make them look like baking equipment, like a sieve or mixing bowl.\n\nIn combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the homunculus can take any action of its choice, not just Dodge.\n\nA creature of your choice can use an action to eat the homunculus. When it does, it regains a number of hit points equal to 1d6 + your wizard level, and the homunculus is reduced to 0 hit points and dies.\n\nIf the homunculus has died within the last hour, you can use your cook’s utensils as an action to create a new one, provided you expend a spell slot of 1st level or higher. The new homunculus appears within 5 feet of you after 1 minute.\n\nAt the end of a long rest, you can create a new homunculus if you have your cook’s utensils with you. If you already have a homunculus from this feature, the first one immediately perishes. The homunculus also perishes if you die."
+        },
+        {
+          "name": "Addictive Chocolate",
+          "level": 6,
+          "description": "You are able to make sweets that have people begging for more. Once before the end of your next long rest, you can use cook’s utensils and spend 1 hour magically making a number of tiny chocolate up to half your proficiency bonus (rounded up). This chocolate lasts for 24 hours, after which it will turn bad and decay.\n\nWhen a creature eats this chocolate, it must succeed on a Constitution saving throw against your spell save DC or be charmed by you for 1 hour. While charmed in this way, the creature immediately knows it was charmed by you. However, as long as it can see at least one piece of chocolate made by this feature, it will begrudgingly obey your commands in the hopes of receiving more chocolate. After 1 hour, you can use an action to give the same creature a piece of chocolate and extend the charmed duration. If the creature doesn't see any chocolate, it is no longer charmed by you and becomes hostile toward you. Offering a piece of chocolate while the creature is hostile in this way will not placate it.\n\nThis charmed condition ends early if the creature takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies."
+        },
+        {
+          "name": "Tenser's Transparent Elevator",
+          "level": 10,
+          "description": "Your whimsical acts have resulted in you creating an equal whimsical magic contraption. As an action, you conjure a magical elevator centred on a point you can see within 60 feet of you. The elevator is an invisible 10-foot cube of shimmering force. An unwilling creature must succeed on a Dexterity saving throw against your spell save DC or be trapped inside the elevator.\n\nThe elevator has AC 10, 30 hit points, and immunity to all conditions. If it is forced to make a saving throw, treat all its ability scores as 10 (+0). On each of your subsequent turns, you must spend an action to maintain the elevator's existence. Also, as part of the same action, you can choose to open or close the elevator’s doors. While the doors are closed, objects or creatures can’t physically enter or exit the elevator. You can also move the elevator up to 30 feet on each of your turns (no action required).\n\nAny creature inside the elevator is considered as being behind total cover if the doors are closed. A creature behind the elevator is considered behind half cover. Additionally, creatures of your choice inside the elevator can choose to make an attack or cast a spell targeting an area outside the elevator, even if the elevator’s doors are closed.\n\nThe elevator lasts for 1 minute (as if you were concentrating on a spell) or if you use your action to do anything else. It also disappears if it is more than 120 feet away from you, it is reduced to 0 hit points, or if it is hit with a disintegrate spell. Once you conjure the elevator, you can’t do so again until you finish a long rest."
+        },
+        {
+          "name": "Mass Chocolate Production",
+          "level": 14,
+          "description": "You can create more chocolate helpers to aid you in your tasks. You gain the following benefits:\n\nYour homunculus gains a +2 bonus to AC If the homunculus is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails. It can't use this trait if it's incapacitated. You can now have two homunculi at the same time. You can create two with the same action (but not the same spell slot), and you can activate both of them with the same bonus action. You determine whether the homunculi are identical to each other or different. You can't create a third homunculi while you have two."
+        }
+      ],
+      "extra_sections": [
+        {
+          "name": "Cocoa Homunculus",
+          "kind": "stat_block",
+          "text": "Tiny Construct\n\nArmor Class 13\n\nHit Points 1 + your Intelligence modifier + your\n\nwizard level Speed 20 ft., fly 30 ft.\n\nSTR DEX CON INT WIS CHA\n\n4 (-3) 15 (+2) 12 (+1) 10 (+0) 10 (+0) 7 (-2)\n\nSaving Throws Dex +2 plus PB Skills +0 plus PB × 2, Stealth +2 plus PB\n\nDamage Immunities poison\n\nCondition Immunities exhaustion, poisoned Senses darkvision 60ft., passive Perception 10 + (PB\n\n× 2) Languages understands the languages you speak\n\nTelepathic Bond. While the homunculus is on the same plane of existence as its master, it can magically convey what it senses to its master, and the two can communicate telepathically.\n\nActions\nChocolate Blob. Ranged Weapon Attack: your spell\n\nattack modifier to hit, range 30/90 ft., one target. Hit: 1d4 + PB bludgeoning damage, and the target's movement speed is reduced by 10 feet.\n\nChocolate Strike. Melee Weapon Attack: your spell\n\nattack modifier to hit, reach 5ft., one target. Hit: 1d4 + PB bludgeoning damage, and the next time the target hits with a weapon before the end of its next turn, it deals PB less damage."
+        }
+      ],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

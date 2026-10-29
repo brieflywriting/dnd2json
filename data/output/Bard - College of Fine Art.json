@@ -1,0 +1,41 @@
+{
+  "source_file": "Bard - College of Fine Art.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Fine Art",
+      "class": "Bard",
+      "description": "While most Bards s unlock their signature magic with song,some learn to channel magic t through visual mediums. Most often using ink or paint, these whimsical artists animate wondrous images to both entertain and adventure with. They can channel bardic illusion magic through art and bring the strange and wonderful figments of their imagination to life.",
+      "features": [
+        {
+          "name": "Classical Artist",
+          "level": 3,
+          "description": "You have mastered the use of visual art forms for your bardic magic. You gain proficiency with calligrapher's and painter's supplies, and whenever you make an ability check with either tool you can add double your proficiency bonus to your roll.\n\nMoreover, you can use calligrapher's supplies or painter's supplies as a spellcasting focus for any Bard spell you know.\n\nFinally, whenever you learn a Bard spell, you can choose to learn an illusion spell of your choice from any spell list."
+        },
+        {
+          "name": "Living Art",
+          "level": 3,
+          "description": "Your signature bardic magic can bring your artwork to life. You learn the find familiar spell, but it doesn't count against your total number of Spells Known. Though, you can only cast find familiar using calligrapher's supplies or painter's supplies as your spellcasting focus.\n\nWhen you cast find familiar in this way, your familiar resembles a living two-dimensional piece of artwork. As an action, your familiar can flatten itself against any surface to appear as mundane art or graffiti. If a creature succeeds on an Intelligence (Investigation) check against your Spell Save DC it realizes that the artwork is a living familiar."
+        },
+        {
+          "name": "Illusory Artwork",
+          "level": 6,
+          "description": "If you cast an illusion spell and use calligrapher's supplies or painter's supplies as your spellcasting focus you can expend a use of Bardic Inspiration to cast the spell with a spell slot one level lower than you normally would (minimum of 1st-level)."
+        },
+        {
+          "name": "Bardic Masterpiece",
+          "level": 14,
+          "description": "As an action you can use calligrapher's or painter's supplies to paint a picture of a beast of CR 4 or lower that you have seen before in an unoccupied space adjacent to you, bringing the artistic depiction on the beast to life for 1 minute.\n\nWhile it is animated, the artwork beast is completely under your control, is friendly toward you and your allies, and it uses the stat block of the beast you depicted. In combat, the beast shares your initiative, but it can only take the Dodge action unless you use your bonus action to command it to\n\ndispelled and melts into a puddle of ink or paint.\n\nOnce you use this feature you must finish a long uses of this feature remaining, you can expend a spell slot of 5th-level or higher to use it again."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "Bard Level College Feature\n\n3rd Classical Artist, Living Art 6th Illusory Artwork 14th Bardic Masterpiece"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

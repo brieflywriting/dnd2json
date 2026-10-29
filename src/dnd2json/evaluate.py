@@ -36,7 +36,8 @@ def load_data():
 
 
 def cross_validate(make_model, real, srd, n_splits=5, seed=42):
-    """Return (y_pred, fold_scores): one out-of-fold prediction per real block + macro-F1 per fold."""
+    """Return (y_pred, fold_scores): one out-of-fold prediction per real block, and
+    macro-F1 per fold."""
     cv = StratifiedGroupKFold(n_splits, shuffle=True, random_state=seed)
     y_pred = np.empty(len(real), dtype=object)
     y_true = real["label"].to_numpy()
@@ -54,7 +55,8 @@ def cross_validate(make_model, real, srd, n_splits=5, seed=42):
             raise ValueError(f"Expected {len(test_idx)} predictions, got {len(predictions)}.")
         y_pred[test_idx] = predictions
 
-        fold_scores.append(f1_score(y_true[test_idx], predictions, average="macro", zero_division=0))
+        fold_scores.append(
+            f1_score(y_true[test_idx], predictions, average="macro", zero_division=0))
 
     return y_pred, fold_scores
 
@@ -108,7 +110,8 @@ def main(argv=None):
 
     print(f"Summary ({len(real)} real blocks):")
     print(f"  {'model':20s} {'macro-F1':>8s} {'errors':>7s} {'folds mean ± std':>18s}")
-    for name, (macro_f1, n_errors, mean, std) in sorted(results.items(), key=lambda kv: kv[1][0], reverse=True):
+    ranked = sorted(results.items(), key=lambda kv: kv[1][0], reverse=True)
+    for name, (macro_f1, n_errors, mean, std) in ranked:
         print(f"  {name:20s} {macro_f1:8.3f} {n_errors:7d} {mean:11.3f} ± {std:.3f}")
 
 

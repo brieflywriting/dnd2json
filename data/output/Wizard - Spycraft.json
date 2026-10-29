@@ -1,0 +1,46 @@
+{
+  "source_file": "Wizard - Spycraft.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "Spycraft",
+      "class": "Wizard",
+      "description": "Wizards of this tradition focus on magic that allows them to achieve e very specific goals; primarily reconnaissance, theft,and sabotage.. They use powerful illusions to hide their machinations, as well as Divination magic that lets them gather information unseen and unheard. They make excellent spymasters, working either for themselves or as court wizards for a higher authority that needs their services. Some wizards even use their talents against others of their kind, weaving webs of intrigue that afford them opportunities to steal others' arcane discoveries.",
+      "features": [
+        {
+          "name": "Spycraft Savant",
+          "level": 2,
+          "description": "The time and gold you must spend to copy a spell with the spycraft tag into your spellbook is halved."
+        },
+        {
+          "name": "Arcane e Espionage",
+          "level": 2,
+          "description": "Your magic improves your subtlety. You gain proficiency in the Deception and Stealth skills.\n\nAdditionally, you can weave defenses and further subtlety into your deception. While you are invisible, your true form is concealed by Ilusion or Transmutation magic, or you are concentrating on a spell with the spycraft spell tag, your proficiency bonus is doubled for any ability check you make that uses Deception or Stealth, and you gain a bonus to your AC equal to your Intelligence modifier (minimum of +1)."
+        },
+        {
+          "name": "Identity Swap",
+          "level": 6,
+          "description": "You add the characterizeES spell to your spellbook if it is not there already, it counts as a wizard spell for you, and it gains the spycraft tag. You can cast characterizeEs without expending a spell slot. When you do so, you can target only yourself and another willing creature. While you and the target are affected by this casting of characterizeEs, the disguise does not appear magical to divination spells.\n\nOnce you cast characterizeoes in this way, you can't do so again until you finish a short or long rest, though you can still cast it normally using an available spell slot."
+        },
+        {
+          "name": "Cross-Examination",
+          "level": 10,
+          "description": "Your spells loosen the tongues of your enemies. When you cast a wizard spell of 1st-level or higher that requires a saving throw, choose one of the creatures that failed its save; it can't speak a deliberate lie for the spell's duration and knows this fact. If the spell has the spycraft tag, it is instead unaware of its compelled truth.\n\nAdditionally, you always know when you are targeted by or are being perceived by a Divination spell. When a creature casts a Divination spell that would perceive, reveal,or otherwise affect you, you can use your reaction to perceive the creature for the duration of the spell, as if by the scrying spell or see invisibility spell; doing so does not blind or deafen you to your own senses. If you succeed on the saving throw against the spell, you can also provide the creature false information about what it would perceive as part of the same reaction, which it believes."
+        },
+        {
+          "name": "Silent Casting",
+          "level": 14,
+          "description": "You can cast spells without drawing attention to yourself. When you cast a spell with the spycraft tag, you can cast it without verbal or somatic components.\n\nSpycraft Spells. The following spells gain the spycraft tag."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": "Cantrips",
+          "text": "assessoes haptic feedbackoes keepsakeoes mage hand magic parchmentoes message transfer loreoes\n\n— alarm charm person comprehend languages detect magic disguise self eludeoes fog cloud illusory script sleep surveillanceoes\n\nalter self arcane lock arcanist's magic aura broadcast thoughtsoes detect thoughts invisibility knock locate object Orana's hidden earoes suggestion\n\n3RD balderdashoes clairvoyance fabricate doubtoes nondetection sending tongues\n\narcane eye confusion dimension door greater invisibility locate creature secret chest\n\ndominate person legend lore mislead modify memory passwall scrying seeming telepathic bond\n\ncontingency mass suggestion programmed illusion smotheroes true seeing ultimatumoes\n\nJTH etherealness greater telepathic bondoes project image sequester\n\n8TH clone feeblemind mind blank\n\n9TH imprisonment foresight mass modify memorypes shapechange"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

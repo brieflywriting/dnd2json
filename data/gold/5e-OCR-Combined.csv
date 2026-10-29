@@ -1,4 +1,4 @@
-﻿text,label,doc_id
+text,label,doc_id
 "C
 haotic power churns inside of you. Bards of the
 College of Chaos harness the wild forces of
@@ -117,14 +117,14 @@ bounty hunters, and spies follow this archetype, able to control the battle from
 "The Chocolatier is a whimsical wizard that masters different
 schools of magic all for the sake of creating delicious
 chocolate. The Chocolatier possesses different magic items
-that allow them to mass produce chocolate.
-Cooking Prodigy
+that allow them to mass produce chocolate.",class_description,Wizard – Chocolatier.pdf
+"Cooking Prodigy
 Cooking Prodigy
 2nd-level Chocolatier Magic feature
 You are an academic in both the ways of magic and making
 chocolate. You gain proficiency in cook’s utensils, and your
 proficiency bonus is doubled for any checks made using this
-item.",class_description,Wizard – Chocolatier.pdf
+item.",feature,Wizard – Chocolatier.pdf
 "The need for wizards in any aspiring army has 
 always been a given. But more recently, generals have 
 sought more well-rounded wizards that can hold their 

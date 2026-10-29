@@ -1,0 +1,41 @@
+{
+  "source_file": "Wizard - Combat Magic.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Combat Magic",
+      "class": "Wizard",
+      "description": "The need for wizards in any aspiring army has always been a given. But more recently, generals have sought more well-rounded wizards that can hold their own in the midst of battle. Simply casting strong spells from afar is not enough for a wizard. They must also be able to fight and survive on the front lines with their fellow soldiers when the need arises.\n\nWizards of the Combat Magic tradition seek to solve this problem. They excel at fighting in the fray of battle, getting up close and personal with their enemies and quickly dispatching them using magic.",
+      "features": [
+        {
+          "name": "Combat Trained",
+          "level": 2,
+          "description": "You are trained to fight toe-to-toe against martial fighters. You gain proficiency in light and medium armour, as well as the Athletics skill. You can also use armour you’re proficient in as a spellcasting focus for your wizard spells.\n\nIn addition, you add the shield spell to your spellbook if you haven’t already. You always have this spell prepared and it doesn’t count against the number of spells you can prepare each day."
+        },
+        {
+          "name": "Tactical Wit",
+          "level": 2,
+          "description": "Your keen ability to assess the battlefield allows you to act quickly in combat. You can give yourself a bonus to your initiative rolls equal to your Intelligence modifier (minimum of +1)."
+        },
+        {
+          "name": "Battlecasting",
+          "level": 6,
+          "description": "You’re able to fight in close quarters using magic. Making a ranged spell attack roll against a creature within 5 feet of you doesn't impose disadvantage on your roll. Also, whenever you hit a creature within 5 feet of you with a spell attack roll, you can add an extra 1d8 to the attack's damage roll.\n\nIn addition, when you cast a spell of 1st-level or higher, you can use a bonus action to gain temporary hit points equal to twice the spell slot's level, which lasts until you finish a long rest."
+        },
+        {
+          "name": "Supercharged Shield",
+          "level": 10,
+          "description": "You are adept in protecting yourself in the heat of battle. If an attack roll misses you while you're under the effect of the shield spell, the attacker takes force damage equal to half your wizard level, as your shield reflects the energy of the attack back at the attacker.\n\nIn addition, you can cast the shield spell without expending a spell slot a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+        },
+        {
+          "name": "Advanced Battlecasting",
+          "level": 14,
+          "description": "You have perfected using your magic in close quarters. Whenever a creature within 5 feet of you makes a saving throw against your spells, it does so with disadvantage. You can also add an extra 1d8 to one damage roll of the spell against that creature."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

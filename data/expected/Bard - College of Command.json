@@ -1,0 +1,32 @@
+{
+  "source_file": "Bard - College of Command.pdf",
+  "subclasses": [
+    {
+      "name": "College of Command",
+      "class": "Bard",
+      "description_starts_with": "Bards of the College of Command infuse",
+      "features": [
+        {
+          "name": "Commander's Training",
+          "level": 3,
+          "description_starts_with": "You have honed both your body and mind"
+        },
+        {
+          "name": "Inspiring Orders",
+          "level": 3,
+          "description_starts_with": "As an action, you can expend a use of Bardic Inspiration"
+        },
+        {
+          "name": "Gallant Leader",
+          "level": 6,
+          "description_starts_with": "You can seamlessly fight and issue"
+        },
+        {
+          "name": "Masterful Commander",
+          "level": 14,
+          "description_starts_with": "Your confident Orders embolden your allies"
+        }
+      ]
+    }
+  ]
+}

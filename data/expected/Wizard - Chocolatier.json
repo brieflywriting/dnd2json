@@ -1,0 +1,37 @@
+{
+  "source_file": "Wizard - Chocolatier.pdf",
+  "subclasses": [
+    {
+      "name": "Chocolatier",
+      "class": "Wizard",
+      "description_starts_with": "The Chocolatier is a whimsical wizard",
+      "features": [
+        {
+          "name": "Cooking Prodigy",
+          "level": 2,
+          "description_starts_with": "You are an academic in both the ways of magic"
+        },
+        {
+          "name": "Cocoa Homunculus",
+          "level": 2,
+          "description_starts_with": "Your affinity with chocolate allows you"
+        },
+        {
+          "name": "Addictive Chocolate",
+          "level": 6,
+          "description_starts_with": "You are able to make sweets"
+        },
+        {
+          "name": "Tenser's Transparent Elevator",
+          "level": 10,
+          "description_starts_with": "Your whimsical acts have resulted"
+        },
+        {
+          "name": "Mass Chocolate Production",
+          "level": 14,
+          "description_starts_with": "You can create more chocolate helpers"
+        }
+      ]
+    }
+  ]
+}

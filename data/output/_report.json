@@ -1,0 +1,12 @@
+[
+  {
+    "file": "Bard - College of Fools.pdf",
+    "status": "ok",
+    "extraction": "ocr",
+    "subclasses": [
+      "College of Fools"
+    ],
+    "features": 5,
+    "warnings": []
+  }
+]

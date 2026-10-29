@@ -1,0 +1,46 @@
+{
+  "source_file": "Bard - College of Crossroads.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Crossroads",
+      "class": "Bard",
+      "description": "While most Bards are naturally skilled musicians, singers, or storytellers, some gained their talent through more nefarious means. Known informally as the College of Crossroads, this organization is named for the traditional location where such mortal bargains are made. An agreement with a devil, demon,or other denizen of the lower planes is the start of such an infernal Bard's quest for personal power, fame, and fortune.",
+      "features": [
+        {
+          "name": "Infernal Musician",
+          "level": 3,
+          "description": "You have gained strange and sinister skills from an infernal deal at a Crossroads. You gain the following benefits:\n\nYou gain proficiency in Performance, and whenever you make a Charisma (Performance) check you can treat a d20 roll of 7 or lower as an 8.\n\nYou gain proficiency with one musical instrument.\n\nYou learn to speak, read, write, and sing in Infernal.\n\nIn addition, whenever you make a Charisma check that includes Infernal speech or lyrics, you gain a bonus to the roll equal to your Bardic Inspiration roll."
+        },
+        {
+          "name": "Forbidden Arcana",
+          "level": 3,
+          "description": "Your nefarious dealings with the lower planes have granted you access to dark magics. When you learn a new Bard spell you can choose the spell from the Bard or the Warlock spell list. It then becomes a Bard spell for you."
+        },
+        {
+          "name": "Eldritch Recovery",
+          "level": 6,
+          "description": "You can draw upon the dark arts to regenerate your magic,much as a Warlock does. When you finish a short rest, you can regain one expended Bard spell slot of a level equal to your Charisma modifier (minimum of 1st-level) or lower.\n\nHowever, if you choose to use this feature during a short rest then you cannot use Song of Rest."
+        },
+        {
+          "name": "Sinister Song",
+          "level": 6,
+          "description": "Your bardic magic is infused with the power of the lower planes. When a creature under the effect of Countercharm succeeds on a saving throw to resist being charmed or frightened, you can use a reaction to expend a use of Bardic Inspiration and force a creature of your choice within range of your Countercharm to make a Wisdom saving throw.\n\nOn a failed save, it is charmed or frightened (your choice)for the duration of Countercharm. The creature can repeat its saving at the end of each turn, and each time it takes damage,ending the charm or frighten effect on a success."
+        },
+        {
+          "name": "Otherworldly Virtuoso",
+          "level": 14,
+          "description": "You have mastered the Infernal musical power imparted to you. When you cast a Bard spell with a verbal component you can expend a Bardic Inspiration to enhance\n\nEmboldening Melody. Bard spell restores hit points, one target of the spell additional hit points equal to your Charisma modifier of 1). All targets of the spell have advantage on the next attack roll, ability check, or saving throw they make.\n\nInfectious Tune. If the Bard spell requires your concentration, the first time you are forced to make a Constitution saving throw to maintain concentration on that spell you gain a bonus to your roll equal to one roll of your Bardic Inspiration.\n\nResounding Note. If the Bard spell deals damage, you can cause it to deal thunder damage in place of its normal damage. Large or smaller creatures affected by the spell must succeed on an (additional) Strength saving throw or fall prone."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "Bard Level College Feature\n\n3rd Infernal Musician, Forbidden Arcana Eldritch Recovery, Sinister Song 6th Otherworldly Virtuoso 14th"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

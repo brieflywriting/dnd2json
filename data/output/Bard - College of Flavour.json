@@ -1,0 +1,46 @@
+{
+  "source_file": "Bard - College of Flavour.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Flavour",
+      "class": "Bard",
+      "description": "he College of Flavour is home to bards who use the taste to inspire the world. Whether a baker, chef, or saucier, a bard that walks the path of flavour is an expert in meals that have just a dash of magic to them.\n\nSuch bards are a great asset to many-a-party, for there are few things more certain than an adventurer's hunger. There are many reasons one may be drawn to adventuring. They may be searching for a secret mythical ingredient,wish to complete a world class recipe book, or to explore the wonders other cultures have to offer.",
+      "features": [
+        {
+          "name": "Implements of the Cook",
+          "level": 3,
+          "description": "When you select this college at 3rd level, you gain proficiency with Cook's Utensils, if you don't already have it. You may use these utensils to prepare and administer meals, using food to inspire rather than word or song. While holding a set of Cook's Utensils, you gain the following benefits:\n\nYou may use the utensils as a bardic spellcasting focus. When you use your Bardic Inspiration feature, you may have your inspiration be in the form as small treats (rather than word or song). A creature needn't hear you to receive a Bardic Inspiration dice this way, but instead must be able to see you.\n\nYou may repurpose the cutlery and tools included in the utensils as weapons. While holding the tools, you may make an attack as if you were wielding a club (metal pot),a dagger (knife), a sickle (fork), or a mace (ladle)."
+        },
+        {
+          "name": "Coveted Recipe",
+          "level": 3,
+          "description": "Also from 3rd level, after a creature rolls one of your Bardic Inspiration die, they may regain hit points equal to the roll. In addition, at the start of a creature's turn, they may spend your Bardic Inspiration die to reroll any saving throw they failed since the start of their last turn (no action required).\n\nA creature can benefit from this feature a number of times equal to their proficiency bonus per long rest."
+        },
+        {
+          "name": "Signature Dish",
+          "level": 6,
+          "description": "When you gain this feature at 6th level, choose a spell you know of 1st level or higher. Whenever you cast that spell,you may also choose a creature within 30 feet of you to roll a die and regain hit points equal to the total. The die is the same as your Bardic Inspiration die.\n\nWhenever you gain a level in this class, you may change the spell chosen for this feature."
+        },
+        {
+          "name": "Final Supper",
+          "level": 6,
+          "description": "Also from 6th level, after a friendly creature you can see within 60 feet of you is reduced to 0 hit points, you may administer an invigorating meal as a reaction. The creature rolls a number of their hit dice equal to or less than their proficiency bonus, and regains hit points equal to the total.\n\nA creature can benefit from this feature no more than once per long rest."
+        },
+        {
+          "name": "Sugar and Spice",
+          "level": 14,
+          "description": "From 14th level, when you cast a spell, you may choose a creature within 10 feet of you to regain hit points equal to the spell's level, and/or a creature within 10 feet of you to take necrotic damage equal to the spell's level."
+        },
+        {
+          "name": "Flavourer's Star",
+          "level": 14,
+          "description": "Finally at 14th level, you have been awarded with the mark of the Flavourer's Star, a prestigious badge of honour. You learn the heroes' feast spell, if you don't already know it. When you cast the spell, you may choose to make one of the following modifications to it:\n\nThe spell is cast as a ritual.\n\nYRP—Yo consumption time becomes 9 minutes.\n\n• The material components are changed to 500 gp worth of any items and ingredients.\n\nThe advantage given to Wisdom saving throws is changed to advantage on saving throws of another ability of your choice.\n\nArt Credit: Dockside Chef | Steven Belledin Content is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorset Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.enture Press | College of Flavour 1.1 | Patreon.com/venturepress V1.1"
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

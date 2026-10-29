@@ -1,0 +1,43 @@
+{
+  "source_file": "Rogue - Assassin (Revised).pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Assassin (Revised)",
+      "class": "Rogue",
+      "description": "",
+      "features": [
+        {
+          "name": "Bonus Proficiencies",
+          "level": 3,
+          "description": "When you choose this archetype at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit."
+        },
+        {
+          "name": "Invisible Threat",
+          "level": 3,
+          "description": "Starting at 3rd level, when you hit a creature for the first time of a turn, you can add 2d6 to your damage roll if the target didn't see you at the start of the turn.\n\nIn addition, whenever you kill a target or score a critical hit, you turn invisible until the end of your next turn or until you make an attack or cast a spell."
+        },
+        {
+          "name": "Killer's Arsenal",
+          "level": 9,
+          "description": "Beginning at 9th level, you become a specialist at brewing poisons to enhance the deadliness of your assassin's tools. On a long rest, you can use any plant or creature blood that surrounds you to prepare Deadly Toxins that consumes the flesh of your victims and enlarges the wounds you inflict. When you do so, you can create a number of doses of Deadly Toxins equal to your proficiency bonus, each one being equal to 2 ounces (half a vial). The Deadly Toxins never dry, but lose their efficiency after 24h. As an action, you can use a dose to coat 1 martial weapon, 2 simple weapons, 1 set of caltrops, 1 hunting trap or 10 pieces of ammunitions. An object coated with the Deadly Toxins can also be coated with an other poison. When a coated weapon, piece of ammunition, set of caltrops, or hunting trap, should inflict damage to a creature, it deals 1d10 necrotic damage instead of its usual weapon die damage (you then add all the other extra damage that should apply on the damage roll, like your dexterity modifier or your sneak attack for instance). Moreover, if a creature ingests a dose of the Deadly Toxins, it instantly takes necrotic damage equal to twice your sneak attack. It is then immune to Deadly Toxins for the next 24 hours."
+        },
+        {
+          "name": "Impostor",
+          "level": 13,
+          "description": "Starting at 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least three hours studying these three components of the person's behavior, listening to speech, examining handwriting, and observing mannerisms.\n\nYour ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection."
+        },
+        {
+          "name": "Death Bringer",
+          "level": 17,
+          "description": "Starting at 17th level, you become a master of instant death. Any hit you score against a creature that hasn't taken a turn in combat yet is a critical hit."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": [
+    "Assassin (Revised): no description found"
+  ]
+}

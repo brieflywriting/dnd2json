@@ -1,0 +1,27 @@
+{
+  "source_file": "Bard - College of Chaos.pdf",
+  "subclasses": [
+    {
+      "name": "College of Chaos",
+      "class": "Bard",
+      "description_starts_with": "Chaotic power churns inside of you",
+      "features": [
+        {
+          "name": "Chaotic Rift",
+          "level": 3,
+          "description_starts_with": "At 3rd level, your magic can strike a chord"
+        },
+        {
+          "name": "Master of Destruction",
+          "level": 6,
+          "description_starts_with": "At 6th level, you can channel destructive energy"
+        },
+        {
+          "name": "Embrace the Chaos",
+          "level": 14,
+          "description_starts_with": "From 14th level, you gain the ability"
+        }
+      ]
+    }
+  ]
+}

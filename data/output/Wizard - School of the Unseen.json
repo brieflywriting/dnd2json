@@ -1,0 +1,46 @@
+{
+  "source_file": "Wizard - School of the Unseen.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "School of the Unseen",
+      "class": "Wizard",
+      "description": "The legends talk about a secret school of wizards that mastered the powers of the true invisibility... but no one has ever seen one of them ...",
+      "features": [
+        {
+          "name": "Arcane Stealth",
+          "level": 2,
+          "description": "Starting at 2nd level, when you make a Stealth check, you can add your intelligence modifier to your roll."
+        },
+        {
+          "name": "Unseen Hand",
+          "level": 2,
+          "description": "Beginning at 2nd level, you learn the Mage Hand Cantrip. When you cast it, your mage hand is invisible, and when it holds an object, you can choose that this object also becomes invisible until it is no longer carried by the hand."
+        },
+        {
+          "name": "Discreet",
+          "level": 6,
+          "description": "Starting at 6th level, you can ignore the Verbal components when you cast a wizard spell.\n\nYou can use this feature a number of times equal to your Proficiency Bonus, and regain all expended uses when you finish a long rest."
+        },
+        {
+          "name": "Persistent Invisibility",
+          "level": 6,
+          "description": "Beginning at 6th level, when a spell that makes you invisible should end for you because you have made an attack or you have casted a spell, you can make an Intelligence saving throw (DC 15). On a success, the spell doesn't end for you and you remain invisible.\n\nIn addition, when a spell that makes you invisible reaches the end of its duration, or when you lose you concentration on it, you remain invisible until the start of your next turn."
+        },
+        {
+          "name": "Sneak Spells",
+          "level": 10,
+          "description": "Starting at 10th level, when you cast a spell that should deal damage to a creature that can't see you, you can add your intelligence to the damage dealt to that creature."
+        },
+        {
+          "name": "Master of the Unseen",
+          "level": 14,
+          "description": "Starting at 14th level, you learn the Invisibility spell. If it is already in your spellbook, you can learn an other wizard spell of level 2 or less instead. You always have the Invisibility spell prepared, but it doesn't count against the maximum number of spells you can prepare.\n\nYou can concentrate on the Invisibility spell at the same time you concentrate on an other spell. When you do so, you gain a level of exhaustion when your Invisibility spell ends, and if you lose your concentration, both Invisibility and your other spell end.\n\nIn addition, when you are invisible, the spell See Invisibility doesn't reveal you, and creatures with truesight can't see you."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

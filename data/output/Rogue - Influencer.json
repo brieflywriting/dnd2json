@@ -1,0 +1,41 @@
+{
+  "source_file": "Rogue - Influencer.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Influencer",
+      "class": "Rogue",
+      "description": "You are an Influencer, a duplicitous manipulator that excels in using flattery and natural charisma to sway others to your side. When in a spot of trouble, you can rely on the followers you’ve garnered to get you out.",
+      "features": [
+        {
+          "name": "Beguiling Personality",
+          "level": 3,
+          "description": "You are able to coax others into doing your bidding. If you speak to a humanoid alone for at least 1 minute, at the end of the conversation, you can make the target succeed on a Wisdom saving throw (DC equal to 8 + your proficiency bonus + your Charisma modifier) or be charmed by you for 1 hour. While charmed in this way, the target idolizes you and will attempt to follow your demands as best it can, although it will avoid violence unless it was already inclined to fight on your behalf. The effect ends early if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies.\n\nIf the target succeeds on its saving throw, the target has no hint that you tried to charm it.\n\nYou can use this feature a number of times equal your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+        },
+        {
+          "name": "Backhanded Apology",
+          "level": 3,
+          "description": "Your two-faced nature makes it easy to catch others unawares. You have advantage on attack rolls against creatures that are charmed."
+        },
+        {
+          "name": "Popular Following",
+          "level": 9,
+          "description": "You dictate the power position of your interactions. You are immune to being charmed.\n\nIn addition, when you use your Beguiling Personality feature, you can affect a number of humanoids up to your Charisma modifier (minimum of one extra humanoid). The conversation must only include the targets and yourself, and must not be interrupted by anyone outside the conversation."
+        },
+        {
+          "name": "Scathing Expose",
+          "level": 13,
+          "description": "You show no remorse when putting down others. When you hit a creature that is charmed, the attack is a critical hit. The creature is then no longer charmed.\n\nYou can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest."
+        },
+        {
+          "name": "Gaslight",
+          "level": 17,
+          "description": "When you fail a Charisma (Deception) or Charisma (Persuasion) check, you can use your reaction to succeed on it instead, even if the statement you present is logically impossible. Additionally, magic that would determine if you are telling the truth always indicates this statement as truthful.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

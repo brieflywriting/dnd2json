@@ -1,0 +1,47 @@
+{
+  "source_file": "Bard - College of Chance.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Chance",
+      "class": "Bard",
+      "description": "Gamblers, risk-takers, and daredevils alike all find a home in the College of Chance. Bards that dedicate themselves to this way of life live for the adrenaline that comes with great risks. These whimsical wanderers wield songs that draw upon the ambient wild magic in the world, channeling its risky power.",
+      "features": [
+        {
+          "name": "Risk-taker",
+          "level": 3,
+          "description": "When you fall short you can enhance your abilities with wild magic, possibly turning a failure into a success or a success into a failure. When you make an ability check, but before you know if you succeed or fail, you can grant yourself a bonus to your roll equal to a roll of your Bardic Inspiration die.\n\nIf you roll an even number on this bonus die, vou add the result to your ability check. If you roll an odd number on this bonus die you subtract the result from your ability check.\n\nThis feature improves when you reach certain levels in this class. At 6th level, you can use this feature when you make a weapon or spell attack roll. Finally, at 14th level, you can use the feature whenever you make a saving throw."
+        },
+        {
+          "name": "Wild Inspiration",
+          "level": 3,
+          "description": "The nature of your magic bleeds into your other abilities. When a creature that can hear you within 30 feet makes an attack roll, ability check, or saving throw, you can use your reaction to expend a use of Bardic Inspiration, roll the Bardic Inspiration die, and add the result to the creature's roll."
+        },
+        {
+          "name": "Whimsical Song",
+          "level": 6,
+          "description": "You enhance your bardic song with the power of wild magic. When a creature under the effect of your Countercharm uses one of your Bardic Inspiration dice, it can choose to use the maximum possible result for that die in place of rolling.\n\nHowever, if it uses Bardic Inspiration in this way and still misses its attack roll or fails its ability check or saving throw,it must immediately roll on the Wild Magic table found in the Sorcerer class on page 104 of the Player's Handbook."
+        },
+        {
+          "name": "Master of Chance",
+          "level": 14,
+          "description": "The forces of chance favor your wild lifestyle. Whenever you or another creature uses one of your Bardic Inspiration dice and rolls the maximum possible result, it gains an additional bonus to the roll equal to a roll of your Bardic Inspiration die."
+        }
+      ],
+      "extra_sections": [
+        {
+          "name": "Preamble",
+          "kind": "preamble",
+          "text": "At 3rd level, a Bard gains the Bard College feature. The following Colleges can be made available to Bards, alongside those in the Player's Handbook and other official options:"
+        }
+      ],
+      "tables": [
+        {
+          "title": null,
+          "text": "Glory Chance Drama Eulogies Radiance Chaos Fine Art Revelry Command Crossroads Fools The Wilds\n\nBard Level College Feature\n\nRisk-Taker, Wild Inspiration 3rd Whimsical Song 6th 14th Master of Chance"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,52 @@
+{
+  "source_file": "Bard - College of Glory.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Glory",
+      "class": "Bard",
+      "description": "are known for telling the tale and ballads that laud the action of others. While most are satisfied by this role,strive to be the hero themselves. Many a brave Bard l the ranks of the College of Glory for this reason.\n\nValuing bravery and decisive action above all, Glory Bards personas and hone physical abilities to match.",
+      "features": [
+        {
+          "name": "Heroic Stature",
+          "level": 3,
+          "description": "You have decided to become the hero that other Bards will sing of. You gain the following benefits so long as you are not wearing armor or wielding a shield:\n\n• Your Armor Class is equal to 10 + your Strength modifier + your Charisma modifier.\n\nYour unarmed strikes deal bludgeoning damage equal to one roll of your Bardic Inspiration die +your Strength modifier on hit.\n\n• Whenever you make a Strength (Athletics)check or roll damage for an unarmed strike,you can expend a use of Bardic Inspiration and add it to the result of your roll."
+        },
+        {
+          "name": "Glorious Purpose",
+          "level": 3,
+          "description": "You have trained to overcome any obstacle that may stand in the path of your legend. You gain proficiency in Athletics and have advantage on saving throws to resist being frightened."
+        },
+        {
+          "name": "Extra Attack",
+          "level": 6,
+          "description": "You can attack twice, instead of once, when you take the Attack action on your turn. Moreover, you can cast one of your Bard cantrips in place of one of those attacks."
+        },
+        {
+          "name": "Hero of Legend",
+          "level": 14,
+          "description": "You take up the mantle of a legendary hero, transforming to match the legend. You can use a bonus action to transform into your Heroic Form, gaining the following benefits:\n\n• You gain temporary hit points equal to your Bard level.\n\n• You can take the Dash action as a bonus action so long as you end your movement closer to a hostile creature.\n\nAs a reaction when a creature targets you with a melee attack, you can make one attack against that creature.\n\nThese benefits last for 1 minute and end early if you fall unconscious or die. Once you use this feature you must finish a short or long rest before you can transform again."
+        },
+        {
+          "name": "Paragon of Glory",
+          "level": 14,
+          "description": "You are immune to the frightened condition, and whenever you make a death saving throw you can expend a use of Bardic Inspiration, roll it, and add the result to your roll."
+        }
+      ],
+      "extra_sections": [
+        {
+          "name": "Preamble",
+          "kind": "preamble",
+          "text": "us rr\n\nouc cs"
+        }
+      ],
+      "tables": [
+        {
+          "title": null,
+          "text": "Bard Level College Feature\n\n3rd Heroic Stature, Glorious Purpose 6th Extra Attack Hero of Legend, Paragon of Glory 14th"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

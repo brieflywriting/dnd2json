@@ -1,0 +1,50 @@
+{
+  "source_file": "Rogue - Divine Avenger.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Divine Avenger",
+      "class": "Rogue",
+      "description": "Divine Avengers are agents sent by the gods to track and eliminate the unholy. Some of those rogues are virtuous, worshiping good gods and bringing their righteous justice to the world, but some others are darker and follow the twisted whispers of evil gods, executing their targets in their name.",
+      "features": [
+        {
+          "name": "Vow of Enmity",
+          "level": 3,
+          "description": "Starting at 3rd level, you can profess a Vow of Enmity as a bonus action. When you do so, choose a target within 60 feet of you. Until you die or until the target of your vow dies, you can use your sneak attack feature against it even when you don't fulfill the prerequisite for it (you can sneak attack even if non of your allies is adjacent to it, and even if you don't have advantage on your attack). You are still limited to one sneak attack per turn. Moreover, when you attack the target of your vow of enmity with a weapon, that weapon gains the finesse property for this attack.\n\nIn addition, when the target of your Vow of Enmity can see you and doesn't move directly toward you, it must spend 2 feet of movement for every 1 foot it moves.\n\nWhen you profess a Vow of Enmity, you can't do it again until your target is dead or until you finish a short or a long rest."
+        },
+        {
+          "name": "Spellcasting",
+          "level": 3,
+          "description": "When you reach 3rd level, you augment your martial prowess with the ability to cast spells.\n\nCantrips. You learn the Light and Thaumaturgy Cantrips.\n\nSpell Slots. The Divine Avenger Spellcasting table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nFor example, if you know the 1st-level spell Thunderous Smite and have a 1st-level and a 2nd-level spell slot available, you can cast Thunderous Smite using either slot.\n\nSpells Known of 1st Level and Higher. You know three 1stlevel paladin spells of your choice.\n\nThe Spells Known column of the Divine Avenger Spellcasting table shows when you learn more paladin spells of 1st level or higher. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.\n\nWhenever you gain a level in this class, you can replace one of the paladin spells you know with another spell of your choice from the paladin spell list. The new spell must be of a level for which you have spell slots.\n\nSpellcasting Ability. Wisdom is your spellcasting ability for your paladin spells and for the Light and Thaumaturgy cantrips. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a paladin spell you cast and when making an attack roll with one."
+        },
+        {
+          "name": "Hound of the Gods",
+          "level": 9,
+          "description": "Beginning at 9th level, you gain proficiency in the Religion and Investigation skills. If you already have one of them, you gain proficiency in an other skill from the rogue list instead. Your proficiency bonus is doubled for any Religion or Investigation skill check you make."
+        },
+        {
+          "name": "Cunning Smite",
+          "level": 13,
+          "description": "Starting at 13th level, when you use your sneak attack on a creature, it rolls saving throws against your paladin spells with disadvantage until the end of the turn."
+        },
+        {
+          "name": "Life Steal",
+          "level": 17,
+          "description": "Starting at 17th level, when the target of your Oath of Enmity dies, you regain Hit Points equal to your rogue level and your Hit Points Maximum increases by that same amount for the next hour.\n\nYou can use this feature only if the target of your vow of enmity is CR 3 or higher."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "Spell Save DC = 8 + your proficiency bonus +\n\nyour Wisdom modifier\n\nSpell attack modifier = your proficiency bonus +\n\nyour Wisdom modifier"
+        },
+        {
+          "title": "Divine Avenger Spellcasting",
+          "text": "Spell Slots per Spell Level\n\nLevel Spells Known 1st 2nd 3rd 4th\n\n3rd 3 2 —\n\n4th 4 3 —\n\n5th 4 3 —\n\n6th 4 3 —\n\n7th 5 4 2 —\n\n8th 6 4 2 —\n\n9th 6 4 2 —\n\n10th 7 4 3 —\n\n11th 8 4 3 —\n\n12th 8 4 3 —\n\n13th 9 4 3 2 —\n\n14th 10 4 3 2 —\n\n15th 10 4 3 2 —\n\n16th 11 4 3 —\n\n17th 11 4 3 —\n\n18th 11 4 3 —\n\n19th 12 4 3 1\n\n20th 13 4 3 1"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

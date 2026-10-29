@@ -1,0 +1,41 @@
+{
+  "source_file": "Wizard - School of Forbidden Magic.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "School of Forbidden Magic",
+      "class": "Wizard",
+      "description": "Deep within hidden dungeons, wizards of the School of Forbidden Magic push the boundary of magic into unknown eldritch depths.\n\nTraditional wizarding schools may shun their practices, yet wizards of Forbidden Magic delve deep into the dark arts. Yours is the magic of heresy; you can sacrifice your own flesh and blood to fuel your spells, and desecrate the souls of the deceased to harvest their magic.\n\nWizards of this school are branded as cultists or apostates. The powers that you learn come with a steep price, but with them you become capable of both great and terrible feats.",
+      "features": [
+        {
+          "name": "Hidden Spellbook",
+          "level": 2,
+          "description": "Wizards of this school dabble in dangerous and illegal magicks, and hence learn how to conceal their spells in obscure ways. Beginning when you select this school at 2nd level, you can choose any of the following options for your spellbook:\n\nYou can tattoo your spells onto your skin rather than storing them in a spellbook, allowing you to smuggle magic into secret places. Over the course of a long rest, you can tattoo a spell onto your body, expending the same amount of gold and time as it would cost to copy the spell into your spellbook normally. Spells that are tattooed onto you cannot be removed from your list of prepared wizard spells, and you can cast them without using a spellcasting focus or material component (provided the material components have no associated cost). The maximum number of number of spells you can tattoo onto yourself with is equal to your proficiency bonus. If you tattoo the same spell again after removing it, you must pay the same gold and time cost again. Removing a tattooed spell is a painful process that takes the same amount of time it took to add the spell, and you start the following day with a reduction of hit points equal to 1d8 multiplied by the level of the spell removed.\n\nYou can make the spells stored in your spellbook illegible. When copying a spell into your spellbook, you can choose to write the spells in a unique cipher, such that no other wizard but you can copy spells from you or decipher what spells have you learned.\n\nYou can magically change the form of your spellbook into another object. Over the course of a long rest, you can reshape your spellbook to make it appear as any mundane item with a value of less than 20 gp. For example, a wizard might transform their spellbook into a cloak or a dagger. A successful Intelligence (Arcana) check against your spell save DC is required to determine that the object you create is actually a spellbook. Alternatively, if you know the Find Familiar spell, then over the course of a long rest you can transform your spellbook into your familiar. Mechanically your spellbook functions the same way, regardless of what form it is in."
+        },
+        {
+          "name": "Sacrificial Magic",
+          "level": 2,
+          "description": "At 2nd level, you gain the ability to sacrifice your own life force to fuel your magic. You can choose to cast a spell without expending a spell slot, at the cost of wounding yourself. Both your current hit points and your hit point maximum are reduced by an amount equal to 1d8 multiplied by the spell's level. This hit point reduction cannot be prevented or avoided by any means, and lasts until the end of your next long rest.\n\nIf this hit point reduction reduces you to 0 hit points, then the spell is performed successfully but you immediately fall unconscious and fail a single death saving throw. If your hit point maximum is reduced to 0, you instantly die.\n\nThe maximum level of spell you can cast with this feature is equal to one third of your wizard level, rounded up. You can use this feature a number of times equal to 2 plus your proficiency bonus. You regain all expended uses when you finish a long rest."
+        },
+        {
+          "name": "Practice of the Dark Arts",
+          "level": 6,
+          "description": "At 6th level, your study of the forbidden arts leads you to a heretical technique, one that enables you to perform magic that would normally be beyond your means. When you spend ten minutes concentrating (as if performing a ritual) over the corpse of a dead creature that was capable of spellcasting, then you can extract part of its body (such as some of its hair, flesh or an organ) to create a unique Totem of the Dark Arts. With this Totem of the Dark Arts in hand, you can then cast one of the spells that the creature knew in life.\n\nThe spell extracted must be of a level that you would otherwise be capable of casting, but it may belong to any class's spell list. Regardless of what the spell's original spellcasting ability was, you use Intelligence as your spellcasting ability. If you are aware of a specific spell that the creature could cast, then you can choose to extract that spell. Otherwise, the DM grants you any spell of their choice from the creature’s spell list. This spell is then added to your list of prepared spells, and you can cast it once without expending a spell slot. You may also cast the spell multiple times expending spell slots of an appropriate level.\n\nExtracting a Totem of the Dark Arts from a creature also prevents that creature from being resurrected for so long as the Totem of the Dark Arts is in your possession.\n\nA Totem of the Dark Arts will wither away and disappears after 1d4 days, or may destroy it earlier. You may only possess a single Totem of the Dark Arts at any one time, and you can only ever extract one Totem of the Dark Arts from a single corpse. Once you create a Totem of the Dark Arts with this feature, you can't do so again until you finish a long rest."
+        },
+        {
+          "name": "Twisted Spellcasting",
+          "level": 10,
+          "description": "At 10th level, your research allows you to use the power of blood to substitute for components in your spellcasting. When you use your Sacrificial Magic feature, you can choose one of the following options:\n\nYou cast the spell such that any required material components remain unconsumed in the casting.\n\nYou cast the spell without providing either verbal or somatic components.\n\nWhen you remove a component of a spell in this way, then the hit point reduction inflicted by Sacrificial Magic increases to an amount equal to 1d12 multiplied by the spell's level."
+        },
+        {
+          "name": "Heretical Mastery",
+          "level": 14,
+          "description": "At 14th level, you perfect the technique of harvesting magic from others. You gain the following benefits:\n\nYou can use your Practice of the Dark Arts feature twice, and you regain all expended uses when you finish a long rest.\n\nYou may possess up to two Totems of the Dark Arts at one time.\n\nYou can now extract Totems of the Dark Arts from living creatures, as well as from deceased ones. A living creature must be either willing or restrained for the duration while you perform the ritual upon them. When a creature has a Totem of the Dark Arts extracted from them, the chosen spell is removed from their spell list for so long as you possess the Totem. You may extract multiple Totems of Dark Arts from the same creature so long as they are alive. However - unlike for Totems of the Dark Arts extracted from the dead - a Totem of the Dark Arts that was extracted from a living creature cannot be cast once without expending a spell slot. You must expend a spell slot of an appropriate level to cast the spell."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

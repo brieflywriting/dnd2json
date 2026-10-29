@@ -1,0 +1,45 @@
+{
+  "source_file": "Bard - College of the Wilds.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of the Wilds",
+      "class": "Bard",
+      "description": "Some Bards are so inspired by the majesty of nature they can draw musical magic from nature itself. Often more at home in nature than on the stage, Bards who join the College of the Wilds feel a special kinship with wild plants and animals of all kinds. They can use their enchanting music to soothe even the most savage beasts, turning them from enemy to ally.",
+      "features": [
+        {
+          "name": "Friend of Nature",
+          "level": 3,
+          "description": "You have gained the skills to charm and subdue wild plants and animals of all kinds. You gain proficiency in both Animal Handling and Performance and whenever you would make a Wisdom (Animal Handling) check you can choose to make a Charisma (Animal Handling) check instead\n\nAlso, whenever you cast an enchantment spell from the Bard spell list that can target a humanoid, you can choose to target beasts and plants with that spell as well."
+        },
+        {
+          "name": "Primal Inspiration",
+          "level": 3,
+          "description": "Your bardic magic can bestow primal on others. As a bonus action, you can expend a use of Bardic Inspiration and grant one of the effects below to one creature of your choice within 60 feet that can hear you. The abilities last for 1 hour, but they end early if the creature uses a bonus action to end it,if you grant it another ability, or it is incapacitated:\n\nFlight of the Squirrel. The creature sprouts lightweight flaps or fins. When it falls,it subtracts 60 feet from its fall when calculating fall damage,and it can move horizontally 2 feet for every 1 foot it falls.\n\nGrip Of the Monkey. The creature gains the ability to grip almost any surface. It gains a 30-foot climbing speed and it has advantage on any Strength (Athletics) checks it makes to grapple creatures.\n\nResilience of the Forest. The creature's skin becomes rough and bark-like. It gains the benefits of the barkskin spell for the duration.\n\nSpeed of the Deer. The creature's legs grow limber and its pace quickens. Its movement speed increases by 15 feet."
+        },
+        {
+          "name": "Wild Companion",
+          "level": 6,
+          "description": "At the end of a long rest, you can call a creature of the wild to your side. One beast or plant of your choice native to the area appears. It is friendly to you and obeys you completely In combat, it shares your turn in initiative order. It can move and use its reaction on its own, but it can only take the dodge action unless you use your bonus action to command it to take an action from its stat block or another action.\n\nYour Bard level determines the maximum CR of the beast or plant you can summon, as shown in the table below:\n\nIf your companion has died within the past hour, you can touch it and expend a spell slot of 1st-level or higher and it returns to life with all of its hit points restored. You can only control one Companion at a time with this feature. Calling a second Companion causes the first to flee into the wild."
+        },
+        {
+          "name": "Soothe the Savage Beast",
+          "level": 14,
+          "description": "Your mastery of music allows you to soothe any creature, SWiftness of the Dolphin no matter how savage it is. You can target aberrations, The creature grows webbing between its dragons, giants, monstrosities with enchantment spells digits. It gains a 30-foot swimming speed that normally can only target humanoids.and it can hold its breath for 1 hour. You also learn dominate beast, but it doesn't count against your total number of Spells Known."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "Bard Level College Feature\n\n3rd Friend of Nature, Primal Inspiration 6th Wild Companion 14th Soothe the Savage Beast"
+        },
+        {
+          "title": null,
+          "text": "Max. CR Example Companions Bard Level 6th Brown Bear, Vine Blight 1 14th 2 Awakened Tree, Giant Elk 17th Elephant, Giant Scorpion 4"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

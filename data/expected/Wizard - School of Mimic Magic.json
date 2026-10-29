@@ -1,0 +1,37 @@
+{
+  "source_file": "Wizard - School of Mimic Magic.pdf",
+  "subclasses": [
+    {
+      "name": "School of Mimic Magic",
+      "class": "Wizard",
+      "description_starts_with": "Few monsters are as emblematic",
+      "features": [
+        {
+          "name": "Monster Tongue",
+          "level": 2,
+          "description_starts_with": "When you adopt this tradition at 2nd level"
+        },
+        {
+          "name": "Mimic Grimoire",
+          "level": 2,
+          "description_starts_with": "Starting at 2nd level, you learn a corrupted ritual"
+        },
+        {
+          "name": "Mana Devouring",
+          "level": 6,
+          "description_starts_with": "At 6th level, you're able to use your grimoire's hunger"
+        },
+        {
+          "name": "Spell Mimicry",
+          "level": 10,
+          "description_starts_with": "At 10th level, whenever a creature within 20 feet"
+        },
+        {
+          "name": "Two Mouths Are Better Than One",
+          "level": 14,
+          "description_starts_with": "At 14th level, you wholly ingratiate"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "source_file": "Bard - College of Chivalry.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "College of Chivalry",
+      "class": "Bard",
+      "description": "Bards of the College of Chivalry champion the values of honour and justice, acting as knightly protectors to the common folk during their travels. Though some do travel from town to town like other bards, a few of this college can be found in the ranks of armies as knights and officers.",
+      "features": [
+        {
+          "name": "Knightly Training",
+          "level": 3,
+          "description": "You have embodied the values of a knight in your words and how you fight. You gain proficiency with medium armour, shields, and martial weapons. Additionally, you gain proficiency in the Persuasion skill if you don't already have it.\n\nYou also have training in riding a steed. You have advantage on saving throws made to avoid falling off a mount. If you fall off a mount and descend no more than 10 feet, you can land on your feet if you're not incapacitated. Additionally, mounting or dismounting a creature costs you only 5 feet of movement, rather than half your speed.\n\nFinally, you learn the find steed spell spell, which counts as a bard spell for you and doesn’t count against the number of bard spells you know. When you reach 7th level in this class, you learn the find greater steed spell."
+        },
+        {
+          "name": "Gallant Inspiration",
+          "level": 3,
+          "description": "Your words are able to bolster one’s courage and drive them to act. At the start of combat, you can expend one use of your Bardic Inspiration to give a creature a Bardic Inspiration die. Immediately after the creature makes its initiative roll, it can roll the Bardic Inspiration die and add the number rolled to the d20. When it does, the creature can also add the number rolled to one ability check, attack roll, or saving throw it makes in the first round of combat.\n\nOnce you use this feature, you can't use it again until you finish a long rest."
+        },
+        {
+          "name": "Rallying Call",
+          "level": 6,
+          "description": "You let out a loud cry to rouse your allies. As an action, you can expend one use of your Bardic Inspiration and choose a number of creatures that can also hear you within 60 feet of you up to your Charisma modifier (minimum of one creature). You roll the Bardic Inspiration die, and the creature can use its reaction to make one weapon attack, adding the number rolled to its attack or damage roll (the creature’s choice). It must do this after making the roll, but before knowing the result.\n\nOnce you use this feature, you can’t do so again until you finish a short or long rest."
+        },
+        {
+          "name": "Word of Honour",
+          "level": 14,
+          "description": "You instil into others the value of fairness in combat. While a creature is holding your Bardic Inspiration die, attack rolls and contested ability checks that would have advantage against it have the advantage nullified."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

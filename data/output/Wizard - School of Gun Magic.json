@@ -1,0 +1,41 @@
+{
+  "source_file": "Wizard - School of Gun Magic.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "School of Gun Magic",
+      "class": "Wizard",
+      "description": "The Arcane Tradition of the Gunmage emphasizes the use of a firearm as a spellcasting focus, teaching to release spells in ways which boost the caster's destructive capability. Given that firearms are a recent technological development, the Gun Magic School is still a budding one; though its popularity is rapidly growing due to the effectiveness and appeal of its concepts.",
+      "features": [
+        {
+          "name": "Gunslinger's Training",
+          "level": 2,
+          "description": "When you adopt this tradition at 2nd level, you gain proficiency with firearms. You also gain proficiency with smith's tools."
+        },
+        {
+          "name": "Arcane Gun",
+          "level": 2,
+          "description": "Starting at 2nd level, you learn a ritual that creates a magical bond between yourself and one firearm, turning it into an Arcane Gun.\n\nYou perform the ritual over the course of 1 hour, which can be done during a short rest. The firearm must be within your reach throughout the ritual, at the conclusion of which you touch the firearm and forge the bond. You may only bind one firearm in this way. If you attempt to bond with a new firearm,you must break your bond with the previous one.\n\nOnce bound, you can't be disarmed of your Arcane Gun unless you are incapacitated. If it is on the same plane of existence, you can summon the firearm as a bonus action on your turn, causing it to teleport instantly to your hand.\n\nYou can use your Arcane Gun as a spellcasting focus for your wizard spells. It still functions as a regular firearm, and can fire mundane ammunition. When attacking with it, you use your Intelligence modifier instead of your Dexterity. It counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.\n\nWhen you cast spells which require a ranged spell attack through your Arcane Gun, your Intelligence modifier is added to the damage roll. In addition, when you cast a cantrip which requires a ranged spell attack through your Arcane Gun, you can choose to have it be considered a ranged weapon attack instead. If you do so, the cantrip's range is changed to that of your firearm, and you apply its bonuses to attack and damage rolls. If you cast it in this way, your Intelligence modifier is not added to the damage roll."
+        },
+        {
+          "name": "Empowered Shot",
+          "level": 6,
+          "description": "Starting at 6th level, you've learned to imbue your magic directly into your firearm, making for a fearsome offensive. As a bonus action, you can expend a spell slot to create an elemental round in the chamber of your Arcane Gun.\n\nChoose a damage type: acid, cold, fire, force, lightning,necrotic, poison, psychic, radiant, or thunder. Within the next minute, you can use your action to release this stored energy,firing off a powerful magical blast.\n\nMake a ranged weapon attack against a single creature you can see within 200 feet of you. On a hit, the target takes 2d8damage of the chosen type per slot level of the spell slot expended + your Intelligence modifier.\n\nYou can hold only one such round in your firearm at a time."
+        },
+        {
+          "name": "Enhanced Targeting",
+          "level": 10,
+          "description": "At 10th level, your mastery over your weapon has reached new heights,, allowing you to more accurately pinpoint your victims:\n\nThe firearm used as your Arcane Gun now grants you an additional +1 bonus to attack and damage rolls.\n\nWhen using your Empowered Shot feature, you score a critical hit on a dice roll l of 18-20. When you do, an additional 2d8 damage of the chosen type is added to the final damage roll."
+        },
+        {
+          "name": "Arcane Blaster",
+          "level": 14,
+          "description": "At 14th level, your chosen weapon becomes a true instrument of destruction:\n\nThe firearm used as your Arcane Gun now grants you an additional +2 bonus to attack and damage rolls.\n\nWhen using your Empowered Shot feature, your elemental rounds ignore resistance to the chosen damage type.\n\nCantrips cast through your Arcane Gun deal an additional 1d10 force damage."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

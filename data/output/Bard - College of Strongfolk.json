@@ -1,0 +1,46 @@
+{
+  "source_file": "Bard - College of Strongfolk.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "College of Strongfolk",
+      "class": "Bard",
+      "description": "These larger than life entertainers treat their bodies as finely tuned instruments and just like any other bard their performances are imbued with magic.",
+      "features": [
+        {
+          "name": "Performance Enhancing Magic",
+          "level": 3,
+          "description": "When you join this college at 3rd level whenever you cast a spell you may channel some of its energy into your body allowing you to add your Charisma modifier to your Strength score for a number of minutes equal to the spells level or until the next spell you cast. The cap for the amount you can add to your Strength score equals the level of spell used, if you use a 1st level spell then you may only add +1 to your Strength score. You can use this feature a number of times equal to 1 + your Charisma modifier. When you finish a long rest, you regain all expended uses.\n\nAlso you may use either Charisma or Strength as your spellcasting abilitywhen under the effects of this feature."
+        },
+        {
+          "name": "Powerful Build",
+          "level": 3,
+          "description": "Additional at 3rd level you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+        },
+        {
+          "name": "Strike A Pose",
+          "level": 3,
+          "description": "Also at 3rd level you can use your Bardic Inspiration feature to instead Strike A Pose, using your bonus action to cast one of the spells from this list on yourself at 1st level, without using a spell slot.\n\nThen instead of giving the bardic inspiration die to a creature, choose one of the following effects.\n\n• Up to three enemies within 20ft. that can see you subtract 1 from the first d20 roll they make in the next minute.\n\nThe bonus becomes +2/-2 at 5th level, +3/-3 at 10th level, and +4/-4 at 15th level."
+        },
+        {
+          "name": "Oiled Up",
+          "level": 6,
+          "description": "At 6th level, spells find no purchase on your magically infused body, gain a +2 bonus to AC and saving throws against spells that only target you.\n\nAdditional at 6th level you may add half your Performance skill rounded down to your Athletics checks."
+        },
+        {
+          "name": "Mr Universe",
+          "level": 14,
+          "description": "At 14th level you’ve learned how to perfectly weave magic through your body, when attempting to make any ability check, attack roll or saving throwyou may change the roll demanded of you into an Athletics check. You must do this before you roll.\n\nYour Athletics check must beat a DC of 25 or you gain one level of exhaustion. Every time you use this feature after the first the DC increases by 10. The DC resets to 25 after you complete a long rest.\n\n• Up to three allies within 20ft. that can see you add 1 to the first d20 roll they make in the next minute."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "Longstrider\n\nHeroism\n\nJump Mage Armour"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

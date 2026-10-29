@@ -6,40 +6,38 @@ from dnd2json.features import FEATURE_NAMES, RUN_IN_PATTERN, block_features, has
 # makes the model a bit worse and you never find out why. These tests pin down exactly
 # what the patterns should and shouldn't catch.
 
-# TODO 4.2: fill both lists.
-# Hints:
-#   - SHOULD_MATCH: every way your documents write a level (spacing, hyphen,
-#     capitalisation, number before or after the word).
-#   - SHOULD_NOT_MATCH: near-misses. The word "level" without a number, dice notation,
-#     an ordinary description sentence.
-#   - Copy real snippets from your data where you can.
-SHOULD_MATCH = []
-SHOULD_NOT_MATCH = []
+# Real snippets from the PDFs in media/eng/pdf.
+SHOULD_MATCH = [
+    "Starting at 3rd level, you can",               # space
+    "2nd-level Chocolatier Magic feature",          # hyphen
+    "Beginning at 6th Level, your Vault",           # capital L
+    "Starting at 6h level, you",                    # OCR typo
+    "if you're a level 5 druid",                    # number after the word
+]
+SHOULD_NOT_MATCH = [
+    "you gain a level of exhaustion",               # the word, no number
+    "spells of a level for which you have slots",   # the word, no number
+    "take 2d6 fire damage",                         # dice, not a level
+    "Bards of the College of Fools use crude stories.",  # ordinary description
+]
 
 
 @pytest.mark.parametrize("text", SHOULD_MATCH)
 def test_level_pattern_matches(text):
-    # TODO 4.2
-    # Idea: every positive example must be caught.
-    raise NotImplementedError
+    assert has_level(text)
 
 
 @pytest.mark.parametrize("text", SHOULD_NOT_MATCH)
 def test_level_pattern_ignores(text):
-    # TODO 4.2
-    # Idea: no near-miss may be caught (no false alarms).
-    raise NotImplementedError
+    assert not has_level(text)
 
 
 def test_run_in_heading():
-    # TODO 4.2
-    # Idea: one bold-heading example must match and one ordinary sentence must not.
-    #       Checking both sides stops a pattern that matches everything from passing.
-    raise NotImplementedError
+    assert RUN_IN_PATTERN.match("**Coveted Recipe.** Also from 3rd level, after a creature")
+    assert RUN_IN_PATTERN.match("Coveted Recipe. Also from 3rd level")
+    assert not RUN_IN_PATTERN.match("Bards of the College of Fools use crude stories.")
 
 
 def test_block_features_shape():
-    # TODO 4.2
-    # Idea: the number of features must equal the number of names, so the two lists
-    #       can't silently drift apart when you add a feature.
-    raise NotImplementedError
+    assert len(block_features("At 3rd level, you gain 2d6.")) == len(FEATURE_NAMES)
+    assert len(block_features("")) == len(FEATURE_NAMES)  # empty text mustn't crash

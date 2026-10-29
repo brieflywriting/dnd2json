@@ -1,0 +1,45 @@
+{
+  "source_file": "Bard - College of the Voice.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of the Voice",
+      "class": "Bard",
+      "description": "Bards of the College of the Voice ridicule paltry singers and tellers sof tawdry tales. To them, their voice is their instrument, and the ancient words they speak their performance. Bards of this college are regarded with reverence, for those with the power to join it speak their will into reality. The hills shake with their bellowed incantations,which warp the world to suit their whims. When these bards speak, even the mightiest creatures fall before their words.",
+      "features": [
+        {
+          "name": "Shouts",
+          "level": 3,
+          "description": "When you join the College of the Voice at 3rd level, the power of your voice adds new spells to your arsenal and alters your existing ones. The spells on the shouts table are added to the bard spell list for you.\n\nWhen you attempt to cast a spell on the shouts table, you can expend a Bardic Inspiration die instead of a spell slot. Roll the die. If the result is equal to or exceeds the level of the spell, you cast it as a shout. Otherwise, the spell fails.\n\nWhen cast in this way, a shout does not require material or somatic components, and has a verbal component added if it does not already have one. Because your voice booms like thunder when casting a shout, all creatures within 300 feet hear the echoes of the incantation used to cast the spell."
+        },
+        {
+          "name": "Tongue of the Ancients",
+          "level": 3,
+          "description": "Starting at 3rd level, the words of an ancient language give your magic form. You learn one of the following languages of your choice: Abyssal, Celestial, Draconic, Deep Speech, Giant, Infernal, Modron, Primordial, Slaad, Sphinx, Sylvan, or Yeti. When you use a shout, you speak the verbal component in this language. You also know the comprehend languages spell, and can cast it at will, without expending a spell slot or material components."
+        },
+        {
+          "name": "Thundering Yell",
+          "level": 6,
+          "description": "Starting at 6th level you can project your voice as a weapon. You can use an action and expend a spell slot of 1st level or higher and force each creature in a 30-foot cone to make a Constitution saving throw against your bard spell save DC. A creature takes 2d8 damage on a failed save, or half as much damage on a successful one.\n\nOn a failed save, the target is pushed a number of feet away from you equal to your Charisma modifier multiplied by 5 (a minimum of 5 feet), and is knocked prone.\n\nThe thunder damage increases by 1d8 for each slot level above 1st."
+        },
+        {
+          "name": "Legend Rend",
+          "level": 14,
+          "description": "Starting at 14th level, you learn words of power that force the mightiest creatures to comprehend their own mortality. You can use an action to scream those words to one creature within 120 feet of you. If the target can hear you, it must must make a Wisdom saving throw against your bard spell save DC. On a failed save, the target temporarily loses any resistances to damage and immunities to conditions that it has, and has disadvantage on all saving throws. This effect ends after 1 minute. The affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature cannot use a Legendary Resistance, if it has one, to succeed on saving throws against this feature.\n\nYou can use this feature once, and regain all expended uses after you finish a long rest."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": "Shouts Table",
+          "text": "Spells marked with a * on the table are already on the bard spell list. If a spell can be found in Xanathar's Guide to Everything, it is marked with XGE."
+        },
+        {
+          "title": null,
+          "text": "Spells Bard Level 1st animal friendship, faerie fire* dragon's breath, XGE earthbindXGE 3rd call lightning, fear* 5th 7th dominate beast, stoneskin 9th dominate person, hold monster* harm, soul cageXGE 11th draconic transformation, FTD etherealness* 13th 15th dominate monster*, control weather 17th meteor swarm, time stop"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

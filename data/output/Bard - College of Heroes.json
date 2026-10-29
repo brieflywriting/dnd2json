@@ -1,0 +1,42 @@
+{
+  "source_file": "Bard - College of Heroes.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "College of Heroes",
+      "class": "Bard",
+      "description": "Inspiring stories and heroic tales are aplenty, but it is a bard’s skill in regaling such fantastical tales that make them truly come alive and rouse audiences to action. The bards of the College of Heroes go about from tavern to tavern, spreading these exhilarating fables to empower and inspire the masses. Some even have the privilege of having an audience with a royal court to put on such performances, or perhaps help weave their own royal tale of heroism.\n\nStorytelling isn’t the only skill of the bards of this college. So finely attuned they are to the lore and legends of heroes past, they can summon their essence to aid them. Creativity is best taken from its source, and who better to talk to than the actual heroes of old?",
+      "features": [
+        {
+          "name": "Ancient Hero",
+          "level": 3,
+          "description": "As a member of this college, you learn to summon the essence of a hero to accompany you on your travels.\n\nAt the end of a long rest, you can summon an ancient hero from the distant past. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Ancient Hero stat block, which uses your proficiency bonus (PB) in several places. When you summon your ancient hero, choose the type of spirit you summon: Healer, Mage, or Warrior. Your choice of spirit determines certain traits in its stat block\n\nIn combat, the ancient hero shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the defender can take any action of its choice, not just Dodge.\n\nWhen you reach 11th level in this class, the hero’s damage and healing dice increases by one. The hero perishes when it drops to 0 hit points, when you summon a new ancient hero, or when you die. When the hero perishes, its spirit returns to the plane where it was brought to rest."
+        },
+        {
+          "name": "Ancient Guidance",
+          "level": 6,
+          "description": "Your bond with the ancient hero has enhanced the flavour of your stories. Your Bardic Inspiration gains certain benefits depending on the hero summoned.\n\nHealer. When you give a creature a Bardic Inspiration die, it gains temporary hit points equal to the maximum number of the die. In addition, when the die is used, the creature regains hit points equal to the number rolled.\n\nMage. When a creature rolls a Bardic Inspiration die to add to their ability check or saving throw, it can roll twice and use the higher number.\n\nWarrior. When a creature rolls a Bardic Inspiration die to add to their attack roll and hits, it can add the same number to its damage roll."
+        },
+        {
+          "name": "Heroic Inspiration",
+          "level": 14,
+          "description": "Your performances of inspiration always leave a strong impression on your audience. When a creature rolls one of your Bardic Inspiration dice to add to its ability check, attack roll, or saving throw, it can keep the die. It is expended the next time it rolls the die. Once a creature does so, it cannot benefit from this feature again until you finish a long rest."
+        }
+      ],
+      "extra_sections": [
+        {
+          "name": "Ancient Hero",
+          "kind": "stat_block",
+          "text": "Medium Humanoid\n\nArmor Class 14 (natural armour) + 2 (Warrior only) Hit Points 5 + five times your bard level (the hero has a\n\nnumber of Hit Dice [d8s] equal to your bard level) Speed 30ft.\n\nSTR DEX CON INT WIS CHA\n\n15 (+2) 11 (+0) 15 (+2) 13 (+1) 14 (+2) 11 (+0)\n\nSaving Throws Int +2 plus PB, Wis +2 plus PB Skills Athletics +2 plus PB (Warrior only), Arcana +1\n\nplus PB (Mage only), History +1 plus PB, Medicine +2 plus PB (Healer only), Perception +2 plus PB\n\nCondition Immunities charmed, exhaustion\n\nSenses darkvision 30ft., passive Perception 12 + PB Languages speaks and understands the languages you\n\nspeak\n\nChallenge −   Proficiency Bonus (PB) equals your bonus\n\nAncient Fortitude. If damage reduces the hero to 0 hit points, it can make a Constitution saving throw with a DC of 10 or 5 + the damage taken (whichever is higher), unless the damage is from a critical hit. On a success, the hero drops to 1 hit point instead.\n\nHealing Aura (Healer only). The hero emits a soothing\n\naura. Each creature of its choice within 10 feet of it regains an extra 1d4 hit points when it regains hit points.\n\nSpellcasting (Mage Only). The hero is a spellcaster. Its spellcasting ability is your own spellcasting modifier. It has the following spells prepared:\n\nCantrips (at will): fire bolt, shocking grasp\n\nActions\nFire Bolt (Mage Only). Ranged Spell Attack: your spell\n\nattack modifier to hit, range 120 ft., one target. Hit: 1d10 fire damage. A flammable object hit by this spell ignites if it isn't being worn or carried.\n\nInnate Healing (Healer Only, 3/Day). The hero chooses\n\none creature it can see within 30 feet of it to regain 1d6 + PB hit points. This has no effect on undead or constructs.\n\nShocking Grasp (Mage Only). Melee Spell Attack: your\n\nspell attack modifier to hit (with advantage if the target is wearing armour made of metal), range 5 ft., one target. Hit: 1d8 lightning damage, and the target can't take reactions until the start of its next turn.\n\nSpirit Sword (Warrior or Healer Only). Melee Weapon\n\nAttack: your spell attack modifier to hit, reach 5 ft., one target you can see. Hit: 1d8 + PB force damage.\n\nReactions\nProtection (Warrior Only). The hero imposes\n\ndisadvantage on the attack roll of one creature it can see that is within 5 feet of it, provided the attack roll is against a creature other than itself."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Summoning A Hero",
+          "text": "Feel free to discuss with your DM the particulars of the ancient hero being summoned to your campaign. What heroic deeds did they do in life? Which plane were they laid to rest? Did they end up among the adored figures in Elysium? Damned in the Nine Hells? Or subjected to eternal chaos in Limbo?\n\nFor the hero, it would be centuries since they last saw the lands you now walk. They will have their own thoughts and feelings regarding being brought back, how their home has changed, as well as the reason as to why you are adventuring.\n\nKeeping an ancient spirit tethered to the Material Plane takes a lot of magic. As such, the hero would only be able replicate a fascimile of the feats it once had in life. Your progression in this subclass represents your increased mastery of supplying the hero with magical energy so they can better fight."
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

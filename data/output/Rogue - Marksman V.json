@@ -1,0 +1,46 @@
+{
+  "source_file": "Rogue - Marksman V.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "Marksman V",
+      "class": "Rogue",
+      "description": "C ou hone your whenever there's a fight you can easily act as using distance and precision as weapons to accomplish support and help your allies by picking off your goals and making sure skills in the art of ranged combat,enemies from a distance. Able to act as overwatch and executioner, many assassins,\n\nbounty hunters, and spies follow this archetype, able to control the battle from afar and potentially eliminating the target before anyone has a chance to notice you.",
+      "features": [
+        {
+          "name": "Weapons of the Profession",
+          "level": 3,
+          "description": "At 3rd level, if a weapon has the thrown or ranged property,you are considered proficient with it.\n\nAdditionally, whenever you use a weapon with the thrown property it gains the finesse property."
+        },
+        {
+          "name": "Precise Shots",
+          "level": 3,
+          "description": "When you choose this archetype at 3rd level, your aim makes you a force to be reckoned with, knowing the exact spots to hit creatures in order to weaken them. Whenever you deal Sneak Attack damage with a ranged or thrown weapon attack, you can expend 2d6 of your Sneak Attack dice to choose one of the effects listed below to impose on the target. The creature must make a corresponding saving throw with the DC being 8 + your proficiency bonus + your Dexterity modifier. A target can only be effected by one option at a time.\n\nBleeding Shot. A creature must succeed a Constitution saving throw or take slashing damage equal to your Dexterity modifier at the beginning of its turn for 1 minute. It can take an action to reroll the Constitution saving throw, ending the effect on a success.\n\nCrippling Shot. A creature must succeed a Dexterity saving throw or have its speed reduced by half until the end of your next turn.\n\nDazing Shot. A creature must succeed a Constitution saving throw or have disadvantage on its next attack or until the end of your next turn.\n\nDisarming Shot. A creature must succeed a Strength saving throw or drop one item of your choice that its holding."
+        },
+        {
+          "name": "Optional Rule: Firearm Proficiency",
+          "level": 3,
+          "description": "If your Dungeon Master uses the rules on firearms in chapter 9of the Dungeon Master's Guide and you have been exposed to the operations of such weapons, you gain proficient with firearms at 3rd level."
+        },
+        {
+          "name": "Eagle Eyes",
+          "level": 9,
+          "description": "At 9th level, your eyes are at peak condition for recon and perceiving long distances. You can take the Search action as a bonus action.\n\nAdditionally, you can see up to 1 mile away with no difficulty, able to discern fine details as though you were looking at something no more than 100 feet away from you. Additionally, dim light and lightly obscured areas don't impose disadvantage on your Wisdom (Perception) checks."
+        },
+        {
+          "name": "Head for Cover",
+          "level": 13,
+          "description": "At 13th level, you learn to use cover more effectively and create improvised fortifications from which to shoot. While you have half cover you can treat it as three quarters cover.\n\nAdditionally, over the course of 10 minutes, you can fortify any cover you find to become a sniper's nest, provided you have sufficient materials such as branches or rubble. The nest has an AC of 10 and hit points equal to three times your rogue level. While under this cover, a creature has a speed of 0, has three quarters cover, and advantage on ranged and thrown weapon attacks. After 8 hours or when reduced to 0hit points, the nest loses its integrity and reverts back to being standard cover."
+        },
+        {
+          "name": "Superior Marksmanship",
+          "level": 17,
+          "description": "At 17th level, you are a master of ranged combat and precision. The effects of your Precise Shots ability improve at this level.\n\nBleeding Shot. A creature must succeed a Constitution saving throw or take slashing damage equal to half your rogue level (rounded up) at the beginning of its turn for 1minute. It can take an action to reroll the Constitution saving throw, ending the effect on a success.\n\nCrippling Shot. A creature must succeed a Dexterity saving throw or have its speed reduced to 0 and has disadvantage on all Dexterity saving throws until the end of your next turn.\n\nDazing Shot. A creature must succeed a Constitution saving throw or have disadvantage on all attacks and ability checks until the end of your next turn.\n\nDisarming Shot. A creature must succeed a Strength saving throw or drop one item of your choice that it's holding,and that item is pushed away 30 feet in a direction of your choosing.\n\nAdditionally, when the conditions are met to use your Precise Shots ability, you can effect a creature with the 3rd level option from your Precise Shots feature without expending Sneak Attack dice. You can use this ability an amount of times equal to your Dexterity modifier per long rest."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

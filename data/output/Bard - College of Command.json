@@ -1,0 +1,38 @@
+{
+  "source_file": "Bard - College of Command.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Command",
+      "class": "Bard",
+      "description": "Bards of the College of Command infuse their voice with the magic to inspire others to feats of heroism in battle. Rather than use their abilities to empower themselves, they bring out the best in their allies. For some Bards of this College, their days of gallantry are long behind them. For others, they lead allies from the front, issuing orders and drawing swords.",
+      "features": [
+        {
+          "name": "Commander's Training",
+          "level": 3,
+          "description": "You have honed both your body and mind for battle. You gain proficiency with medium armor, shields, and martial weapons that lack the heavy or two-handed properties.\n\nIn addition, you gain proficiency with two gaming sets of your choice, and you can add double your proficiency bonus to any ability check that uses these gaming sets."
+        },
+        {
+          "name": "Inspiring Orders",
+          "level": 3,
+          "description": "As an action, you can expend a use of Bardic Inspiration to issue one of the Orders detailed below, targeting a willing creature within 60 feet that can either see or hear you:\n\nAttack Order. The next time the target takes the Attack action before the start of your next turn, it can make one additional weapon attack as part of its Attack action.\n\nDefensive Order. The target gains a bonus to its Armor Class equal to one roll of your Bardic Inspiration until the start of your next turn.\n\nManeuvering Order. The target can immediately move up to its full speed without provoking opportunity attacks.\n\nSteadfast Order. Whenever the target makes an ability check or saving throw that uses its Strength, Dexterity, or Constitution before the start of your next turn, it gains a bonus to the result of its roll equal to one roll of your Bardic Inspiration.\n\nSupport Order. The target can immediately take the Help, Hide, Search, or Use an Object action. If it makes an ability check as part of this action it adds one roll of Bardic Inspiration to the result."
+        },
+        {
+          "name": "Masterful Commander",
+          "level": 14,
+          "description": "Your confident Orders embolden your allies. You can issue your Orders without expending Bardic Inspiration, rolling a d6 in place of your Bardic Inspiration die for that Order.\n\nIf you do expend a use of Bardic Inspiration to issue an Order, the target of the Order gains temporary hit points equal to one roll of your Bardic Inspiration in addition to the normal benefits of the Order.\n\nm n n w n m m r m n m n n so W\n\nGallanT Leader n 6th-level College of Command feature n You can seamlessly fight and issue m n r Orders to your allies. Whenever you use your action to issue an m rum n Order, you can make a single rn weapon attack or cast one Bard n m cantrip you know as a bonus action. In addition, when you are forced to make a saving throw to resist being charmed or frightened you can add your Bardic Inspiration bonus to your roll."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "3rd Commander's Training, Inspiring Orders 6th Gallant Leader 14th Masterful Commander"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "College of Command: summary table lists features not found in the text: Gallant Leader"
+  ]
+}

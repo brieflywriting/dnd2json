@@ -1,0 +1,51 @@
+{
+  "source_file": "Wizard - School of Mythos.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "School of Mythos",
+      "class": "Wizard",
+      "description": "An eldritch horror based arcane tradition for the world's greatest roleplaying game\n\nlerics and paladins have blind faith in their gods. Warlocks and sorcerers gain their abilities because greater wills decide so. You don't have the time or patience to rely on others. As a School of Mythos wizard, you know there is a bigger and older power that you can reach and are willing to pay the price of studying and mastering it.",
+      "features": [
+        {
+          "name": "Occult Research",
+          "level": 2,
+          "description": "When you select this school at 2nd level, you gain proficiency in History, Arcana or Religion.\n\nBefore copying a spell into your spellbook, you can make a DC 15 Arcana check. If you succeed, the time you need to copy the spell is halved. If you succeed by 5 or more, the gold it costs is also halved."
+        },
+        {
+          "name": "Aberrant Scholar",
+          "level": 2,
+          "description": "Your training allows you to easily find what is hidden to others. Also at 2nd level, you gain advantage on ability checks to find or reveal information about occult lore, magic items or rituals, and symbology.\n\nAdditionally, you start to manifest some of your connection with these aberrant powers. After taking damage from any source, you can use your reaction to cast the eldritch blast cantrip, dealing cold, psychic or necrotic damage at your choice instead of force damage. You can do so a number of times equal to your proficiency bonus before you finish a long rest."
+        },
+        {
+          "name": "Tome of Secrets",
+          "level": 6,
+          "description": "Beginning at 6th level, most of your deepest knowledge is kept within your spellbook, which has become a Tome of Secrets. You learn two ritual spells from any spell list, and while holding your Tome of Secrets:\n\n• Ritual casting time is halved, and when you ritually cast a ritual spell you gain temporary hit points equal to your Wizard level. You must finish a long rest before you can gain temporary hit points in this way again.\n\n• You can use your own blood and energy to cast spells instead of material components. For every 50g of material components you replace, you take 1d8 necrotic damage that can't be reduced in any way. This damage can trigger Aberrant Scholar.\n\nYou gain expertise in History, Arcana or Religion.\n\n• You can add your Intelligence modifier to Wisdom saving throws.\n\nIf you lose your Tome of Secrets, you can create a new one by performing a ritual over a new spellbook during an hour. You then gain a level of exhaustion."
+        },
+        {
+          "name": "Eldritch Visions",
+          "level": 6,
+          "description": "Also at 6ht level, the dark energies you study begin to undermine your sanity. You roll saving throws against being frightened with disadvantage, and if you fail, instead of becoming frightened, you roll a d8 in the Eldritch Visions table and resolve the effect. This die becomes a d10 at 10th level and a d12 at 14th level.\n\nAdditionally, every time after you cast a spell of 3rd level or higher and fail, you must make a Wisdom saving throw with disadvantage against your spell save DC. If you fail, you roll in the Eldritch Visions table and resolve the effect. Successfully casting a spell of 3rd level or higher in a dire situation or any other \"relevant achievement\" you make may give you disadvantage on your next roll in the Eldritch Visions table, at the discretion of the DM."
+        },
+        {
+          "name": "Arcane Sin",
+          "level": 10,
+          "description": "At 10th level, you begin to understand how to exploit the strength of the old magic you study. You can use your Arcane Recovery feature twice between long rests without the usual level limitation for the spells you can recover. You also gain a +1 bonus to your spell attack rolls and spell save DC."
+        },
+        {
+          "name": "Revelations from Beyond",
+          "level": 14,
+          "description": "At 14th level, the aberrant horrors you have faced have also gifted you with tremendous potential. You learn two spells from any spell list. When you succeed on a saving throw against being frightened or a Wisdom saving throw after failing a spell, you instead become enlightened until the end of your next turn. While enlightened:\n\n• The bonus you gain to spell attack rolls and spell save DC becomes +2.\n\n• You gain advantage on Dexterity, Intelligence, Wisdom and Charisma saving throws.\n\n• You take half damage when replacing spell material components with your life energy.\n\n• You can use your bonus action to cast the eldritch blast cantrip dealing cold, psychic or necrotic damage instead of force damage.\n\n• You are immune to the frightened condition and don't have to make Wisdom saving throws when failing a spell.\n\nWhile you aren't enlightened, you can choose to make a Wisdom saving throw after casting a spell of 3rd level or higher as if you had failed, even if you did not. If you do so,you do not have disadvantage on this saving throw. If you success, you become enlightened, and if you fail, you roll on the Eldritch Visions table as normal."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": "Roll Effect",
+          "text": "1-2 No effect.\n\n3You are unable to cast any spell other than cantrips until the end of your next turn.\n\n4You become frightened of the closest enemy to you for one minute. At the end of each of your turns, you can make a Wisdom saving throw against your spell savé DC to end this effect. If there is no enemy within sight, you become frightened of the closest creature.\n\n5 You use all of your movement to move towards the closest enemy and are charmed by them until the end of your next turn. If there is no enemy within sight, you become charmed of the closest creature.\n\n6 You fall prone and your speed becomes O for one minute or until a creature uses an action to get you up.\n\n7 You use your next available action to cast the shocking grasp spell on the closest creature to you, moving towards them if necessary.\n\n8 You are incapacitated for one minute. At the end of each of your turns, you can make an Intelligence saving throw against your spell save DC to end this effect.\n\n9 You can choose to receive 8d6 psychic damage or become stunned for one minute. At the end of each of your turns,you can make a Constitution saving throw against your spell save DC to end this effect.\n\n10 You can choose to receive 8d6 psychic damage or roll in the Short Term Madness table and gain the corresponding effect.\n\n11 You can choose to receive 1Od6 psychic damage and become paralyzed until the end of your next turn, or roll in the Long Term Madness table and gain the corresponding effect.\n\n12 Roll in the Indefinite Madness table and gain the corresponding effect."
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

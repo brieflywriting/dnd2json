@@ -1,0 +1,40 @@
+{
+  "source_file": "Bard - College of Chaos.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "College of Chaos",
+      "class": "Bard",
+      "description": "Chaotic power churns inside of you. Bards of the College of Chaos harness the wild forces of chaos and creation, allowing them to perform powerful and unpredictable feats.\n\nYours is not a formal bardic college. Bards of Chaos are most usually expelled from other schools after setting fire to the stage or calling down accidental lightning strikes. Your performances are wild affairs, and both your music and your magic can shred the air with chaotic power.\n\nMaybe your abilities originated after been exposed to the plane of chaos, or maybe you simply developed a penchant for raising hell. Whatever the reason, you can unleash raw, destructive power - making you a terrible threat to both enemies and allies alike.",
+      "features": [
+        {
+          "name": "Chaotic Rift",
+          "level": 3,
+          "description": "At 3rd level, your magic can strike a chord against the universe, producing wild effects. Once per turn, the DM can have you roll a d20 immediately after you cast a bard spell of 1st level or higher. If you roll a 1, roll on the Chaotic Rift Table to create a instantaneous magical effect. If the effect is a spell that would normally require concentration, it doesn't require concentration and instead lasts for its full duration.\n\nAlternatively, as a bonus action you can expend a use of your bardic inspiration to roll on the Chaotic Rift Table."
+        },
+        {
+          "name": "Master of Destruction",
+          "level": 6,
+          "description": "At 6th level, you can channel destructive energy to produce ferocious spells at random. As an action, you can choose to expend a spell slot between 1st and 5th level. Depending on the level of spell slot expended, consult the Destructive Spell Table below, and roll a d4. You then cast that spell.\n\nWhen you cast a spell in this way, it takes effect at one spell level higher than the spell slot you expended and you do not need to provide any material components.\n\nYou can use this feature a number of times equal to 2 plus your proficiency bonus. You regain all expended uses when you finish a long rest.\n\nYour DM may replace any spell on the Destructive Spell Table with another of their choice, provided the substitute spell is a damaging spell (preferably an evocation spell) with a casting time of one action and a duration of instantaneous."
+        },
+        {
+          "name": "Embrace the Chaos",
+          "level": 14,
+          "description": "From 14th level, you gain the ability to channel the forces of chaos towards a desired result. Whenever you roll on the Chaotic Rift Table, you can roll the die twice and choose which of the two effects to apply."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": "Destructive Spell Table",
+          "text": "d4 1st Level Random Spell 2nd Level Random Spell 3rd Level Random Spell 4th Level Random Spell 5th Level Random Spell\n\n1 Burning Hands Scorching Ray Fireball Ice Storm Cone of Cold\n\n2 Chaos Bolt Shatter Lightning Bolt Gravity Sinkhole Destructive Wave\n\n3 Chromatic Orb Melf's Acid Arrow Pulse Wave Vitriolic Sphere Negative Energy Flood\n\n4 Magic Missile Snilloc’s Snowball Storm Erupting Earth Blight Flame Strike"
+        },
+        {
+          "title": "Chaotic Rift Table",
+          "text": "d20 Chaotic Rift Effect d20 Chaotic Rift Effect\n\n1 Roll on this table two additional times, and then apply both\n\neffects. If you roll a 1 again, ignore that roll. If you roll the\n\nsame result twice, apply the effect only once.\n\n11 You glow with bright light in a 30-foot radius for the next minute. Any creature that ends its turn within 5\n\nfeet of you is blinded until the end of its next turn.\n\n2 You have disadvantage on the next saving throw or attack\n\nroll you make within the next minute. 12 You jump 20 feet up into the air. You do not provoke\n\n3 You take 2d10 poison damage, and you become poisoned\n\nfor a duration of 1 minute. 13 You teleport up to 60 feet to an unoccupied space of\n\nopportunity attacks and you take no falling damage.\n\n4 You become frightened of the nearest creature you can see\n\nfor a duration of 1 minute. 14 You cast Levitate on yourself.\n\nyour choice that you can see.\n\n5 You cast Confusion centered on yourself. 15\n\nYou cast Mirror Image.\n\n6 You cast Fog Cloud centered on yourself. 16 You can immediately take an additional Dash or\n\n7 Up to three creatures you choose within 30 feet of you\n\ntake 3d10 lightning damage. 17 You gain resistance to all damage until the end of your next turn.\n\nDisengage action.\n\n8 Each creature within 20 feet takes 1d10 necrotic damage. You recover hit points equal to the necrotic damage dealt. 18 You regain 2d10 hit points.\n\n9 You summon a confused and aggressive imp which appears in an unoccupied space within 5 feet of you. 19 Creatures have disadvantage on saving throws against the next spell you cast within the next minute.\n\n10 All creatures within 10 feet take 1d10 thunder damage and are deafened until the end of their next turn. 20 You regain up to three expended uses of bardic\n\ninspiration."
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

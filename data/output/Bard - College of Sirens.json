@@ -1,0 +1,41 @@
+{
+  "source_file": "Bard - College of Sirens.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Sirens",
+      "class": "Bard",
+      "description": "The song gof the sea bewitches and mesmerizes. Its waves provide melody;its storms play torment upon its travelers. Bards of the College of Sirens harness the ancient wisdom of the seas and spin it into performances that captivate. They specialize in shanties and hypnotic stories of beauty and violence,charm and fear, depths and shallows.",
+      "features": [
+        {
+          "name": "College of Sirens Spells",
+          "level": 3,
+          "description": "You learn additional spells when you reach certain levels in this class, as shown on the College of Sirens Spells table. Each of these spells counts as a bard spell for you, but doesn't count against the number of bard spells you know.\n\nBard Level Spells. 3rd echolocateES, characterizeES 5th wail of doloroEs 7th vexOES 9th mislead"
+        },
+        {
+          "name": "Aquatic Acoustician",
+          "level": 3,
+          "description": "You gain proficiency with hand crossbows, nets, and tridents.\n\nAdditionally, you gain the following benefits while submerged in water:\n\nYou can cast spells with verbal components, and doing so doesn't cause you to begin choking or suffocating or to lose your breath.\n\nMusic and sounds you create, such as with musical instruments or your voice, are not distorted by passing through water.\n\nYour proficiency bonus is doubled for Dexterity (Acrobatics) and Charisma (Performance) checks."
+        },
+        {
+          "name": "Siren's Song",
+          "level": 3,
+          "description": "You learn to replicate the hypnotic temptation of the sea. As a bonus action, you can expend one use of your Bardic Inspiration and choose a creature that can hear you within 60 feet of you to gain your choice of effect. This range is doubled if both you and the creature are submerged.\n\nCall of the Sea. Roll your Bardic Inspiration die. The target gains a swimming speed equal to its walking speed and ignores the detriments of underwater visibility for a number of hours equal to your roll.\n\nSiren's Charm. The target must make a Wisdom saving throw against your spell save DC or be charmed by you for 1minute. While charmed in this way, the creature must use its movement to move toward you. If you damage the creature or that movement would take it through obviously dangerous terrain, like lava or off a cliff, it must make an additional Wisdom saving throw. On a success, the creature is no longer charmed and is immune to this feature for 24hours."
+        },
+        {
+          "name": "Secrets of the Deep",
+          "level": 6,
+          "description": "You learn the water breathing spell if you don't already know it, and it counts as a bard spell for you, but it doesn't count against the number of bard spells you know."
+        },
+        {
+          "name": "Siren's Echo",
+          "level": 6,
+          "description": "When you use your action to cast a spell of 1st-level or higher that has a verbal component, you can choose a creature within 30 feet of you that can hear you. That creature immediately use its reaction to cast the same spell,even if it doesn't know it or have it prepared, provided it can expend a spell slot of the spell's level or higher and provide the spell's components. The triggering spell is considered tc be on the creature's spell list for this casting.\n\nOnce you use this feature, you can't do so again until you finish a long rest.\n\nShipwreck. Shtpwteck 14th-level College of Sirens feature You can convince even the most careful creatures to throw themselves against the rocks. When you force any number of creatures to make an Intelligence, Wisdom, or Charisma saving throw, you can expend one use of your Bardic Inspiration. Roll the Bardic Inspiration die and subtract the number rolled from each creature's saving throw. A BARD OF THE COLLEGE OF SIRENS USES MISLEAD TO CONFUSE AN ENEMY. 33"
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

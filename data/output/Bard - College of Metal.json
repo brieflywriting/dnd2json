@@ -1,0 +1,43 @@
+{
+  "source_file": "Bard - College of Metal.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Metal",
+      "class": "Bard",
+      "description": "ou are one of the few and proud inducted into the prestigious College of Metal, founded by Sabbath The Black. A strange breed of Bards,the members sof this college are known for their love of loud music and raucous, near-violent parties which often involve a strange form of dance-combat; a style copied by their more\n\nenthusiastic fans. They wade ecstatically into war, being able to strike hard against their foes or empower their allies with their music. The flames of the Abyss in their tongues, the horns of Valhalla in their songs, the spirit of demons and the undead in their hearts; they are like roiling thunder crashing through the battlefield with booming voice and cacophonous performance.",
+      "features": [
+        {
+          "name": "Heavy Metal",
+          "level": 3,
+          "description": "When you adopt this college at 3rd level, you gain proficiency with medium and heavy armor, shields and martial weapons. You also learn the Shocking Grasp cantrip."
+        },
+        {
+          "name": "Revolution Rock",
+          "level": null,
+          "description": "You become proficient in a new type of instrument of your design, which is powered by lightning you generate.\n\nThis item seems to be an electric Guitar (or any other electric instrument), and is called a Heavy Instrument. When played normally it sounds like a normal bass guitar, but you can cast Shocking Grasp targeting the guitar as a bonus action (no attack roll required) to make it sound like an electric guitar until you stop playing. (no amp required). Crafting this instrument takes 4 hours, and 20gp worth of materials. The Heavy Instrument also functions as a martial weapon of your choice.\n\nWhile playing it as an electric guitar, you may add your Charisma modifier to the damage of any bard spell that doesn't have a range of touch."
+        },
+        {
+          "name": "Screa of the Banshee",
+          "level": 3,
+          "description": "At 3rd level, when a creature within 30 feet of you that you can see makes an attack roll, ability check or saving throw,you may use your reaction and expend one of your Bardic Inspiration die to let out a high-pitched scream of pure metal power! One hostile creature within 30 feet of you must make a Wisdom saving throw (DC 10 + your Charisma modifier +your Bardic Inspiration die roll) or be frightened.\n\nAdditionally, each creature within 15 feet of you who fails their roll take thunder damage equal to your Bardic Inspiration die roll. You may use this ability a number of times equal to your Charisma modifier until you take a long rest."
+        },
+        {
+          "name": "Thunder Rolls",
+          "level": 6,
+          "description": "At 6th level, you know the Thunderclap cantrip as well as the Thunderwave and Shatter spells. These do not count towards your spells known. Additionally, when you reduce a creature to O hit points or score a critical hit, you can cast Thunderclap, Thunderwave or Shatter as a bonus action. You must still spend a spell slot as normal."
+        },
+        {
+          "name": "Symphony of Battle",
+          "level": 14,
+          "description": "Starting at 14h level, you can unleash a performance the likes of which few have experienced As an action, you and all creatures of your choice within 100 feet of you that can hear gain an inspiration die. These dice are not taken from your Bardic Inspiration pool. Additionally, hostile creatures within 50 feet of you that can hear must make a Constitution saving throw against your spell save DC. On a failed save, they suffer 8d8 thunder damage and are stunned. On a successful save,they take half as much damage and are not stunned.\n\nOnce you use this feature, you cannot do so again until you complete a long rest."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": [
+    "College of Metal: no level found for Revolution Rock"
+  ]
+}

@@ -110,7 +110,12 @@ including any flavor sentences around that rule.
 
 Record every rule change with the date, and which rows you relabelled because of it.
 
-- 2026-10-28: rules written. Relabels these decisions imply (not yet applied to the CSVs):
+- 2026-10-29: the three relabels below applied. `other` is now an allowed label
+  (tests/test_data.py). The classifier ignores `other` rows (classifier.py): page
+  furniture is recognised by rules in roles.py, not by the model.
+  Also fixed the 14 rows with `�` in `5e-OCR-CombinedNewClasses.csv` (apostrophes, one
+  dash, quotes, bullets). Row 27 still has `???` where OCR lost words: check the PDF.
+- 2026-10-28: rules written. Relabels these decisions imply:
   - `5e-OCR-CombinedNewClasses.csv` row 55 (Pact of the Brand): `class_description` -> `feature`.
   - `5e-OCR-CombinedNewClasses.csv` row 42 (Patrons, Boons, and Invocations intro):
     `class_description` -> `other`. Needs `other` added to the allowed labels first

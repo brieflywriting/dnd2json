@@ -1,0 +1,41 @@
+{
+  "source_file": "Wizard - School of Hex Magic.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "School of Hex Magic",
+      "class": "Wizard",
+      "description": "From witches to hexmages, the school of hex magic has gained an unsavoury reputation among both scholarly and regular folk alike. It is regarded as a cruel and twisting style of the arcane, manipulating the very fabric of magic to inflict debilitating conditions and restrictions on others. However,those who have taken the time to research this field have realised that the school of hex magic is more than just maledictions, as it reaches into every school of magic through rituals and other incantations.\n\nThe reputation of the school of hex magic isn't unwarranted as most of their practitioners are among the evil folk in the world, particularly hags and hexbloods. Some ostracised scholars have taken to researching the school,hoping that by understanding and documenting it they can restore their place in one of the arcane institutions.",
+      "features": [
+        {
+          "name": "Ritual Initiate",
+          "level": 2,
+          "description": "Beginning when you select this school at 2nd level, the gold and time you must spend to copy a spell with the ritual tag into your spellbook is halved."
+        },
+        {
+          "name": "Cruel Malediction",
+          "level": 2,
+          "description": "Also at 2nd level, you learn a special curse known as a feet. The target must succeed a Charisma saving throw roll or a saving throw before the curse ends, the creature roll or saving throw.\n\ncan only curse one creature at a time in this way, and a creature can only be affected by one malediction at a time.\n\nlevel or higher spell slot to use it again."
+        },
+        {
+          "name": "Apprentice of the Dark Arts",
+          "level": 6,
+          "description": "When you reach 6th level, you have gained an increased understanding of your curses, allowing you to manipulate them with ease. You add the bestow curse and remove curse spells to your spellbook if they are not there already. These spells are always prepared for you,and they don't count against the number of spells you can have prepared.\n\nFurthermore, you can spend 1 minute touching a creature or an object and learn whether the target is under the effects of bestow curse or similar magic.\n\nComplete Guide to Sanctum - u/FrostBladestorm"
+        },
+        {
+          "name": "Ritual Rites",
+          "level": 10,
+          "description": "Starting at 10th level, you have learned to twist your rituals through various dark magic rites. When you are ritual casting a spell, you can choose to use one of these rites to enhance the casting of that spell. You can only use one rite on a spell when you ritual cast it.\n\nRite of Acceleration. The ritual casting of the spell takes 1minute longer to cast than normal, instead of 10 minutes.\n\nRite of Endurance. If the spell has a duration of 1 minute or longer, you can double its duration, to a maximum duration of 24 hours.\n\nRite of Extension. If the spell has a range of 5 feet or greater, you can double the range of the spell\n\nRite of Substitution. You ignore material components for the spell's casting.\n\nOnce you use a rite, you can't ritual cast a spell using that rite again until you finish a short or long rest."
+        },
+        {
+          "name": "Master of Curses",
+          "level": 14,
+          "description": "Finally, at 14th level, you have perfected your understanding of curses. If you fail a saving throw against a spell or magical effect initiated by a target cursed by your Cruel Malediction,you can use your reaction to roll a d4. On a 3 or higher, you succeed your saving throw, regardless of its roll.\n\nAlso, a creature under the effects of your Cruel Malediction rolls a d6, instead of a d4, when taking a penalty to an attack roll or saving throw."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

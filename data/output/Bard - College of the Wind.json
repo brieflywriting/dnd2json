@@ -1,0 +1,36 @@
+{
+  "source_file": "Bard - College of the Wind.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "College of the Wind",
+      "class": "Bard",
+      "description": "Adherents of the College of the Wind learn to listen the\n\nmelodies of the air and the subtle notes carried by the breeze.\n\nTheir life is a duet with the nature, that let them move both\n\nallies and enemies at their will, like feathers in the wind.",
+      "features": [
+        {
+          "name": "Blowing gust",
+          "level": 3,
+          "description": "Starting at 3rd level, you learn the first secrets of the wind. You know the Gust cantrip. When casting this cantrip, if you choose the option to push a target, it is pushed 5 feet further and you can choose in which direction.\n\nIn Addition, Gust of Wind and Dust Devil spells are added to the bard spell list for you."
+        },
+        {
+          "name": "Flying breeze",
+          "level": 3,
+          "description": "Starting at 3rd level, your music can make your allies move like leafs through the breeze. Whenever you give a creature a Bardic Inspiration die, that creature can immediately use its reaction to move up to its speed. That movement doesn't provoke opportunity attacks and the creature gains a flying speed equal to its walking speed for this movement."
+        },
+        {
+          "name": "Gale force",
+          "level": 6,
+          "description": "Starting at 6th level, as an action, you can use a musical instrument you are proficient in to command the gale to blast for you.\n\nWhen you do so, choose a point you can see within 60ft of you. A line of strong wind 30ft long and 10ft wide blasts from that point in a direction you choose.\n\nEach creature in that line must succeed a Strength saving throw or be pushed 15ft in the direction the wind blows. If that movement should be stopped because of an obstacle (the target hit a wall or a tree before it as traveled the whole distance for instance), the target takes magical bludgeoning damages equal to your bard level. If that movement should be stopped because of a creature on the way, then both the target and the creature take damages equal to half your bard level (rounded up).\n\nThe wind continues to blow on that line until the start of your next turn. The line counts as difficult terrain and light projectiles that weight less than 5kg (like arrows, bolts, or daggers) launched through the line of wind are deflected and automatically miss. Heavier projectiles are not affected.\n\nThe wind disperses gas or vapor, and it extinguishes candles, torches and similar unprotected flames in the line."
+        },
+        {
+          "name": "Like a feather in the wind",
+          "level": 14,
+          "description": "Starting at 14th level, the spell Fly is added to the list of your spells known, but doesn't count against the number of bard spells you know. If it is already in the list of your spells known, you can add any bard spell of level 3 or less instead.\n\nWhen casting the spell Fly, if the only target of that spell is yourself, you don't need to expend a spellslot to cast it. Moreover, when casted this way, that spell doesn't require your concentration, and lasts for its full duration."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

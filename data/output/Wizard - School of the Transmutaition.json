@@ -1,0 +1,43 @@
+{
+  "source_file": "Wizard - School of the Transmutaition.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "School of the Transmutaition",
+      "class": "Wizard",
+      "description": "",
+      "features": [
+        {
+          "name": "Transmutation Disciple",
+          "level": 2,
+          "description": "Beginning at 2nd level, when you finish a short rest you can change one of your prepared transmutation spell for another spell of the transmutation school in your spellbook."
+        },
+        {
+          "name": "Stable Transmutation",
+          "level": 6,
+          "description": "When you have your transmuter's stone on your person, the duration of all the transmutation spells you cast is doubled."
+        },
+        {
+          "name": "Transfiguration",
+          "level": 10,
+          "description": "Add the Polymorph spell to your spellbook, if it is not there already. If you already have the Polymorph spell, you may select another wizard transmutation spell of up to 5th level.\n\nYou can target an object that is Large or smaller with the Polymorph spell. When you do so, you can choose to transform the object into an other object of the same size and of a same value (or less), or into a Beast of the same size. If the object you target is worn or carried, the creature that wears or carries it can do a Dexterity saving throw against your spell DC. On a success, your Polymorph spell has no effect.\n\nWhen you target a Beast that is Large or smaller with the Polymorph spell, you can choose to transform it into an other beast of the same CR (or less), or into an object of the same size."
+        },
+        {
+          "name": "Major Transmutation",
+          "level": 14,
+          "description": "When you cast a transmutation spell on a target, you can cast an other transmutation spell of 3rd level or lower on it at the same time. Both spells stop if you lose your concentration. You must expend a spellslot of appropriate level for both spells."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "These optional class features work like the one presented in Tasha'a Cauldron of Everything, except you need to be a wizard from the transmutation school to be able to benefit from them."
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "School of the Transmutaition: no description found"
+  ]
+}

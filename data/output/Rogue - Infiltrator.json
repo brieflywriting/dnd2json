@@ -1,0 +1,41 @@
+{
+  "source_file": "Rogue - Infiltrator.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "Infiltrator",
+      "class": "Rogue",
+      "description": "Professional killers and talented socialites, Infiltrators combine a keen eye and quick tongue with mastery of the blade. Glamorous assassins who blend in a variety of societies and situations, their skills are just as sharp and deadly as their knives.",
+      "features": [
+        {
+          "name": "Coup De Gráce",
+          "level": 3,
+          "description": "When you choose this archetype at 3rd level, you have advantage on initiative rolls, and on attack rolls against creatures that have not yet acted in combat. Any attack you land against a creature that is stunned, surprised, or has not yet taken a turn in combat is an automatic critical hit."
+        },
+        {
+          "name": "Tools of the Trade",
+          "level": 3,
+          "description": "Also at 3rd level, you have assembled invaluable skills for any assassination. You gain two of the following benefits.\n\nproficiency in Disguise Kits\n\nproficiency in Poisoner's Kits\n\nproficiency in Forgery Kits\n\nproficiency in one gaming set of your choice\n\nTwo languages of your choice\n\nIf you take proficiency in a kit, you can use it, its components, or its products using your Cunning Action."
+        },
+        {
+          "name": "Analyze Target",
+          "level": 9,
+          "description": "Starting at 9th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal,superior, or inferior in regard to two of the following characteristics of your choice:\n\nIntelligence, Wisdom, or Charisma\n\nClass levels (if any)\n\nHit Points\n\nProficiency Bonus\n\nAt the DM's discretion, you might also realize you know a piece of the creature's history or one of its personality traits."
+        },
+        {
+          "name": "Human Shield",
+          "level": 13,
+          "description": "At 13th level, you can dodge blows to inflict devastating collateral damage when you are caught mid-assassination. When you use your Uncanny Dodge when another creature is within 5 feet of you, you can cause the attack to hit that creature instead. So long as the creature is also within reach or range of the attack, it becomes the target instead of you,and you take no damage from the attack.\n\nThe attacker uses the same attack roll against the new creature, potentially causing the attack to miss if the new target's AC is higher than yours."
+        },
+        {
+          "name": "Backstabber",
+          "level": 17,
+          "description": "At 17th level, it is impossible to tell through magical means whether you are lying, and checks made to discern the truth of your statements are made with disadvantage. Magic cannot compel you to tell the truth, and your mind cannot be read through any means.\n\nIn addition, the first time you damage a creature that regards you with affection or considers you an ally, you have advantage on the t ck and forgo damage dice. Instead, you deal the aximum possible amount of damage.\n\nWhen you land a critical hit with your Coup de Gr ce feature, the target must make a Constitution saving throw\n\no c (DC 8 + your Dexterity modifier + your proficiency bonus). On a failed save, your attack deals doubled damage.\n\nweeco cnr\n\nsucc ss ou c us"
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

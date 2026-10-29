@@ -1,0 +1,41 @@
+{
+  "source_file": "Rogue - Magician Archetype.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Magician Archetype",
+      "class": "Rogue",
+      "description": "These non-magical tricksters delight in bamboozling their dim-witted opponents and pride themselves on how many times an actual spellcaster has tried and failed to counterspell them.",
+      "features": [
+        {
+          "name": "Bonus Proficiencies",
+          "level": 3,
+          "description": "When you choose this archetype at 3rd level, you gain proficiencywith playing cards and either Sleight of Hand or Performance. Your proficiency bonus is doubled for any ability check you make that uses these proficiencies"
+        },
+        {
+          "name": "Dazzle",
+          "level": 3,
+          "description": "Starting at 3rd level, you may use your Cunning Action to attempt to Dazzle creatures with a trick. Choose up to 2 creatures lower on the initiative order than you, that are within 25ft and can see you. They must make Wisdom Saves against your Dazzle DC (8+Dexterity modifier+proficiency bonus) or become incapacitated until the end of their next turn. You can Dazzle twice per combat, the second time creatures make the save with advantage.\n\nCreatures with True Sight have disadvantage on the save the first time you attempt to Dazzle them as their precautions against magical illusions backfire when faced with this non-magical trick."
+        },
+        {
+          "name": "Abra",
+          "level": 9,
+          "description": "Starting at 9th level, you can make your foes believe you can disappear behind a puff of smoke(or dragon fire). When you use your Evasion feature you can immediately move up to half of your movement speed and attempt to Hide."
+        },
+        {
+          "name": "Kadabra",
+          "level": 13,
+          "description": "At 13th level, when you use Sneak Attack on a surprised victim, a creature of your choice within 30ft that can see you must make a Intelligence Save against your Dazzle DC or be stunned until the end of their next turn. If that creature is also surprised it has disadvantage on the save."
+        },
+        {
+          "name": "Alakazam",
+          "level": 17,
+          "description": "Starting at 17th level, you can use your action to put on a show. Any creatures of your choice within 30ft of you, that can see you, must make a Intelligence Save Vs your Dazzle DC or be surprised until the end of their next turn. Creatures can be affected by surprise this way no matter what round it is.\n\nSurprised creatures can’t move or take actions and can’t take a Reaction until their turn ends. You can do this once between long rests."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

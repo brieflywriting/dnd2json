@@ -1,0 +1,42 @@
+{
+  "source_file": "Bard - College of Passion.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Passion",
+      "class": "Bard",
+      "description": "Through your weapons and your words, you incite fervor in others. Whether attraction or lust, rapture or enthusiasm, in battle you use a combination of grace, dance, and the subtleties of romantic magic to beguile and bewilder.",
+      "features": [
+        {
+          "name": "Flawless",
+          "level": 3,
+          "description": "When you join the College of Passion at 3rd level, your skill and grace make you difficult to strike. When you are not wearing armor or wielding a shield, your Armor Class equals 13 + your Charisma modifier."
+        },
+        {
+          "name": "Lovestruck",
+          "level": 3,
+          "description": "Also at 3rd level, you choose one style of combat that exploits attraction and desire. Regardless of style, you can use the weapons required to use your feature as a spellcasting focus.\n\nCupid. You gain proficiency in greatbows, longbows, and recurve bows. When you damage a creature with one of those weapons (or a shortbow), you can expend a use of your Bardic Inspiration and force the target to make a Charisma saving throw against your spell save DC.\n\nOn a failed save, the target is charmed by one creature of your choice (other than you) that both you and it can see for 1minute, or until it takes damage. While charmed in this way,the target is also paralyzed. The target repeats the saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nPole Dancer. You gain proficiency in glaives, guisarmes,halberds, lances, lucernes, pikes, pollaxes, ranseurs, and spears. If you grant a Bardic Inspiration die to a creature while wielding one of those weapons (or a boar spear or quarterstaff), the target gains temporary hit points equal to twice your Charisma modifier + your bard level.\n\nSeven Veils. You gain proficiency in scimitars. When wielding a melee weapon in each hand, you can use an action and expend one use of your Bardic Inspiration to dazzle a hostile creature that can see you. The target must make a Wisdom saving throw against your bard spell save DC. On a failed save, the target is charmed by you for 1 minute, or until you damage it. Whether the target succeeds or fails on the save, you can use a bonus action to make one melee weapon attack against it. In addition, when you hit a creature that you have charmed with an attack, the hit is a critical hit.\n\nRegardless of your choice, you can use a clothing accessory on your person such as a ribbon, veil, or scarf as a spellcasting focus for your bard spells."
+        },
+        {
+          "name": "Extra Attack",
+          "level": 6,
+          "description": "Beginning at 6th level, you can attack twice, instead of once,when you take the Attack action on your turn."
+        },
+        {
+          "name": "Killing with Kindness",
+          "level": 14,
+          "description": "At 14th level, you gain a new feature based on your choice at 3rd level. You must be wielding a weapon listed in your choice of Lovestruck to use these features.\n\nCupid: Love's Wings. You can use a bonus action and expend a spell slot of 3rd level or higher to sprout massive feathered wings from your shoulders, granting you a flying speed of 60 feet for 1 minute.\n\nPole Dancer: Reinvigoration. You can use your action and expend a spell slot of 3rd level or higher to perform a dance weaved with magic that reinvigorates one friendly creature of your choice within 5 feet of you. That creature can use its reaction at the end of your turn to take the Dodge, Attack, Cast a Spell, or Use an Object actions.\n\nSeven Veils: Gossamer Kiss. You can use an an action and a spell slot of 3rd level or higher to pull illusion magic around yourself. You teleport to any point within 60 feet and make two weapon attacks, with advantage, against a creature of your choice within your reach after you teleport."
+        }
+      ],
+      "extra_sections": [
+        {
+          "name": "Preamble",
+          "kind": "preamble",
+          "text": "ou c o ce e e\n\nou c o ce ee\n\nAt 3rd level, a bard gains the Bard College feature, which offers you the choice of a subclass. The following additional options are available to you when making that choice: College of Passion and College of the Voice."
+        }
+      ],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

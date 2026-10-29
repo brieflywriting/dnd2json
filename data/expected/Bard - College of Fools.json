@@ -1,0 +1,37 @@
+{
+  "source_file": "Bard - College of Fools.pdf",
+  "subclasses": [
+    {
+      "name": "College of Fools",
+      "class": "Bard",
+      "description_starts_with": "Bards who join the College of Fools",
+      "features": [
+        {
+          "name": "Satirical Theatrics",
+          "level": 3,
+          "description_starts_with": "You gain the skills to pass as a bumbling"
+        },
+        {
+          "name": "Tumbling Fool",
+          "level": 3,
+          "description_starts_with": "Your training allows you to move about"
+        },
+        {
+          "name": "Sharp Tongue",
+          "level": 6,
+          "description_starts_with": "You learn vicious mockery"
+        },
+        {
+          "name": "Sharper Wit",
+          "level": 6,
+          "description_starts_with": "When a creature that you can see targets you"
+        },
+        {
+          "name": "Fool's Luck",
+          "level": 14,
+          "description_starts_with": "You combine bardic magic with foolish antics"
+        }
+      ]
+    }
+  ]
+}

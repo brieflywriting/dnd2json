@@ -1,0 +1,47 @@
+{
+  "source_file": "Bard - College of Revelry.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Revelry",
+      "class": "Bard",
+      "description": "Bards that join the College of Revelry somehow seem to be the center of attention wherever they go. They enjoy the afterparty more e than their performance, and they never turn down an invitation to a good time. From formal banquets to harvest celebrations of small towns, Revelry Bards live for the party.",
+      "features": [
+        {
+          "name": "Charming Presence",
+          "level": 3,
+          "description": "Your natural charm makes others uniquely comfortable around you. You gain proficiency in Persuasion. If you are already proficient in Persuasion you instead gain proficiency in either Deception, Performance, or Sleight of Hand.\n\nIf you are currently carousing with a creature, you have advantage on any Deception, Performance, Persuasion, or Sleight of Hand checks you make directed at that creature.\n\nFor the purposes of this feature, carousing could be any of the following activities: drinking, dancing, feasting, partying,gambling, or any other activity that lowers inhibitions."
+        },
+        {
+          "name": "Depraved Enchantments",
+          "level": 3,
+          "description": "Yo an"
+        },
+        {
+          "name": "Stirring Performance",
+          "level": 6,
+          "description": "Your presence during rests enlivens your allies and assuages their worries. Any creature that benefits from your Song of Rest feature regains additional hit points equal to your Charisma modifier (minimum of 1 hit point).\n\nMoreover, any creature that benefits from your Song of Rest feature also has advantage on the first ability check,attack roll, or saving throw it makes after it completes a short rest with you."
+        },
+        {
+          "name": "Hedonistic Trance",
+          "level": 14,
+          "description": "Your bardic songs send creatures into a state of ecstasy. As an action, you can expend a use of Bardic Inspiration to force a creature that can hear you within 30 feet to make a Wisdom saving throw. On a failed save, it is stunned for 1 minute. If the creature takes damage,it can immediately repeat the saving throw, ending the effect on a success. If the creature succeeds on its saving throw, or the effect ends for it, it is immune to this feature for the next 24 hours.\n\nWhile stunned, the creature is in state of pure ecstasy of your choosing. It could be a drunken stupor, a fit of uncontrollable laughter, sensual hallucinations, or overwhelming pleasure.\n\nWhen you use this feature, you can expend an additional use of your Bardic Inspiration to impose disadvantage on its initial saving throw."
+        }
+      ],
+      "extra_sections": [
+        {
+          "name": "Revelry Bards & Carousing",
+          "kind": "lore",
+          "text": "While most Bards will probably thrive in the social pillar of the game, Bards of the College of Revelry will excel. Many of their features rely on interacting with NPC characters in carousing environments.\n\nIf your Revelry Bard is interested in carousing,you can use the 'Carousing Table on page 128 of the Dungeon Master's Guide. Revelry Bards can roll twice on this table and choose which result to use."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Bard Level College Feature",
+          "text": "3rd Charming Presence, Depraved Enchantments\n\n6th Stirring Performance\n\n14th Hedonistic Trance"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

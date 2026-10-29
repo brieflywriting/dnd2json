@@ -1,0 +1,59 @@
+{
+  "source_file": "Wizard - Cavalary.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "Cavalary",
+      "class": "Wizard",
+      "description": "Another odd inclusion, even the scholarly wizard has a place in this document. With no changes necessary for its martial subclasses—the Bladesinger Arcane Tradition received an update in an official release—WCX instead adds one new tradition devoted to survival and mobility, so wizards can better support and reinforce their slower-moving allies.",
+      "features": [
+        {
+          "name": "New Proficiencies",
+          "level": null,
+          "description": "You gain the additional proficiencies listed below. Tools. Calligrapher's Supplies."
+        },
+        {
+          "name": "Arcane E Traditions",
+          "level": 2,
+          "description": "At 2nd level, a wizard gains the Arcane Tradition feature,which offers you the choice of a subclass. The following additional option is available to you when making that choice: Cavalry.\n\nMagic can slaughter dozens and turn the tide of battle in an instant, and wizards' value and frailty make them prime targets. Students of the Cavalry tradition use equestrian skills and practical knowledge to survive the chaos of combat.\n\nThe combination of ranged magic and incredible mobility keeps these practioners out of harms' way, because when a single spell can end a battle, ensuring your mages can survive and position themselves where they're needes is invaluable. Such positioning is where Cavalry wizards excel."
+        },
+        {
+          "name": "Mounted Mage",
+          "level": 2,
+          "description": "When you select this school at 2nd level, you learn a ritual that summons a magical consciousness bound to you, which takes the form of a noble steed of your choice when summoned. This ritual takes 1 hour and expends a spell slot of 1st level or higher. The mount assumes the shape of any beast of CR 1/2 or lower without a flying speed, of a size that can serve as a mount for you.\n\nYour mount vanishes if killed or if you summon another mount. You summon your mount with full hit points, but it only regains features that are restored after a short or long rest when you complete the appropriate rest. It obeys your verbal commands and can only take the Dash, Disengage,and Dodge actions, whether you're mounted or not.\n\nYou also gain proficiency in Animal Handling.\n\nAs you gain levels in this class, your mount can take on more powerful forms. You can summon any beast without a flying speed of appropriate size to act as a mount of the same Challenge Rating as the creatures listed in the table below. You can also summon the specific examples listed in the table, even though most are not beasts. After reaching 8th level in this class, the restriction on flying mounts is removed.\n\nIf you summon a mount with a CR lower than the level of the spell slot used, it gains two additional hit dice for every spell slot above the level required to summon it."
+        },
+        {
+          "name": "Veteran's Tricks",
+          "level": 6,
+          "description": "Starting at 6th level, your experience with battlefield survival at any cost grants you an improvisational trick based on a school you favor. When you finish a long rest, you can replace the trick you know with a different one, changing your tactics to suit your situation.\n\nAbjuration—Improvised Ward When you cast a spell of 1st level or higher, your AC and the AC of your mount increase by 1 until the start of your next turn.\n\nConjuration—Back in the Saddle. You can use a bonus action to dismiss your mount to a pocket dimension where it awaits your summons. You can use another bonus action to conjure it at any point within 30 feet of you, including directly beneath you (which allows you to instantly mount it, without expending movement).\n\nDivination—Incoming! When you cast a spell of 1st level or higher, you and your mount have advantage on the next Dexterity saving throw you make before your next turn starts.\n\nEnchantment—Shock Tactics. One creature you damage with a spell of 1st level or higher has disadvantage on the first attack it makes against you or you mount before the end of your next turn.\n\nEvocation-Elemental Endurance. You and your mount gain resistance to the damage type dealt by one of your wizard cantrips of your choice, so long as the type is not bludgeoning, piercing, or slashing.\n\nIllusion—Ride in the Night. Hushing magic quiets your footsteps. You and your mount move silently, gaining advantage on Dexterity (Stealth) checks.\n\nNecromancy—Tireless Rider. You and your mount draw on the endurance of undeath. Neither of you need to eat,drink, breathe, or sleep. When you take a long rest, you spend four hours in an inactive, motionless state. You appear inert,but remain conscious, and can see and hear normally.\n\nTransmutation—Chemical Boost. Your speed, and the speed of your mount, increases by 10 feet."
+        },
+        {
+          "name": "Rearing Hooves",
+          "level": 10,
+          "description": "Beginning at 10th level, you can use your bonus action to allow your mount to take an action, ignoring the limits normally imposed on a controlled mount. You take the rest of your turn as normal. If your mount has Legendary Actions, it still cannot use them."
+        },
+        {
+          "name": "Bonded Souls",
+          "level": 14,
+          "description": "Starting at 14th level, whenever you cast a spell that targets yourself, the spell targets the mount as well. When you target your mount with a spell, the spell also targets you."
+        }
+      ],
+      "extra_sections": [
+        {
+          "name": "Preamble",
+          "kind": "preamble",
+          "text": "The following entries detail changes and enhancements to various wizard features."
+        }
+      ],
+      "tables": [
+        {
+          "title": null,
+          "text": "Wizard Level Mounts 4th dire wolf, giant spider WCX 6th giant boar, warhorse 8th pegasus, griffon 9th nightmare, owlbear 12th akhlutwcx, chuul 15th shambling mound, unicorn 18th mammoth, wyvern"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Cavalary: no level found for New Proficiencies"
+  ]
+}

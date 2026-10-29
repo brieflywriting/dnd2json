@@ -1,0 +1,46 @@
+{
+  "source_file": "Rogue - Marauder.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Marauder",
+      "class": "Rogue",
+      "description": "The Marauder is a brutish rogue that looks out only for itself. Such a rogue will not hesitate use innocents as collateral to protect themselves if need be. For this rogue, concepts such as pride, honour, and fairness mean nothing in the heat of combat. The only thing that does matter is who is left alive at the end of it all.",
+      "features": [
+        {
+          "name": "Heavy Training",
+          "level": 3,
+          "description": "You gain proficiency in medium armour and two martial melee weapons of your choice. You can use the chosen weapons to deal Sneak Attack damage, even if they lack the finesse property, as long as you meet the other requirements for the Sneak Attack."
+        },
+        {
+          "name": "Dirty Fighting",
+          "level": 3,
+          "description": "You’re not above using crude tactics to gain the upper hand. You can attempt to grapple a target as a bonus action.\n\nYou also gain an additional way to use your Sneak Attack; you don’t need advantage on your attack roll to use Sneak Attack against a creature if you are grappling it, and you don’t have disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you."
+        },
+        {
+          "name": "Butchering Blow",
+          "level": 3,
+          "description": "When you reveal yourself to your quarry, you make sure to land a killing blow. When you roll for Sneak Attack damage, you can choose to reroll a number of Sneak Attack dice equal to your Strength modifier (minimum of one die), and you must use the new rolls."
+        },
+        {
+          "name": "Sneaky Savage",
+          "level": 9,
+          "description": "You move silently even when wearing bulkier equipment. If an armour you’re wearing normally imposes disadvantage on Dexterity (Stealth) checks, it no longer does for you.\n\nAdditionally, if you are hidden from a creature and attempt to grapple it, you can do so with advantage."
+        },
+        {
+          "name": "Body Shield",
+          "level": 13,
+          "description": "You don’t hesitate to put others in the line of fire to survive. When an attacker you can see hits you with an attack while you’re grappling a creature, you can use your reaction to take half the damage from the attack and make the grappled creature take the other half."
+        },
+        {
+          "name": "Deadly Grip",
+          "level": 17,
+          "description": "Once someone is in your grasp, they only leave it when they’re dead. When you hit a creature you’re grappling, you can make that attack a critical hit. You must finish a long rest before you can attack in this way again.\n\nAdditionally, your attack rolls against a grappled creature can’t be affected by disadvantage."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

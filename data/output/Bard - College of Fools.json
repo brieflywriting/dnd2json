@@ -1,0 +1,46 @@
+{
+  "source_file": "Bard - College of Fools.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Fools",
+      "class": "Bard",
+      "description": "Bards who join the College of Fools use crude stories, daring acrobatics, and cutting jokes to entertain audiences, ranging from tavern crowds to royal courts. Where other Bards seek out forgotten lore or tales of bravery, Fools tell embarrassing and hilarious stories of all kinds. Fools undermine the plans of the powerful, and their acrobatic ability to tumble, dodge,leap, and climb makes them slippery opponents in battle.",
+      "features": [
+        {
+          "name": "Satirical Theatrics",
+          "level": 3,
+          "description": "You gain the skills to pass as a bumbling nincompoop. You gain proficiency in Acrobatics and Sleight of Hand, and when you make an ability check with either of these skills, you can treat a d20 roll of 7 or lower as an 8."
+        },
+        {
+          "name": "Tumbling Fool",
+          "level": 3,
+          "description": "Your training allows you to move about in strange and bizarrely entertaining ways. You can take the Dash action as a bonus action. When you take the Dash action, you gain the following benefits, which last until the end of your turn:\n\nOpportunity attacks against you have disadvantage.\n• You gain a climbing speed equal to your walking speed.\n• You can reduce any falling damage you take by an amount equal to your Bard level + your Ch auianar a difian"
+        },
+        {
+          "name": "Sharptongue",
+          "level": 6,
+          "description": "You learn vicious mockery, but it doesn't count against your total number of Cantrips Known, and when you use vicious mockery you add your Charisma modifier to the damage roll.\n\nIf you already know vicious mockery you learn another cantrip of your choice from the Bard spell list."
+        },
+        {
+          "name": "Sharper Wit",
+          "level": 6,
+          "description": "When a creature that you can see targets you with an attack,you can use your reaction to cast vicious mockery targeting the attacker. If it fails its saving throw, it must choose another target within range of its attack. If there are no other targets in range then its attack misses.\n\nYou can cast vicious mockery as a reaction a number of times equal to your Charisma modifier (minimum of once),and you regain all expended uses when you finish a long rest."
+        },
+        {
+          "name": "Fool's Luck",
+          "level": 14,
+          "description": "You combine bardic magic with foolish antics to manipulate luck. When you make an ability check, attack roll, or saving throw with advantage, you can choose to automatically fail in comical fashion and gain one point of Fool's Luck\n\nWhen a creature within 30 feet that can see or hear you,makes an attack roll, ability check, or saving throw, you can use your reaction to expend a point of Fool's Luck to impose advantage or disadvantage (your choice) on its roll.\n\nYou can have a total number of points of Fool's Luck equal to your Charisma modifier (minimum of 1). Unused Fool's Luck fades at the end of your next long rest."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "Bard Level College Feature\n\n3rd Satirical Theatrics, Tumbling Fool 6th Sharp Tongue, Sharper Wit 14th Fool's Luck"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,43 @@
+{
+  "source_file": "Bard - College of Radiance.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Radiance",
+      "class": "Bard",
+      "description": "zealot, and the impassioned preacher spreading the tenants of their faith across the land with word and song.\n\nBards of the College of Radiance are devout preachers of the divine, and all their performances sing the praise of their will of their god and inspire devotion in their followers.",
+      "features": [
+        {
+          "name": "Divine Revelation",
+          "level": 3,
+          "description": "Your deity has blessed you with a measure of their divine power in return for your service. Choose a Divine Domain from those available to the Cleric that best fits the deity you serve. Whenever you learn a new Bard spell, you can choose from the Bard spell list, the Cleric spell list, or your list of Domain Spells, and the spell becomes a Bard spell for you. You must obey all other rules from learning a new spell.\n\nYou also gain proficiency in Religion, and you add double your proficiency bonus to Intelligence (Religion) checks."
+        },
+        {
+          "name": "Words of Healing",
+          "level": 3,
+          "description": "The god you serve empowers your healing magic. When you cast a Bard spell of 1st-level or higher that restores hit points to a creature, the target regains additional hit points equal to your Charisma modifier (minimum of 1)."
+        },
+        {
+          "name": "Heavenly Chorus",
+          "level": 6,
+          "description": "Your faith empowers your bardic song. When you use Countercharm, you can expend a use of Bardic Inspiration to empower it with one of the following celestial effects:\n\nGuidance. Creatures of your choice within range add your Charisma modifier (minimum of +1) to the first ability check, attack roll,or saving throw they make before the start of your next turn.\n\nJudgment. One creature of your choice within range that can hear you must succeed on a Wisdom saving throw or be frightened of you until the start of your next turn. Once a creature succeeds on this saving throw, or the effect ends for it, that creature is immune to this effect for the next 24 hours.\n\nProtection. For the duration, creatures of your choice within range are resistant to necrotic and radiant damage, and their maximum hit points cannot be reduced.\n\nRestoration. One creature of your choice within range that can hear you gains temporary hit points equal to your Bardic Inspiration."
+        },
+        {
+          "name": "Beatificvision",
+          "level": 14,
+          "description": "Somebo Otieoet You can allow the power of your deity t to shine forth from you. When you cast a Bard spell that forces at least one creature to make a saving throw, you can expend Bardic Inspiration to impose disadvantage on one creature's saving throw for each Bardic Inspiration you expend as part of this spell\n\n6th Stirring Performance 14th Hedonistic Trance"
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "Bard Level College Feature\n\n3rd Divine Revelation, Words of Healing 6th Heavenly Chorus 14th Beatific Vision"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "College of Radiance: summary table lists features not found in the text: Stirring Performance"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "source_file": "Bard - College of Fear.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "College of Fear",
+      "class": "Bard",
+      "description": "Members of the College of Fear learn all the secrets of the True Fear, and know how to frighten others by telling horror stories or exploiting their worst phobias. It is said that gazing directly at the eyes of one of them is enough to cause you nightmares for the rest of your life...",
+      "features": [
+        {
+          "name": "Horror Stories",
+          "level": 3,
+          "description": "Starting at 3rd level, when a creature benefits from your song of rest, you can choose to tell it an horror story. When you do so, if the creature can hear and understand you, it becomes paranoid for the next hour. While paranoid, it adds half your charisma modifier (rounded up) to its passive perception and to its initiative rolls. A creature immuned to being frighten can't benefit from this feature."
+        },
+        {
+          "name": "Inspire Fear",
+          "level": 3,
+          "description": "Beginning at 3rd level, you can expend one of your inspiration dice as a bonus action to inspire fear to a creature within 30 feet that can see or hear you. When you do so, the target must succeed a wisdom saving throw against your spell save DC or be frighten by you until the start of your next round."
+        },
+        {
+          "name": "Awaken Phobia",
+          "level": 6,
+          "description": "Starting at 6th level, when you use your Inspire Fear feature on a creature, you can also choose to awake an unbearable phobia in its heart (creatures immuned to being frighten aren't affected). When you do so, roll on the Phobia Table to know what phobia is awaken for that target. The phobia lasts for 1 hour, and a creature can only be affected by one phobia at a time. If you awake a second phobia on a creature, the phobia stays the same but its duration is refreshed.\n\nUntil the end of its phobia, when the targeted creature is within 15 feet of a source of its phobia (for instance if the creature has a phobia for creepy crawlers and is within 15 feet of a snake or within 15 feet of an illusion of a snake), it is frighten by it until it is no longer within 15 feet of it.\n\nThe targeted creature also gets an additional negative effect depending on its phobia (see the Phobia Table below)."
+        },
+        {
+          "name": "Terror",
+          "level": 14,
+          "description": "Starting at 14th level, you awake a phobia in every creature you frighten (not only with your Inspire Fear feature, but also with any other spell or feature). When you awake a phobia for more than one creature at a time (with a spell that target multiple creatures for instance), you only roll once on the phobias table, and each creature affected gets the same phobia.\n\nMoreover, when a creature that you can see within 30 feet of you becomes frighten, you can call to their inner instinct, as you know how to control how any creature will react when facing its worst fears. When you do so, choose one of the following effects (no action required) :\n\nFlight : The frightened creature must use its movement to move as far as possible from the source of its fear during its next turn, by the safest available route.\n\nFreeze : The frightened creature's movement speed become 0 until the end of its next turn.\n\nFight : the frightened creature must make a weapon or a spell attack against the source of its fear during its next turn if possible, or use the dodge action if the source of its fear isn't a creature or if it is out of its reach."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": "Phobia Table",
+          "text": "Sources of the phobia Additional Effect\n\nd8 Phobia\n\nOnce per round, when the target takes damage from an insect, a rodent, a snake or by\n\ninsects, rodents and\n\nCreepy Crawlers\n\nthe Infestation, or Insect Plague spells, it takes an extra psychic damage equal to your\n\nsnakes\n\nbardic inspiration die + your\n\ncharisma modifier.\n\nOnce per round, when the target takes damage from a creature that is in darkness or in dim light, or by the Arms of\n\nareas of darkness larger than a\n\n2 Darkness\n\nHadar, Evard Black Tentacles, or Dark Star spells, it takes an extra psychic damage equal to\n\n5-foot cube\n\nyour bardic inspiration die +\n\nyour charisma modifier.\n\nspaces at least 10 feet\n\nOnce per turn, when the target\n\ntakes fall damage, it takes an extra psychic damage equal to\n\nGreat Heights\n\nlower than the current\n\nyour bardic inspiration die +\n\nposition\n\nyour charisma modifier.\n\nOnce per round, when the target takes damage from an undead creature or by the Chill\n\nDeath\n\nundeads\n\nTouch spell, it takes an extra psychic damage equal to your\n\nbardic inspiration die + your\n\ncharisma modifier.\n\nOnce per round, when the\n\ncorners and spaces of 10\n\ntarget takes damage, if its speed is 0, it takes an extra psychic damage equal to your\n\n5 Confined Spaces\n\nfeet or less\n\nbetween 2\n\nbardic inspiration die + your\n\nwalls\n\ncharisma modifier.\n\nOnce per round, when the target takes piercing damage,\n\neverything that can deal\n\nit takes an extra psychic damage equal to your bardic inspiration die + your charisma\n\n6 Needles\n\npiercing\n\ndamage\n\nmodifier.\n\nOnce per round, when the target takes thunder damage,\n\neverything that can deal\n\nit takes an extra psychic damage equal to your bardic inspiration die + your charisma\n\n7 Thunder\n\nthunder damage\n\nmodifier.\n\nOnce per round, when the target takes fire damage, it takes an extra psychic damage\n\neverything that can deal\n\nFire\n\nequal to your bardic inspiration die + your charisma\n\nfire damage\n\nmodifier."
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

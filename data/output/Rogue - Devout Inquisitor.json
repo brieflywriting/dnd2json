@@ -1,0 +1,56 @@
+{
+  "source_file": "Rogue - Devout Inquisitor.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Devout Inquisitor",
+      "class": "Rogue",
+      "description": "Some rogues find meaning in their lives through prayer and dedication to a divine ideal. Be it rogues that wish to absolve themselves of a shady past, or scoundrels discovering a greater cause, such people harness their talents as enforcers of various churches, becoming the shadowy hand that erases enemies of their faith.",
+      "features": [
+        {
+          "name": "Spellcasting",
+          "level": 3,
+          "description": "You augment your martial prowess with the ability to cast spells.\n\nCantrips. You learn three cantrips of your choice from the cleric spell list. You learn another cleric cantrip of your choice at 10th level.\n\nSpell Slots. The Devout Inquisitor Spellcasting table shows how many spell slots you have to cast your cleric spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.\n\nFor example, if you know the 1st-level spell cure wounds and have a 1st-level and a 2nd-level spell slot available, you can cast cure wounds using either slot.\n\nSpells Known of 1st-Level and Higher. You know three 1st-level cleric spells of your choice. The Spells Known column of the Devout Inquisitor Spellcasting table shows when you learn more cleric spells of 1st level or higher. Each of these must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.\n\nWhenever you gain a level in this class, you can replace one of the cleric spells you know with another spell of your choice from the cleric spell list. The new spell must be of a level for which you have spell slots.\n\nSpellcasting Ability. Wisdom is your spellcasting ability for your cleric spells. The power of your spells comes from your devotion to your deity. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a cleric spell you cast and when making an attack roll with one.\n\nSpell save DC = 8 + your proficiency bonus + your Wisdom modifier\n\nSpell attack modifier = your proficiency bonus + your Wisdom modifier\n\nSpellcasting Focus. You can use a holy symbol as a spellcasting focus for your cleric spells."
+        },
+        {
+          "name": "Channel Divinity",
+          "level": 3,
+          "description": "You gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. The Channel Divinity options provided by this archetype are listed below. When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again.\n\nHand of Faith. When you make a Dexterity check, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the GM says whether the check succeeds or fails.\n\nJudge the Wicked. You can use your Channel Divinity to deliver righteous judgment. As a bonus action, choose a creature you can see within 30 feet of you. The target is marked for 1 minute. The mark ends early if the target dies, you die, or you are incapacitated. Until the mark ends, you can use your Sneak Attack against the target even if you don't have advantage on the attack roll, but not if you have disadvantage on it. When you deal your Sneak Attack damage to the target, the extra damage is radiant."
+        },
+        {
+          "name": "Inquisition",
+          "level": 9,
+          "description": "You can start a sanctified inquisition against a creature. As a bonus action, choose a creature you can see within 30 feet of you. You create a supernatural connection between you and the target that lasts for 1 hour, until the target drops to 0 hit points, until you create a supernatural connection again with this feature, or until you dismiss the connection (no action required) . For the duration, you gain the following benefits:\n\nYou know the target's exact location while it is within 1 mile of you, gaining advantage on all Wisdom (Perception) and Wisdom (Survival) checks made to locate the target. In addition, you have advantage on all Wisdom (Insight) checks that you make to discern if the target is lying or withholding the truth while you can hear it, if you understand the language it is speaking. If the target is hidden through magical effects, such as the nondetection spell or an item that protects it from being targeted by divination magic or perceived through magical scrying sensors, you ignore these effects when trying to locate the target by any means. If you are hidden from the target and hit it with a spell attack, you can add your Sneak Attack damage to one of the attack's damage rolls, expending your use of Sneak Attack for that turn. You can't use this feature if you have disadvantage on the spell attack roll. When you use your Sneak Attack this way, the extra damage is radiant."
+        },
+        {
+          "name": "Relentless Judgment",
+          "level": 13,
+          "description": "You will deliver judgment until only the pious are left standing. Any attack you make against the target of your Judge the Wicked is a critical hit on a roll of 19 or 20 on the d20.\n\nIn addition, when the target of your Judge the Wicked feature dies, you can place the mark to a different creature you can see within 30 feet of you, provided you aren't incapacitated."
+        },
+        {
+          "name": "Grand Inquisitor",
+          "level": 17,
+          "description": "Your dedication to uprooting the enemies of your religion, as well as your connection with the divine has enhanced the way you perceive the world around you. You gain the following benefits:\n\nYou always know when you hear a lie and you have advantage on ability checks that you make to see through illusions. You learn the scrying spell if you don't know it already, and can cast it without expending a spell slot. You must then finish a long rest before doing so again. If you target a creature with scrying, while seeing the target through the spell's scrying sensor, you can establish a supernatural connection with it through your Inquisitor's Sense feature, regardless of the distance between your physical body and the target. As an action on your turn while a creature that has a supernatural connection with you through your Inquisition feature is within 1 mile of you, you can see through its eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that it has. During this time, you are deaf and blind with regard to your own senses."
+        }
+      ],
+      "extra_sections": [
+        {
+          "name": "Preamble",
+          "kind": "preamble",
+          "text": "As a Devout Inquisitor rogue, you decide the manner through which your faith manifests. Do you preach openly, only taking arms in the night to do your deity's work? Or do you abstain from public affairs, marking your targets and serving a religious organization? Consult the Devout Inquisitor Quirks table for a possible impact your faith and service has upon your character."
+        }
+      ],
+      "tables": [
+        {
+          "title": "Devout Inquisitor Quirks",
+          "text": "d6 Quirk\n\n1 You sleep with your eyes open, and never blink. The zealous do not rest.\n\n2 You hail from a long line of church inquisitors, and when you chant it is almost as if multiple voices echo yours.\n\n3 When you fight, your eyes glow with divine light.\n\n4 If one listens to your prayers long enough, they begin to feel someone watching them.\n\n5 Your weapons and/or skin are marked with runes from chants dedicated to your deity.\n\n6 People with dark secrets feel uneasy and guilty around you."
+        },
+        {
+          "title": "Devout Inquisitor Spellcasting",
+          "text": "1st 2nd 3rd 4th —Spell Slots per Spell Level—\n\nRogue\n\nCantrips\n\nSpells Known\n\nLevel\n\nKnown\n\n3rd 3 2 —\n\n4th 3 4 3 —\n\n5th 3 4 3 —\n\n6th 3 4 3 —\n\n7th 3 5 4 2 —\n\n8th 3 6 4 2 —\n\n9th 3 6 4 2 —\n\n10th 4 7 4 3 —\n\n11th 4 8 4 3 —\n\n12th 4 8 4 3 —\n\n13th 4 9 4 3 2 —\n\n14th 4 10 4 3 2 —\n\n15th 4 10 4 3 2 —\n\n16th 4 11 4 3 —\n\n17th 4 11 4 3 —\n\n18th 4 11 4 3 —\n\n19th 4 12 4 3 1\n\n20th 4 13 4 3 1"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

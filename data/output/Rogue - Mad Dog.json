@@ -1,0 +1,41 @@
+{
+  "source_file": "Rogue - Mad Dog.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Mad Dog",
+      "class": "Rogue",
+      "description": "In the depths of the underworld, there are all variety of criminal and unsavory elements. But here and there, you find one individual so utterly crazed that even the most hardened criminal is unnerved by their presence. For their brutality, unpredictability, eccentricity, or some combination of the three, these mad dogs of the underworld are masters of the art of keeping their foes on their toes, and then demonstrating that being on their toes doesn’t matter if their leg’s been cut open when they weren’t looking, or taken a club to the head when they fall to the ground.",
+      "features": [
+        {
+          "name": "Dog’s Grace",
+          "level": 3,
+          "description": "Beginning at 3rd level when you take this archetype, you gain proficiency in improvised weapons, and you may use your sneak attack with any simple weapon or improvised weapon, even if it’s not a finesse weapon. You may also perform your sneak attack when you make an unarmed strike, which deals a d4 in damage. You may use Charisma for the attack and damage rolls of attacks you make with simple weapons, improvised weapons, and unarmed strikes.\n\nIn addition, you may use the Dodge action when you use your Cunning Action feature. If you do and you’re not wearing any armor, its bonus to your defense is +3 instead."
+        },
+        {
+          "name": "Lord of the Night",
+          "level": 3,
+          "description": "Your time in the night has given you some form of understanding of how a given city’s nightlife works, and how best to defend yourself from it. Beginning at level 3, you may calculate your AC as 10 + your Charisma modifier while you’re unarmored. You also gain proficiency in Intimidation. If you already had proficiency in Intimidation, you may gain proficiency in Persuasion or Deception instead.\n\nIn addition, whenever you use Intimidation to threaten someone, if you have previously attacked and damaged them or someone else in their sight, you have advantage on the roll."
+        },
+        {
+          "name": "Essence of the Mad Dog",
+          "level": 9,
+          "description": "Beginning at 9th level, you gain an additional special bonus action that you may only use with your Cunning Action and only while you’re unarmored. Certain actions you take when you use this special bonus action gain additional effects.\n\nDash. If you end your movement adjacent to an enemy, you have advantage on your next attack roll against them in the same turn.\n\nDisengage. If an enemy you disengaged from moves into a square adjacent to you on its turn, you may use your reaction to make an attack against them. On a hit, you may apply your sneak attack damage, even if you already used it this turn.\n\nDodge. If an enemy misses you while you’re benefitting from the bonus granted, you gain advantage against that enemy on your next turn.\n\nHide. If you successfully hide from a creature, the next time you would deal sneak attack damage to a creature you’re hidden from, you may reroll any 1s you roll for damage until they’re not a 1."
+        },
+        {
+          "name": "Fear the Mad Dog",
+          "level": 13,
+          "description": "At 13th level, whenever you reduce a creature to 0 hit points, you may make an Intimidation check against an enemy you can see. They must make a Wisdom saving throw against your result. On a failure, they become frightened.\n\nIn addition, you have advantage against any enemy with the frightened condition."
+        },
+        {
+          "name": "Mad Dog’s Execution",
+          "level": 17,
+          "description": "At 17th level, you have reached the apex of the night. Whenever you roll the maximum result on any of your sneak attack dice, you may roll it again and add it to the final result.\n\nIn addition, when you damage an enemy granting advantage to you, your sneak attack damage dice become d8s."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

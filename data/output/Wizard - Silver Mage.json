@@ -1,0 +1,41 @@
+{
+  "source_file": "Wizard - Silver Mage.pdf",
+  "extraction": "text",
+  "subclasses": [
+    {
+      "name": "Silver Mage",
+      "class": "Wizard",
+      "description": "In the annals of time, an ancient order of sages known as the Silver Mages emerges, a venerable lineage of scholars and mystics who sought to bridge the gap between mortals and the divine. Venerating the gods with unyielding reverence, they devoted themselves to unraveling the sacred mysteries that lie beyond the veil of mortal understanding. From the hallowed halls of their sanctuaries, these theologians delve deep into the arcane tapestry of religious knowledge, becoming masters of divine lore.",
+      "features": [
+        {
+          "name": "Theology Savant",
+          "level": 2,
+          "description": "Beginning at 2nd level, you gain proficiency with Intelligence (religion) ability checks. Additionally, you can use magic items and spell scrolls ignoring class prerequisites if the prerequisite is to have levels in the cleric class"
+        },
+        {
+          "name": "Divine Space",
+          "level": 2,
+          "description": "Also at 2nd level, you gain the ability to create a Divine Space, a small pocket dimension that reflects your connection to the divine. As an action, you can create an extradimensional space that lasts for 1 hour times your Wizard level. The door to the space appears in an unoccupied space of your choosing within 30 feet of you. This space is a 10-foot cube and initially contains only bare essentials, such as a simple altar, candles, and some religious symbols. You can dismiss the Divine Space as a bonus action. While in your Divine Space, you have advantage on concentration saving throws.\n\nThis space expands as you grow, the Divine Space expands in increments of 5 feet in all directions times your Wizard level."
+        },
+        {
+          "name": "Sanctuary of the Devotee",
+          "level": 6,
+          "description": "At 6th level, you gain a deeper control over your Divine Space. You can now add additional features to your Divine Space when you summon it choosing from one of the following options:\n\nHealing Font. A small pool of water with healing properties appears. Once per long rest, you or any creature within the Divine Space can use a bonus action to drink from the font and regain hit points equal to your wizard level. Knowledge Archive. A bookshelf filled with divine and theological tomes appears. Over the course of 10 minutes, you study these books and gain proficiency in one skill or language of your choice. This benefit lasts until you finish your next long rest. Nature's Embrace. The Divine Space transforms into a tranquil glade filled with natural wonders. You and friendly creatures within the Divine Space gain the benefits of the speak with animals spell, and you have advantage on Wisdom (Animal Handling) checks. Hall of Judgment. The Divine Space shifts into a solemn courtroom, symbolizing your role as an arbiter of divine justice. You gain the ability to cast the zone of truth spell without expending a spell slot, and you have advantage on Wisdom (Insight) checks.\n\nART GENERATED USING MIDJOURNEY"
+        },
+        {
+          "name": "Divine Hegemon",
+          "level": 10,
+          "description": "At 10th level, your connection to the divine strengthens further. As an action, you can tap into the inherent authority of divinity to cause one of the following effects;\n\nBane's Malevolence. Hostile creatures within 10 feet of you must make a Charisma saving throw against your spell save DC. On a failed save, they are affected by the bane spell for 1 minute. A creature affected by this feature can repeat the saving throw at the end of each of its turns, ending the effect on a success. Blessing of Radiance. Friendly creatures within 10 feet of you gain the benefits of the bless spell. Once per turn, a creature affected by this feature can add a d4 to one attack roll or saving throw before the next turn ends.\n\nYou can use this feature once and regain all uses upon finishing a long rest. Additionally, while within your Divine Space hostile creatures always act as if under the bane spell and all friendly creatures act as if under the bless spell."
+        },
+        {
+          "name": "Temple to the Silver Mage",
+          "level": 14,
+          "description": "At 14th level, your connection to the divine has grown to its limits. Your Divine Space now lasts until it is dismissed and gains the following benefits;\n\nYou are always aware of all creatures within your Divine Space. You can replicate any object or creature within your Divine space. These replications are facsimiles of the originals unable to deal damage, leave the Divine Space, or have any knowledge or magic that you yourself do not have. While you are within your Divine Space you hear any prayers deliberately addressed to you from creatures as if they had used the sending spell."
+        }
+      ],
+      "extra_sections": [],
+      "tables": []
+    }
+  ],
+  "warnings": []
+}

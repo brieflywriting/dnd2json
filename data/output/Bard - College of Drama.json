@@ -1,0 +1,41 @@
+{
+  "source_file": "Bard - College of Drama.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "College of Drama",
+      "class": "Bard",
+      "description": "Long have the performing arts been a favorite pastime for people of all walks of life. Performers and thespians use the stage to tell stories that while fictional, can reveal great truths about life, death, and the struggles in between. The Muse, the ancient spirit of inspiration, moves the hearts of these actors,both great and small, to give their all in every performance.",
+      "features": [
+        {
+          "name": "Channel the Muse",
+          "level": 3,
+          "description": "You have learned to channel songs of The Muse to magically manifest two masks. One, a laughing Mask of Comedy, the other, a weeping Mask of Tragedy. At the end of a long rest,you choose which Mask manifests, which lasts until the end of your next long rest, and grants you the abilities below:\n\nMask of Comedy. You use your talent for the dramatic to inspire your allies in combat. When a friendly creature that can see or hear you within 30 feet fails an ability check or saving throw, or misses with an attack roll, you can use your reaction to expend a use of Bardic Inspiration, roll it, and the result to the creature's roll, possibly turning its failure into a success.\n\nMask of Tragedy. Your flair for tragedy allows you to inflict sorrow upon your foes. When a hostile creature that can see or hear you within 30 feet succeeds on an ability check or saving throw, or hits with an attack roll, you can use your reaction to expend a use of Bardic Inspiration, roll it, and subtract the result from its roll, possibly turning its success into a failure."
+        },
+        {
+          "name": "Thespian's Craft",
+          "level": 3,
+          "description": "The Muse has granted the skills of a master stage performer. You gain proficiency in Performance and with disguise kits,and whenever you make an ability check with either of these proficiencies you can treat a d20 roll of 7 or lower as an 8."
+        },
+        {
+          "name": "Soliloquy",
+          "level": 6,
+          "description": "Your bardic magic and song is infused with the performative power of The Muse. When you use Countercharm it gains the effects below based on the Mask you are currently wearing:\n\nMask of Comedy. The sound of your music inspires great deeds. Creatures of your choice that can hear you within range of Countercharm gain temporary hit points equal to your Charisma modifier (minimum of 1) at the start of each of their turns.\n\nMask of Tragedy. Your bardic magic and song undermine the resolve of your enemies. Creatures of your choice that can hear you within range of Countercharm have disadvantage on saving throws to resist any spell that includes a verbal component."
+        },
+        {
+          "name": "Final Curtain",
+          "level": 14,
+          "description": "The Muse grants you the ability to enthrall Death itself, if only for a short while. Your Masks grant the benefits below:\n\nMask of Comedy. You can bring allies back from the brink of death. When a creature you can see within 30 feet makes a death saving throw, you can use your reaction to expend a use of Bardic Inspiration and make a Charisma (Performance) check. The creature can choose to use the result of your check in place of making a normal death saving throw roll.\n\nMask of Tragedy. You can bargain with death itself for more time. When you are reduced to 0 hit points but not killed outright, you can expend a use of Bardic Inspiration die to immediately make a Charisma (Performance) check. If the result of your check is a 20 or greater, you fall to 1 hit point instead of 0."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "Bard Level College Feature\n\n3rd Channel the Muse, Thespian's Craft Soliloquy 6th 14th Final Curtain"
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}
