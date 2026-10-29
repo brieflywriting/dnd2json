@@ -1,12 +1,14 @@
 [
   {
-    "file": "Bard - College of Fools.pdf",
-    "status": "ok",
+    "file": "Sorcerer - Ironmonger.pdf",
+    "status": "warnings",
     "extraction": "ocr",
     "subclasses": [
-      "College of Fools"
+      "Ironmonger"
     ],
-    "features": 5,
-    "warnings": []
+    "features": 6,
+    "warnings": [
+      "Ironmonger: no level found for Iron Spells"
+    ]
   }
 ]

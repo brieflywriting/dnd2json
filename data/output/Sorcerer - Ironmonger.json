@@ -1,0 +1,53 @@
+{
+  "source_file": "Sorcerer - Ironmonger.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "Ironmonger",
+      "class": "Sorcerer",
+      "description": "Often born during times of great war and strife, Ironmonger sorcerers have an affinity for all things forged for use in war. They thrive in the midst of battle, wielding potent war magic on the front lines. Ironmongers are formidable foes, and are sought after by captains and conquerers for their ability to turn the tide of any battle, no matter how hopeless.",
+      "features": [
+        {
+          "name": "Iron Spells",
+          "level": null,
+          "description": "You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.\n\nWhenever you gain a level, you can replace one spell from this feature with another abjuration or conjuration spell of the same level from the sorcerer or wizard spell list."
+        },
+        {
+          "name": "Armaments of War",
+          "level": 1,
+          "description": "The arcane power within your soul grants you an affinity with the armaments of war. At 1st level, you gain proficiency with light and medium armor, shields, and all simple and martial weapons that lack the heavy or two-handed properties."
+        },
+        {
+          "name": "Blade of Strife",
+          "level": 1,
+          "description": "Beginning at 1st level, you can summon the Ironmonger's signature weapon, the Blade of Strife. As a bonus action, you create this mystical Blade at a point you can see within 60feet. It lasts for 1 minute or until you use this feature again.\n\nWhen you create the Blade, you can make a melee spell attack against one creature within 10 feet of it. On a hit, the target takes 1d8 magical slashing damage. As a bonus action,you can move the Blade up to 30 feet and repeat the attack.\n\nYou can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all of your expended uses when you finish a long rest, unless you expend a spell slot of 1st-level or higher to summon it again."
+        },
+        {
+          "name": "Extra Attack",
+          "level": 6,
+          "description": "Starting at 6th level, you can attack twice, instead of once,when you take the Attack action. Moreover, you can cast one of your sorcerer cantrips in place of one of those attacks."
+        },
+        {
+          "name": "Dancing Blade",
+          "level": 14,
+          "description": "At 14th level, you gain increased mastery with your Blade of Strife. As a reaction, when a creature within 10 feet of your Blade is hit by an attack, you can attempt to deflect the blow with your Blade, and grant the creature a bonus to its Armor Class equal to your Charisma modifier (minimum of +1).\n\nIn addition, your Blade now deals 2d8 damage on hit."
+        },
+        {
+          "name": "Storm of Blades",
+          "level": 18,
+          "description": "You have become a god of warfare and lay waste to your foes. Starting at 18th level, you can use your action to destroy your Blade of Strife in a storm of arcane iron shards and force two creatures of your choice within 30 feet of your Blade to make a Dexterity saving throw. Targets take 6d8 magical slashing damage on a failure, and half as much on a success.\n\nWhen you use this action, you can spend a spell slot to target additional creatures with of your choice within 30 feet of your Storm of Blades. You can target a single additional creature for a 1st-level spell slot, plus one additional creature for each level of spell slot above 1st."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "Sorcerer Level Feature\n\nIron Spells, Armaments of War, lst Blade of Strife 6th Extra Attack 14th Dancing Blade 18th Storm of Blades\n\nSorcerer Level Spell\n\nlst command, compelled duel 3rd cloud of daggers, heat metal 5th conjure barrage, elemental weapon fabricate, summon construct (metal) TCoE 7th 9th animate objects, conjure volley"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Ironmonger: no level found for Iron Spells"
+  ]
+}
