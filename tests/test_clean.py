@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-from dnd2json import clean
+from dnd2json.pipeline import clean
 
 
 def block(text, x0=50, y0=0, x1=280, y1=10, size=9.0, page=1, source="text", **extra):

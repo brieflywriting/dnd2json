@@ -18,7 +18,7 @@ Most PDFs hold one subclass. A file named like "Schools of Reawakening & Hemoman
 several: the document is then split at each subclass title first.
 
 Every function works on plain data (lists of dicts and small dataclasses) so it can be
-tested without PDFs: see tests/test_structure.py.
+tested without PDFs: see tests/test_roles_structure.py.
 """
 
 import difflib
@@ -28,8 +28,8 @@ from dataclasses import dataclass, field
 
 import pandas as pd
 
-from dnd2json import patterns
-from dnd2json.schema import ExtraSection, Feature, Subclass, Table
+from dnd2json.pipeline import patterns
+from dnd2json.pipeline.schema import ExtraSection, Feature, Subclass, Table
 
 # P(class_description) at or above this counts as description-like.
 DESCRIPTION_THRESHOLD = 0.5

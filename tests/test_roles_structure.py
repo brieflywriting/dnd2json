@@ -6,7 +6,7 @@ structure logic alone.
 
 import pandas as pd
 
-from dnd2json import roles, structure
+from dnd2json.pipeline import roles, structure
 
 
 def row(text, role=None, size=9.0, source="text", label="", p_desc=0.1, bold=0, page=1):

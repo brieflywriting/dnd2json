@@ -1,0 +1,53 @@
+{
+  "source_file": "Sorcerer - Vampiric Soul.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "Vampiric Soul",
+      "class": "Sorcerer",
+      "description": "The dark magic of undeath is a path to great power for those who are willing to pay the price. Many of the most powerful undead creatures will grant their followers a portion of their dark sorcery in return for their service. Evil vampires, long dead mummy lords, and sinister liches have all been known to curse their most loyal followers with sorcerous abilities.",
+      "features": [
+        {
+          "name": "Vampiric Spells",
+          "level": null,
+          "description": "You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.\n\nWhen you gain a sorcerer level, you can replace one spell from this feature with a necromancy or enchantment spell, of the same level from the sorcerer, warlock, or wizard spell list."
+        },
+        {
+          "name": "Blood Magic",
+          "level": 1,
+          "description": "You have been gifted an affinity for sorcerous blood magic. Starting at 1st level, you can expend your hit points in place of spell slots by spending four hit points for each level of the spell slot you would have spent. Both your current hit points and maximum hit points are reduced by the number of hit points you spend. This hit point reduction cannot be lessened in any way, and the reduction to your hit point maximum lasts until the end of your next long rest.\n\nMoreover, when you slav a creature with a sorcerer spell of 1st-level or higher, you gain temporary hit points equal to twice the level of the spell slot you expended to cast the spell Temporary hit points you gain from this feature can be used in place of your hit points for your Blood Magic spellcasting."
+        },
+        {
+          "name": "Optional Rule: True Vampirism",
+          "level": 3,
+          "description": "Vampires are are one of the most iconic monsters,but their vampiric power comes at significant cost. If you'd like to play as a true vampire, you gain all of the additional abilities listed below when you take your 1st level as a Vampiric Soul sorcerer.\n\nDeathless Nature. You don't need to breathe.\n\nSpider Climb. You gain a climbing speed equal to your walking speed. Starting at 3rd level, you can move across vertical surfaces, including upside down on ceilings, while leaving your hands free.\n\nSuperior Darkvision. you have superior vision in dark and dim conditions. You can see in dim light within 12O feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, you can only see shades of gray.\n\nSunlight Sensitivity. You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of the attack, or whatever you are trying to see is in direct sunlight."
+        },
+        {
+          "name": "Undead Resilience",
+          "level": 6,
+          "description": "The dark magic that infests your soul has made you resilient. At 6th level, you gain resistance to both necrotic and poison damage, and you have advantage on saves to resist poisons.\n\nAlso, when you have temporary hit points from your Blood Magic feature, you gain resistance to bludgeoning, piercing,and slashing damage from non-magical, non-silvered, attacks."
+        },
+        {
+          "name": "Misty Escape",
+          "level": 14,
+          "description": "Starting at 14th level, your sinister power allows you to cling to life when others would fall. As a reaction to when you are reduced to 0 hit points, but not killed outright, you can turn into a cloud of swirling mist, and reappear with 1 hit point in an unoccupied space within 30 feet.\n\nOnce you use this reaction you must finish a short or long rest before you can use it again. When you have no uses remaining, you can spend 5 Sorcery Points to use it again."
+        },
+        {
+          "name": "Vampiric Mastery",
+          "level": 18,
+          "description": "You have mastered the sinister blood magic within your soul Beginning at 18th level, whenever you deal necrotic damage to a creature with a sorcerer spell of 1st-level or higher, you gain temporary hit points equal to half the necrotic damage dealt. These temporary hit points can also be used in place of your hit points for your Blood Magic Spellcasting."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "VAmPIRIC SOuL\n\nVampiric Spells, Blood Magic lst 6th Undead Resilience 14th Misty Escape Vampiric Mastery 18th\n\nSorcerer Level Spell\n\nlst command, inflict wounds 3rd suggestion, spider climb 5th gaseous form, vampiric touch 7th blight, greater invisibility dominate person, enervation XGtE 9th"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "Vampiric Soul: no level found for Vampiric Spells"
+  ]
+}

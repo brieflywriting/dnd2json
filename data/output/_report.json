@@ -1,14 +1,14 @@
 [
   {
-    "file": "Sorcerer - Ironmonger.pdf",
+    "file": "Sorcerer - The Chained.pdf",
     "status": "warnings",
     "extraction": "ocr",
     "subclasses": [
-      "Ironmonger"
+      "The Chained"
     ],
-    "features": 6,
+    "features": 5,
     "warnings": [
-      "Ironmonger: no level found for Iron Spells"
+      "The Chained: no level found for Eldritch Spells"
     ]
   }
 ]

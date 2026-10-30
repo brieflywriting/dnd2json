@@ -6,8 +6,8 @@ pattern until every case passes. That way an old case can't silently break.
 
 import pytest
 
-from dnd2json import patterns
-from dnd2json.clean import repair_ocr
+from dnd2json.pipeline import patterns
+from dnd2json.pipeline.clean import repair_ocr
 
 
 @pytest.mark.parametrize("text, level", [

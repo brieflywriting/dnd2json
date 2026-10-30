@@ -15,8 +15,8 @@ import re
 
 import pandas as pd
 
-from dnd2json import patterns
 from dnd2json.errors import NoBlocksError
+from dnd2json.pipeline import patterns
 
 # --- Reading order ------------------------------------------------------------------------
 # A block belongs to the left column if it ends before the page middle (plus this slack),

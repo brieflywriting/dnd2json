@@ -1,20 +1,21 @@
 """Step 3: one fair test for every model.
 
-Run:  python -m dnd2json.evaluate              (all models)
-      python -m dnd2json.evaluate dummy rules  (only these)
+Run:  dnd2json evaluate                (all models)
+      dnd2json evaluate dummy rules    (only these)
+  or  python -m dnd2json.classifier.evaluate [models...]
 """
 
 import sys
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
 from sklearn.metrics import classification_report, confusion_matrix, f1_score
 from sklearn.model_selection import StratifiedGroupKFold
 
-from dnd2json.models import MODELS
+from dnd2json import config
+from dnd2json.classifier.models import MODELS
 
-DATA = Path(__file__).resolve().parents[2] / "data" / "gold"
+DATA = config.GOLD_DIR
 
 LABELS = ["class_description", "feature"]
 

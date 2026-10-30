@@ -1,0 +1,50 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Sorcerer - The Chained.pdf,1,0,SorcerouS ORiGins,45.6,239.0,214.6,253.4,8.7,,,paragraph_title,0.641,ocr
+Sorcerer - The Chained.pdf,1,1,"At 1st level, a sorcerer chooses their Sorcerous Origin. The following options are available in addition to those in the Player's Handbook: The Chained, Divine Right, Emberheart,Feyblood, Greensinger, Hellspawn, Ironmonger, Stoneblood,Stormsoul, Vampiric Soul, Voidwielder, and Waveborn.",45.6,261.1,285.1,315.4,9.6,,,text,0.987,ocr
+Sorcerer - The Chained.pdf,1,2,The CHAINED,46.1,326.4,133.4,337.0,14.4,,,paragraph_title,0.763,ocr
+Sorcerer - The Chained.pdf,1,3,"Once you were an unknowable, all powerful, and far reaching otherworldly entity, but now.…. now you are but shade of your former self, bound in mortal flesh. The eldritch essence from which you draw your magic is all that remains of your former terrible power. Maybe one day you will be able to regain your true power and punish those who did this to you.…",45.1,345.1,288.5,411.8,9.6,,,text,0.984,ocr
+Sorcerer - The Chained.pdf,1,4,ELDrITCH SPELLS,45.6,529.4,138.2,539.0,11.0,,,paragraph_title,0.756,ocr
+Sorcerer - The Chained.pdf,1,5,"The fragment of your former power grants you dark magic.When you learn a sorcerer spell, you can choose from the warlock spell list, and it becomes a sorcerer spell for you.",45.6,542.9,280.8,575.0,10.6,,,text,0.995,ocr
+Sorcerer - The Chained.pdf,1,6,"You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.",45.6,577.9,282.7,609.6,9.6,,,text,0.986,ocr
+Sorcerer - The Chained.pdf,1,7,"When you gain a sorcerer level, you can replace one spell from this feature with another warlock spell of your choice.",45.6,612.5,281.3,632.6,10.1,,,text,0.982,ocr
+Sorcerer - The Chained.pdf,1,8,KNOWLEDGE of AnCiEnT Days,317.8,241.4,413.8,263.0,13.0,,,paragraph_title,0.747,ocr
+Sorcerer - The Chained.pdf,1,9,"You are able to tap into lost knowledge from eons long dead.At 1st level, you gain proficiency in History and you learn to speak, read, and write, two exotic languages of your choice.",316.8,265.9,557.8,297.6,9.6,,,text,0.985,ocr
+Sorcerer - The Chained.pdf,1,10,"Also, while you sleep during a long rest, your inner self can commune with the ancient knowledge you once had, focusing on a person, place, or object you interacted with in the past day and making a Charisma (History) check. You learn a fact about the subject, often one forgotten to modern scholars.",316.8,301.0,561.1,354.2,9.6,,,text,0.985,ocr
+Sorcerer - The Chained.pdf,1,11,UNKNOWABLE MIND,317.3,364.3,426.7,373.9,9.1,,,paragraph_title,0.998,ocr
+Sorcerer - The Chained.pdf,1,12,"Starting at 6th level, you have advantage on saving throws to resist being charmed, frightened, or have your thoughts read.",316.8,378.2,557.3,398.4,10.3,,,text,0.987,ocr
+Sorcerer - The Chained.pdf,1,13,"Additionally, when you are forced to make an Intelligence,Wisdom, or Charisma saving throw to resist the effects of a spell, you can use your reaction to force a creature within 30feet to become the target of the spell instead of you.",317.3,401.3,557.3,443.5,10.3,,,text,0.983,ocr
+Sorcerer - The Chained.pdf,1,14,"Once you use this reaction you must complete a long rest before you can use it again. If you have no uses left, you can spend a spell slot of 3rd-level or higher to use it again.",316.8,446.9,554.4,479.5,10.6,,,text,0.988,ocr
+Sorcerer - The Chained.pdf,1,15,OTHERWORLDLY STEP,317.3,488.6,432.5,497.3,9.6,,,paragraph_title,0.969,ocr
+Sorcerer - The Chained.pdf,1,16,"Beginning at 14th level, using your eldritch power allows you to move through cracks in reality itself. Whenever you expend a spell slot, you can instantly teleport a number of feet equal to 5 times the level of the spell slot you spent, appearing in an unoccupied space of your choice within range.",316.8,501.6,562.1,556.3,10.6,,,text,0.99,ocr
+Sorcerer - The Chained.pdf,1,17,EldrITCh ReVeLaTION,317.8,565.9,440.6,575.0,10.6,,,paragraph_title,0.712,ocr
+Sorcerer - The Chained.pdf,1,18,"Upon reaching 18th level, you can use your action to briefly assume a form that resembles your terrible former power.For the next minute, you gain the following benefits:",317.3,578.9,553.0,610.6,10.1,,,text,0.993,ocr
+Sorcerer - The Chained.pdf,1,19,"• You can cast hideous laughter at 1st-level spell as a bonus action on each turn, without expending Sorcery Points.",319.2,620.6,559.2,641.3,10.8,,,text,0.986,ocr
+Sorcerer - The Chained.pdf,1,20,You gain a flying speed equal to your movement speed.,319.7,643.7,548.6,652.8,9.1,,,text,0.993,ocr
+Sorcerer - The Chained.pdf,1,21,"• You can move through other creatures and objects. If you end your movement inside an object or creature, you are shunted to the nearest unoccupied space, and take 1d10force damage for every 5 feet you were forced to travel.",319.2,655.7,556.8,697.9,10.8,,,text,0.991,ocr
+Sorcerer - The Chained.pdf,1,22,"Once you use this feature to transform, you can't use it again until you finish a long rest, unless you spend 7 Sorcery Points to use it again.",317.3,708.0,559.2,739.2,10.6,,,text,0.988,ocr
+Sorcerer - The Chained.pdf,1,23,.,0.0,0.0,611.5,240.5,2.9,,,image,0.586,ocr
+Sorcerer - The Chained.pdf,1,24,THE CHAINED FEATURES,46.6,421.0,176.2,430.6,12.0,,,figure_title,0.876,ocr
+Sorcerer - The Chained.pdf,1,25,Sorcerer Level Feature,58.6,433.4,164.2,442.6,11.5,,,figure_title,0.965,ocr
+Sorcerer - The Chained.pdf,1,26,"Eldritch Spells,
+1st
+Knowledge of Ancient Days
+6th
+Unknowable Mind
+14th
+Otherworldly Step
+18th
+Eldritch Revelation",46.6,445.9,290.9,519.8,13.0,,,table,0.982,ocr
+Sorcerer - The Chained.pdf,1,27,Sorcerer Level Spell,53.3,638.9,141.6,649.0,12.5,,,figure_title,0.998,ocr
+Sorcerer - The Chained.pdf,1,28,"arms of hadar, hideous laughter
+lst
+3rd
+augury, crown of madness
+5th
+clairvoyance, hunger of hadar
+7th
+arcane eye, evard's black tentacles
+9th
+contact other plane, dream",47.0,652.8,290.4,733.9,13.7,,,table,0.988,ocr
+Sorcerer - The Chained.pdf,1,29,Q,0.0,736.3,57.6,791.5,55.4,,,footer,0.259,ocr
+Sorcerer - The Chained.pdf,1,30,0,557.3,734.9,610.6,791.0,55.9,,,footer,0.882,ocr
+Sorcerer - The Chained.pdf,1,31,This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC.,80.2,766.6,528.5,787.7,9.6,,,footer,0.991,ocr

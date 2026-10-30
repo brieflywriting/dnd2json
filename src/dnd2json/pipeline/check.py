@@ -1,8 +1,8 @@
 """End-to-end check: compare pipeline output with hand-written expected results.
 
-evaluate.py tests one component (the classifier) on labelled blocks. This file tests the
-whole pipeline the way a user sees it: does the JSON for a PDF have the right subclasses,
-classes, descriptions, features and levels?
+classifier/evaluate.py tests one component (the classifier) on labelled blocks. This file
+tests the whole pipeline the way a user sees it: does the JSON for a PDF have the right
+subclasses, classes, descriptions, features and levels?
 
 Expected files live in data/expected/<pdf name>.json and only list what matters, so
 formatting differences don't count as errors:
@@ -23,7 +23,7 @@ import re
 from pathlib import Path
 
 from dnd2json import config
-from dnd2json.structure import same_name
+from dnd2json.pipeline.structure import same_name
 
 # Texts "start the same" from this similarity on (0..1), to tolerate OCR typos.
 START_MATCH_RATIO = 0.9

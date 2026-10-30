@@ -7,7 +7,7 @@ Stage by stage (each module's docstring explains its stage in detail):
     1. extract.py     PDF -> data/blocks/<name>.csv  (text layer here, OCR via .venv-ocr)
     2. clean.py       reading order, junk, drop caps, text repair
     3. roles.py       heading / body / table / level_line / other
-       classifier.py  body text -> P(description)
+       ../classifier/block_classifier.py   body text -> P(description)
     4. structure.py   sections -> subclasses, description, features
     5. schema.py      validated JSON
 """
@@ -21,8 +21,8 @@ import numpy as np
 import pandas as pd
 import pymupdf
 
-from dnd2json import clean, config, extract, roles, structure
-from dnd2json.classifier import BlockClassifier
+from dnd2json import config
+from dnd2json.classifier.block_classifier import BlockClassifier
 from dnd2json.errors import (
     DnD2JsonError,
     ExtractionError,
@@ -30,7 +30,8 @@ from dnd2json.errors import (
     OCRUnavailableError,
     StructureError,
 )
-from dnd2json.schema import Document
+from dnd2json.pipeline import clean, extract, roles, structure
+from dnd2json.pipeline.schema import Document
 
 # Mean OCR confidence below this gets a warning: the text likely has many misreads.
 LOW_OCR_CONFIDENCE = 0.85

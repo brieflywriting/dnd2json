@@ -3,6 +3,20 @@
 Why the project is built the way it is. Newest first within each section. When you change
 one of these, edit the entry and say why, so the reasoning stays traceable.
 
+## Code layout
+
+- **Two subpackages by purpose:** `pipeline/` is the product (PDF -> JSON, one module
+  per stage), `classifier/` is the machine-learning part (the model the pipeline uses,
+  plus the research that picked it). They meet in one line: `pipeline/convert.py`
+  loads `classifier/block_classifier.py`. Shared basics (`cli`, `config`, `errors`)
+  stay at the top.
+- **`__init__.py` files hold only documentation**, no re-exports. Imports name the full
+  module path, so you can always see where a function lives, and `pipeline` and
+  `classifier` can import each other without import cycles.
+- **`pipeline/extract.py` imports nothing from the package**, because the OCR env
+  (`.venv-ocr`, Python 3.12) runs it as a plain script.
+- **Old code lives in `legacy/`**, outside `src/`, so it's never installed or imported.
+
 ## Data
 
 - **Labels** (PLAN 1.1): `class_description`, `feature`, `other`. Rules and borderline

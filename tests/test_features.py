@@ -1,6 +1,6 @@
 import pytest
 
-from dnd2json.features import FEATURE_NAMES, RUN_IN_PATTERN, block_features, has_level
+from dnd2json.classifier.features import FEATURE_NAMES, RUN_IN_PATTERN, block_features, has_level
 
 # Idea of this file: regexes fail silently. A wrong pattern doesn't crash anything; it just
 # makes the model a bit worse and you never find out why. These tests pin down exactly

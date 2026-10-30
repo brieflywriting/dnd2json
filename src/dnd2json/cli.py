@@ -8,6 +8,9 @@
     dnd2json evaluate [models...]       compare classifier models (step 3/4 harness)
 
 Typical first run:  dnd2json train  ->  dnd2json convert --all  ->  dnd2json check
+
+Each command is a thin wrapper: the work happens in the module named in its function.
+Imports sit inside the functions so `dnd2json check` doesn't load scikit-learn etc.
 """
 
 import argparse
@@ -20,7 +23,7 @@ from dnd2json.errors import DnD2JsonError
 
 
 def cmd_train(args) -> int:
-    from dnd2json.classifier import train
+    from dnd2json.classifier.block_classifier import train
     meta = train()
     print(f"Trained on {meta['rows']} blocks {meta['label_counts']}")
     print(f"Saved to {config.MODEL_PATH}")
@@ -28,7 +31,7 @@ def cmd_train(args) -> int:
 
 
 def cmd_convert(args) -> int:
-    from dnd2json.pipeline import convert_many
+    from dnd2json.pipeline.convert import convert_many
     pdfs = _pdf_list(args)
     if not pdfs:
         print("Nothing to convert: give PDF paths or --all.")
@@ -44,14 +47,14 @@ def cmd_convert(args) -> int:
 
 
 def cmd_check(args) -> int:
-    from dnd2json.check import run_check
+    from dnd2json.pipeline.check import run_check
     run_check(Path(args.out), Path(args.expected))
     return 0
 
 
 def cmd_extract(args) -> int:
     """Stage 1 only. Text-layer PDFs here; scanned ones through the OCR environment."""
-    from dnd2json import extract
+    from dnd2json.pipeline import extract
     common = ["--in", str(args.input), "--out", str(config.BLOCKS_DIR)]
     if args.force:
         common.append("--force")
@@ -68,7 +71,7 @@ def cmd_extract(args) -> int:
 
 
 def cmd_evaluate(args) -> int:
-    from dnd2json import evaluate
+    from dnd2json.classifier import evaluate
     evaluate.main(args.models)
     return 0
 

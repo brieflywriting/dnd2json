@@ -1,0 +1,48 @@
+{
+  "source_file": "Sorcerer - The Chained.pdf",
+  "extraction": "ocr",
+  "subclasses": [
+    {
+      "name": "The Chained",
+      "class": "Sorcerer",
+      "description": "At 1st level, a sorcerer chooses their Sorcerous Origin. The following options are available in addition to those in the Player's Handbook: The Chained, Divine Right, Emberheart, Feyblood, Greensinger, Hellspawn, Ironmonger, Stoneblood, Stormsoul, Vampiric Soul, Voidwielder, and Waveborn.\n\nOnce you were an unknowable, all powerful, and far reaching otherworldly entity, but now.…. now you are but shade of your former self, bound in mortal flesh. The eldritch essence from which you draw your magic is all that remains of your former terrible power. Maybe one day you will be able to regain your true power and punish those who did this to you.…",
+      "features": [
+        {
+          "name": "Eldritch Spells",
+          "level": null,
+          "description": "The fragment of your former power grants you dark magic. When you learn a sorcerer spell, you can choose from the warlock spell list, and it becomes a sorcerer spell for you.\n\nYou learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.\n\nWhen you gain a sorcerer level, you can replace one spell from this feature with another warlock spell of your choice."
+        },
+        {
+          "name": "Knowledge of Ancient Days",
+          "level": 1,
+          "description": "You are able to tap into lost knowledge from eons long dead. At 1st level, you gain proficiency in History and you learn to speak, read, and write, two exotic languages of your choice.\n\nAlso, while you sleep during a long rest, your inner self can commune with the ancient knowledge you once had, focusing on a person, place, or object you interacted with in the past day and making a Charisma (History) check. You learn a fact about the subject, often one forgotten to modern scholars."
+        },
+        {
+          "name": "Unknowable Mind",
+          "level": 6,
+          "description": "Starting at 6th level, you have advantage on saving throws to resist being charmed, frightened, or have your thoughts read.\n\nAdditionally, when you are forced to make an Intelligence, Wisdom, or Charisma saving throw to resist the effects of a spell, you can use your reaction to force a creature within 30feet to become the target of the spell instead of you.\n\nOnce you use this reaction you must complete a long rest before you can use it again. If you have no uses left, you can spend a spell slot of 3rd-level or higher to use it again."
+        },
+        {
+          "name": "Otherworldly Step",
+          "level": 14,
+          "description": "Beginning at 14th level, using your eldritch power allows you to move through cracks in reality itself. Whenever you expend a spell slot, you can instantly teleport a number of feet equal to 5 times the level of the spell slot you spent, appearing in an unoccupied space of your choice within range."
+        },
+        {
+          "name": "Eldritch Revelation",
+          "level": 18,
+          "description": "Upon reaching 18th level, you can use your action to briefly assume a form that resembles your terrible former power. For the next minute, you gain the following benefits:\n\n• You can cast hideous laughter at 1st-level spell as a bonus action on each turn, without expending Sorcery Points.\n\nYou gain a flying speed equal to your movement speed.\n\n• You can move through other creatures and objects. If you end your movement inside an object or creature, you are shunted to the nearest unoccupied space, and take 1d10force damage for every 5 feet you were forced to travel.\n\nOnce you use this feature to transform, you can't use it again until you finish a long rest, unless you spend 7 Sorcery Points to use it again."
+        }
+      ],
+      "extra_sections": [],
+      "tables": [
+        {
+          "title": null,
+          "text": "Sorcerer Level Feature\n\nEldritch Spells, 1st Knowledge of Ancient Days 6th Unknowable Mind 14th Otherworldly Step 18th Eldritch Revelation\n\nSorcerer Level Spell\n\narms of hadar, hideous laughter lst 3rd augury, crown of madness 5th clairvoyance, hunger of hadar 7th arcane eye, evard's black tentacles 9th contact other plane, dream"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "The Chained: no level found for Eldritch Spells"
+  ]
+}

@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[2]  # src/dnd2json/config.py -> repo roo
 # --- Inputs -----------------------------------------------------------------------------
 PDF_DIR = ROOT / "media" / "eng" / "pdf"     # the homebrew PDFs
 GOLD_DIR = ROOT / "data" / "gold"            # hand-labelled blocks (classifier training)
+SRD_DIR = ROOT / "data" / "srd"              # official SRD JSON (-> gold SRD CSV)
 
 # --- Intermediate and final outputs -------------------------------------------------------
 BLOCKS_DIR = ROOT / "data" / "blocks"        # stage 1 output: one CSV of blocks per PDF
@@ -25,7 +26,7 @@ MODEL_PATH = ROOT / "data" / "models" / "block_classifier.joblib"
 # venv (see README). The pipeline calls extract.py with that interpreter for scanned PDFs.
 _VENV_PYTHON = "Scripts/python.exe" if sys.platform == "win32" else "bin/python"
 OCR_PYTHON = ROOT / ".venv-ocr" / _VENV_PYTHON
-EXTRACT_SCRIPT = ROOT / "src" / "dnd2json" / "extract.py"
+EXTRACT_SCRIPT = ROOT / "src" / "dnd2json" / "pipeline" / "extract.py"
 
 # --- Gold training data ---------------------------------------------------------------------
 # Labelled real blocks. The SRD file is added separately (clean extra examples).

@@ -1,0 +1,45 @@
+doc_id,page,block_idx,text,x0,y0,x1,y1,font_size,is_bold,is_italic,layout_label,ocr_score,source
+Sorcerer - Vampiric Soul.pdf,1,0,"The dark magic of undeath is a path to great power for those who are willing to pay the price. Many of the most powerful undead creatures will grant their followers a portion of their dark sorcery in return for their service. Evil vampires, long dead mummy lords, and sinister liches have all been known to curse their most loyal followers with sorcerous abilities.",45.1,377.8,287.0,442.6,9.6,,,text,0.985,ocr
+Sorcerer - Vampiric Soul.pdf,1,1,VAMPIRIC SPELLS,45.1,554.9,136.8,564.5,12.5,,,paragraph_title,0.931,ocr
+Sorcerer - Vampiric Soul.pdf,1,2,"You learn certain spells at the sorcerer levels noted in the table below. They count as sorcerer spells for you, but they don't count against your number of Spells Known.",45.6,568.3,278.9,600.0,9.6,,,text,0.986,ocr
+Sorcerer - Vampiric Soul.pdf,1,3,"When you gain a sorcerer level, you can replace one spell from this feature with a necromancy or enchantment spell, of the same level from the sorcerer, warlock, or wizard spell list.",45.6,602.9,289.4,635.0,9.6,,,text,0.988,ocr
+Sorcerer - Vampiric Soul.pdf,1,4,Blood MAGIC,317.8,30.2,395.5,39.8,12.5,,,paragraph_title,0.734,ocr
+Sorcerer - Vampiric Soul.pdf,1,5,"You have been gifted an affinity for sorcerous blood magic.Starting at 1st level, you can expend your hit points in place of spell slots by spending four hit points for each level of the spell slot you would have spent. Both your current hit points and maximum hit points are reduced by the number of hit points you spend. This hit point reduction cannot be lessened in any way, and the reduction to your hit point maximum lasts until the end of your next long rest.",316.8,43.2,561.6,132.0,8.2,,,text,0.981,ocr
+Sorcerer - Vampiric Soul.pdf,1,6,"Moreover, when you slav a creature with a sorcerer spell of 1st-level or higher, you gain temporary hit points equal to twice the level of the spell slot you expended to cast the spell Temporary hit points you gain from this feature can be used in place of your hit points for your Blood Magic spellcasting.",317.3,134.9,560.6,189.1,10.1,,,text,0.986,ocr
+Sorcerer - Vampiric Soul.pdf,1,7,UNDEAD RESILIENCE,317.3,198.7,428.2,208.3,10.6,,,paragraph_title,0.844,ocr
+Sorcerer - Vampiric Soul.pdf,1,8,"The dark magic that infests your soul has made you resilient.At 6th level, you gain resistance to both necrotic and poison damage, and you have advantage on saves to resist poisons.",317.3,212.2,560.2,243.8,10.6,,,text,0.986,ocr
+Sorcerer - Vampiric Soul.pdf,1,9,"Also, when you have temporary hit points from your Blood Magic feature, you gain resistance to bludgeoning, piercing,and slashing damage from non-magical, non-silvered, attacks.",316.8,246.7,559.7,278.4,10.1,,,text,0.992,ocr
+Sorcerer - Vampiric Soul.pdf,1,10,Misty Escape,317.3,288.0,393.6,297.1,11.0,,,paragraph_title,0.908,ocr
+Sorcerer - Vampiric Soul.pdf,1,11,"Starting at 14th level, your sinister power allows you to cling to life when others would fall. As a reaction to when you are reduced to 0 hit points, but not killed outright, you can turn into a cloud of swirling mist, and reappear with 1 hit point in an unoccupied space within 30 feet.",316.3,301.4,558.7,355.2,10.6,,,text,0.992,ocr
+Sorcerer - Vampiric Soul.pdf,1,12,"Once you use this reaction you must finish a short or long rest before you can use it again. When you have no uses remaining, you can spend 5 Sorcery Points to use it again.",316.8,358.6,555.8,389.8,11.0,,,text,0.982,ocr
+Sorcerer - Vampiric Soul.pdf,1,13,VAMPIRIC MASTERY,316.3,399.4,421.4,409.0,9.6,,,paragraph_title,0.964,ocr
+Sorcerer - Vampiric Soul.pdf,1,14,"You have mastered the sinister blood magic within your soul Beginning at 18th level, whenever you deal necrotic damage to a creature with a sorcerer spell of 1st-level or higher, you gain temporary hit points equal to half the necrotic damage dealt. These temporary hit points can also be used in place of your hit points for your Blood Magic Spellcasting.",316.8,412.8,557.8,479.5,9.6,,,text,0.99,ocr
+Sorcerer - Vampiric Soul.pdf,1,15,OPtional Rule: True VamPirism,333.1,505.4,506.4,515.5,12.0,,,paragraph_title,0.805,ocr
+Sorcerer - Vampiric Soul.pdf,1,16,"Vampires are are one of the most iconic monsters,but their vampiric power comes at significant cost.If you'd like to play as a true vampire, you gain all of the additional abilities listed below when you take your 1st level as a Vampiric Soul sorcerer.",332.6,520.8,547.7,571.2,12.0,,,text,0.982,ocr
+Sorcerer - Vampiric Soul.pdf,1,17,Deathless Nature. You don't need to breathe.,343.7,572.6,527.0,581.8,11.0,,,text,0.99,ocr
+Sorcerer - Vampiric Soul.pdf,1,18,"Spider Climb. You gain a climbing speed equal to your walking speed. Starting at 3rd level, you can move across vertical surfaces, including upside down on ceilings, while leaving your hands free.",333.1,583.2,544.3,623.5,11.3,,,text,0.983,ocr
+Sorcerer - Vampiric Soul.pdf,1,19,"Superior Darkvision. you have superior vision in dark and dim conditions. You can see in dim light within 12O feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, you can only see shades of gray.",333.1,625.4,546.7,675.8,12.0,,,text,0.982,ocr
+Sorcerer - Vampiric Soul.pdf,1,20,"Sunlight Sensitivity. You have disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight when you, the target of the attack, or whatever you are trying to see is in direct sunlight.",333.1,677.3,542.4,718.6,12.5,,,text,0.982,ocr
+Sorcerer - Vampiric Soul.pdf,1,21,VAmPIRIC SOuL,45.1,358.6,142.1,370.1,6.9,,,figure_title,0.729,ocr
+Sorcerer - Vampiric Soul.pdf,1,22,VAMPIRIC SOUL FEATURES,45.6,452.6,182.9,462.7,12.0,,,figure_title,0.796,ocr
+Sorcerer - Vampiric Soul.pdf,1,23,"Vampiric Spells, Blood Magic
+lst
+6th
+Undead Resilience
+14th
+Misty Escape
+Vampiric Mastery
+18th",46.6,478.1,291.4,543.8,14.2,,,table,0.987,ocr
+Sorcerer - Vampiric Soul.pdf,1,24,Sorcerer Level Spell,54.2,640.3,144.0,649.9,12.5,,,figure_title,0.988,ocr
+Sorcerer - Vampiric Soul.pdf,1,25,"lst
+command, inflict wounds
+3rd
+suggestion, spider climb
+5th
+gaseous form, vampiric touch
+7th
+blight, greater invisibility
+dominate person, enervation XGtE
+9th",47.0,653.8,290.9,735.4,13.7,,,table,0.979,ocr
+Sorcerer - Vampiric Soul.pdf,1,26,LD,0.0,736.3,57.1,791.5,3.4,,,footer,0.34,ocr
+Sorcerer - Vampiric Soul.pdf,1,27,This is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. Wizards of the Coast LLC.,80.2,766.6,528.5,787.7,9.6,,,footer,0.99,ocr

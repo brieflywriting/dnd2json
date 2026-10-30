@@ -12,12 +12,12 @@ a short note on which rule fired. When a block ends up in the wrong place in the
 look at its role and reason in the debug CSV (`dnd2json convert --debug`) first.
 
 Whether a body block is a description or a feature is NOT decided here: that's the
-classifier's job (classifier.py), using the words, not the layout.
+classifier's job (classifier/block_classifier.py), using the words, not the layout.
 """
 
 import pandas as pd
 
-from dnd2json import patterns
+from dnd2json.pipeline import patterns
 
 # OCR layout labels that are never subclass content.
 OCR_OTHER_LABELS = {

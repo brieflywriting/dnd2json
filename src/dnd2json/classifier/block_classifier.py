@@ -20,9 +20,9 @@ import pandas as pd
 import sklearn
 
 from dnd2json import config
-from dnd2json.clean import normalize_text
+from dnd2json.classifier.models import make_words_only
 from dnd2json.errors import ModelNotTrainedError
-from dnd2json.models import make_words_only
+from dnd2json.pipeline.clean import normalize_text
 
 LABELS = ["class_description", "feature"]  # what the model predicts; "other" is rule-based
 DESCRIPTION = "class_description"
@@ -32,7 +32,7 @@ def load_training_data() -> pd.DataFrame:
     """All labelled blocks the model may learn from: real (OCR) blocks + SRD blocks.
 
     Blocks labelled `other` (see LABELS.md) are left out: the model only separates
-    descriptions from features; page furniture is handled by rules in roles.py.
+    descriptions from features; page furniture is handled by rules in pipeline/roles.py.
     Texts go through the same normalisation as pipeline blocks, so the model sees
     training text in the same shape as the text it will classify.
     """

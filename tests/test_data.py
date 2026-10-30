@@ -11,7 +11,7 @@ import pandas as pd
 import pytest
 
 GOLD = Path(__file__).resolve().parents[1] / "data" / "gold"
-LABELS = {"class_description", "feature", "other"}  # see LABELS.md
+LABELS = {"class_description", "feature", "other"}  # see docs/LABELS.md
 REQUIRED_COLUMNS = {"text", "label", "doc_id"}
 
 CSV_FILES = sorted(GOLD.glob("*.csv"))

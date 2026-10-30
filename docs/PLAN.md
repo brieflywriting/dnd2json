@@ -1,7 +1,8 @@
 # Plan
 
 Each step is 10–30 min and ends with a check. Tick it, commit, update `NEXT.md`.
-Why things are the way they are: `DECISIONS.md`. How to run and debug: `README.md`.
+Why things are the way they are: `DECISIONS.md`. How to run, project map, debugging:
+`README.md` in the repo root.
 
 Status: **v0.1 (classifier) done, v0.2 (working PDF -> JSON pipeline) done.**
 Next: v0.3, make the numbers honest and the pipeline robust (sections 8–10).
@@ -17,7 +18,7 @@ CV, ~0.95 when a whole class is held out. Used as stage 3b of the pipeline.
 ## 0. Setup (once)
 - [x] 0.1 `git init`, `.gitignore`, first commit.
 - [x] 0.2 Remove `"paddle"` from `pyproject.toml`, `pip install -e ".[dev]"`.
-- [x] 0.3 Folders: `data/srd/`, `data/gold/`, `data/synthetic/`.
+- [x] 0.3 Folders: `data/srd/`, `data/gold/`, `data/synthetic/` (removed in 7.11: unused).
 
 ## 1. Define the problem
 - [x] 1.1 `LABELS.md`: labels, definitions, examples, ordered rules, 8 borderline cases.
@@ -50,7 +51,7 @@ CV, ~0.95 when a whole class is held out. Used as stage 3b of the pipeline.
 
 ## 6. Make it usable
 - [–] 6.1 Confidence threshold -> `unknown`. -> moved to **9.5** (needs calibration).
-- [x] 6.2 Model saved/loaded with joblib (`classifier.py`, `dnd2json train`).
+- [x] 6.2 Model saved/loaded with joblib (`classifier/block_classifier.py`, `dnd2json train`).
 - [x] 6.3 CLI. Became `dnd2json convert` (PDF -> JSON) instead of `classify` (CSV -> CSV).
 
 ---
@@ -64,15 +65,18 @@ Built "walking skeleton" first, then each stage improved on all 59 PDFs.
       *Check:* 59/59 PDFs -> `data/blocks/` (27 text, 32 OCR, OCR in 52 s).
 - [x] 7.2 Stage 2 `clean.py`: column order, junk, drop caps, OCR repairs, level-line split.
 - [x] 7.3 Stage 3a `roles.py`: heading / body / table / level_line / other, with reasons.
-- [x] 7.4 Stage 3b `classifier.py`: train, save, load, P(description).
+- [x] 7.4 Stage 3b `block_classifier.py`: train, save, load, P(description).
 - [x] 7.5 Stage 4 `structure.py`: sections, levels, sub-options, stat blocks, spells,
       summary tables, multi-subclass files.
 - [x] 7.6 Stage 5 `schema.py`: validated JSON (SRD-style field names).
-- [x] 7.7 `pipeline.py` + `errors.py`: batch never stops on one PDF, `_report.json`.
+- [x] 7.7 `pipeline/convert.py` + `errors.py`: batch never stops on one PDF, `_report.json`.
 - [x] 7.8 `cli.py`: `train`, `convert`, `check`, `extract`, `evaluate`.
 - [x] 7.9 `check.py` + 8 expected files. *Check:* recall 95%, precision 100%, levels 100%.
 - [x] 7.10 Tests: 93 passing (`pytest`).
       *Check:* `dnd2json convert --all` -> 59 PDFs, 51 ok, 8 warnings, 0 failed.
+- [x] 7.11 Project layout: modules grouped into `src/dnd2json/pipeline/` (PDF -> JSON) and
+      `src/dnd2json/classifier/` (ML), docs in `docs/`, old code in `legacy/`. Map in the
+      README. *Check:* `pytest` green, `convert` works on a text and an OCR PDF.
 
 ---
 
@@ -83,10 +87,11 @@ Built "walking skeleton" first, then each stage improved on all 59 PDFs.
       for `check`. *Check:* you'd sign every name and level.
 - [ ] 8.2 Commit, tag `v0.2-pipeline`. *Check:* `git status` clean, `pytest` green.
 - [ ] 8.3 Fix row 27 of `5e-OCR-CombinedNewClasses.csv` (`???`) from the PDF.
-- [ ] 8.4 Lint `train.py` and `features.py` (`ruff check src tests`). *Check:* 0 errors.
+- [ ] 8.4 Lint `classifier/features.py` (`ruff check src tests`). *Check:* 0 errors.
+      (`train.py` moved to `legacy/train_first_try.py`: `evaluate.py` replaced it.)
 
 ## 9. Make the classifier numbers honest (from the methodology review)
-- [ ] 9.1 Leave-one-class-out CV in `evaluate.py` (group by class, not document).
+- [ ] 9.1 Leave-one-class-out CV in `classifier/evaluate.py` (group by class, not document).
       *Check:* the score words_only gets when Bard/Rogue/Wizard is unseen.
 - [ ] 9.2 SRD ablation: words_only with vs. without SRD, on 9.1's CV. Decide, log it.
 - [ ] 9.3 Mask class and subclass names before TF-IDF ("bards", "college" -> placeholders).

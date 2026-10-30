@@ -1,17 +1,16 @@
 """SRD JSON -> data/gold/5e-SRD-Combined.csv (text, label, doc_id, source).
 
-Run:  python -m dnd2json.srd_to_csv
+Run:  python -m dnd2json.classifier.srd_to_csv
 
 The CSV is generated, never hand-edited: change this script and rerun it instead.
 """
 
-from pathlib import Path
-
 import pandas as pd
 
-ROOT = Path(__file__).resolve().parents[2]
-SRD = ROOT / "data" / "srd"
-OUT = ROOT / "data" / "gold" / "5e-SRD-Combined.csv"
+from dnd2json import config
+
+SRD = config.SRD_DIR
+OUT = config.GOLD_DIR / config.GOLD_SRD_FILE
 
 
 def main():

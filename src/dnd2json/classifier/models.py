@@ -24,7 +24,13 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import FunctionTransformer, StandardScaler
 
-from dnd2json.features import DICE_PATTERN, SECOND_PERSON, THIRD_PERSON, hand_features, has_level
+from dnd2json.classifier.features import (
+    DICE_PATTERN,
+    SECOND_PERSON,
+    THIRD_PERSON,
+    hand_features,
+    has_level,
+)
 
 
 def make_dummy():
@@ -252,7 +258,7 @@ def _logreg():
     #     classic setting where linear models match or beat fancier ones.
     #   - Readable: each feature gets one weight; positive pushes towards one label,
     #     negative towards the other. You can print the top words and check they make
-    #     sense (we did this in train.py: "you", "spell" vs "they", "college").
+    #     sense (we did this in legacy/train_first_try.py: "you", "spell" vs "they", "college").
     #   - Fast, and gives probabilities, which step 6.1 needs for the "unknown" threshold.
     #   Alternatives: LinearSVC (similar accuracy, no probabilities out of the box), naive
     #   Bayes (fast, weaker when features are correlated, as ours are), random forests /
@@ -320,9 +326,9 @@ def make_hand_words_chars():
 
 
 def make_words_only():
-    # Extra comparison: your train.py model, but in the harness. Compare with hand+words:
-    #   if the gap is smaller than the fold std, the hand features add nothing and you
-    #   could drop them (less code to maintain, nothing lost).
+    # Extra comparison: your first model (legacy/train_first_try.py), but in the harness.
+    #   Compare with hand+words: if the gap is smaller than the fold std, the hand
+    #   features add nothing and you could drop them (less code, nothing lost).
     return _pipeline(("words", _words(), "text"))
 
 

@@ -9,8 +9,8 @@ import pytest
 
 from dnd2json import config
 from dnd2json.errors import ExtractionError
-from dnd2json.pipeline import convert_many, convert_pdf, ensure_blocks
-from dnd2json.schema import Document, Feature, Subclass
+from dnd2json.pipeline.convert import convert_many, convert_pdf, ensure_blocks
+from dnd2json.pipeline.schema import Document, Feature, Subclass
 
 SPELL_THIEF = config.PDF_DIR / "Wizard - Spell Thief.pdf"  # text-layer PDF: no OCR needed
 
@@ -37,7 +37,7 @@ def test_unreadable_pdf_raises_extraction_error(tmp_path):
 @needs_pdf
 @needs_model
 def test_spell_thief_end_to_end():
-    from dnd2json.classifier import BlockClassifier
+    from dnd2json.classifier.block_classifier import BlockClassifier
     doc = convert_pdf(SPELL_THIEF, BlockClassifier())
     (sub,) = doc.subclasses
     assert sub.name == "Spell Thief" and sub.class_name == "Wizard"

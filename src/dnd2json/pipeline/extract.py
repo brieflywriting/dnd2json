@@ -5,8 +5,8 @@ Each PDF goes down one of two paths, and both write the same columns:
   - "ocr":  scanned or garbled PDF          -> PaddleOCR PP-StructureV3 layout blocks.
 
 Run (text-layer PDFs work on any Python; OCR needs the Python 3.12 env, see README):
-    python src/dnd2json/extract.py --only text
-    .venv-ocr/Scripts/python src/dnd2json/extract.py --only ocr
+    python src/dnd2json/pipeline/extract.py --only text
+    .venv-ocr/Scripts/python src/dnd2json/pipeline/extract.py --only ocr
 
 This file deliberately imports nothing from the dnd2json package, so the OCR environment
 can run it without installing the rest of the project.
