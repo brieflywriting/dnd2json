@@ -1,5 +1,7 @@
 # dnd2json
 
+###Currently a WIP. The pipeline requires testing and changes.
+
 Converts D&D 5e homebrew subclass PDFs into structured JSON: subclass name, class,
 description and features (name, level, rules text), plus tables, stat blocks and lore.
 
