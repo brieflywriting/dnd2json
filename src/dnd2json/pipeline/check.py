@@ -29,30 +29,30 @@ def _normal(text: str) -> str:
 
 def starts_with(actual: str, expected: str) -> bool:
     """Does `actual` begin with (roughly) `expected`? Empty expected = expect no text."""
-    if not expected:
+    actual, expected = _normal(actual), _normal(expected)
+    if not expected: #cause _normal would remove whitespaces
         return not actual
-    actual, expected = _normal(actual),_normal(expected)
     head = actual[:len(expected)]
     similarity = difflib.SequenceMatcher(None, head, expected).ratio()
     return head == expected or similarity >= START_MATCH_RATIO
 
 
 def compare_document(actual: dict, expected: dict) -> dict:
-    """Score one document. Returns counts plus human-readable problems."""
+    """Score one document. Returns counts for score categories plus human-readable problems."""
     score = {"subclasses": 0, "subclasses_found": 0, "class_ok": 0, "description_ok": 0,
              "features_expected": 0, "features_actual": 0, "features_found": 0,
              "levels_ok": 0, "texts_ok": 0, "problems": []}
     problems = score["problems"]
 
     for exp_sub in expected["subclasses"]:
-        score["subclasses"] += 1
+        score["subclasses"] += 1 #how many subclasses should be there
         match = next((s for s in actual["subclasses"] if same_name(s["name"], exp_sub["name"])),
                      None)
         if match is None:
             problems.append(f"subclass missing: {exp_sub['name']}")
             score["features_expected"] += len(exp_sub["features"])
             continue
-        score["subclasses_found"] += 1
+        score["subclasses_found"] += 1 #you wouldn't believe it
         if match.get("class") == exp_sub.get("class"):
             score["class_ok"] += 1
         else:
@@ -73,7 +73,7 @@ def compare_document(actual: dict, expected: dict) -> dict:
                 problems.append(f"{exp_sub['name']}: feature missing: {exp_feat['name']}")
                 continue
             score["features_found"] += 1
-            if feat["level"] == exp_feat["level"]:
+            if feat["level"] == exp_feat["level"]:  #TODO: check this
                 score["levels_ok"] += 1
             else:
                 problems.append(f"{exp_feat['name']}: level {feat['level']}, "
@@ -93,7 +93,7 @@ def run_check(output_dir: Path = config.OUTPUT_DIR,
     """Compare every expected file with its output. Prints a report, returns the totals."""
     expected_files = sorted(expected_dir.glob("*.json"))
     if not expected_files:
-        print(f"No expected files in {expected_dir}")
+        print(f"No files of the correct format found in {expected_dir}")
         return {}
 
     totals: dict = {}
