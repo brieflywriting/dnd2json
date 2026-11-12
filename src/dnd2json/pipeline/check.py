@@ -1,17 +1,10 @@
-"""End-to-end check: compare pipeline output with hand-written expected results.
+""" This file compares pipeline output with hand-written expected results
 
-classifier/evaluate.py tests one component (the classifier) on labelled blocks. This file
-tests the whole pipeline the way a user sees it: does the JSON for a PDF have the right
-subclasses, classes, descriptions, features and levels?
+classifier/evaluate.py tests one component (the classifier) on labelled blocks. 
+This file validates for  subclasses, classes, descriptions, features and levels.
 
-Expected files live in data/expected/<pdf name>.json and only list what matters, so
+Expected files live in data/expected/<pdf name>.json and only list what matters, 
 formatting differences don't count as errors:
-
-    {"subclasses": [{
-        "name": "College of Fools", "class": "Bard",
-        "description_starts_with": "Bards who join the College of Fools",
-        "features": [{"name": "Satirical Theatrics", "level": 3,
-                      "description_starts_with": "You gain the skills to pass"}]}]}
 
 Write them from the PDF, never from the pipeline's output: otherwise they repeat its
 mistakes. Names are compared with structure.same_name (ignores casing/OCR noise).
@@ -36,9 +29,9 @@ def _normal(text: str) -> str:
 
 def starts_with(actual: str, expected: str) -> bool:
     """Does `actual` begin with (roughly) `expected`? Empty expected = expect no text."""
-    actual, expected = _normal(actual), _normal(expected)
     if not expected:
         return not actual
+    actual, expected = _normal(actual),_normal(expected)
     head = actual[:len(expected)]
     similarity = difflib.SequenceMatcher(None, head, expected).ratio()
     return head == expected or similarity >= START_MATCH_RATIO
