@@ -109,20 +109,20 @@ def run_check(output_dir: Path = config.OUTPUT_DIR,
             status = "OK" if not score["problems"] else "DIFF"
             print(f"[{status:8s}] {expected_path.stem}")
         for problem in score["problems"]:
-            print(f"             - {problem}")
+            print(f"\t- {problem}")
         for key, value in score.items():
             if key != "problems":
                 totals[key] = totals.get(key, 0) + value
 
-    def pct(part, whole):
+    def ratio_pct(part, whole):
         return f"{part}/{whole} ({100 * part / whole:.0f}%)" if whole else "n/a"
 
     print("\nTotals over", len(expected_files), "documents")
-    print("  subclasses found   ", pct(totals["subclasses_found"], totals["subclasses"]))
-    print("  class correct      ", pct(totals["class_ok"], totals["subclasses_found"]))
-    print("  description correct", pct(totals["description_ok"], totals["subclasses_found"]))
-    print("  feature recall     ", pct(totals["features_found"], totals["features_expected"]))
-    print("  feature precision  ", pct(totals["features_found"], totals["features_actual"]))
-    print("  level correct      ", pct(totals["levels_ok"], totals["features_found"]))
-    print("  feature text start ", pct(totals["texts_ok"], totals["features_found"]))
+    print("  subclasses found   ", ratio_pct(totals["subclasses_found"], totals["subclasses"]))
+    print("  class correct      ", ratio_pct(totals["class_ok"], totals["subclasses_found"]))
+    print("  description correct", ratio_pct(totals["description_ok"], totals["subclasses_found"]))
+    print("  feature recall     ", ratio_pct(totals["features_found"], totals["features_expected"]))
+    print("  feature precision  ", ratio_pct(totals["features_found"], totals["features_actual"]))
+    print("  level correct      ", ratio_pct(totals["levels_ok"], totals["features_found"]))
+    print("  feature text start ", ratio_pct(totals["texts_ok"], totals["features_found"]))
     return totals
